@@ -1,0 +1,18 @@
+.pagination {
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  list-style: none;
+  font-size:20px;
+  text-align: center;
+  li {
+    display: inline-block;
+    margin: 0 5px;
+    a {
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+}

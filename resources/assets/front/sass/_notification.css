@@ -1,0 +1,24 @@
+.notification {
+  position: fixed;
+  top: 0;;
+  left: 0;
+  padding: 8px 10px 8px 50px;
+  width: 100%;
+  font-size: 15px;
+  z-index: 5;
+  min-height: 40px;
+  background-color: rgba(0, 162, 81, 0.88);
+  color: transparent;;
+  box-sizing: border-box;
+  ul {
+    list-style: none;
+  }
+  &.success {
+    background-color: rgba(0, 162, 81, 0.88);
+    color: white;
+  }
+  &.error {
+    background-color: rgba(181, 37, 37, 0.81);
+    color: white;
+  }
+}

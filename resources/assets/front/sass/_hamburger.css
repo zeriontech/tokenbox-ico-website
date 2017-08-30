@@ -1,0 +1,144 @@
+$height-icon: 18px;
+$width-line: 25px;
+$height-line: 4px;
+
+$transition-time: 0.4s;
+$rotation: 45deg;
+$translateY: (calc($height-icon / 2));
+$translateX: 0;
+.hamburger-icon {
+  display: none;
+  width:$width-line;
+  height:$height-icon;
+  position:relative;
+  display: inline-block;
+  margin-right: 0px;
+  opacity: 1;
+  padding: 0 20px;
+  &:hover {
+    @include opacity(.7);
+  }
+
+  .line {
+    display:block;
+    background:#fff;
+    width:$width-line;
+    height:$height-line;
+    position:absolute;
+    left:0;
+    transition: all $transition-time;
+
+    &.line-1 {
+      top:0;
+    }
+    &.line-2 {
+      top:50%;
+    }
+    &.line-3 {
+      top:100%;
+    }
+  }
+  &:hover, &:focus {
+    .line-1 {
+      transform: translateY(calc($height-line / 2 * -1));
+    }
+    .line-3 {
+      transform: translateY(calc($height-line / 2));
+    }
+  }
+  &.active {
+    position: fixed;
+    .line {
+      background: $red;
+    }
+    .line-1 {
+      transform: translateY($translateY) translateX($translateX) rotate($rotation);
+    }
+    .line-2 {
+      opacity:0;
+    }
+    .line-3 {
+      transform: translateY(calc($translateY * -1)) translateX($translateX) rotate(calc($rotation * -1));
+    }
+  }
+}
+
+.hamburger-icon, .mobile-nav .logo {
+  display: none;
+  z-index: 4;
+  position: absolute;
+  top: 43px;
+  right: 0px;
+  @media (max-width: 749px) {
+    display: block;
+  }
+}
+.mobile-nav .logo {
+  right: auto;
+  left: 30px;
+  top: 52px;
+  width: 100%;
+}
+
+.nav, .lang {
+  @media (max-width: 749px) {
+    display: none;
+  }
+}
+.mobile-nav {
+  display: none;
+  @media (max-width: 749px) {
+    display: none;
+    position: fixed;
+    text-align: center;
+    top: -12px;
+    left: 0;
+    width: 100%;
+    background-color: $blue;
+    margin: 0;
+    z-index: 1;
+    padding: 100px 0 20px;
+    ul {
+      margin: 0 !important;
+      text-align: center !important;
+      li {
+        display: block;
+        margin: 0;
+        a, div, span {
+          display: inline-block;
+          padding: 20px 0;
+          border-radius: 0;
+          border: none;
+          color: white;
+          opacity: 1;
+          font-size: 20px;
+          text-decoration: none;
+          &:hover {
+            opacity: .7;
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          a {
+            opacity: 1;
+            text-decoration: none;
+            font-weight: $font-extrabold;
+          }
+
+          &:hover {
+            opacity: 1;
+            a {
+              opacity: 1;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    &.opened {
+      z-index: 3;
+      display: block;
+    }
+  }
+}

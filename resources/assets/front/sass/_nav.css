@@ -1,0 +1,32 @@
+.nav, .lang {
+  margin-top: 4px;
+  cursor: default;
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    &.active a {
+      font-weight: $font-extrabold;
+    }
+    a, div, span {
+      cursor: pointer;
+      color: white;
+      font-weight: $font-light;
+      font-size:1.6rem;
+      padding: 5px 10px;
+      border-radius: 100px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;;
+      }
+    }
+  }
+}
+.lang {
+  text-align: right;
+  margin-top: 0;
+}

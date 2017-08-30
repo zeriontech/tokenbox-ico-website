@@ -1,0 +1,1607 @@
+@import "skeleton";
+@import "../../../../node_modules/font-awesome/css/font-awesome.css";
+
+@import "variables";
+@import "fonts";
+
+@import "fancy";
+@import "hamburger";
+@import "dropdown";
+@import "tooltip";
+@import "slick";
+
+@import "socials";
+@import "buttons";
+@import "common";
+
+@import "nav";
+
+#wt-sky-root {
+  display: none !important;
+}
+
+.logo {
+  background-image: url('../img/logo.svg');
+  max-width: 150px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  cursor: pointer;
+  &:hover {
+    opacity: .7;
+  }
+}
+
+
+.big-title {
+  text-align: center;
+  width: 90%;
+  margin: 200px auto 100px;
+  position: relative;
+  /*@media (max-width: 749px) {
+    margin: 100px auto 50px;
+  }*/
+  h1 {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background-color: white;
+    color: $gray-light;
+    font-weight: $font-extrabold;
+    font-size:5.6rem;
+    padding: 0 30px;
+    margin-bottom: 0;
+    @media (max-width: 749px) {
+      font-size:5.2rem;
+    }
+  }
+  &:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    z-index:1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    opacity: .2;
+    background-color: $gray-light;
+  }
+}
+
+.get-notified, .send-request {
+  margin-top: 260px;
+  padding-bottom: 0;
+  &.big {
+    margin-top: 50px;
+    margin-bottom: 130px;
+    form {
+      max-width: 1000px;
+    }
+    h1 {
+      margin-top: -10px;
+      @media (max-width: 749px) {
+        margin-bottom: 70px;
+      }
+    }
+  }
+  form {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    input {
+      width: 100%;
+      height: 80px;
+      color: black;
+      font-family:'Gilroy';
+      box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
+      border: solid 2px rgba(171, 180, 187, 0.26);
+      border-radius: 5px;
+      font-size: 2.6rem;
+      padding-left: 25px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      font-weight:$font-light;
+      @media (max-width: 499px) {
+        font-size: 1.6rem;
+      }
+      &:focus {
+        border: 2px solid $blue;
+        box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
+        outline: none;
+      }
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $gray-light;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: $gray-light;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: $gray-light;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: $gray-light;
+      }
+    }
+  }
+}
+.send-request {
+  background: url("../img/logo-big.svg") no-repeat center 100px, #f6f6f8;
+  background-size: 192px auto;
+  padding: 150px 0;
+  margin-top: 100px;
+  form {
+    max-width: 1000px;
+  }
+  >.wrapper>h1 {
+    max-width: 700px;
+    margin: 0 auto 100px;
+  }
+}
+
+/* HEADER START */
+.first {
+  background: url("../img/grid-blue.svg") top center no-repeat, $blue;
+  background-size: cover;
+  @media (max-width: 749px) {
+    background-size: 1280px auto;
+  }
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 150px;
+  padding-bottom: 0;
+  h1 {
+    text-align: center;
+    color: white;
+  }
+}
+
+.main-title {
+  min-width: 630px;
+  max-width: 700px;
+  margin: 0 auto 70px!important;
+  float: none;
+  a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(171, 180, 187, .6);
+    line-height: normal;
+    &:hover {
+      border-color: rgba(171, 180, 187, 1);
+    }
+  }
+  @media (max-width: 749px) {
+    min-width: 0;
+  }
+}
+
+.header {
+  padding: 20px 0;
+  height: 150px;
+}
+
+.simple-header {
+  background: $blue;
+  color: white;
+  padding: 10px 0 0;
+  .header {
+    padding: 0;
+    height: 75px;
+  }
+  .hamburger-icon {
+    top: 25px;
+  }
+}
+
+.features {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right:0;
+  margin: auto;
+  margin-bottom: -200px !important;
+  .slide {
+    text-align: center;
+    outline: none;
+    .img {
+      display: block;
+      width: 85%;
+      margin: 0 auto 30px;
+      padding-bottom: 50%;
+      background-size: contain;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+    }
+  }
+  .caption {
+    font-weight: $font-extrabold;
+    color: black;
+    font-size: 1.6rem;
+    margin: 30px auto 30px;
+  }
+}
+
+  @media (max-width: 999px) {
+    .header { height: 100px;  }
+    .features .slide .img { width: 100%; padding-bottom: 70%; }
+  }
+
+/* HEADER END */
+
+
+/* FOR INVESTORS AND CO */
+.section-img {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 5px;
+  box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.15);
+}
+.section-img-wrap {
+  margin: 0 auto;
+  @media (max-width: 749px) {
+    margin: 40px auto 70px;
+  }
+}
+
+.multi-crypto, .invest-in-pro, .pay-with, .become-legal, .issue {
+  .row {
+    .column, .columns {
+      p {
+        color: $gray;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.multi-crypto {
+  .text {
+    margin-top: 60px;
+    @media (max-width: 999px) {
+      margin-top: 0;
+    }
+  }
+  .section-img-wrap {
+    max-width: 480px;
+  }
+  .section-img {
+    padding-bottom: 81%;
+    background-image: url("../img/investors-traders-funds/multi-crypto/multi-crypto.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/multi-crypto/multi-crypto@2x.png");
+    }
+  }
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon007.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      content: none;
+    }
+  }
+}
+.invest-in-pro {
+  .text {
+    margin-top: 60px;
+    @media (max-width: 899px) {
+      margin-top: 0;
+    }
+  }
+  .section-img-wrap {
+    max-width: 360px;
+  }
+  .section-img {
+    padding-bottom: 100%;
+    background-image: url("../img/investors-traders-funds/invest-in-pro/invest-in-pro.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/invest-in-pro/invest-in-pro@2x.png");
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon008.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      top: -125px;
+      left: 0; right: 0;
+      margin: auto;
+    }
+  }
+  .wrapper:before {
+    @media (max-width: 749px) {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      margin: auto;
+      bottom: -115px;
+      width: 100px;
+      height: 100px;
+      opacity: .1;
+      background: url("../img/back-icons/icon006.svg") no-repeat center;
+      background-size: contain;
+    }
+  }
+}
+.become-legal {
+  padding-bottom: 200px;
+  .text {
+    margin-top: 60px;
+    @media (max-width: 999px) {
+      margin-top: 0;
+    }
+  }
+  .section-img-wrap {
+    max-width: 378px;
+    @media (max-width: 749px) {
+      margin: 65px auto 130px;
+    }
+  }
+  .section-img {
+    position: relative;
+    padding-bottom: 79%;
+    background-image: url("../img/investors-traders-funds/become/become.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/become/become@2x.png");
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50px;
+      @media (max-width: 929px) {
+        left: 20px;
+      }
+      bottom: -50px;
+      @extend .section-img;
+      padding-bottom: 30%;
+      background-image: url("../img/investors-traders-funds/become/become-2.png");
+      @mixin breakpoint retina {
+        background-image: url("../img/investors-traders-funds/become/become-2@2x.png");
+      }
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon010.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      top: inherit;
+      left: 0; right: 0;
+      margin: auto;
+      bottom: -200px;
+    }
+  }
+}
+.issue {
+  .text {
+    margin-top: 0px;
+    @media (max-width: 999px) {
+      margin-top: 0;
+    }
+    @media (max-width: 749px) {
+      margin-top: 30px;
+    }
+  }
+  .section-img-wrap {
+    max-width: 473px;
+    @media (max-width: 749px) {
+      margin-bottom: 50px;
+    }
+  }
+  .section-img {
+    padding-bottom: 73%;
+    background-image: url("../img/investors-traders-funds/issue/issue.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/issue/issue@2x.png");
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon007.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      top: inherit;
+      left: 0; right: 0;
+      margin: auto;
+      bottom: -160px;
+    }
+  }
+}
+
+.pay-with {
+  position: relative;
+  margin-bottom: 500px;
+  .wrapper > h1 ~ p {
+    margin-bottom: 150px;
+    @media (max-width: 749px) {
+      margin-bottom: 70px;
+    }
+  }
+  .wrapper {
+    @media (max-width: 749px) {
+      overflow: hidden;
+      padding-bottom: 75px;
+      margin-bottom: -80px;
+    }
+  }
+  @media (max-width: 909px) {
+    margin-bottom: 0;
+  }
+  .text {
+    min-width: 250px;
+
+    @media (max-width: 979px) {
+      padding-right: 20px;
+      margin-left: -20px;
+    }
+
+    @media (max-width: 909px) {
+      padding-right: 30%;
+      margin-left: 0;
+    }
+  }
+  .columns {
+
+    @media (max-width: 909px) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .section-img-wrap {
+    position: absolute;
+    background-color: white;
+    &.pay-1 {
+      width: 375px;
+      left: -90px; top: 180px;
+      @media (min-width: 1350px) {
+        left: -3%;
+      }
+
+      @media (max-width: 909px) {
+        position: relative;
+        top: -30px;
+        left: 0;
+        margin-left: 0;
+      }
+      @media (max-width: 749px) {
+        left: -125px;
+      }
+      z-index: 1;
+      .section-img {
+        padding-bottom: 73%;
+        background-image: url("../img/investors-traders-funds/paywith/1.jpg");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/1@2x.jpg");
+        }
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        width: 338px;
+        padding-bottom: 65%;
+        left: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("../img/investors-traders-funds/paywith/curvy-line-1.png");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/curvy-line-1@2x.png");
+        }
+
+        @media (max-width: 909px) {
+          left: 110px;
+          content: none;
+          width: 330px;
+        }
+        @media (max-width: 549px) {
+          content: '';
+        }
+      }
+    }
+    &.pay-2 {
+      width: 330px;
+      left: 30%; bottom: -300px;
+      z-index: 2;
+      @media (max-width: 979px) {
+        bottom: -285px;
+      }
+
+      @media (max-width: 909px) {
+        position: relative;
+        bottom: -20px;
+        right: 50px;
+        margin-right: 0;
+        left: auto;
+        margin-bottom: 150px;
+      }
+      @media (max-width: 749px) {
+        right: -40px;
+      }
+      .section-img {
+        padding-bottom: 73%;
+        background-image: url("../img/investors-traders-funds/paywith/2.png");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/2@2x.png");
+        }
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: -35px;
+        bottom: -50px;
+        @extend .section-img;
+        padding-bottom: 37%;
+        width: 196px;
+        background-image: url("../img/investors-traders-funds/paywith/2-card.png");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/2-card@2x.png");
+        }
+
+      }
+    }
+    &.pay-3 {
+      width: 335px;
+      right: -50px; top: 300px;
+      @media (min-width: 1350px) {
+        right: 5%;
+      }
+      @media (max-width: 1209px) {
+        right: 0;
+      }
+      @media (max-width: 1029px) {
+        top: 320px;
+      }
+      @media (max-width: 909px) {
+        position: relative;
+        top: 30px;
+      }
+      @media (max-width: 749px) {
+        margin-bottom: 0px;
+      }
+      .section-img {
+        padding-bottom: 73%;
+        background-image: url("../img/investors-traders-funds/paywith/3.jpg");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/3@2x.jpg");
+        }
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        width: 254px;
+        padding-bottom: 65%;
+        left: -225px;
+        top: 65%;
+        z-index: -1;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("../img/investors-traders-funds/paywith/curvy-line-2.png");
+        @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/curvy-line-2@2x.png");
+        }
+        @media (max-width: 909px) {
+          content: none;
+        }
+        @media (max-width: 749px) {
+          left: inherit;
+          right: -105px;
+          top: -475px;
+          background-position: right -5px top;
+          padding-bottom: 150%;
+          background-image: url("../img/investors-traders-funds/paywith/curvy-line-3.png");
+          @mixin breakpoint retina {
+          background-image: url("../img/investors-traders-funds/paywith/curvy-line-3.png");
+        }
+        }
+        @media (max-width: 549px) {
+          content: '';
+          right: -105px;
+        }
+        @media (max-width: 499px) {
+          right: -85px;
+        }
+        @media (max-width: 449px) {
+          right: -60px;
+        }
+        @media (max-width: 349px) {
+          right: 15px;
+        }
+        @media(max-width: 320px) {
+          right: 60px;
+        }
+      }
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon009.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      left: 0; right: 0; margin: auto;
+      top: inherit;
+      bottom: -15px;
+      z-index: -1;
+    }
+  }
+}
+/* FOR INVESTORS AND CO END */
+
+/* TRADING APP */
+.trading-app {
+  background: url("../img/trading-app/back.jpg") no-repeat center;
+  background-size: cover;
+  @mixin breakpoint retina {
+    background-image: url("../img/trading-app/back@2x.jpg");
+  }
+  padding-top: 150px;
+  padding-bottom: 150px;
+  @media (max-width: 1049px) {
+    padding-bottom: 110px;
+  }
+  margin-bottom: 200px;
+
+  .wrapper {
+    >h1 {
+      color: white;
+    }
+    > p {
+      color: white;
+      @media (max-width: 749px) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  h2 {
+    color: white;
+    font-size:3.6rem;
+    font-weight:$font-light;
+  }
+  .four.columns {
+    @media (max-width: 949px) {
+      width: 100%;
+      max-width: 400px;
+      float: none;
+      margin: 100px auto;
+    }
+  }
+  .mac {
+    width: 579px;
+    width: 55%;
+    height: 0;
+    padding-bottom: 30%;
+    background: url("../img/trading-app/mac.png") no-repeat top center;
+    background-size: contain;
+    @mixin breakpoint retina {
+      background-image: url("../img/trading-app/mac@2x.png");
+    }
+
+    &.tablet-only {
+      left: -50px;
+      position: relative;
+      background-position: -70px center;
+      width: 100%;
+      max-width: 580px;
+      padding-bottom: 58%;
+      min-width: 170px;
+    }
+  }
+  .ipad {
+    width: 389px;
+    width: 35%;
+    height: 0;
+    padding-bottom: 25%;
+    background: url("../img/trading-app/ipad.png") no-repeat top center;
+    background-size: contain;
+    @mixin breakpoint retina {
+      background-image: url("../img/trading-app/ipad@2x.png");
+    }
+    &.tablet-only {
+      right: 0;
+      position: absolute;
+      background-position: right -50px top;
+      width: 100%;
+      padding-bottom: 55%;
+      max-width: 350px;
+      min-width: 135px;
+    }
+  }
+  .mac-ipad {
+    position: relative;
+    .mac {
+      position: absolute;
+      top: -140px;
+      @media (max-width: 1049px) {
+        top: -110px;
+      }
+      left: 0;
+    }
+    .ipad {
+      position: absolute;
+      left: 43%; top: 50px;
+    }
+  }
+
+  h3 {
+    color: $gray-light;
+    font-size:1.6rem;
+    font-weight:$font-light;
+    text-align: right;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    top: 235px;
+    z-index: 1;
+    @media (max-width: 1099px) {
+      top: 200px;
+    }
+    @media (min-width: 1350px) {
+      top: 300px;
+    }
+  }
+
+}
+/* TRADING APP END */
+
+/* ROADMAP */
+.roadmap {
+  padding-top: 0;
+  padding-bottom: 0;
+  .top {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: url("../img/grid-silver.svg") no-repeat top center;
+    background-size: cover;
+    @media (max-width: 749px) {
+      background-size: 1280px auto;
+    }
+    h1 {
+      font-size: 3.6rem;
+      color: $blue;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+      color: $gray;
+      font-size:1.6rem;
+      font-weight:$font-light;
+      max-width: 310px;
+      margin: 0 auto 50px;
+      strong {
+        color: black;
+        font-weight:$font-extrabold;
+      }
+    }
+
+    .devices {
+      @mixin clf;
+      position: relative;
+      top: 165px;
+      margin-top: -130px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      div {
+        float: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 257px;
+        position: relative;
+      }
+      @media (max-width: 749px) {
+        height: 300px;
+        div {
+          position: absolute;
+          height: 100%;
+        }
+
+      }
+      .macbook {
+        width: 44%;
+        z-index: 1;
+        @media (max-width: 749px) {
+          left: -30px;
+          margin-top: -35px;
+          background-position: left -95px top 0;
+          width: 109%;
+        }
+        background-image: url(../img/roadmap/macbook.png);
+        @mixin breakpoint retina {
+          background-image: url("../img/roadmap/macbook@2x.png");
+        }
+      }
+      .iphone {
+        width: 13%;
+        z-index: 3;
+        /*height: 210px;*/
+        top: -25px;
+        @media (max-width: 749px) {
+          top: 60px;
+          width: 60%;
+        }
+        background-image: url(../img/roadmap/iphone.png);
+        @mixin breakpoint retina {
+          background-image: url("../img/roadmap/iphone@2x.png");
+        }
+      }
+      .watch {
+        width: 10%;
+        z-index: 4;
+        /*height: 133px;*/
+        top: -50px;
+        @media (max-width: 749px) {
+          width: 50%;
+          right: 10%;
+          z-index: 4;
+          top: 60px;
+        }
+        background-image: url(../img/roadmap/watch.png);
+        @mixin breakpoint retina {
+          background-image: url("../img/roadmap/watch@2x.png");
+        }
+      }
+      .ipad {
+        width: 30%;
+        z-index: 2;
+        @media (max-width: 749px) {
+          width: 100%;
+          right: -30px;
+          background-position: right -70px top 100%;
+        }
+        /*height: 214px;*/
+        background-image: url(../img/roadmap/ipad.png);
+        @mixin breakpoint retina {
+          background-image: url("../img/roadmap/ipad@2x.png");
+        }
+      }
+    }
+  }
+  .blue-roadmap {
+    background-color: $blue;
+    padding: 200px 0 150px;
+    @media (max-width: 749px) {
+      background: url(../img/back-icons/icon012.svg) bottom 30px left 50% no-repeat, $blue;
+
+      background-size: contain;
+    }
+    .wrapper > h1 {
+      font-size: 3.6rem;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+  .timeline-wrap {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../img/back-icons/icon011.svg) no-repeat left 250px top 20px;
+    background-size: 100px auto;
+
+    @media (max-width: 749px) {
+      background-image: none;
+      width: 250px;
+      margin: 0 auto;
+      height: 800px;
+      padding: 50px 0 0;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        right: -55px;
+        top: 40%;
+        width: 75px;
+        height: 75px;
+        background: url(../img/back-icons/icon011.svg) no-repeat center;
+        background-size: contain;
+        transform: rotate(90deg);
+      }
+      .timeline {
+        height: 100%;
+        width: 10px;
+        float: right;
+        margin-right: 30px;
+        .current {
+          width: 100% !important;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          &:after {
+            transform: rotate(90deg);
+            right: -65px;
+            bottom: -35px;
+            width: 95px;
+            height: 70px;
+          }
+          &:before {
+            bottom: 0px;
+            width: 35px;
+            height: 1px;
+            right: inherit;
+          }
+        }
+
+        &:after {
+          right: -55px;
+          top: 15px;
+        }
+        &:before {
+          left: inherit;
+          right: -55px;
+          bottom: 35px;
+          top: inherit;
+        }
+      }
+    }
+  }
+  .timeline {
+    width: 100%;
+    height: 10px;
+    background-color: #3434bb;
+    border-radius: 10px;
+    position: relative;
+    &:before, &:after {
+      position: absolute;
+      top: -85px;
+      font-size:1.6rem;
+    }
+    &:before {
+      content: '2017';
+      left: 10px;
+      color: white;
+    }
+    &:after {
+      content: '2018';
+      right: 10px;
+      color: rgba(255, 255, 255, 0.15);
+    }
+    .current {
+      position: absolute;
+      left: 0;
+      top: 0;
+      @media (min-width: 750px) {
+        height: 100% !important;
+      }
+      background-color: $red;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      &:after {
+        content: "We are here";
+        position: absolute;
+        right: -45px;
+        color: $red;
+        bottom: -7px;
+        margin: auto;
+        width: 93px;
+        height: 102px;
+        background: url(../img/roadmap/arrow.svg) no-repeat bottom right 25px;
+        background-size: 24px;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        right: 3px;
+        bottom: 0;
+        height: 75px;
+        background-color: $red;
+        width: 1px;
+      }
+    }
+  }
+
+  .desc {
+    margin-top: 70px;
+    .milestone {
+      width: 11%;
+      float: left;
+      box-sizing: border-box;
+      padding: 0 10px;
+      font-size: 1.4rem;
+      color: white;
+      position: relative;
+      text-align: center;
+      .title {
+        font-weight: $font-extrabold;
+        margin-bottom: 5px;
+        .time {
+          font-weight:$font-light;
+        }
+      }
+      &:nth-of-type(2n) {
+        top: 50px;
+        &:before {
+          top: -120px;
+          height: 100px;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        height: 50px;
+        top: -70px;
+        width: 1px;
+        background-color: #3434bb;
+      }
+      &.active {
+        &:before {
+          background-color: $red;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          width: 11px;
+          height: 11px;
+          top: -25px;
+          left: 0;
+          right: 0;
+          margin: auto;
+          border-radius: 50%;
+          background-color: $red;
+        }
+      }
+    }
+
+    @media (max-width: 749px) {
+      float: left;
+      width: 50%;
+      margin-top: 0;
+      .milestone {
+        width: 100%;
+        text-align: left;
+        float: none;
+        margin-bottom: 35px;
+        .title {
+          max-width: 100px;
+        }
+        &.active {
+          &:after {
+            top: 0;
+            bottom: 0;
+            left: inherit;
+            right: -40px;
+          }
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          width: 50px;
+          top: 0 !important;
+          bottom: 0!important;
+          margin: auto;
+          right: -85px;
+          height: 1px;
+          background-color: #3434bb;
+        }
+        &:nth-of-type(2n) {
+          top: inherit;
+          &:before {
+            right: -85px;
+            height: 1px;
+            width: 20px;
+          }
+          &.active {
+            &:after {
+              top: 0;
+              bottom: 0;
+              left: inherit;
+              right: -70px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* ROADMAP END */
+
+/* TECHNOLOGY */
+.technology {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
+  background-size: cover;
+  @media (max-width: 749px) {
+    background-size: 1280px auto;
+  }
+  .wrapper > h1 {
+    margin-bottom: 55px;
+  }
+  .text {
+    p {
+      font-size:1.6rem;
+      color: $gray-light;
+      margin-bottom: 25px;
+    }
+  }
+  .row {
+    &:nth-of-type(2) {
+      margin: 50px 0 30px;
+    }
+  }
+  .row.logos {
+    @media (max-width: 749px) {
+      margin-top: 0;
+    }
+    &.mobile-only {
+      margin-bottom: 0;
+    }
+  }
+  .logos {
+    @mixin clf;
+    font-size:0;
+    text-align: center;
+    min-height: 150px;
+    div {
+      display: inline-block;
+      height: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .python, .java, .ethereum {
+      width: 20%;
+      @media (max-width: 749px) {
+        margin-bottom: 50px;
+        width: 50%;
+      }
+    }
+    .python {
+      width: 50%;
+    }
+    .amazon, .elastic, .docker, .postgres {
+      width: 25%;
+      @media (max-width: 749px) {
+        width: 50%;
+      }
+    }
+    .python {
+      background-image: url(../img/technology/python.png);
+      background-size: 236px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/python@2x.png");
+      }
+      @media (max-width: 749px) {
+        background-size: contain;
+      }
+    }
+    .java {
+      background-image: url(../img/technology/java.png);
+      background-size: 65px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/java@2x.png");
+      }
+    }
+    .ethereum {
+      background-image: url(../img/technology/ethereum.png);
+      background-size: 48px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/ethereum@2x.png");
+      }
+      @media (max-width: 749px) {
+        margin-bottom: 0;
+      }
+    }
+    .amazon {
+      background-image: url(../img/technology/amazon.png);
+      background-size: 157px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/amazon@2x.png");
+      }
+      @media (max-width: 749px) {
+        margin-left: -30px;
+        margin-right: 20px;
+      }
+    }
+    .elastic {
+      background-image: url(../img/technology/elastic.png);
+      background-size: 174px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/elastic@2x.png");
+      }
+    }
+    .docker {
+      background-image: url(../img/technology/docker.png);
+      background-size: 217px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/docker@2x.png");
+      }
+      @media (max-width: 749px) {
+        background-size: contain;
+      }
+    }
+    .postgres {
+      background-image: url(../img/technology/postgres.png);
+      background-size: 56px auto;
+      @mixin breakpoint retina {
+        background-image: url("../img/technology/postgres@2x.png");
+      }
+    }
+  }
+}
+/* TECHNOLOGY END */
+
+/* TEAM */
+.team {
+  padding-bottom: 100px;
+  .members, .advisors {
+    .row {
+      font-size:0;
+      text-align: center;
+    }
+    > h1 {
+      font-size: 3.6rem;
+      color: $blue;
+      margin-bottom: 15px;
+      text-align: center;
+      @media (max-width: 749px) {
+        margin-bottom: 50px;
+      }
+      ~ p {
+        color: $gray-light;
+        font-size:1.6rem;
+        margin-bottom: 80px;
+        text-align: center;
+        @media (max-width: 749px) {
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+
+  /*.members {
+    .row:nth-of-type(2) {
+      .member:first-of-type {
+        margin-left: 12.5%;
+        @media (max-width: 749px) {
+          margin-left: auto;
+        }
+      }
+    }
+  }*/
+
+  .member {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    .img {
+      width: 164px;
+      height: 164px;
+      border-radius: 50%;
+      @media (max-width: 749px) {
+        width: 80%;
+        height: 0;
+        padding-bottom: 80%;
+        .overlay a {
+          margin-top: 45%;
+        }
+      }
+      overflow: hidden;
+      position: relative;
+      margin: 0 auto 15px;
+      background-size: cover;
+      background-position: top center;
+      background-repeat:no-repeat;
+      filter: grayscale(100%);
+      transition: filter .2s ease;
+      &:hover {
+        filter: grayscale(0%);
+      }
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+        text-align: center;
+        opacity: 0;
+        background-color: #ed3c48;
+        transition: opacity .2s ease;
+        cursor: default;
+        a {
+          cursor: pointer;
+          font-size:3rem;
+          display: inline-block;
+          margin: 70px 10px auto;
+          color: white;
+          text-decoration: none;
+          &:hover {
+            opacity: .5;
+          }
+        }
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .name {
+      font-size: 1.6rem;
+      color: $gray;
+      font-weight: $font-extrabold;
+    }
+    .info {
+      font-size: 1.6rem;
+      color: $gray-light;
+    }
+  }
+  .advisors {
+    margin: 100px auto 0;
+    max-width: 1000px;
+  }
+}
+/* TEAM END */
+
+/* MEDIA */
+.media {
+  background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
+  background-size: cover;
+  @media (max-width: 749px) {
+    background-size: 1280px auto;
+  }
+  padding-top: 150px;
+  padding-bottom: 100px;
+  .media-blocks {
+    >h1 {
+      margin-bottom: 50px;
+      @media (max-width: 749px) {
+        margin-bottom: 100px;
+      }
+    }
+    >.row {
+      &:nth-of-type(2) {
+        .columns {
+          &:first-of-type {
+            margin-left: 13%;
+            @media (max-width: 749px) {
+              margin-left: auto;
+            }
+          }
+        }
+      }
+    }
+    .img {
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      max-width: 250px;
+      padding-bottom: 53%;
+      @media (max-width: 749px) {
+        padding-bottom: 0;
+        height: 200px;
+      }
+      margin: 0 auto 40px;
+      background-color: white;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      &:hover {
+        opacity: .5;
+      }
+      &.cointelegraph {
+        background-image: url("../img/media/cointelegraph.jpg");
+        background-size: 162px 76px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/cointelegraph@2x.jpg");
+        }
+      }
+      &.smithcrown {
+        background-image: url("../img/media/smithcrown.jpg");
+        background-size: 174px 43px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/smithcrown@2x.jpg");
+        }
+      }
+      &.coinspeaker {
+        background-image: url("../img/media/coinspeaker.jpg");
+        background-size: 149px 26px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coinspeaker@2x.jpg");
+        }
+      }
+      &.coinidol {
+        background-image: url("../img/media/coinidol.jpg");
+        background-size: 181px 50px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coinidol@2x.jpg");
+        }
+      }
+      &.forbes {
+        background-image: url("../img/media/forbes.jpg");
+        background-size: 163px 65px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/forbes@2x.jpg");
+        }
+      }
+      &.forklog {
+        background-image: url("../img/media/forklog.jpg");
+        background-size: 172px 42px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/forklog@2x.jpg");
+        }
+      }
+      &.coindesk {
+        background-image: url("../img/media/coin-desk.png");
+        background-size: 173px 39px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coin-desk@2x.png");
+        }
+      }
+    }
+  }
+
+  .medium {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+    .medium-icon {
+      width: 50px;
+      height: 50px;
+      margin: 10px auto 20px;
+      background: url("../img/media/medium.png") no-repeat center;
+      background-size: contain;
+      @media breakpoint retina {
+        background-image: url("../img/media/medium@2x.png");
+      }
+    }
+    >h1 {
+      font-size: 3.6rem;
+      color: $blue;
+      margin-bottom: 50px;
+      text-align: center;
+      @media (max-width: 749px) {
+        margin-bottom: 100px;
+      }
+    }
+    article {
+      @mixin clf;
+      margin-bottom: 50px;
+      .img {
+        display: block;
+        float: left;
+        width:100%;
+        max-width: none;
+        background-size: cover;
+        padding-bottom: 66%;
+        margin-bottom: 0;
+        height: auto !important;
+      }
+      .top {
+        margin-bottom: 10px;
+        @mixin clf;
+      }
+      .subtitle {
+        float: left;
+        font-size:1.4rem;
+        color: $gray;
+      }
+      time {
+        float: right;
+        font-size:1.4rem;
+        color: $gray;
+      }
+      h1 {
+        font-size:1.6rem;
+        color: $blue;
+        margin: 15px 0;
+        a {
+          color: $blue;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .text {
+        float: left;
+        p {
+          color: $gray;
+          font-size:1.6rem;
+          a {
+            color: $blue;
+          }
+        }
+      }
+      .more {
+        color: $blue;
+        font-weight: $font-extrabold;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+/* MEDIA END */
+
+
+/* FOOTER */
+.footer {
+  padding: 120px 0 70px;
+  background-color: $blue;
+  background-repeat: no-repeat;
+  background-size: 290px auto, 289px auto;
+  background-position: left 50px bottom 90px, right 50px bottom -80px;
+  background-image: url(../img/back-icons/icon012.svg), url(../img/back-icons/icon013.svg);
+
+  .title {
+    text-align: center;
+    font-size:3.6rem;
+    color: white;
+    font-weight:$font-extrabold;
+    margin-bottom: 50px;
+  }
+  .copy {
+    text-align: center;
+    margin-top: 90px;
+    div, a {
+      display: inline-block;
+      margin: 10px 20px;
+      vertical-align: middle;
+    }
+    .logo {
+      width: 150px;
+      @media (max-width: 749px) {
+        display: block;
+        margin: 90px auto 30px;
+      }
+    }
+    a {
+      color: white;
+      text-decoration: underline;
+      font-size:1.6rem;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}
+/* FOOTER END */

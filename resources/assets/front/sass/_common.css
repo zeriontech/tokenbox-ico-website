@@ -1,0 +1,162 @@
+
+@define-mixin clf {
+  *zoom: 1;
+  &:before, &:after {
+    content: '';
+    display: table;;
+  }
+  &:after {
+    display: block;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+
+  }
+}
+
+@define-mixin breakpoint $point  {
+  @if $point == retina {
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 144dpi) { @mixin-content; }
+  }
+  @else {
+    @media only screen
+    and (max-width : $point)  { @mixin-content; }
+  }
+}
+
+@define-mixin vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+@define-mixin font-smoothing $value: on {
+  @if $value == on {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}
+
+.mobile-only {
+  display: none !important;;
+  @mixin breakpoint 749px {
+    display: block !important;
+  }
+}
+.no-mobile {
+  @mixin breakpoint 749px {
+    display: none !important;
+  }
+}
+.mobile-sm-only {
+  display: none !important;;
+  @mixin breakpoint 549px {
+    display: block !important;
+  }
+}
+.no-sm-mobile {
+  @mixin breakpoint 549px {
+    display: none !important;
+  }
+}
+.tablet-only {
+  display: none !important;;
+  @mixin breakpoint 949px {
+    display: block !important;
+  }
+}
+.no-tablet {
+  @mixin breakpoint 949px {
+    display: none !important;
+  }
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  min-width: 400px;
+}
+
+body {
+  @mixin breakpoint retina {
+    @mixin font-smoothing on;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+pre {
+  display: inline !important;
+  margin: 0;
+}
+
+
+/*For this site only*/
+
+section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  /*@media (max-width: 749px) {
+    padding-top: 45px;
+    padding-bottom: 25px;
+  }*/
+}
+
+section > .wrapper > h1 {
+  font-size: 3.6rem;
+  color: $blue;
+  margin-bottom: 15px;
+  text-align: center;
+  @media (max-width: 749px) {
+    margin-bottom: 50px;
+  }
+  ~ p {
+    color: $gray-light;
+    font-size:1.6rem;
+    margin-bottom: 100px;
+    text-align: center;
+    @media (max-width: 749px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.container {
+  max-width: 1280px;
+  @media (max-width: 749px) {
+    padding: 0;
+  }
+}
+
+.wrapper {
+  max-width: $wrapper-w;
+  margin: 0 auto;
+  position: relative;
+  @media (min-width: 1366px) {
+    max-width: 1350px;
+  }
+  @mixin breakpoint $wrapper-w {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+}
+
+section, .header, .footer {
+  width: 100%;
+  position: relative;
+}

@@ -1,0 +1,61 @@
+.button {
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  font-size: 2.6rem;
+  font-family:'Gilroy';
+  font-weight:$font-extrabold;
+  padding: 10px 0;
+  margin: 0 auto;
+  height: 80px;
+  background-color: $red;
+  text-align: center;
+  border: none;
+  text-transform: none;
+  border-radius: 5px;
+  letter-spacing: normal;
+  @media (max-width: 499px) {
+    font-size: 1.5rem;
+  }
+  &:hover, &:focus {
+    background-color: #af232f;
+    color: white;
+  }
+  &:active {
+    background-color: #9b1f2b;
+  }
+}
+
+.play-video {
+  margin-top: 55px;
+  width: 130px !important;
+  text-align: center;
+  @media (max-width: 749px)  {
+    width: 100% !important;
+  }
+}
+.button.play {
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.3);
+  width: 135px;
+  height: 135px;
+  padding: 0;
+  border: 8px solid white;
+  &:hover {
+    background-color: white;
+    border-color: white;
+    color: $blue;
+  }
+  span {
+    position: relative;
+    top: 43px;
+    left: 3px;
+    font-size:4rem;
+  }
+}
+
+.button-wrap-center {
+  margin-top: 30px;
+  text-align: center;
+}

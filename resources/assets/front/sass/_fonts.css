@@ -1,0 +1,66 @@
+$font-size: 1.8rem;
+$line-height: 1.4;
+
+$font-thin: 100;
+$font-extralight: 200;
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+$font-black: 900;
+
+@font-face {
+  font-family:'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-Light.eot');
+  src: url('../fonts/Gilroy/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Gilroy/Gilroy-Light.woff2') format('woff2'),
+       url('../fonts/Gilroy/Gilroy-Light.woff') format('woff'),
+       url('../fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+  font-weight: $font-light;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0491;
+}
+
+@font-face {
+  font-family:'Gilroy';
+  src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot');
+  src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
+       url('../fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: $font-extrabold;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-0491;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: $font-light;
+  line-height: $line-height;
+}
+h1, h2, h3, h4 {
+  font-weight:$font-extrabold;
+  line-height:$line-height;
+	margin: 0;
+  letter-spacing: normal;
+  strong {
+    font-weight:$font-light;
+  }
+}
+
+h1 {
+  font-size:3.6rem;
+  color: $blue;
+  margin-bottom: 20px;
+}
+
+p {
+	margin: 0 0 10px;
+  font-weight:$font-light;
+  font-size:1.8rem;
+  color:$gray;
+}
