@@ -1,0 +1,119 @@
+.trading-app {
+  background: url("../img/trading-app/back.jpg") no-repeat center;
+  background-size: cover;
+  @mixin breakpoint retina {
+    background-image: url("../img/trading-app/back@2x.jpg");
+  }
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 200px;
+
+  @media (max-width: 1049px) {
+    padding-top: 125px;
+    padding-bottom: 110px;
+  }
+
+  @media (max-width: 749px) {
+    margin-bottom: 25px;
+  }
+
+  .wrapper {
+    >h1 {
+      color: white;
+    }
+    > p {
+      color: white;
+      @media (max-width: 749px) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  h2 {
+    color: white;
+    font-size:3.6rem;
+    font-weight:$font-light;
+  }
+  .four.columns {
+    @media (max-width: 949px) {
+      width: 100%;
+      max-width: 400px;
+      float: none;
+      margin: 100px auto;
+    }
+  }
+  .mac {
+    width: 579px;
+    width: 55%;
+    height: 0;
+    padding-bottom: 30%;
+    background: url("../img/trading-app/mac.png") no-repeat top center;
+    background-size: contain;
+    @mixin breakpoint retina {
+      background-image: url("../img/trading-app/mac@2x.png");
+    }
+
+    &.tablet-only {
+      left: -50px;
+      position: relative;
+      background-position: -70px center;
+      width: 100%;
+      max-width: 580px;
+      padding-bottom: 58%;
+      min-width: 170px;
+    }
+  }
+  .ipad {
+    width: 389px;
+    width: 35%;
+    height: 0;
+    padding-bottom: 25%;
+    background: url("../img/trading-app/ipad.png") no-repeat top center;
+    background-size: contain;
+    @mixin breakpoint retina {
+      background-image: url("../img/trading-app/ipad@2x.png");
+    }
+    &.tablet-only {
+      right: 0;
+      position: absolute;
+      background-position: right -50px top;
+      width: 100%;
+      padding-bottom: 55%;
+      max-width: 350px;
+      min-width: 135px;
+    }
+  }
+  .mac-ipad {
+    position: relative;
+    .mac {
+      position: absolute;
+      top: -140px;
+      @media (max-width: 1049px) {
+        top: -110px;
+      }
+      left: 0;
+    }
+    .ipad {
+      position: absolute;
+      left: 43%; top: 50px;
+    }
+  }
+
+  h3 {
+    color: $gray-light;
+    font-size:1.6rem;
+    font-weight:$font-light;
+    text-align: right;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    top: 235px;
+    z-index: 1;
+    @media (max-width: 1099px) {
+      top: 200px;
+    }
+    @media (min-width: 1350px) {
+      top: 300px;
+    }
+  }
+
+}
