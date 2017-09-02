@@ -32,12 +32,12 @@
     position: relative;
     width: 40px;
     height: 40px;
-    font-size: 4rem;
+    font-size: 4.6rem;
     margin-bottom: 20px;
+
     @media (min-width: 850px) {
       width: 70px;
       height: 70px;
-      font-size: 4.6rem;
       margin-bottom: 0;
     }
     color: white;

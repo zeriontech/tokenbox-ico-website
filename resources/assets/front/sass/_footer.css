@@ -1,0 +1,45 @@
+.footer {
+  padding: 120px 0 70px;
+  background-color: $blue;
+  background-repeat: no-repeat;
+  background-size: 290px auto, 289px auto;
+  background-position: left 50px bottom 90px, right 50px bottom -80px;
+  background-image: url(../img/back-icons/icon012.svg), url(../img/back-icons/icon013.svg);
+
+  .title {
+    text-align: center;
+    font-size:3.6rem;
+    color: white;
+    font-weight:$font-extrabold;
+    margin-bottom: 50px;
+  }
+
+  .copy {
+    text-align: center;
+    margin-top: 90px;
+    div, a {
+      display: inline-block;
+      margin: 10px 20px;
+      vertical-align: middle;
+    }
+    .logo {
+      width: 150px;
+      @media (max-width: 749px) {
+        display: block;
+        margin: 90px auto 30px;
+      }
+    }
+    a {
+      color: white;
+      text-decoration: underline;
+      font-size:1.6rem;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+
+  @media (max-width: 749px) {
+    background-position: left 53px bottom 160px,right -155px bottom -141px;
+  }
+}

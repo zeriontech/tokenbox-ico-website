@@ -1,0 +1,180 @@
+.media {
+  background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
+  background-size: cover;
+  @media (max-width: 749px) {
+    background-size: 1280px auto;
+  }
+  padding-top: 150px;
+  padding-bottom: 100px;
+  .media-blocks {
+    >h1 {
+      margin-bottom: 50px;
+      @media (max-width: 749px) {
+        margin-bottom: 100px;
+      }
+    }
+    >.row {
+      &:nth-of-type(2) {
+        .columns {
+          &:first-of-type {
+            margin-left: 13%;
+            @media (max-width: 749px) {
+              margin-left: auto;
+            }
+          }
+        }
+      }
+    }
+    .img {
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      max-width: 250px;
+      padding-bottom: 53%;
+      @media (max-width: 749px) {
+        padding-bottom: 0;
+        height: 200px;
+      }
+      margin: 0 auto 40px;
+      background-color: white;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      &:hover {
+        opacity: .5;
+      }
+      &.cointelegraph {
+        background-image: url("../img/media/cointelegraph.jpg");
+        background-size: 162px 76px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/cointelegraph@2x.jpg");
+        }
+      }
+      &.smithcrown {
+        background-image: url("../img/media/smithcrown.jpg");
+        background-size: 174px 43px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/smithcrown@2x.jpg");
+        }
+      }
+      &.coinspeaker {
+        background-image: url("../img/media/coinspeaker.jpg");
+        background-size: 149px 26px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coinspeaker@2x.jpg");
+        }
+      }
+      &.coinidol {
+        background-image: url("../img/media/coinidol.jpg");
+        background-size: 181px 50px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coinidol@2x.jpg");
+        }
+      }
+      &.forbes {
+        background-image: url("../img/media/forbes.jpg");
+        background-size: 163px 65px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/forbes@2x.jpg");
+        }
+      }
+      &.forklog {
+        background-image: url("../img/media/forklog.jpg");
+        background-size: 172px 42px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/forklog@2x.jpg");
+        }
+      }
+      &.coindesk {
+        background-image: url("../img/media/coin-desk.png");
+        background-size: 173px 39px;
+        @mixin breakpoint retina {
+          background-image: url("../img/media/coin-desk@2x.png");
+        }
+      }
+    }
+  }
+
+  .medium {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+    .medium-icon {
+      width: 50px;
+      height: 50px;
+      margin: 10px auto 20px;
+      background: url("../img/media/medium.png") no-repeat center;
+      background-size: contain;
+      @media breakpoint retina {
+        background-image: url("../img/media/medium@2x.png");
+      }
+    }
+    >h1 {
+      font-size: 3.6rem;
+      color: $blue;
+      margin-bottom: 50px;
+      text-align: center;
+      @media (max-width: 749px) {
+        margin-bottom: 100px;
+      }
+    }
+    article {
+      @mixin clf;
+      margin-bottom: 50px;
+      .img {
+        display: block;
+        float: left;
+        width:100%;
+        max-width: none;
+        background-size: cover;
+        padding-bottom: 66%;
+        margin-bottom: 0;
+        height: auto !important;
+      }
+      .top {
+        margin-bottom: 10px;
+        @mixin clf;
+      }
+      .subtitle {
+        float: left;
+        font-size:1.4rem;
+        color: $gray;
+      }
+      time {
+        float: right;
+        font-size:1.4rem;
+        color: $gray;
+      }
+      h1 {
+        font-size:1.6rem;
+        color: $blue;
+        margin: 15px 0;
+        a {
+          color: $blue;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .text {
+        float: left;
+        p {
+          color: $gray;
+          font-size:1.6rem;
+          a {
+            color: $blue;
+          }
+        }
+      }
+      .more {
+        color: $blue;
+        font-weight: $font-extrabold;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

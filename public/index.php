@@ -563,7 +563,7 @@
         </div>
     </section>
 
-    <section class="get-notified big" style="border-top: 2px solid #f6f6f8; margin-top: 0; padding-top: 150px;">
+    <section class="get-notified big get-notified-bottom">
         <div class="wrapper">
             <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
                 <div class="row">

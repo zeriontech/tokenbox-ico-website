@@ -3,9 +3,6 @@
   width: 90%;
   margin: 170px auto 70px;
   position: relative;
-  /*@media (max-width: 749px) {
-    margin: 100px auto 50px;
-  }*/
 
   h1 {
     position: relative;
@@ -17,9 +14,6 @@
     font-size:5.6rem;
     padding: 0 30px;
     margin-bottom: 0;
-    @media (max-width: 749px) {
-      font-size:5.2rem;
-    }
   }
 
   &:before {
@@ -35,5 +29,14 @@
     height: 2px;
     opacity: .2;
     background-color: $gray-light;
+  }
+
+  @media (max-width: 749px) {
+    margin: 100px auto 70px;
+
+    h1 {
+      font-size: 5.2rem;
+      padding: 0 10px;
+    }
   }
 }
