@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <section class="first">
+    <section class="top">
         <a class="hamburger-icon" id="hamburger-icon" href="#" title="">
             <span class="line line-1"></span>
             <span class="line line-2"></span>

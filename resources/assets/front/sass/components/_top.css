@@ -1,0 +1,17 @@
+.top {
+  background: url("../img/grid-blue.svg") top center no-repeat, $blue;
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 150px;
+  padding-bottom: 0;
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  @media (max-width: 749px) {
+    background-size: 1280px auto;
+  }
+}

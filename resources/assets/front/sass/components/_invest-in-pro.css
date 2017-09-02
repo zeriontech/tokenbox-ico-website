@@ -1,0 +1,49 @@
+.invest-in-pro {
+  .text {
+    margin-top: 60px;
+    @media (max-width: 899px) {
+      margin-top: 0;
+    }
+  }
+  .section-img-wrap {
+    max-width: 360px;
+  }
+  .section-img {
+    padding-bottom: 100%;
+    background-image: url("../img/investors-traders-funds/invest-in-pro/invest-in-pro.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/invest-in-pro/invest-in-pro@2x.png");
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon008.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      top: -125px;
+      left: 0; right: 0;
+      margin: auto;
+    }
+  }
+  .wrapper:before {
+    @media (max-width: 749px) {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      margin: auto;
+      bottom: -115px;
+      width: 100px;
+      height: 100px;
+      opacity: .1;
+      background: url("../img/back-icons/icon006.svg") no-repeat center;
+      background-size: contain;
+    }
+  }
+}
