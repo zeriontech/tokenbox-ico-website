@@ -1,11 +1,11 @@
-/* Be carefull - order is important :( */
+/* Shit happens. Be carefull - order is important :( */
 
 @import "../../../../node_modules/font-awesome/css/font-awesome.css";
 
 @import "vendors/skeleton";
 
-@import "mixins"
 @import "variables";
+@import "mixins";
 @import "fonts";
 
 @import "vendors/fancy";

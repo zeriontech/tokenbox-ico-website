@@ -41,6 +41,7 @@ body {
   font-family: 'Gilroy', sans-serif;
   font-weight: $font-light;
   line-height: $line-height;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4 {
