@@ -1,0 +1,39 @@
+.big-title {
+  text-align: center;
+  width: 90%;
+  margin: 170px auto 70px;
+  position: relative;
+  /*@media (max-width: 749px) {
+    margin: 100px auto 50px;
+  }*/
+
+  h1 {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background-color: white;
+    color: $gray-light;
+    font-weight: $font-extrabold;
+    font-size:5.6rem;
+    padding: 0 30px;
+    margin-bottom: 0;
+    @media (max-width: 749px) {
+      font-size:5.2rem;
+    }
+  }
+
+  &:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    z-index:1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    opacity: .2;
+    background-color: $gray-light;
+  }
+}

@@ -42,25 +42,32 @@ body {
   font-weight: $font-light;
   line-height: $line-height;
 }
+
 h1, h2, h3, h4 {
-  font-weight:$font-extrabold;
-  line-height:$line-height;
-	margin: 0;
+  font-weight: $font-extrabold;
+  line-height: $line-height;
+  margin: 0;
   letter-spacing: normal;
+
   strong {
-    font-weight:$font-light;
+    font-weight: $font-light;
   }
 }
 
 h1 {
-  font-size:3.6rem;
+  font-size: 3.6rem;
   color: $blue;
   margin-bottom: 20px;
 }
 
 p {
-	margin: 0 0 10px;
-  font-weight:$font-light;
-  font-size:1.8rem;
-  color:$gray;
+  margin: 0 0 10px;
+  font-weight: $font-light;
+  font-size: 1.8rem;
+  color: $gray;
 }
+
+.text {
+  line-height: 1.6;
+}
+

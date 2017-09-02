@@ -23,8 +23,8 @@
                 <li><a href="#roadmap">Roadmap</a></li>
                 <li><a href="#tech">Technology</a></li>
                 <li><a href="#team">Team & Advisors</a></li>
-<!--                <li><a href="#media">Media</a></li>-->
-                <li class="active"><a href="/docs/TBX_WhitePaper_ENG.pdf">Whitepaper</a></li>
+<!--            <li><a href="#media">Media</a></li>-->
+                <li class="active"><a href="/docs/TBX_WhitePaper_ENG.pdf" target="_blank">White Paper</a></li>
 <!--                <li class="dropdown">-->
 <!--                    <div class="title">English</div>-->
 <!--                    <ul class="dropdown-menu">-->
@@ -41,7 +41,11 @@
 
                     <div class="lang three columns u-pull-right">
                         <ul>
-                            <li class="active"><a href="/docs/TBX_WhitePaper_ENG.pdf">Whitepaper</a></li>
+                            <li class="active">
+                                <a href="/docs/TBX_WhitePaper_ENG.pdf" target="_blank">
+                                    White Paper
+                                </a>
+                            </li>
 <!--                            <li class="dropdown">-->
 <!--                                <div class="title">English</div>-->
 <!--                                <ul class="dropdown-menu">-->
@@ -104,7 +108,7 @@
 
     <section class="multi-crypto">
         <div class="wrapper">
-            <h1>Multi-crypto-currency wallet</h1>
+            <h1>Multi-cryptocurrency wallet</h1>
             <p>Keep all your crypto assets conveniently in a single wallet</p>
             <div class="row">
                 <div class="six columns mobile-only">
@@ -139,7 +143,7 @@
                 </div>
                 <div class="six columns">
                     <div class="text">
-                        <p>Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed.</p>
+                        <p>Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no Fund can withdraw assets from a client’s account.</p>
                         <p>The Rating System and “Advisory Service” can assist you in making the optimal choice of the traders represented on our system.</p>
                     </div>
                 </div>
@@ -232,7 +236,7 @@
                 <div class="offset-by-one five columns">
                     <div class="text">
                         <p>Investors can make mutual settlements utilizing their own token according to the relevant Smart Contract.  This token is an analogue of a Fund Unit, and its value depends on the profitability and dynamics of any fluctuation in portfolio capitalization. Investors can purchase the tokens, store them and nurture them to maturity. </p>
-                        <p>Tokens can also be accessed on organized markets - exchanges..</p>
+                        <p>Tokens can also be accessed on organized markets - exchanges.</p>
                     </div>
                 </div>
             </div>
@@ -257,7 +261,8 @@
         <div class="top">
             <div class="wrapper">
                 <h1>Smoothest crossplatform experience</h1>
-                <h3>We going to create native clients for main platforms: <strong>PC, Mac, iOS, Android, VR.</strong></h3>
+                <h3>Web-interface as well as native applications for main platforms:
+                <strong>PC, Mac, iOS, Android, VR.</strong></h3>
                 <div class="devices">
                     <div class="ipad"></div>
                     <div class="macbook"></div>
@@ -324,8 +329,8 @@
                     <div class="ethereum no-mobile"></div>
                 </div>
                 <div class="six columns text">
-                    <p>The platform will be a set of microservices written on Python/Java. To work with each group of users of the system and partners, there will be separate interfaces for interaction.</p>
-                    <p>Tokenization of all traders will occur on the Ethereum platform based on the ERC-20 token.</p>
+                    <p>The platform is based upon a set of microservices written in Python/Java. Separate interfaces to allow interaction between each group of Users and partners of the system are utilised.</p>
+                    <p>Tokenization of all traders occur on Platform Ethereum based on the ERC20 token.</p>
                 </div>
             </div>
             <div class="row mobile-only logos">
@@ -333,7 +338,7 @@
             </div>
             <div class="row">
                 <div class="twelve columns text">
-                    <p>The platform’s infrastructure will be built on the basis of Amazon's Web Services. The description of the infrastructure will be based on Docker containers. The databases and their replications will be using PostgreSQL and Elastic Search.</p>
+                    <p>The infrastructure of the platform is built using Amazon Web Services. The description of the infrastructure uses Docker containers. The databases and their replications are built using PostgreSQL and Elastic Search.</p>
                 </div>
             </div>
             <div class="row">
@@ -351,12 +356,12 @@
         <div class="wrapper">
             <article class="members">
                 <h1>Meet the Tokenbox team</h1>
-                <p>Our goal is to make a difference to the way people make their investments.</p>
+                <p>From the creators of The Token Fund. Professional team with extensive experience in crypto industry.</p>
                 <div class="row">
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/shpakovsky.jpg')">
                             <div class="overlay">
-                                <a href="https://www.facebook.com/shpakovskycom" target="_blank" class="fa fa-facebook"></a>
+                                <a href="https://www.facebook.com/shpakovskycom" target="_blank" class="fa fa-facebook-square"></a>
                             </div>
                         </div>
                         <div class="name">Viktor Shpakovsky</div>
@@ -366,7 +371,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/smerkis.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/smerkis" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/smerkis" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Vladimir Smerkis</div>
@@ -376,7 +381,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')">
                             <div class="overlay">
-                                <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook"></a>
+                                <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
                             </div>
                         </div>
                         <div class="name">Alexey Bashlykov</div>
@@ -386,7 +391,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/doganov.jpg')">
                             <div class="overlay">
-                                <a href="https://www.facebook.com/igor.doganov" target="_blank" class="fa fa-facebook"></a>
+                                <a href="https://www.facebook.com/igor.doganov" target="_blank" class="fa fa-facebook-square"></a>
                             </div>
                         </div>
                         <div class="name">Igor Doganov</div>
@@ -396,7 +401,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Dmitry Shmakov</div>
@@ -406,7 +411,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Eugene Yuryev</div>
@@ -424,7 +429,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/cmskinner" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/cmskinner" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Chris Skinner</div>
@@ -434,7 +439,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Julian L. Zegelman</div>
@@ -444,7 +449,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Cao Yin</div>
@@ -454,7 +459,7 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Ilya Sachkov</div>
@@ -464,12 +469,21 @@
                     <div class="member">
                         <div class="img" style="background-image: url('/assets/front/img/team/prabhu.jpg')">
                             <div class="overlay">
-                                <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin"></a>
+                                <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
                             </div>
                         </div>
                         <div class="name">Peter Prabhu</div>
                         <div class="info">Advisor (Business Development),
                             <br />Interstice Consulting LLP</div>
+                    </div>
+                    <div class="member">
+                        <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')">
+                            <div class="overlay">
+                                <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
+                            </div>
+                        </div>
+                        <div class="name">Elena Masolova</div>
+                        <div class="info">Advisor, Groupon Russia, AddVenture Fund</div>
                     </div>
                 </div>
             </article>
@@ -565,19 +579,19 @@
         <div class="wrapper">
             <div class="title">Learn more and stay tuned!</div>
             <div class="footer-social">
-                <a href="https://www.facebook.com/Tokenbox/" class="link facebook" target="_blank"><span class="fa fa-facebook"></span></a>
+                <a href="https://www.facebook.com/Tokenbox/" class="link facebook" target="_blank"><span class="fa fa-facebook-square"></span></a>
                 <a href="https://t.me/Tokenbox" class="link telegram" target="_blank"><span class="fa fa-telegram"></span></a>
-                <a href="https://twitter.com/tokenbox" class="link twitter" target="_blank"><span class="fa fa-twitter"></span></a>
+                <a href="https://twitter.com/tokenbox" class="link twitter" target="_blank"><span class="fa fa-twitter-square"></span></a>
                 <a href="http://tokenbox.slack.com" class="link slack" target="_blank"><span class="fa fa-slack"></span></a>
                 <a href="mailto:support@tokenbox.io" class="link email"><span class="fa fa-envelope-o"></span></a>
-                <a href="https://www.linkedin.com/company-beta/11217933/" class="link linkedin" target="_blank"><span class="fa fa-linkedin"></span></a>
-                <a href="https://www.reddit.com/r/tokenbox/" class="link reddit" target="_blank"><span class="fa fa-reddit"></span></a>
-                <a href="" class="link github" target="_blank"><span class="fa fa-github"></span></a>
+                <a href="https://www.linkedin.com/company-beta/11217933/" class="link linkedin" target="_blank"><span class="fa fa-linkedin-square"></span></a>
+                <a href="https://www.reddit.com/r/tokenbox/" class="link reddit" target="_blank"><span class="fa fa-reddit-square"></span></a>
+                <a href="" class="link github" target="_blank"><span class="fa fa-github-square"></span></a>
                 <a href="https://medium.com/tokenbox" class="link medium" target="_blank"><span class="fa fa-medium"></span></a>
             </div>
             <div class="copy">
                 <div class="logo"></div>
-                <a href="">Terms of use</a>
+                <a href="">Terms & Conditions</a>
                 <a href="">User Privacy</a>
             </div>
         </div>
