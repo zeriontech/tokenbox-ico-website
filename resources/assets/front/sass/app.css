@@ -15,61 +15,11 @@
 @import "common";
 
 @import "nav";
+@import "logo";
+@import "big-title";
 
 #wt-sky-root {
   display: none !important;
-}
-
-.logo {
-  background-image: url('../img/logo.svg');
-  max-width: 150px;
-  height: 25px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
-  cursor: pointer;
-  &:hover {
-    opacity: .7;
-  }
-}
-
-
-.big-title {
-  text-align: center;
-  width: 90%;
-  margin: 200px auto 100px;
-  position: relative;
-  /*@media (max-width: 749px) {
-    margin: 100px auto 50px;
-  }*/
-  h1 {
-    position: relative;
-    z-index: 2;
-    display: inline-block;
-    background-color: white;
-    color: $gray-light;
-    font-weight: $font-extrabold;
-    font-size:5.6rem;
-    padding: 0 30px;
-    margin-bottom: 0;
-    @media (max-width: 749px) {
-      font-size:5.2rem;
-    }
-  }
-  &:before {
-    content: '';
-    width: 100%;
-    position: absolute;
-    z-index:1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 2px;
-    opacity: .2;
-    background-color: $gray-light;
-  }
 }
 
 .get-notified, .send-request {
@@ -128,6 +78,7 @@
     }
   }
 }
+
 .send-request {
   background: url("../img/logo-big.svg") no-repeat center 100px, #f6f6f8;
   background-size: 192px auto;
@@ -179,60 +130,8 @@
   }
 }
 
-.header {
-  padding: 20px 0;
-  height: 150px;
-}
-
-.simple-header {
-  background: $blue;
-  color: white;
-  padding: 10px 0 0;
-  .header {
-    padding: 0;
-    height: 75px;
-  }
-  .hamburger-icon {
-    top: 25px;
-  }
-}
-
-.features {
-  position: relative;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  right:0;
-  margin: auto;
-  margin-bottom: -200px !important;
-  .slide {
-    text-align: center;
-    outline: none;
-    .img {
-      display: block;
-      width: 85%;
-      margin: 0 auto 30px;
-      padding-bottom: 50%;
-      background-size: contain;
-      background-position: center bottom;
-      background-repeat: no-repeat;
-    }
-  }
-  .caption {
-    font-weight: $font-extrabold;
-    color: black;
-    font-size: 1.6rem;
-    margin: 30px auto 30px;
-  }
-}
-
-  @media (max-width: 999px) {
-    .header { height: 100px;  }
-    .features .slide .img { width: 100%; padding-bottom: 70%; }
-  }
-
-/* HEADER END */
-
+@import "header";
+@import "features";
 
 /* FOR INVESTORS AND CO */
 .section-img {
@@ -250,9 +149,14 @@
   }
 }
 
-.multi-crypto, .invest-in-pro, .pay-with, .become-legal, .issue {
+.multi-crypto,
+.invest-in-pro,
+.pay-with,
+.become-legal,
+.issue {
   .row {
-    .column, .columns {
+    .column,
+    .columns {
       p {
         color: $gray;
         margin-bottom: 20px;
@@ -260,6 +164,7 @@
     }
   }
 }
+
 .multi-crypto {
   .text {
     margin-top: 60px;
@@ -400,7 +305,8 @@
 }
 .issue {
   .text {
-    margin-top: 0px;
+    margin-top: 60px;
+
     @media (max-width: 999px) {
       margin-top: 0;
     }
@@ -1263,121 +1169,7 @@
 }
 /* TECHNOLOGY END */
 
-/* TEAM */
-.team {
-  padding-bottom: 100px;
-  .members, .advisors {
-    .row {
-      font-size:0;
-      text-align: center;
-    }
-    > h1 {
-      font-size: 3.6rem;
-      color: $blue;
-      margin-bottom: 15px;
-      text-align: center;
-      @media (max-width: 749px) {
-        margin-bottom: 50px;
-      }
-      ~ p {
-        color: $gray-light;
-        font-size:1.6rem;
-        margin-bottom: 80px;
-        text-align: center;
-        @media (max-width: 749px) {
-          margin-bottom: 100px;
-        }
-      }
-    }
-  }
-
-  /*.members {
-    .row:nth-of-type(2) {
-      .member:first-of-type {
-        margin-left: 12.5%;
-        @media (max-width: 749px) {
-          margin-left: auto;
-        }
-      }
-    }
-  }*/
-
-  .member {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    margin-bottom: 50px;
-    width: 100%;
-    max-width: 300px;
-    box-sizing: border-box;
-    padding: 0 15px;
-    .img {
-      width: 164px;
-      height: 164px;
-      border-radius: 50%;
-      @media (max-width: 749px) {
-        width: 80%;
-        height: 0;
-        padding-bottom: 80%;
-        .overlay a {
-          margin-top: 45%;
-        }
-      }
-      overflow: hidden;
-      position: relative;
-      margin: 0 auto 15px;
-      background-size: cover;
-      background-position: top center;
-      background-repeat:no-repeat;
-      filter: grayscale(100%);
-      transition: filter .2s ease;
-      &:hover {
-        filter: grayscale(0%);
-      }
-      .overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        border-radius: 50%;
-        text-align: center;
-        opacity: 0;
-        background-color: #ed3c48;
-        transition: opacity .2s ease;
-        cursor: default;
-        a {
-          cursor: pointer;
-          font-size:3rem;
-          display: inline-block;
-          margin: 70px 10px auto;
-          color: white;
-          text-decoration: none;
-          &:hover {
-            opacity: .5;
-          }
-        }
-        &:hover {
-          opacity: 1;
-        }
-      }
-    }
-    .name {
-      font-size: 1.6rem;
-      color: $gray;
-      font-weight: $font-extrabold;
-    }
-    .info {
-      font-size: 1.6rem;
-      color: $gray-light;
-    }
-  }
-  .advisors {
-    margin: 100px auto 0;
-    max-width: 1000px;
-  }
-}
-/* TEAM END */
+@import "team";
 
 /* MEDIA */
 .media {
@@ -1579,6 +1371,7 @@
     font-weight:$font-extrabold;
     margin-bottom: 50px;
   }
+
   .copy {
     text-align: center;
     margin-top: 90px;
