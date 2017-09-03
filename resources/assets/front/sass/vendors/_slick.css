@@ -264,23 +264,21 @@ $slick-dot-size: 10px;
         position: absolute;
         top: 0;
         left: 0;
-        content: $slick-dot-character;
-        width: 20px;
-        height: 20px;
-        font-size: 3.3rem;
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        display: block;
+        content: "";
+        background: $slick-dot-color;
+        opacity: $slick-opacity-not-active;
+        border-radius: 50%;
         @media (max-width: 749px) {
           font-size: 4.5rem;
         }
-        line-height: 20px;
-        text-align: center;
-        color: $slick-dot-color;
-        opacity: $slick-opacity-not-active;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
       }
     }
     &.slick-active button:before {
-      color: $slick-dot-color-active;
+      background: $slick-dot-color-active;
       opacity: $slick-opacity-default;
     }
   }

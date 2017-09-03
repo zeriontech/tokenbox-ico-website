@@ -1,0 +1,57 @@
+.become-legal {
+  padding-bottom: 200px;
+  .text {
+    margin-top: 60px;
+    @media (max-width: 999px) {
+      margin-top: 0;
+    }
+  }
+  .section-img-wrap {
+    max-width: 378px;
+    @media (max-width: 749px) {
+      margin: 65px auto 130px;
+    }
+  }
+  .section-img {
+    position: relative;
+    padding-bottom: 79%;
+    background-image: url("../img/investors-traders-funds/become/become.png");
+    @mixin breakpoint retina {
+      background-image: url("../img/investors-traders-funds/become/become@2x.png");
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50px;
+      @media (max-width: 929px) {
+        left: 20px;
+      }
+      bottom: -50px;
+      @extend .section-img;
+      padding-bottom: 30%;
+      background-image: url("../img/investors-traders-funds/become/become-2.png");
+      @mixin breakpoint retina {
+        background-image: url("../img/investors-traders-funds/become/become-2@2x.png");
+      }
+    }
+  }
+
+  .wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    opacity: .1;
+    background: url("../img/back-icons/icon010.svg") no-repeat center;
+    background-size: contain;
+    @media (max-width: 749px) {
+      top: inherit;
+      left: 0; right: 0;
+      margin: auto;
+      bottom: -200px;
+    }
+  }
+}

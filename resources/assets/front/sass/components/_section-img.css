@@ -1,0 +1,16 @@
+.section-img {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 5px;
+  box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.15);
+}
+
+.section-img-wrap {
+  margin: 0 auto;
+
+  @media (max-width: 749px) {
+    margin: 40px auto 70px;
+  }
+}

@@ -27,6 +27,7 @@
     color: black;
     font-size: 1.6rem;
     margin: 30px auto 30px;
+    max-width: 420px;
   }
 
   @media (min-width: 750px) {

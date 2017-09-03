@@ -66,6 +66,20 @@
   padding-top: 150px;
 }
 
+.send-request {
+  background: url("../img/logo-big.svg") no-repeat center 100px, #f6f6f8;
+  background-size: 192px auto;
+  padding: 150px 0;
+  margin-top: 100px;
+  form {
+    max-width: 1000px;
+  }
+  >.wrapper>h1 {
+    max-width: 700px;
+    margin: 0 auto 100px;
+  }
+}
+
 @media (max-width: 749px) {
   padding-top: 125px;
 }

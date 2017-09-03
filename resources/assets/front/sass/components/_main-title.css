@@ -1,0 +1,22 @@
+.main-title {
+  min-width: 630px;
+  max-width: 700px;
+  margin: 0 auto 70px!important;
+  float: none;
+
+  a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(171, 180, 187, .6);
+    line-height: normal;
+
+    &:hover {
+      border-color: rgba(171, 180, 187, 1);
+    }
+  }
+
+  @media (max-width: 749px) {
+    min-width: 0;
+  }
+}
