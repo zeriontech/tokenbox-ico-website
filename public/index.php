@@ -7,6 +7,31 @@
   <meta itemprop="description" content=""/>
   <link rel="stylesheet" href="assets/front/css/app.css" />
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  <script type="text/javascript">
+    window.sr = ScrollReveal({
+      opacity: 0,
+      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+      distance: 0,
+      viewFactor: 0.4,
+      scale: 1,
+      duration: 1200,
+      mobile: false,
+      rotate: { x: 0, y: 0, z: 0 }
+    });
+
+    if (!sr.tools.isMobile()) {
+      document.documentElement.classList.add('sr-enabled')
+    }
+  </script>
+
+  <style>
+    .sr-enabled .top .fade-in-item {
+      visibility: hidden;
+    }
+  </style>
 </head>
 <body>
 
@@ -619,48 +644,37 @@
     });
   </script>
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script type="text/javascript">
-    window.sr = ScrollReveal({
-      opacity: 0,
-      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-      distance: 0,
-      viewFactor: 0.4,
-      scale: 1,
-      duration: 1200,
-      mobile: false,
-      rotate: { x: 0, y: 0, z: 0 }
-    });
-
-    sr.reveal('.top .fade-in-item', { viewFactor: 0 }, 100)
-    sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
-    sr.reveal('.get-notified');
-    sr.reveal('.invest-in-pro');
-    sr.reveal('.pay-with');
-    sr.reveal('.become-legal');
-    sr.reveal('.trading-app');
-    sr.reveal('.issue');
-    sr.reveal('.big-title');
-    sr.reveal('.send-request');
-    sr.reveal('.roadmap .top');
-    sr.reveal('.roadmap .blue-roadmap');
-    sr.reveal('.technology');
-    sr.reveal('.team .member', 100);
-    sr.reveal('.advisors .member', 100);
-    sr.reveal('.multi-crypto');
-    sr.reveal('.media');
-    sr.reveal('.footer');
-    sr.reveal('.milestone', 100);
-    sr.reveal('.footer-social .link', 100)
-    sr.reveal('.fade-in-left', {
-      distance: '30px',
-      origin: 'left'
-    });
-    sr.reveal('.fade-in-right', {
-      distance: '30px',
-      origin: 'right'
-    });
+  <script>
+    if (!sr.tools.isMobile()) {
+      sr.reveal('.top .fade-in-item', { viewFactor: 0 }, 100)
+      sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
+      sr.reveal('.get-notified');
+      sr.reveal('.invest-in-pro');
+      sr.reveal('.pay-with');
+      sr.reveal('.become-legal');
+      sr.reveal('.trading-app');
+      sr.reveal('.issue');
+      sr.reveal('.big-title');
+      sr.reveal('.send-request');
+      sr.reveal('.roadmap .top');
+      sr.reveal('.roadmap .blue-roadmap');
+      sr.reveal('.technology');
+      sr.reveal('.team .member', 100);
+      sr.reveal('.advisors .member', 100);
+      sr.reveal('.multi-crypto');
+      sr.reveal('.media');
+      sr.reveal('.footer');
+      sr.reveal('.milestone', 100);
+      sr.reveal('.footer-social .link', 100)
+      sr.reveal('.fade-in-left', {
+        distance: '30px',
+        origin: 'left'
+      });
+      sr.reveal('.fade-in-right', {
+        distance: '30px',
+        origin: 'right'
+      });
+    }
 
     $(window).scroll()
   </script>

@@ -1,5 +1,5 @@
 .top {
-  background: url("../img/grid-blue.svg") top center no-repeat, $blue;
+  background: $blue url("../img/grid-blue.svg") top center no-repeat;
   background-size: cover;
   color: white;
   padding-top: 20px;
