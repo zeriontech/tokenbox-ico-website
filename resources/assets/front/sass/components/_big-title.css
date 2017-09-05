@@ -32,7 +32,7 @@
   }
 
   @media (max-width: 749px) {
-    margin: 100px auto 70px;
+    margin: 100px auto 0;
 
     h1 {
       font-size: 5.2rem;

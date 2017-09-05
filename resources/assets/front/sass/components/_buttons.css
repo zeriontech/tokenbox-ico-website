@@ -20,7 +20,7 @@
   }
 
   @media (max-width: 499px) {
-    font-size: 2.1rem;
+    // font-size: 2.1rem;
   }
 
   &:hover, &:focus {

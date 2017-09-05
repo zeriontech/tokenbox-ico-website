@@ -54,4 +54,8 @@
       bottom: -200px;
     }
   }
+
+  @media (max-width: 749px) {
+    padding-bottom: 125px;
+  }
 }

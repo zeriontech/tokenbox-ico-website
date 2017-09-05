@@ -5,15 +5,6 @@
   &.big {
     margin-top: 50px;
     margin-bottom: 130px;
-    form {
-      max-width: 1000px;
-    }
-    h1 {
-      margin-top: -10px;
-      @media (max-width: 749px) {
-        margin-bottom: 70px;
-      }
-    }
   }
 
   form {
@@ -64,6 +55,18 @@
   border-top: 2px solid #f6f6f8;
   margin-top: 0;
   padding-top: 150px;
+
+  form {
+    max-width: 1000px;
+  }
+
+  h1 {
+    margin-top: -10px;
+
+    @media (max-width: 749px) {
+      margin-bottom: 70px;
+    }
+  }
 }
 
 .send-request {
@@ -81,5 +84,7 @@
 }
 
 @media (max-width: 749px) {
-  padding-top: 125px;
+  .get-notified {
+    margin-top: 135px;
+  }
 }

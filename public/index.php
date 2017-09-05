@@ -28,8 +28,8 @@
   </script>
 
   <style>
-    .sr-enabled body > section {
-      /*roverflow-x: hidden;*/
+    .sr-enabled body > section:not(.topblock) {
+      /*overflow-x: hidden;*/
     }
 
     .sr-enabled .topblock .fade-in-item {

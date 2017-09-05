@@ -93,6 +93,7 @@ $translateX: 0;
     text-align: center;
     top: -12px;
     left: 0;
+    bottom: 0;
     width: 100%;
     background-color: $blue;
     margin: 0;

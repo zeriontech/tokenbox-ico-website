@@ -35,11 +35,13 @@
     font-size: 4.6rem;
     margin-bottom: 20px;
 
-    @media (min-width: 850px) {
+    @mixin breakpoint only-mobile {
+      margin-bottom: 40px;
       width: 70px;
       height: 70px;
       margin-bottom: 0;
     }
+
     color: white;
     margin-left: 20px;
     margin-right: 20px;

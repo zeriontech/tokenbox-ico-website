@@ -20,8 +20,11 @@
   @if $point == retina {
     @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (min-resolution: 144dpi) { @mixin-content; }
-  }
-  @else {
+  } @else if $point == only-mobile {
+    @media (max-width: 749px) {
+      @mixin-content;
+    }
+  } @else {
     @media only screen
     and (max-width : $point)  { @mixin-content; }
   }
