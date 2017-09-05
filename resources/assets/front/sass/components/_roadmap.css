@@ -1,7 +1,10 @@
 .roadmap {
   padding-top: 0;
   padding-bottom: 0;
+
   .top {
+    position: relative;
+    z-index: 1;
     padding-top: 150px;
     padding-bottom: 50px;
     background: url("../img/grid-silver.svg") no-repeat top center;

@@ -52,11 +52,12 @@
       transform: translate(-50%, -50%);
     }
 
-    &:hover {
-      will-change: transform;
-      color: white;
-      opacity: .7;
+    .fa {
+      transition: .3 opacity;
+
+      &:hover {
+        opacity: .7;
+      }
     }
   }
-
 }

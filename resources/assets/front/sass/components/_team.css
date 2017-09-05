@@ -6,6 +6,11 @@
       font-size:0;
       text-align: center;
     }
+
+    h1 + .row {
+      margin-top: 80px;
+    }
+
     > h1 {
       font-size: 3.6rem;
       color: $blue;

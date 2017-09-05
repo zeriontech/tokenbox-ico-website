@@ -50,21 +50,4 @@ $(document).ready(function() {
   $(".dropdown .title").click(function () {
     $(this).closest('.dropdown').toggleClass("opened");
   });
-
-  // $('.js-word-fade-in').each(function() {
-  //   function animate($el) {
-  //     $el.addClass('fadeIn');
-
-  //     var $next =
-  //       $el.next(':not(br)').length ? $el.next(':not(br)') : $el.next().next();
-
-  //     if ($next.length) {
-  //       setTimeout(function() {
-  //         animate($next)
-  //       }, 300)
-  //     }
-  //   }
-
-  //   animate($(this).children().first())
-  // })
 });

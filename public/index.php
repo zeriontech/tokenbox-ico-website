@@ -28,14 +28,18 @@
   </script>
 
   <style>
-    .sr-enabled .top .fade-in-item {
+    .sr-enabled body > section {
+      /*roverflow-x: hidden;*/
+    }
+
+    .sr-enabled .topblock .fade-in-item {
       visibility: hidden;
     }
   </style>
 </head>
 <body>
 
-  <section class="top">
+  <section class="topblock">
     <a class="hamburger-icon" id="hamburger-icon" href="#" title="">
       <span class="line line-1"></span>
       <span class="line line-2"></span>
@@ -49,7 +53,7 @@
         <li><a href="#tech">Technology</a></li>
         <li><a href="#team">Team & Advisors</a></li>
 <!--            <li><a href="#media">Media</a></li>-->
-        <li class="active"><a href="/docs/TBX_WhitePaper_ENG.pdf" target="_blank">White Paper</a></li>
+        <li class="active"><a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">White Paper</a></li>
 <!--                <li class="dropdown">-->
 <!--                    <div class="title">English</div>-->
 <!--                    <ul class="dropdown-menu">-->
@@ -181,7 +185,6 @@
     </div>
   </section>
 
-
   <section class="pay-with">
     <div class="wrapper">
       <h1>Pay by Credit/Debit Card and Fiat money</h1>
@@ -309,6 +312,7 @@
           <div class="timeline">
             <div class="current" style="width: 70%; height: 70%;"></div>
           </div>
+
           <div class="desc">
             <div class="milestone active">
               <div class="title">Branding and naming<div class="time">June 15</div></div>
@@ -448,12 +452,23 @@
             <div class="info">Art Director,
               <br />The Token Fund</div>
           </div>
+
+          <div class="member">
+            <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
+              <div class="overlay">
+                <a href="www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
+              </div>
+            </div>
+            <div class="name">Aleksandr Volkov</div>
+            <div class="info">Lead Backend Developer,
+              <br />Zerion</div>
+          </div>
         </div>
       </article>
 
       <article class="advisors">
         <h1>Our advisors</h1>
-        <p>Their goal is to make a difference to the way make investments.</p>
+        <!-- <p>Their goal is to make a difference to the way make investments.</p> -->
         <div class="row">
 
           <div class="member">
@@ -514,6 +529,16 @@
             </div>
             <div class="name">Elena Masolova</div>
             <div class="info">Advisor, Groupon Russia, AddVenture Fund</div>
+          </div>
+
+          <div class="member">
+            <div class="img" style="background-image: url('/assets/front/img/team/koleoshkin.jpg')">
+              <div class="overlay">
+                <a href="https://www.linkedin.com/in/vadim-koleoshkin" target="_blank" class="fa fa-linkedin-square"></a>
+              </div>
+            </div>
+            <div class="name">Vadim Koleoshkin</div>
+            <div class="info">Advisor (Product Development), Zerion</div>
           </div>
         </div>
       </article>
@@ -646,7 +671,7 @@
 
   <script>
     if (!sr.tools.isMobile()) {
-      sr.reveal('.top .fade-in-item', { viewFactor: 0 }, 100)
+      sr.reveal('.topblock .fade-in-item', { viewFactor: 0 }, 100)
       sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
       sr.reveal('.get-notified');
       sr.reveal('.invest-in-pro');
@@ -664,22 +689,21 @@
       sr.reveal('.multi-crypto');
       sr.reveal('.media');
       sr.reveal('.footer');
-      sr.reveal('.milestone', 100);
-      sr.reveal('.footer-social .link', 100)
+      sr.reveal('.milestone', 50);
+      sr.reveal('.footer-social .link', 50)
       sr.reveal('.fade-in-left', {
-        distance: '30px',
+        distance: '20px',
         origin: 'left'
       });
       sr.reveal('.fade-in-right', {
-        distance: '30px',
+        distance: '20px',
         origin: 'right'
       });
     }
-
-    $(window).scroll()
   </script>
 
-  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45667677 = new Ya.Metrika({ id:45667677, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45667677" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45667677 = new Ya.Metrika({ id:45667677, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45667677" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
   <!-- Google Analytics counter -->
   <script>
@@ -690,7 +714,6 @@
 
     ga('create', 'UA-104912862-1', 'auto');
     ga('send', 'pageview');
-
   </script>
   <!-- End Google Analytics counter -->
 
