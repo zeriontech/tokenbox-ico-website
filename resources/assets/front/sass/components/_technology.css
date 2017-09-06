@@ -1,15 +1,18 @@
 .technology {
-  padding-top: 150px;
-  padding-bottom: 100px;
-  margin-bottom: 50px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  margin-bottom: 140px;
   background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
   background-size: cover;
+
   @media (max-width: 749px) {
     background-size: 1280px auto;
   }
+
   .wrapper > h1 {
     margin-bottom: 55px;
   }
+
   .text {
     p {
       font-size:1.6rem;

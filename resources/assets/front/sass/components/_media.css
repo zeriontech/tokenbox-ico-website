@@ -169,7 +169,7 @@
       }
       .more {
         color: $blue;
-        font-weight: $font-extrabold;
+        font-weight: 700;
         text-decoration: none;
         &:hover {
           text-decoration: underline;

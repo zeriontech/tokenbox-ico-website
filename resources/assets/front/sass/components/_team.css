@@ -100,7 +100,7 @@
     .name {
       font-size: 1.8rem;
       color: $gray;
-      font-weight: $font-extrabold;
+      font-weight: 700;
     }
 
     .info {
@@ -115,7 +115,7 @@
   margin: 100px auto 0;
   max-width: 1000px;
 
-  @mixin breakpoint only-mobile {
+  @mixin breakpoint tablet {
     margin-top: 125px;
   }
 }

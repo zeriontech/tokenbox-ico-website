@@ -6,15 +6,16 @@ $transition-time: 0.4s;
 $rotation: 45deg;
 $translateY: (calc($height-icon / 2));
 $translateX: 0;
+
 .hamburger-icon {
   display: none;
-  width:$width-line;
-  height:$height-icon;
+  width: $width-line;
+  height: $height-icon;
   position:relative;
   display: inline-block;
   margin-right: 0px;
   opacity: 1;
-  padding: 0 20px;
+
   &:hover {
     @include opacity(.7);
   }
@@ -22,8 +23,8 @@ $translateX: 0;
   .line {
     display:block;
     background:#fff;
-    width:$width-line;
-    height:$height-line;
+    width: $width-line;
+    height: $height-line;
     position:absolute;
     left:0;
     transition: all $transition-time;
@@ -63,21 +64,26 @@ $translateX: 0;
   }
 }
 
-.hamburger-icon, .mobile-nav .logo {
-  display: none;
-  z-index: 4;
+.mobile-nav .logo,
+.hamburger-icon {
   position: absolute;
-  top: 43px;
-  right: 0px;
+  z-index: 4;
+}
+
+.hamburger-icon {
+  top: 23px;
+  right: 20px;
+  display: none;
+
   @media (max-width: 749px) {
     display: block;
   }
 }
+
 .mobile-nav .logo {
-  right: auto;
-  left: 30px;
-  top: 52px;
   width: 100%;
+  top: 20px;
+  left: 20px;
 }
 
 .nav, .lang {
@@ -85,13 +91,15 @@ $translateX: 0;
     display: none;
   }
 }
+
 .mobile-nav {
   display: none;
+
   @media (max-width: 749px) {
     display: none;
     position: fixed;
     text-align: center;
-    top: -12px;
+    top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -99,6 +107,7 @@ $translateX: 0;
     margin: 0;
     z-index: 1;
     padding: 100px 0 20px;
+
     ul {
       margin: 0 !important;
       text-align: center !important;
@@ -123,7 +132,7 @@ $translateX: 0;
           a {
             opacity: 1;
             text-decoration: none;
-            font-weight: $font-extrabold;
+            font-weight: 700;
           }
 
           &:hover {

@@ -1,0 +1,122 @@
+.timeline-wrap {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(../img/back-icons/icon011.svg) no-repeat left 250px top 20px;
+  background-size: 100px auto;
+
+  @media (max-width: 1600px) {
+    background-image: none;
+    width: 250px;
+    margin: 0 auto;
+    height: 1900px;
+    padding: 50px 0 0;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: -55px;
+      top: 40%;
+      width: 75px;
+      height: 75px;
+      background: url(../img/back-icons/icon011.svg) no-repeat center;
+      background-size: contain;
+      transform: rotate(90deg);
+    }
+
+    .timeline {
+      height: 100%;
+      width: 10px;
+      float: right;
+      margin-right: 30px;
+      .current {
+        width: 100% !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        &:after {
+          transform: rotate(90deg);
+          right: -65px;
+          bottom: -35px;
+          width: 95px;
+          height: 70px;
+        }
+        &:before {
+          bottom: 0px;
+          width: 35px;
+          height: 1px;
+          right: inherit;
+        }
+      }
+
+      &:after {
+        right: -55px;
+        top: 15px;
+      }
+      &:before {
+        left: inherit;
+        right: -55px;
+        bottom: 35px;
+        top: inherit;
+      }
+    }
+  }
+}
+
+.timeline {
+  width: 100%;
+  height: 10px;
+  background-color: #3434bb;
+  border-radius: 10px;
+  position: relative;
+  &:before, &:after {
+    position: absolute;
+    top: -85px;
+    font-size:1.6rem;
+  }
+  &:before {
+    content: '2017';
+    left: 10px;
+    color: white;
+  }
+  &:after {
+    content: '2018';
+    right: 10px;
+    color: rgba(255, 255, 255, 0.15);
+  }
+  .current {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @media (min-width: 1600px) {
+      height: 100% !important;
+    }
+
+    background-color: $red;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    &:after {
+      content: "We are here";
+      position: absolute;
+      right: -45px;
+      color: $red;
+      bottom: -7px;
+      margin: auto;
+      width: 93px;
+      height: 102px;
+      background: url(../img/roadmap/arrow.svg) no-repeat bottom right 25px;
+      background-size: 24px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      right: 3px;
+      bottom: 0;
+      height: 75px;
+      background-color: $red;
+      width: 1px;
+    }
+  }
+}

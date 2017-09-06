@@ -1,7 +1,4 @@
 .get-notified, .send-request {
-  margin-top: 260px;
-  padding-bottom: 0;
-
   &.big {
     margin-top: 50px;
     margin-bottom: 130px;
@@ -20,11 +17,15 @@
       box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
       border: solid 2px rgba(171, 180, 187, 0.26);
       border-radius: 5px;
-      font-size: 2.6rem;
       padding-left: 20px;
-      margin-bottom: 20px;
+      font-size: 2.6rem;
       box-sizing: border-box;
       font-weight:$font-light;
+
+      @media (max-width: 749px) {
+        font-size: 2.1rem;
+        margin-bottom: 20px;
+      }
 
       &:focus {
         border: 2px solid $blue;
@@ -53,8 +54,7 @@
 
 .get-notified-bottom {
   border-top: 2px solid #f6f6f8;
-  margin-top: 0;
-  padding-top: 150px;
+  padding: 150px 0;
 
   form {
     max-width: 1000px;
@@ -72,19 +72,14 @@
 .send-request {
   background: url("../img/logo-big.svg") no-repeat center 100px, #f6f6f8;
   background-size: 192px auto;
-  padding: 150px 0;
-  margin-top: 100px;
-  form {
-    max-width: 1000px;
+  padding: 130px 0;
+
+  input {
+    margin-bottom: 20px;
   }
-  >.wrapper>h1 {
+
+  > .wrapper > h1 {
     max-width: 700px;
     margin: 0 auto 100px;
-  }
-}
-
-@media (max-width: 749px) {
-  .get-notified {
-    margin-top: 135px;
   }
 }

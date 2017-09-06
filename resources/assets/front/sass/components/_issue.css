@@ -1,4 +1,7 @@
 .issue {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   .text {
     margin-top: 60px;
 
@@ -15,6 +18,7 @@
       margin-bottom: 50px;
     }
   }
+
   .section-img {
     padding-bottom: 73%;
     background-image: url("../img/investors-traders-funds/issue/issue.png");
@@ -22,22 +26,25 @@
       background-image: url("../img/investors-traders-funds/issue/issue@2x.png");
     }
   }
+}
 
-  .wrapper:after {
-    content: '';
-    position: absolute;
-    right: 0px;
-    top: 10px;
-    width: 100px;
-    height: 100px;
-    opacity: .1;
-    background: url("../img/back-icons/icon007.svg") no-repeat center;
-    background-size: contain;
-    @media (max-width: 749px) {
-      top: inherit;
-      left: 0; right: 0;
-      margin: auto;
-      bottom: -160px;
-    }
+.issue-icon {
+  right: 9%;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  opacity: .1;
+  background: url("../img/back-icons/icon007.svg") no-repeat center;
+  background-size: contain;
+
+  @media (max-width: 749px) {
+    top: inherit;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
   }
 }
+

@@ -252,20 +252,13 @@ $slick-dot-size: 10px;
       height: 10px;
       line-height: 10px;
       color: transparent;
-      background: $slick-dot-color;
-      opacity: $slick-opacity-not-active;
+      background: #abb4bb;
       border-radius: 50%;
       padding: 0;
-
-      @media (max-width: 749px) {
-        width: 22px;
-        height: 22px;
-      }
     }
 
     &.slick-active button {
-      background: $slick-dot-color-active;
-      opacity: $slick-opacity-default;
+      background: #ee3d49;
     }
   }
 }

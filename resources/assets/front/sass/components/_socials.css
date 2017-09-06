@@ -35,7 +35,7 @@
     font-size: 4.6rem;
     margin-bottom: 20px;
 
-    @mixin breakpoint only-mobile {
+    @mixin lp tablet {
       margin-bottom: 40px;
       width: 70px;
       height: 70px;

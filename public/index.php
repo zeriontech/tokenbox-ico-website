@@ -52,63 +52,54 @@
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#tech">Technology</a></li>
         <li><a href="#team">Team & Advisors</a></li>
-<!--            <li><a href="#media">Media</a></li>-->
         <li class="active"><a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">White Paper</a></li>
-<!--                <li class="dropdown">-->
-<!--                    <div class="title">English</div>-->
-<!--                    <ul class="dropdown-menu">-->
-<!--                        <li><a href="">Russian</a></li>-->
-<!--                        <li><a href="">German</a></li>-->
-<!--                    </ul>-->
-<!--                </li>-->
+        <!--<li><a href="#media">Media</a></li>-->
+        <!--<li class="dropdown">-->
+        <!--    <div class="title">English</div>-->
+        <!--    <ul class="dropdown-menu">-->
+        <!--        <li><a href="">Russian</a></li>-->
+        <!--        <li><a href="">German</a></li>-->
+        <!--    </ul>-->
+        <!--</li>-->
       </ul>
     </div>
     <div class="wrapper">
       <header class="header">
         <div class="row">
-          <div class="logo three columns"></div>
+          <div class="offset-by-one-sd logo two-sd three columns"></div>
 
-          <div class="lang three columns u-pull-right">
+          <nav class="nav six columns" role="navigation">
+            <li><a href="#for-investors">Features</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#tech">Technology</a></li>
+            <li><a href="#team">Team & Advisors</a></li>
+          </nav>
+
+          <div class="lang two-sd three columns">
             <ul>
               <li class="active">
                 <a href="/docs/TBX_WhitePaper_ENG.pdf" target="_blank">
                   White Paper
                 </a>
               </li>
-<!--                            <li class="dropdown">-->
-<!--                                <div class="title">English</div>-->
-<!--                                <ul class="dropdown-menu">-->
-<!--                                    <li><a href="">Russian</a></li>-->
-<!--                                    <li><a href="">German</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
             </ul>
           </div>
-          <nav class="nav six columns u-pull-right" role="navigation">
-            <ul>
-              <li><a href="#for-investors">Features</a></li>
-              <li><a href="#roadmap">Roadmap</a></li>
-              <li><a href="#tech">Technology</a></li>
-              <li><a href="#team">Team & Advisors</a></li>
-<!--                            <li><a href="#media">Media</a></li>-->
-            </ul>
-          </nav>
         </div>
       </header>
 
-      <div class="container" id="features">
-        <div class="row">
-          <div class="offset-by-two eight columns main-title">
-            <h1>
-              <span class="fade-in-item">Tokenbox</span>
-              <span class="fade-in-item">is an ecosystem</span><br />
-              <strong class="fade-in-item">for crypto-</strong>
-              <strong class="fade-in-item"><a href="#for-investors">investors,</a></strong>
-              <strong class="fade-in-item"><a href="#traders-and-funds">traders & funds.</a></strong>
-            </h1>
-          </div>
+      <h1 class="main-title">
+        <span class="fade-in-item">Tokenbox</span>
+        <span class="fade-in-item">is an ecosystem</span><br />
+        <strong class="fade-in-item">for crypto-</strong>
+        <strong class="fade-in-item"><a href="#for-investors">investors,</a></strong>
+        <strong class="fade-in-item"><a href="#traders-and-funds">traders & funds.</a></strong>
+      </h1>
 
-          <div class="features slider fade-in-item">
+      <div class="row">
+        <div class="columns offset-by-two eight features">
+          <i class="background-icon features-icon-l"></i>
+          <i class="background-icon features-icon-r"></i>
+          <div class="slider fade-in-item">
             <div class="slide">
               <div class="img" style="background-image: url('/assets/front/img/slider/slide-1.png')"></div>
               <div class="caption">Choose crypto funds for your investments.</div>
@@ -127,11 +118,11 @@
     </div>
   </section>
 
-  <section class="get-notified">
+  <section class="get-notified get-notified-top">
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div class="row">
-          <div class="seven columns"><input required name="EMAIL" type="email" placeholder="Enter your email address"></div>
+          <div class="seven columns"><input required name="EMAIL" type="email" placeholder="Enter your email"></div>
           <div class="five columns"><button value="Subscribe" name="subscribe" type="submit" class="button">Get notified about ICO!</button></div>
         </div>
       </form>
@@ -141,22 +132,25 @@
   <div class="big-title" id="for-investors"><h1>For investors</h1></div>
 
   <section class="multi-crypto">
+    <i class="background-icon multi-crypto-icon offset-by-one"></i>
+
     <div class="wrapper">
       <h1>Multi-cryptocurrency wallet</h1>
       <p>Keep all your crypto assets conveniently in a single wallet</p>
-      <div class="row">
-        <div class="six columns mobile-only">
+
+      <div class="row section-image-example">
+        <div class="mobile-only">
           <div class="section-img-wrap fade-in-right">
             <div class="section-img"></div>
           </div>
         </div>
-        <div class="offset-by-one five columns">
+        <div class="offset-by-two-sd four-sd six columns">
           <div class="text">
             <p>Universal crypto-currency wallet for the secure storage of digital assets. The wallet allows you to store all main crypto-currencies and tokens. </p>
             <p>For the convenience, there are two types of wallets - "Easy" and "Professional" which can both  store keys both inside and outside the system. </p>
           </div>
          </div>
-        <div class="six columns no-mobile">
+        <div class="columns five-sd six no-mobile">
           <div class="section-img-wrap fade-in-right">
             <div class="section-img"></div>
           </div>
@@ -167,15 +161,18 @@
 
   <section class="invest-in-pro">
     <div class="wrapper">
+      <i class="background-icon invest-in-pro-top-icon"></i>
+      <i class="background-icon invest-in-pro-bottom-icon"></i>
+
       <h1>Invest in pro traders and funds</h1>
       <p>Reliable, transparent professional funds and traders</p>
-      <div class="row">
-        <div class="five columns">
+      <div class="row section-image-example">
+        <div class="offset-by-one-sd five-sd six columns">
           <div class="section-img-wrap fade-in-left">
             <div class="section-img"></div>
           </div>
         </div>
-        <div class="six columns">
+        <div class="columns offset-by-one-sd four-sd six">
           <div class="text">
             <p>Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no Fund can withdraw assets from a client’s account.</p>
             <p>The Rating System and “Advisory Service” can assist you in making the optimal choice of the traders represented on our system.</p>
@@ -187,6 +184,8 @@
 
   <section class="pay-with">
     <div class="wrapper">
+      <i class="background-icon pay-with-icon"></i>
+
       <h1>Pay by Credit/Debit Card and Fiat money</h1>
       <p>Yes, we accept payments in fiat currencies!</p>
       <div class="row">
@@ -213,9 +212,10 @@
 
   <section class="become-legal">
     <div class="wrapper">
+      <i class="background-icon become-legal-icon"></i>
       <h1>Legal Clarity and Transparency</h1>
       <p>Operating  within the current legal framework</p>
-      <div class="row">
+      <div class="row section-image-example">
         <div class="offset-by-one five columns">
           <div class="text">
             <p>Conducting activities on the Tokenbox Platform within the relevant legislative infrastructure. Tokenbox is a legal "umbrella" fund. Thus, funds and traders can minimize their legal costs.</p>
@@ -252,16 +252,17 @@
         <div class="ipad"></div>
         <h3>Manage your Fund’s portfolio on any device</h3>
       </div>
-
     </div>
   </section>
 
   <section class="issue">
+    <i class="background-icon issue-icon"></i>
+
     <div class="wrapper">
       <h1>Fund's tokenization</h1>
       <p>A prime opportunity to create your own tokenized fund</p>
-      <div class="row">
-        <div class="six columns">
+      <div class="row section-image-example">
+        <div class="offset-by-one five columns">
           <div class="section-img-wrap fade-in-left">
             <div class="section-img"></div>
           </div>
@@ -275,7 +276,7 @@
       </div>
     </div>
   </section>
-  <section class="send-request">
+  <section class="send-request section">
     <div class="wrapper">
       <h1>Want to become one of the first funds and traders using our ecosystem?</h1>
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
@@ -642,7 +643,7 @@
     </div>
   </section>
 
-  <section class="get-notified big get-notified-bottom">
+  <section class="get-notified get-notified-bottom">
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
         <div class="row">
@@ -715,12 +716,16 @@
       sr.reveal('.footer');
       sr.reveal('.milestone', 50);
       sr.reveal('.footer-social .link', 50)
+      sr.reveal('.background-icon', {
+        scale: 0.1,
+        easing: 'ease-in-out'
+      });
       sr.reveal('.fade-in-left', {
-        distance: '20px',
+        distance: '50px',
         origin: 'left'
       });
       sr.reveal('.fade-in-right', {
-        distance: '20px',
+        distance: '50px',
         origin: 'right'
       });
     }

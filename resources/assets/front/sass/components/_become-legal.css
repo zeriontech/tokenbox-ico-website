@@ -1,17 +1,19 @@
 .become-legal {
   padding-bottom: 200px;
-  .text {
-    margin-top: 60px;
-    @media (max-width: 999px) {
-      margin-top: 0;
-    }
+  overflow: hidden;
+
+  @media (max-width: 749px) {
+    padding-bottom: 125px;
   }
+
   .section-img-wrap {
     max-width: 378px;
+
     @media (max-width: 749px) {
       margin: 65px auto 130px;
     }
   }
+
   .section-img {
     position: relative;
     padding-bottom: 79%;
@@ -24,9 +26,11 @@
       content: '';
       position: absolute;
       left: 50px;
+
       @media (max-width: 929px) {
         left: 20px;
       }
+
       bottom: -50px;
       @extend .section-img;
       padding-bottom: 30%;
@@ -36,26 +40,24 @@
       }
     }
   }
+}
 
-  .wrapper:after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 30px;
-    width: 100px;
-    height: 100px;
-    opacity: .1;
-    background: url("../img/back-icons/icon010.svg") no-repeat center;
-    background-size: contain;
-    @media (max-width: 749px) {
-      top: inherit;
-      left: 0; right: 0;
-      margin: auto;
-      bottom: -200px;
-    }
-  }
+.become-legal-icon {
+  left: 9%;
+  top: 30px;
+  width: 100px;
+  height: 100px;
+  background: url("../img/back-icons/icon010.svg") no-repeat center;
+  background-size: contain;
 
-  @media (max-width: 749px) {
-    padding-bottom: 125px;
+  @mixin lp tablet {
+    top: inherit;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -125px;
+    width: 47px;
+    height: 47px;
   }
 }
+
