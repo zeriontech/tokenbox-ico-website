@@ -43,7 +43,7 @@
 
   .four.columns {
     @media (max-width: 949px) {
-      width: 100%;
+      width: auto;
       max-width: 400px;
       margin: 33px auto 45px 10%;
     }

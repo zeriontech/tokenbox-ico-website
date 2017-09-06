@@ -3,6 +3,7 @@
   padding-bottom: 150px;
   background: url(../img/back-icons/icon011.svg) no-repeat left 250px top 20px;
   background-size: 100px auto;
+  overflow: hidden;
 
   @media (max-width: 1600px) {
     background-image: none;
