@@ -1,21 +1,8 @@
 .header {
   padding: 20px 0;
-  height: 150px;
-}
 
-.simple-header {
-  background: $blue;
-  color: white;
-  padding: 10px 0 0;
-  .header {
-    padding: 0;
-    height: 75px;
+  @mixin bp tablet {
+    padding: 45px 0;
+    height: 150px;
   }
-  .hamburger-icon {
-    top: 25px;
-  }
-}
-
-@media (max-width: 999px) {
-  .header { height: 100px;  }
 }

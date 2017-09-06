@@ -1,20 +1,28 @@
 .roadmap {
   padding-top: 0;
   padding-bottom: 0;
+
   .top {
-    padding-top: 150px;
+    position: relative;
+    z-index: 1;
+    padding-top: 140px;
     padding-bottom: 50px;
     background: url("../img/grid-silver.svg") no-repeat top center;
     background-size: cover;
+
     @media (max-width: 749px) {
       background-size: 1280px auto;
+
+      .wrapper {
+        padding: 0;
+      }
     }
+
     h1 {
-      font-size: 3.6rem;
-      color: $blue;
-      margin-bottom: 100px;
-      text-align: center;
+      max-width: 420px;
+      margin: 0 auto 100px;
     }
+
     h3 {
       text-align: center;
       color: $gray;
@@ -24,98 +32,15 @@
       margin: 0 auto 50px;
       strong {
         color: black;
-        font-weight:$font-extrabold;
-      }
-    }
-
-    .devices {
-      @mixin clf;
-      position: relative;
-      top: 165px;
-      margin-top: -130px;
-      max-width: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-      div {
-        float: left;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        height: 257px;
-        position: relative;
-      }
-      @media (max-width: 749px) {
-        height: 300px;
-        div {
-          position: absolute;
-          height: 100%;
-        }
-
-      }
-      .macbook {
-        width: 44%;
-        z-index: 1;
-        @media (max-width: 749px) {
-          left: -30px;
-          margin-top: -35px;
-          background-position: left -95px top 0;
-          width: 109%;
-        }
-        background-image: url(../img/roadmap/macbook.png);
-        @mixin breakpoint retina {
-          background-image: url("../img/roadmap/macbook@2x.png");
-        }
-      }
-      .iphone {
-        width: 13%;
-        z-index: 3;
-        /*height: 210px;*/
-        top: -25px;
-        @media (max-width: 749px) {
-          top: 60px;
-          width: 60%;
-        }
-        background-image: url(../img/roadmap/iphone.png);
-        @mixin breakpoint retina {
-          background-image: url("../img/roadmap/iphone@2x.png");
-        }
-      }
-      .watch {
-        width: 10%;
-        z-index: 4;
-        /*height: 133px;*/
-        top: -50px;
-        @media (max-width: 749px) {
-          width: 50%;
-          right: 10%;
-          z-index: 4;
-          top: 60px;
-        }
-        background-image: url(../img/roadmap/watch.png);
-        @mixin breakpoint retina {
-          background-image: url("../img/roadmap/watch@2x.png");
-        }
-      }
-      .ipad {
-        width: 30%;
-        z-index: 2;
-        @media (max-width: 749px) {
-          width: 100%;
-          right: -30px;
-          background-position: right -70px top 100%;
-        }
-        /*height: 214px;*/
-        background-image: url(../img/roadmap/ipad.png);
-        @mixin breakpoint retina {
-          background-image: url("../img/roadmap/ipad@2x.png");
-        }
+        font-weight: 700;
       }
     }
   }
+
   .blue-roadmap {
     background-color: $blue;
     padding: 200px 0 150px;
-    @media (max-width: 749px) {
+    @media (max-width: 1600px) {
       background: url(../img/back-icons/icon012.svg) bottom 30px left 50% no-repeat, $blue;
 
       background-size: contain;
@@ -126,123 +51,6 @@
       margin-top: 30px;
       margin-bottom: 0;
       text-align: center;
-    }
-  }
-  .timeline-wrap {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background: url(../img/back-icons/icon011.svg) no-repeat left 250px top 20px;
-    background-size: 100px auto;
-
-    @media (max-width: 749px) {
-      background-image: none;
-      width: 250px;
-      margin: 0 auto;
-      height: 800px;
-      padding: 50px 0 0;
-      position: relative;
-      &:after {
-        content: '';
-        position: absolute;
-        right: -55px;
-        top: 40%;
-        width: 75px;
-        height: 75px;
-        background: url(../img/back-icons/icon011.svg) no-repeat center;
-        background-size: contain;
-        transform: rotate(90deg);
-      }
-      .timeline {
-        height: 100%;
-        width: 10px;
-        float: right;
-        margin-right: 30px;
-        .current {
-          width: 100% !important;
-          border-top-left-radius: 10px;
-          border-top-right-radius: 10px;
-          border-bottom-left-radius: 0px;
-          border-bottom-right-radius: 0px;
-          &:after {
-            transform: rotate(90deg);
-            right: -65px;
-            bottom: -35px;
-            width: 95px;
-            height: 70px;
-          }
-          &:before {
-            bottom: 0px;
-            width: 35px;
-            height: 1px;
-            right: inherit;
-          }
-        }
-
-        &:after {
-          right: -55px;
-          top: 15px;
-        }
-        &:before {
-          left: inherit;
-          right: -55px;
-          bottom: 35px;
-          top: inherit;
-        }
-      }
-    }
-  }
-  .timeline {
-    width: 100%;
-    height: 10px;
-    background-color: #3434bb;
-    border-radius: 10px;
-    position: relative;
-    &:before, &:after {
-      position: absolute;
-      top: -85px;
-      font-size:1.6rem;
-    }
-    &:before {
-      content: '2017';
-      left: 10px;
-      color: white;
-    }
-    &:after {
-      content: '2018';
-      right: 10px;
-      color: rgba(255, 255, 255, 0.15);
-    }
-    .current {
-      position: absolute;
-      left: 0;
-      top: 0;
-      @media (min-width: 750px) {
-        height: 100% !important;
-      }
-      background-color: $red;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      &:after {
-        content: "We are here";
-        position: absolute;
-        right: -45px;
-        color: $red;
-        bottom: -7px;
-        margin: auto;
-        width: 93px;
-        height: 102px;
-        background: url(../img/roadmap/arrow.svg) no-repeat bottom right 25px;
-        background-size: 24px;
-      }
-      &:before {
-        content: '';
-        position: absolute;
-        right: 3px;
-        bottom: 0;
-        height: 75px;
-        background-color: $red;
-        width: 1px;
-      }
     }
   }
 
@@ -258,7 +66,7 @@
       position: relative;
       text-align: center;
       .title {
-        font-weight: $font-extrabold;
+        font-weight: 700;
         margin-bottom: 5px;
         .time {
           font-weight:$font-light;
@@ -298,7 +106,7 @@
       }
     }
 
-    @media (max-width: 749px) {
+    @media (max-width: 1600px) {
       float: left;
       width: 50%;
       margin-top: 0;
@@ -346,6 +154,90 @@
           }
         }
       }
+    }
+  }
+}
+
+.devices {
+  @mixin clf;
+  position: relative;
+  top: 165px;
+  margin-top: -130px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  div {
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 257px;
+    position: relative;
+  }
+  @media (max-width: 749px) {
+    height: 300px;
+    div {
+      position: absolute;
+      height: 100%;
+    }
+
+  }
+  .macbook {
+    width: 44%;
+    z-index: 1;
+    @media (max-width: 749px) {
+      left: 0;
+      margin-top: -35px;
+      background-position: left -95px top 0;
+      width: 100%;
+    }
+    background-image: url(../img/roadmap/macbook.png);
+    @mixin breakpoint retina {
+      background-image: url("../img/roadmap/macbook@2x.png");
+    }
+  }
+  .iphone {
+    width: 13%;
+    z-index: 3;
+    top: 0;
+    background-image: url(../img/roadmap/iphone.png);
+    @mixin breakpoint retina {
+      background-image: url("../img/roadmap/iphone@2x.png");
+    }
+    @media (max-width: 749px) {
+      top: 60px;
+      width: 60%;
+    }
+  }
+  .watch {
+    width: 10%;
+    z-index: 4;
+    /*height: 133px;*/
+    top: -50px;
+    @media (max-width: 749px) {
+      width: 50%;
+      right: 10%;
+      z-index: 4;
+      top: 60px;
+    }
+    background-image: url(../img/roadmap/watch.png);
+    @mixin breakpoint retina {
+      background-image: url("../img/roadmap/watch@2x.png");
+    }
+  }
+  .ipad {
+    width: 30%;
+    z-index: 2;
+    @media (max-width: 749px) {
+      width: 100%;
+      right: 0;
+      background-position: right -70px top 100%;
+    }
+    /*height: 214px;*/
+    background-image: url(../img/roadmap/ipad.png);
+    @mixin breakpoint retina {
+      background-image: url("../img/roadmap/ipad@2x.png");
     }
   }
 }

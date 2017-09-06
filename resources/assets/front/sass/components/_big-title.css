@@ -1,8 +1,7 @@
 .big-title {
-  text-align: center;
-  width: 90%;
-  margin: 170px auto 70px;
   position: relative;
+  margin: 90px auto 80px;
+  text-align: center;
 
   h1 {
     position: relative;
@@ -10,19 +9,17 @@
     display: inline-block;
     background-color: white;
     color: $gray-light;
-    font-weight: $font-extrabold;
-    font-size:5.6rem;
-    padding: 0 30px;
-    margin-bottom: 0;
+    font-size: 3.6rem;
+    padding: 0 15px;
+    margin: 0;
   }
 
   &:before {
     content: '';
-    width: 100%;
     position: absolute;
     z-index:1;
-    left: 0;
-    right: 0;
+    left: 20px;
+    right: 20px;
     top: 0;
     bottom: 0;
     margin: auto;
@@ -31,12 +28,12 @@
     background-color: $gray-light;
   }
 
-  @media (max-width: 749px) {
-    margin: 100px auto 70px;
+  @mixin bp tablet {
+    margin: 180px auto 167px;
 
     h1 {
-      font-size: 5.2rem;
-      padding: 0 15px;
+      font-size: 5.6rem;
+      padding: 0 30px;
     }
   }
 }

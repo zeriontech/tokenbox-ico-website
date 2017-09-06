@@ -1,11 +1,6 @@
 .features {
   position: relative;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  right:0;
-  margin: auto;
-  margin-bottom: -200px !important;
+  z-index: 1;
 
   .slide {
     text-align: center;
@@ -13,8 +8,6 @@
 
     .img {
       display: block;
-      width: 85%;
-      margin: 0 auto 30px;
       padding-bottom: 50%;
       background-size: contain;
       background-position: center bottom;
@@ -23,52 +16,51 @@
   }
 
   .caption {
-    font-weight: $font-extrabold;
-    color: black;
+    font-weight: 700;
+    color: #464f56;
     font-size: 1.6rem;
-    margin: 30px auto 30px;
     max-width: 420px;
+    margin: 15px auto;
   }
 
   @media (min-width: 750px) {
-    &:before,
-    &:after {
-      position: absolute;
-      content: '';
-      width: 100px;
-      height: 100px;
-      background-repeat: no-repeat%;
-      background-size: contain;
-      opacity: .1;
-    }
-
-    &:before {
-      bottom: -63px;
-      left: 25px;
-      width: 110px;
-      height: 110px;
-      background-image: url(../img/back-icons/icon001.svg);
-    }
-
-    &:after {
-      bottom: -92px;
-      right: 25px;
-      width: 65px;
-      height: 65px;
-      background-image: url(../img/back-icons/icon002.svg);
-      transform: rotate(90deg);
+    .caption {
+      margin: 25px auto 30px;
+      margin-top: 1.5rem;
     }
   }
 }
 
-@media (max-width: 749px) {
-  #features {
-    width: auto;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
+.features-icon-l,
+.features-icon-r {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.features-icon-l {
+  bottom: -63px;
+  left: 25px;
+  width: 110px;
+  height: 110px;
+  background-image: url(../img/back-icons/icon001.svg);
+}
+
+.features-icon-r {
+  bottom: -92px;
+  right: 25px;
+  width: 65px;
+  height: 65px;
+  background-image: url(../img/back-icons/icon002.svg);
 }
 
 @media (max-width: 999px) {
+  .features-icon-l,
+  .features-icon-r {
+    width: 50px;
+    height: 50px;
+  }
+
   .features .slide .img { width: 100%; padding-bottom: 70%; }
 }

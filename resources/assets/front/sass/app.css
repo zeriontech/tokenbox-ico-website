@@ -1,12 +1,22 @@
-/* Shit happens. Be carefull - order is important :( */
+/*
+  Shit happens. Be carefull - order is important :(
+
+  TODO
+  выпилить мусорный css
+  вычистить базовый слой
+  pixel perfect
+  fix scroll bug
+*/
 
 @import "../../../../node_modules/font-awesome/css/font-awesome.css";
 
-@import "vendors/skeleton";
 
 @import "variables";
 @import "mixins";
+@import "base";
+@import "grid";
 @import "fonts";
+@import "background-icon";
 
 @import "vendors/fancy";
 @import "vendors/slick";
@@ -21,7 +31,7 @@
 @import "components/logo";
 @import "components/big-title";
 @import "components/get-notifed";
-@import "components/top";
+@import "components/topblock";
 @import "components/main-title";
 @import "components/header";
 @import "components/features";
@@ -33,24 +43,79 @@
 @import "components/pay-with";
 @import "components/trading-app";
 @import "components/roadmap";
+@import "components/timeline";
 @import "components/technology";
 @import "components/team";
 @import "components/media";
 @import "components/footer";
 
-.multi-crypto,
-.invest-in-pro,
-.pay-with,
-.become-legal,
-.issue {
-  .row {
-    .column,
-    .columns {
-      p {
-        color: $gray;
-        margin-bottom: 20px;
-      }
+.pay-with {
+  margin-top: 110px;
+
+  @mixin bp tablet {
+    margin-top: 125px;
+  }
+}
+
+.section-image-example {
+  @mixin bp tablet {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 749px) {
+    .section-img {
+      margin: 40px auto 45px;
     }
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.section-image-example,
+.pay-with {
+  .text p {
+    color: $gray;
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 26px;
+    }
+  }
+}
+
+section {
+  position: relative;
+}
+
+section h1 {
+  margin-bottom: 20px;
+  text-align: center;
+
+  ~ p {
+    color: $gray-light;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-bottom: 70px;
+    text-align: center;
+
+    @media (max-width: 749px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  @mixin bp tablet {
+    margin-bottom: 15px;
+  }
+}
+
+.section {
+  padding: 120px 0;
+
+  @mixin bp tablet {
+    padding: 140px 0;
   }
 }
 

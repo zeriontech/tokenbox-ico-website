@@ -4,7 +4,7 @@
   width: 100%;
   font-size: 2.6rem;
   font-family:'Gilroy';
-  font-weight:$font-extrabold;
+  font-weight: 700;
   padding: 10px 0;
   margin: 0 auto;
   height: 80px;
@@ -19,7 +19,7 @@
     animation: hover 1200ms linear 2 alternate;
   }
 
-  @media (max-width: 499px) {
+  @media (max-width: 749px) {
     font-size: 2.1rem;
   }
 

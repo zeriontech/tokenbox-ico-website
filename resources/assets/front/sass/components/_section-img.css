@@ -9,8 +9,4 @@
 
 .section-img-wrap {
   margin: 0 auto;
-
-  @media (max-width: 749px) {
-    margin: 40px auto 70px;
-  }
 }

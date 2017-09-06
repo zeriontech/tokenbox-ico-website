@@ -1,22 +1,28 @@
 .pay-with {
   position: relative;
-  margin-bottom: 500px;
+  overflow: hidden;
+
+  @mixin bp tablet {
+    padding-bottom: 380px;
+    margin-bottom: -30px;
+  }
+
+  .wrapper {
+    padding-bottom: 75px;
+  }
+
   .wrapper > h1 ~ p {
     margin-bottom: 150px;
+
     @media (max-width: 749px) {
-      margin-bottom: 70px;
+      margin-bottom: 50px;
     }
   }
-  .wrapper {
-    @media (max-width: 749px) {
-      overflow: hidden;
-      padding-bottom: 75px;
-      margin-bottom: -80px;
-    }
-  }
+
   @media (max-width: 909px) {
     margin-bottom: 0;
   }
+
   .text {
     min-width: 250px;
 
@@ -26,27 +32,31 @@
     }
 
     @media (max-width: 909px) {
-      padding-right: 30%;
+      padding-right: 25%;
       margin-left: 0;
     }
   }
-  .columns {
 
+  .columns {
     @media (max-width: 909px) {
       width: 100%;
       margin: 0;
     }
   }
+
   .section-img-wrap {
     position: absolute;
     background-color: white;
+
     &.pay-1 {
       width: 375px;
-      left: -90px; top: 180px;
+      top: 180px;
+      left: -90px;
+      z-index: 1;
+
       @media (min-width: 1350px) {
         left: -3%;
       }
-
       @media (max-width: 909px) {
         position: relative;
         top: -30px;
@@ -56,7 +66,7 @@
       @media (max-width: 749px) {
         left: -125px;
       }
-      z-index: 1;
+
       .section-img {
         padding-bottom: 73%;
         background-image: url("../img/investors-traders-funds/paywith/1.jpg");
@@ -64,6 +74,7 @@
           background-image: url("../img/investors-traders-funds/paywith/1@2x.jpg");
         }
       }
+
       &:after {
         content: '';
         position: absolute;
@@ -202,22 +213,25 @@
       }
     }
   }
+}
 
-  .wrapper:after {
-    content: '';
-    position: absolute;
+.pay-with-icon {
+  z-index: -1;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background: url("../img/back-icons/icon009.svg") no-repeat center;
+  background-size: contain;
+
+  @mixin lp tablet {
+    bottom: -15px;
+    right: 0;
+    left: 0;
+  }
+
+  @mixin bp tablet {
     right: 100px;
     top: 100px;
-    width: 100px;
-    height: 100px;
-    opacity: .1;
-    background: url("../img/back-icons/icon009.svg") no-repeat center;
-    background-size: contain;
-    @media (max-width: 749px) {
-      left: 0; right: 0; margin: auto;
-      top: inherit;
-      bottom: -15px;
-      z-index: -1;
-    }
   }
 }
+

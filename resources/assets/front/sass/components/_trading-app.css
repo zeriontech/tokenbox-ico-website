@@ -1,26 +1,24 @@
 .trading-app {
   background: url("../img/trading-app/back.jpg") no-repeat center;
   background-size: cover;
+  padding-top: 125px;
+  padding-bottom: 85px;
+  margin-bottom: 150px;
+
   @mixin breakpoint retina {
     background-image: url("../img/trading-app/back@2x.jpg");
   }
-  padding-top: 150px;
-  padding-bottom: 150px;
-  margin-bottom: 200px;
 
-  @media (max-width: 1049px) {
-    padding-top: 125px;
-    padding-bottom: 110px;
-  }
-
-  @media (max-width: 749px) {
-    margin-bottom: 25px;
+  @mixin bp tablet {
+    padding-bottom: 150px;
+    margin-bottom: 206px;
   }
 
   .wrapper {
-    >h1 {
+    > h1 {
       color: white;
     }
+
     > p {
       color: white;
       @media (max-width: 749px) {
@@ -28,19 +26,29 @@
       }
     }
   }
+
   h2 {
+    margin: 0;
     color: white;
-    font-size:3.6rem;
-    font-weight:$font-light;
-  }
-  .four.columns {
-    @media (max-width: 949px) {
-      width: 100%;
-      max-width: 400px;
-      float: none;
-      margin: 100px auto;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 4.1rem;
+
+    @mixin bp tablet {
+      margin-top: -15px;
+      font-size: 3.6rem;
+      line-height: 4.6rem;
     }
   }
+
+  .four.columns {
+    @media (max-width: 949px) {
+      width: auto;
+      max-width: 400px;
+      margin: 33px auto 45px 10%;
+    }
+  }
+
   .mac {
     width: 579px;
     width: 55%;
@@ -62,6 +70,7 @@
       min-width: 170px;
     }
   }
+
   .ipad {
     width: 389px;
     width: 35%;
@@ -82,11 +91,12 @@
       min-width: 135px;
     }
   }
+
   .mac-ipad {
     position: relative;
     .mac {
       position: absolute;
-      top: -140px;
+      top: -147px;
       @media (max-width: 1049px) {
         top: -110px;
       }
