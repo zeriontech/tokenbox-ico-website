@@ -26,10 +26,12 @@
     h3 {
       text-align: center;
       color: $gray;
-      font-size:1.6rem;
-      font-weight:$font-light;
+      font-size: 1.6rem;
+      line-height: 1.6;
+      font-weight: 400;
       max-width: 310px;
       margin: 0 auto 50px;
+
       strong {
         color: black;
         font-weight: 700;

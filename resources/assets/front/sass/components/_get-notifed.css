@@ -21,6 +21,7 @@
       font-size: 2.6rem;
       box-sizing: border-box;
       font-weight:$font-light;
+      -webkit-appearance: none;
 
       @media (max-width: 749px) {
         font-size: 2.1rem;
@@ -45,16 +46,12 @@
         color: $gray-light;
       }
     }
-
-    input[type="text"] {
-      -webkit-appearance: none;
-    }
   }
 }
 
 .get-notified-bottom {
   border-top: 2px solid #f6f6f8;
-  padding: 150px 0;
+  padding: 125px 0;
 
   form {
     max-width: 1000px;
@@ -66,6 +63,10 @@
     @media (max-width: 749px) {
       margin-bottom: 70px;
     }
+  }
+
+  @mixin bp tablet {
+    padding: 150px 0;
   }
 }
 

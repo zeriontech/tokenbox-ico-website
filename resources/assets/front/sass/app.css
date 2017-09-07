@@ -65,7 +65,7 @@
 
   @media (max-width: 749px) {
     .section-img {
-      margin: 40px auto 45px;
+      margin: 0 auto 45px;
     }
 
     p {
@@ -100,10 +100,6 @@ section h1 {
     line-height: 2.6rem;
     margin-bottom: 70px;
     text-align: center;
-
-    @media (max-width: 749px) {
-      margin-bottom: 15px;
-    }
   }
 
   @mixin bp tablet {
