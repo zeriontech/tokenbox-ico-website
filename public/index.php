@@ -40,11 +40,11 @@
 <body>
 
   <section class="topblock">
-    <a class="hamburger-icon" id="hamburger-icon" href="#" title="">
+    <div class="hamburger-icon" id="hamburger-icon">
       <span class="line line-1"></span>
       <span class="line line-2"></span>
       <span class="line line-3"></span>
-    </a>
+    </div>
     <div class="mobile-nav">
       <div class="logo"></div>
       <ul>
@@ -52,7 +52,9 @@
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#tech">Technology</a></li>
         <li><a href="#team">Team & Advisors</a></li>
-        <li class="active"><a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">White Paper</a></li>
+        <li class="active">
+          <a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">White Paper</a>
+        </li>
         <!--<li><a href="#media">Media</a></li>-->
         <!--<li class="dropdown">-->
         <!--    <div class="title">English</div>-->
@@ -78,7 +80,7 @@
           <div class="lang two-sd three columns">
             <ul>
               <li class="active">
-                <a href="/docs/TBX_WhitePaper_ENG.pdf" target="_blank">
+                <a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">
                   White Paper
                 </a>
               </li>
@@ -416,7 +418,7 @@
       <article class="members">
         <h1>Meet the Tokenbox team</h1>
         <p>From the creators of The Token Fund. Professional team with extensive experience in crypto industry.</p>
-        <div class="row">
+        <div class="members-list">
           <div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/shpakovsky.jpg')">
               <div class="overlay">
@@ -426,8 +428,7 @@
             <div class="name">Viktor Shpakovsky</div>
             <div class="info">Managing Partner,
               <br />The Token Fund</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/smerkis.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/smerkis" target="_blank" class="fa fa-linkedin-square"></a>
@@ -436,8 +437,7 @@
             <div class="name">Vladimir Smerkis</div>
             <div class="info">Managing Partner,
               <br />The Token Fund</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')">
               <div class="overlay">
                 <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
@@ -446,8 +446,7 @@
             <div class="name">Alexey Bashlykov</div>
             <div class="info">Technical Project Manager,
               <br />Zerion</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/doganov.jpg')">
               <div class="overlay">
                 <a href="https://www.facebook.com/igor.doganov" target="_blank" class="fa fa-facebook-square"></a>
@@ -456,8 +455,7 @@
             <div class="name">Igor Doganov</div>
             <div class="info">Chief Analytics Officer,
               <br />The Token Fund</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin-square"></a>
@@ -466,8 +464,7 @@
             <div class="name">Dmitry Shmakov</div>
             <div class="info">Marketing Director,
               <br />The Token Fund</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin-square"></a>
@@ -476,9 +473,7 @@
             <div class="name">Eugene Yuryev</div>
             <div class="info">Art Director,
               <br />The Token Fund</div>
-          </div>
-
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
               <div class="overlay">
                 <a href="www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
@@ -494,8 +489,7 @@
       <article class="advisors">
         <h1>Our advisors</h1>
         <!-- <p>Their goal is to make a difference to the way make investments.</p> -->
-        <div class="row">
-
+        <div class="members-list">
           <div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
               <div class="overlay">
@@ -505,8 +499,7 @@
             <div class="name">Chris Skinner</div>
             <div class="info">Advisor (Fintech),
               <br />Innovate Finance, Moven and Meniga</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
@@ -515,8 +508,7 @@
             <div class="name">Julian L. Zegelman</div>
             <div class="info">Advisor (Legal),
               <br />Velton Zegelman PC</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin-square"></a>
@@ -525,8 +517,7 @@
             <div class="name">Cao Yin</div>
             <div class="info">Advisor (Blockchain technologies),
               <br />Energy Blockchain Labs</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin-square"></a>
@@ -535,8 +526,7 @@
             <div class="name">Ilya Sachkov</div>
             <div class="info">Advisor (Cybersecurity),
               <br />Group-IB</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/prabhu.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
@@ -545,8 +535,7 @@
             <div class="name">Peter Prabhu</div>
             <div class="info">Advisor (Business Development),
               <br />Interstice Consulting LLP</div>
-          </div>
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
@@ -554,9 +543,7 @@
             </div>
             <div class="name">Elena Masolova</div>
             <div class="info">Advisor, Groupon Russia, AddVenture Fund</div>
-          </div>
-
-          <div class="member">
+          </div><div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/koleoshkin.jpg')">
               <div class="overlay">
                 <a href="https://www.linkedin.com/in/vadim-koleoshkin" target="_blank" class="fa fa-linkedin-square"></a>

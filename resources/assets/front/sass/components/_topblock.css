@@ -1,5 +1,5 @@
 .topblock {
-  z-index: 1;
+  z-index: 10;
   background: $blue url("../img/grid-blue.svg") top center no-repeat;
   background-size: cover;
   color: white;
@@ -24,7 +24,11 @@
   }
 
   & + section {
-    margin-top: 400px;
+    margin-top: 340px;
+
+    @mixin bp tablet {
+      margin-top: 400px;
+    }
   }
 }
 

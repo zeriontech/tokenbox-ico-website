@@ -58,9 +58,17 @@
 @media (max-width: 999px) {
   .features-icon-l,
   .features-icon-r {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
-  .features .slide .img { width: 100%; padding-bottom: 70%; }
+  .features-icon-r {
+    bottom: -70px;
+  }
+
+  .features .slide .img {
+    width: 100%;
+    padding-bottom: 70%;
+    background-position: top center;
+  }
 }

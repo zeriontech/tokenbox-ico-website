@@ -56,6 +56,7 @@
 
     .fa {
       transition: .3 opacity;
+      -webkit-transform: translateZ(0);
 
       &:hover {
         opacity: .7;

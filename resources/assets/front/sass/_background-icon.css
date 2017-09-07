@@ -18,8 +18,8 @@
     left: 0;
     right: 0;
     margin: auto;
-    width: 47px;
-    height: 47px;
+    width: 57px;
+    height: 57px;
   }
 }
 
@@ -29,8 +29,8 @@
     right: 0;
     left: 0;
     margin: auto;
-    width: 47px;
-    height: 47px;
+    width: 57px;
+    height: 57px;
     background: url("../img/back-icons/icon006.svg") no-repeat center;
     background-size: contain;
   }

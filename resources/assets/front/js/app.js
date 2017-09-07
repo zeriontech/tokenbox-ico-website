@@ -6,6 +6,13 @@ $(document).ready(function() {
   var hamburger = $('.hamburger-icon');
   hamburger.click(function() {
     hamburger.toggleClass('active');
+
+    if (hamburger.hasClass('active')) {
+      $('body').css('overflow', 'hidden');
+    } else {
+      $('body').css('overflow', '');
+    }
+
     hamburger.next().toggleClass('opened');
     return false;
   });
