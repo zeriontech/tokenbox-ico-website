@@ -81,6 +81,7 @@
     @mixin breakpoint retina {
       background-image: url("../img/trading-app/ipad@2x.png");
     }
+
     &.tablet-only {
       right: 0;
       position: absolute;
@@ -89,6 +90,15 @@
       padding-bottom: 55%;
       max-width: 350px;
       min-width: 135px;
+
+      @media (max-width: 959px) {
+        max-width: 450px;
+      }
+
+      @media (max-width: 539px) {
+        max-width: 350px;
+        padding-bottom: 70%;
+      }
     }
   }
 

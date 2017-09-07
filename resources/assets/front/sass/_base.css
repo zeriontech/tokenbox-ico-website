@@ -11,6 +11,14 @@ html {
   font-size: 62.5%;
 }
 
+/* iOS 9 overflow hidden fix */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+/* end */
+
 body {
   margin: 0;
   /* currently ems cause chrome bug misinterpreting rems on body element */

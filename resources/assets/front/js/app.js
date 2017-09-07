@@ -8,9 +8,9 @@ $(document).ready(function() {
     hamburger.toggleClass('active');
 
     if (hamburger.hasClass('active')) {
-      $('body').css('overflow', 'hidden');
+      $('html, body').css('overflow', 'hidden');
     } else {
-      $('body').css('overflow', '');
+      $('html, body').css('overflow', '');
     }
 
     hamburger.next().toggleClass('opened');
