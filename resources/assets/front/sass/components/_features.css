@@ -2,6 +2,21 @@
   position: relative;
   z-index: 1;
 
+  @mixin lp tablet {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+
+    .caption {
+      padding: 0 20px;
+    }
+
+    .slide:first-child .img {
+      background-size: cover;
+      background-position: 36% top;
+    }
+  }
+
   .slide {
     text-align: center;
     outline: none;
