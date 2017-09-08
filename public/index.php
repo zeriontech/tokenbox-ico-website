@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>TokenBox</title>
+  <title>Tokenbox — Unique ecosystem for crypto investors, traders & funds</title>
   <meta name="description" content="">
   <meta itemprop="description" content=""/>
   <link rel="stylesheet" href="assets/front/css/app.css" />
@@ -193,17 +193,20 @@
       <div class="row">
         <div class="offset-by-four four columns">
           <div class="section-img-wrap pay-1">
-            <div class="section-img"></div>
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-1-add pay-with-screen"></div>
           </div>
           <div class="section-img-wrap pay-2">
-            <div class="section-img"></div>
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-2-add pay-with-screen"></div>
           </div>
           <div class="text">
             <p>The payment gateway integrated with our platform allows you to accept payments in traditional "fiat" currencies (USD, EUR).</p>
             <p>Investors can convert fiat currencies into crypto-currencies and tokens, and conduct reverse operations on the Tokenbox platform.</p>
           </div>
           <div class="section-img-wrap pay-3">
-            <div class="section-img"></div>
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-3-add pay-with-screen"></div>
           </div>
         </div>
       </div>
@@ -698,6 +701,9 @@
       sr.reveal('.technology');
       sr.reveal('.team .member', 100);
       sr.reveal('.advisors .member', 100);
+      sr.reveal('.pay-with-screen', {
+        distance: '50px'
+      }, 150)
       sr.reveal('.multi-crypto');
       sr.reveal('.media');
       sr.reveal('.footer');

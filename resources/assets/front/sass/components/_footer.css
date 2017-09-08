@@ -6,6 +6,18 @@
   background-position: left 50px bottom 90px, right 50px bottom -80px;
   background-image: url(../img/back-icons/icon012.svg), url(../img/back-icons/icon013.svg);
 
+  /* fix safari bug - white line on bottom */
+  &:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    background: $blue;
+  }
+  /* end */
+
   .title {
     text-align: center;
     font-size: 3.6rem;

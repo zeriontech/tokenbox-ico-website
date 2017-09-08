@@ -2,8 +2,8 @@
   margin-bottom: 125px;
   padding-bottom: 100px;
   padding-top: 125px;
-  background-size: contain;
-  background: url("../img/grid-white.svg") top center, #f6f6f8;
+  background: url("../img/grid-white.svg") top center no-repeat, #f6f6f8;
+  background-size: cover;
 
   @mixin bp tablet {
     margin-bottom: 140px;
