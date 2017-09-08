@@ -7,12 +7,17 @@
   }
 
   @mixin bp tablet {
-    padding-bottom: 380px;
     margin-bottom: -30px;
+    padding-bottom: 380px;
 
     .wrapper > h1 ~ p {
       margin-bottom: 150px;
     }
+  }
+
+  @media (min-width: 760px) and (max-width: 909px) {
+    padding-bottom: 0;
+    margin-bottom: -75px;
   }
 
   .text {
@@ -70,8 +75,7 @@
         }
       }
 
-      &:after {
-        content: '';
+      .pay-1-add {
         position: absolute;
         width: 338px;
         padding-bottom: 65%;
@@ -84,11 +88,11 @@
         }
 
         @mixin bp tablet {
-          content: none;
+          display: none;
         }
 
         @mixin bp desktop {
-          content: '';
+          display: block;
         }
       }
     }
@@ -125,8 +129,7 @@
         }
       }
 
-      &:after {
-        content: '';
+      .pay-2-add {
         position: absolute;
         right: -35px;
         bottom: -50px;
@@ -162,14 +165,21 @@
       @media (max-width: 749px) {
         margin-bottom: 0px;
       }
+
       .section-img {
         padding-bottom: 73%;
         background-image: url("../img/investors-traders-funds/paywith/3.jpg");
         @mixin breakpoint retina {
           background-image: url("../img/investors-traders-funds/paywith/3@2x.jpg");
         }
+
+        @media (min-width: 540px) and (max-width: 909px) {
+          position: relative;
+          right: -7%;
+        }
       }
-      &:after {
+
+      .pay-3-add {
         content: '';
         position: absolute;
         width: 254px;
@@ -184,23 +194,24 @@
           background-image: url("../img/investors-traders-funds/paywith/curvy-line-2@2x.png");
         }
 
-        @media (max-width: 909px) {
-          content: none;
+        @media (max-width: 960px) {
+          display: none;
         }
 
         @media (max-width: 749px) {
           left: inherit;
-          right: -105px;
+          right: -66%;
           top: -475px;
           background-position: right -5px top;
           padding-bottom: 150%;
           background-image: url("../img/investors-traders-funds/paywith/curvy-line-3.png");
           @mixin breakpoint retina {
-          background-image: url("../img/investors-traders-funds/paywith/curvy-line-3.png");
+            background-image: url("../img/investors-traders-funds/paywith/curvy-line-3.png");
+          }
         }
-        }
+
         @media (max-width: 549px) {
-          content: '';
+          display: block;
           right: -105px;
         }
         @media (max-width: 499px) {
