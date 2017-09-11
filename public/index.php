@@ -53,7 +53,7 @@
         <li><a href="#tech">Technology</a></li>
         <li><a href="#team">Team & Advisors</a></li>
         <li class="active">
-          <a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">White Paper</a>
+          <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank">White Paper</a>
         </li>
         <!--<li><a href="#media">Media</a></li>-->
         <!--<li class="dropdown">-->
@@ -80,7 +80,7 @@
           <div class="lang two-sd three columns">
             <ul>
               <li class="active">
-                <a href="/docs/TBX_WhitePaper_Eng.pdf" target="_blank">
+                <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank">
                   White Paper
                 </a>
               </li>
@@ -274,7 +274,7 @@
         </div>
         <div class="offset-by-one five columns">
           <div class="text">
-            <p>Investors can make mutual settlements utilizing their own token according to the relevant Smart Contract.  This token is an analogue of a Fund Unit, and its value depends on the profitability and dynamics of any fluctuation in portfolio capitalization. Investors can purchase the tokens, store them and nurture them to maturity. </p>
+            <p>Investors can make mutual settlements utilizing their own token according to the relevant Smart Contract.  This token is an analogue of a Fund Unit, and its value depends on the profitability and dynamics of any fluctuation in portfolio capitalization. Investors can purchase the tokens, store them and nurture them to maturity.</p>
             <p>Tokens can also be accessed on organized markets - exchanges.</p>
           </div>
         </div>
@@ -348,11 +348,11 @@
               <div class="title">Advisory board & marketing plan  <div class="time">August</div>
             </div>
             </div>
-            <div class="milestone active">
+            <!-- <div class="milestone active">
               <div class="title"> Escrow, Pre-ICO marketing, Private pre-sale 
                 <div class="time">September</div>
               </div>
-            </div>
+            </div> -->
             <div class="milestone">
               <div class="title"> 
                 TGE (crowdsale) and legalisation process

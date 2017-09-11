@@ -1,15 +1,4 @@
-/*
-  Shit happens. Be carefull - order is important :(
-
-  TODO
-  выпилить мусорный css
-  вычистить базовый слой
-  pixel perfect
-  fix scroll bug
-*/
-
 @import "../../../../node_modules/font-awesome/css/font-awesome.css";
-
 
 @import "variables";
 @import "mixins";
@@ -26,7 +15,6 @@
 @import "components/hamburger";
 @import "components/socials";
 @import "components/buttons";
-@import "components/common";
 @import "components/nav";
 @import "components/logo";
 @import "components/big-title";
