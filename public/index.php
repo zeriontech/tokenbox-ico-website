@@ -315,8 +315,8 @@
       <div class="wrapper">
         <h1>Our roadmap</h1>
         <div class="timeline-wrap">
-          <div class="timeline">
-            <div class="current" style="width: 70%; height: 70%;"></div>
+          <div class="timeline-bar">
+            <div class="current"></div>
           </div>
 
           <div class="desc">
@@ -326,21 +326,18 @@
                 <div class="time">March</div>
               </div>
             </div>
-
             <div class="milestone active">
               <div class="title">
                 More than 48,000 tokens sold to hundreds of investors
                 <div class="time">May</div>
               </div>
             </div>
-
             <div class="milestone active">
               <div class="title">
                 The Fund's capitalisation reached $2 million, and the yield exceeded 300%
                 <div class="time">June</div>
               </div>
             </div>
-
             <div class="milestone active">
               <div class="title">Tokenbox branding and naming, tech and operational team <div class="time">June</div></div>
             </div>
@@ -351,25 +348,22 @@
               <div class="title">Advisory board & marketing plan  <div class="time">August</div>
             </div>
             </div>
-
             <div class="milestone active">
               <div class="title"> Escrow, Pre-ICO marketing, Private pre-sale 
                 <div class="time">September</div>
               </div>
             </div>
-            <div class="milestone active">
+            <div class="milestone">
               <div class="title"> 
-                  TGE (crowdsale) and legalisation process
-                  <div class="time">October</div>
+                TGE (crowdsale) and legalisation process
+                <div class="time">October</div>
               </div>
             </div>
-            <div class="milestone active">
+            <div class="milestone">
               <div class="title"> Listing on exchanges<div class="time">Q4 2017</div></div>
-
             </div>
             <div class="milestone">
               <div class="title">Completion of legalisation <div class="time">Q2 2018</div></div>
-
             </div>
             <div class="milestone">
               <div class="title"> Tokenbox platform, Alpha-version, due diligence & investments for the selected partners (funds & traders) <div class="time">Q3 2018</div></div>
