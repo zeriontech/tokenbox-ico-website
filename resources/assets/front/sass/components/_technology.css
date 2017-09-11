@@ -12,10 +12,6 @@
 
   }
 
-  @media (max-width: 749px) {
-    background-size: 1280px auto;
-  }
-
   .wrapper > h1 {
     margin-bottom: 55px;
   }
