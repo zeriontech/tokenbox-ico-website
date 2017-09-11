@@ -15,10 +15,6 @@
     background-size: contain;
     transform: rotate(90deg);
   }
-
-  .desc {
-    margin-top: 70px;
-  }
 }
 
 .timeline-bar {
@@ -176,6 +172,10 @@
       transform: rotate(0);
       top: -20px;
       right: 80%;
+    }
+
+    .desc {
+      margin-top: 70px;
     }
   }
 

@@ -7,8 +7,8 @@
     z-index: 1;
     padding-top: 140px;
     padding-bottom: 50px;
-    background: url("../img/grid-silver.svg") no-repeat top center;
-    background-size: cover;
+    background: url("../img/grid-silver.svg") no-repeat;
+    background-size: 100%;
 
     @media (max-width: 749px) {
       background-size: 1280px auto;
