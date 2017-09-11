@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   padding: 120px 0 70px;
   background-color: $blue;
   background-repeat: no-repeat;
