@@ -348,11 +348,11 @@
               <div class="title">Advisory board & marketing plan  <div class="time">August</div>
             </div>
             </div>
-            <!-- <div class="milestone active">
-              <div class="title"> Escrow, Pre-ICO marketing, Private pre-sale 
+            <div class="milestone active">
+              <div class="title"> Escrow, Pre-ICO marketing
                 <div class="time">September</div>
               </div>
-            </div> -->
+            </div>
             <div class="milestone">
               <div class="title"> 
                 TGE (crowdsale) and legalisation process
