@@ -1,0 +1,86 @@
+.countdown {
+  margin: 25px 0 72px;
+  text-align: center;
+
+  .button {
+    margin: 65px 0 30px;
+    max-width: 360px;
+    line-height: 60px;
+  }
+}
+
+#countdown {
+  margin: 0 -20px;
+}
+
+.countdown-item {
+  position: relative;
+  display: inline-block;
+  height: 144px;
+  width: 144px;
+  margin: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.countdown-item-text {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 58px;
+  line-height: 144px;
+  color: #fff;
+  transition: .2s opacity, .4s .2s transform;
+}
+
+.countdown-item-label {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.countdown-item circle {
+  stroke-dashoffset: 0;
+  stroke: #3434bb;
+  stroke-width: 10px;
+}
+
+.countdown-item .bar {
+  stroke: #ee3d49;
+  transition: .5s stroke-dashoffset;
+}
+
+@keyframes load {0%{stroke-dashoffset: 500}}
+
+.countdown-item-text.-hidden {
+  transition: transform .5s ease;
+  transform: scale(.95);
+  opacity: 0.9;
+}
+
+@mixin bp tablet {
+  #countdown {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .countdown {
+    h1 {
+      margin-bottom: 75px;
+    }
+
+    .button {
+      margin: 103px 0 39px;
+    }
+  }
+
+  .countdown-item {
+    margin: 2em 40px;
+  }
+
+  .countdown-item-label {
+    font-size: 16px;
+  }
+}
+

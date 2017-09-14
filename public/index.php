@@ -89,6 +89,17 @@
         </div>
       </header>
 
+      <div class="countdown">
+        <h1>
+          Countdown until we go to ICO
+        </h1>
+
+        <div id="countdown"></div>
+
+        <a href="#roadmap" class="button">Learn more about ICO</a>
+      </div>
+
+
       <h1 class="main-title">
         <span class="fade-in-item">Tokenbox</span>
         <span class="fade-in-item">is an ecosystem</span><br />
