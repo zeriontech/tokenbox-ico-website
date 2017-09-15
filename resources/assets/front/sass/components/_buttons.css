@@ -33,6 +33,11 @@
   }
 }
 
+a.button {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .play-video {
   margin-top: 55px;
   width: 130px !important;
