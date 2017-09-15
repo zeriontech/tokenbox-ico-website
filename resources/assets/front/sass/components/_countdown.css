@@ -49,6 +49,7 @@
 .countdown-item .bar {
   stroke: #ee3d49;
   transition: .5s stroke-dashoffset;
+  transform: translateY(144px) rotate(-90deg);
 }
 
 @keyframes load {0%{stroke-dashoffset: 500}}

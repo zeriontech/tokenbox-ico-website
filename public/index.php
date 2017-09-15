@@ -89,7 +89,7 @@
         </div>
       </header>
 
-      <div class="countdown">
+      <div class="countdown" style="display: none">
         <h1>
           Countdown until we go to ICO
         </h1>
@@ -98,7 +98,11 @@
 
         <a href="#roadmap" class="button">Learn more about ICO</a>
       </div>
-
+      <script>
+        if (location.search.indexOf('countdown') > -1) {
+          document.querySelector('.countdown').style.display = 'block';
+        }
+      </script>
 
       <h1 class="main-title">
         <span class="fade-in-item">Tokenbox</span>
@@ -692,6 +696,7 @@
   <script>
     if (!sr.tools.isMobile()) {
       sr.reveal('.topblock .fade-in-item', { viewFactor: 0 }, 100)
+      sr.reveal('.countdown', { viewFactor: 0 }, 100)
       sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
       sr.reveal('.get-notified');
       sr.reveal('.invest-in-pro');
