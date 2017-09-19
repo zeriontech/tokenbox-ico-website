@@ -44,11 +44,8 @@
   overflow: hidden;
   padding: 200px 0 150px;
   background-color: $blue;
-
-  @media (max-width: 1600px) {
-    background: url(../img/back-icons/icon012.svg) bottom 30px left 50% no-repeat, $blue;
-    background-size: contain;
-  }
+  background: $blue url(../img/back-icons/icon012.svg) left 50px bottom 90px no-repeat;
+  background-size: 290px auto;
 
   .wrapper > h1 {
     font-size: 3.6rem;

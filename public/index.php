@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="assets/front/css/app.css" />
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
+  <link rel="apple-touch-icon" href="/favicon-195.png" sizes="144x144">
+
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <script type="text/javascript">
@@ -327,7 +330,7 @@
     <article class="blue-roadmap" id="roadmap">
       <div class="wrapper">
         <h1 class="from-bottom">Our roadmap</h1>
-        <div class="timeline-wrap">
+        <div class="timeline-wrap from-bottom">
           <div class="timeline-bar">
             <div class="current"></div>
           </div>
@@ -709,7 +712,6 @@
       sr.reveal('.big-title');
       sr.reveal('.send-request');
       sr.reveal('.roadmap .top');
-      sr.reveal('.roadmap .blue-roadmap .wrapper');
       sr.reveal('.technology');
       sr.reveal('.team .member', {
         distance: '-50px',
