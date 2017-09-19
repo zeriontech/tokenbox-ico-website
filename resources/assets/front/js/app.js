@@ -77,7 +77,7 @@ $(document).ready(function() {
 
   setTimeout(function() {
     load();
-    setInterval(updateCountdown, 1000);
+    setInterval(updateCountdown, 1500);
   }, 400);
 
   function getMarkup(key, current, text) {
