@@ -316,10 +316,10 @@
         <h3 class="from-bottom">Web-interface as well as native applications for main platforms:
         <strong>PC, Mac, iOS, Android, VR.</strong></h3>
         <div class="devices">
-          <div class="ipad"></div>
-          <div class="macbook"></div>
-          <div class="watch"></div>
-          <div class="iphone"></div>
+          <div class="ipad from-bottom"></div>
+          <div class="macbook from-bottom"></div>
+          <div class="watch from-bottom"></div>
+          <div class="iphone from-bottom"></div>
         </div>
       </div>
     </div>
@@ -709,7 +709,7 @@
       sr.reveal('.big-title');
       sr.reveal('.send-request');
       sr.reveal('.roadmap .top');
-      sr.reveal('.roadmap .blue-roadmap');
+      sr.reveal('.roadmap .blue-roadmap .wrapper');
       sr.reveal('.technology');
       sr.reveal('.team .member', {
         distance: '-50px',
