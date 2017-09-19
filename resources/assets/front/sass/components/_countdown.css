@@ -1,11 +1,18 @@
 .countdown {
-  margin: 25px 0 72px;
+  margin: 25px 0 102px;
   text-align: center;
 
   .button {
-    margin: 65px 0 30px;
+    display: none;
+    margin: 65px 0 0;
     max-width: 360px;
     line-height: 60px;
+
+    i {
+      font-size: 18px;
+      margin-left: 4px;
+      position: relative;
+    }
   }
 }
 
@@ -48,8 +55,11 @@
 
 .countdown-item .bar {
   stroke: #ee3d49;
-  transition: .5s stroke-dashoffset;
   transform: translateY(144px) rotate(-90deg);
+}
+
+.countdown-item .bar.loaded {
+  transition: .5s stroke-dashoffset;
 }
 
 @keyframes load {0%{stroke-dashoffset: 500}}
@@ -67,12 +77,18 @@
   }
 
   .countdown {
+    margin-bottom: 111px;
+
     h1 {
       margin-bottom: 75px;
     }
 
     .button {
-      margin: 103px 0 39px;
+      margin: 103px 0 0;
+
+      i {
+        font-size: 23px;
+      }
     }
   }
 

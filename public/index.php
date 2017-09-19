@@ -7,7 +7,7 @@
   <meta itemprop="description" content=""/>
   <link rel="stylesheet" href="assets/front/css/app.css" />
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <script type="text/javascript">
@@ -89,20 +89,18 @@
         </div>
       </header>
 
-      <div class="countdown" style="display: none">
+      <div class="countdown">
         <h1>
           Countdown until we go to ICO
         </h1>
 
         <div id="countdown"></div>
 
-        <a href="#roadmap" class="button">Learn more about ICO</a>
+        <a href="#roadmap" class="button">
+          Learn more about ICO
+          <i class="fa fa-long-arrow-right"></i>
+        </a>
       </div>
-      <script>
-        if (location.search.indexOf('countdown') > -1) {
-          document.querySelector('.countdown').style.display = 'block';
-        }
-      </script>
 
       <h1 class="main-title">
         <span class="fade-in-item">Tokenbox</span>
@@ -146,14 +144,14 @@
     </div>
   </section>
 
-  <div class="big-title" id="for-investors"><h1>For investors</h1></div>
+  <div class="big-title from-bottom" id="for-investors"><h1>For investors</h1></div>
 
   <section class="multi-crypto">
     <i class="background-icon multi-crypto-icon offset-by-one"></i>
 
     <div class="wrapper">
-      <h1>Multi-cryptocurrency wallet</h1>
-      <p>Keep all your crypto assets conveniently in a single wallet</p>
+      <h1 class="from-bottom">Multi-cryptocurrency wallet</h1>
+      <p class="from-bottom">Keep all your crypto assets conveniently in a single wallet</p>
 
       <div class="row section-image-example">
         <div class="mobile-only">
@@ -181,8 +179,8 @@
       <i class="background-icon invest-in-pro-top-icon"></i>
       <i class="background-icon invest-in-pro-bottom-icon"></i>
 
-      <h1>Invest in pro traders and funds</h1>
-      <p>Reliable, transparent professional funds and traders</p>
+      <h1 class="from-bottom">Invest in pro traders and funds</h1>
+      <p class="from-bottom">Reliable, transparent professional funds and traders</p>
       <div class="row section-image-example">
         <div class="offset-by-one-sd five-sd six columns">
           <div class="section-img-wrap fade-in-left">
@@ -203,8 +201,8 @@
     <div class="wrapper">
       <i class="background-icon pay-with-icon"></i>
 
-      <h1>Pay by Credit/Debit Card and Fiat money</h1>
-      <p>Yes, we accept payments in fiat currencies!</p>
+      <h1 class="from-bottom">Pay by Credit/Debit Card and Fiat money</h1>
+      <p class="from-bottom">Yes, we accept payments in fiat currencies!</p>
       <div class="row">
         <div class="offset-by-four four columns">
           <div class="section-img-wrap pay-1">
@@ -228,13 +226,13 @@
     </div>
   </section>
 
-  <div class="big-title" id="traders-and-funds"><h1>For traders & funds</h1></div>
+  <div class="big-title from-bottom" id="traders-and-funds"><h1>For traders & funds</h1></div>
 
   <section class="become-legal">
     <div class="wrapper">
       <i class="background-icon become-legal-icon"></i>
-      <h1>Legal Clarity and Transparency</h1>
-      <p>Operating  within the current legal framework</p>
+      <h1 class="from-bottom">Legal Clarity and Transparency</h1>
+      <p class="from-bottom">Operating  within the current legal framework</p>
       <div class="row section-image-example">
         <div class="offset-by-one five columns">
           <div class="text">
@@ -256,20 +254,20 @@
 
   <section class="trading-app">
     <div class="wrapper">
-      <h1>Professional software</h1>
-      <p>Practical trading terminal for traders, and a foolproof system for managing your fund</p>
+      <h1 class="from-bottom">Professional software</h1>
+      <p class="from-bottom">Practical trading terminal for traders, and a foolproof system for managing your fund</p>
 
-      <div class="tablet-only mac"></div>
+      <div class="tablet-only mac from-bottom"></div>
       <div class="row">
         <div class="offset-by-seven four columns">
-          <h2>Most powerful and user-friendly trading terminal ever!</h2>
+          <h2 class="from-bottom">Most powerful and user-friendly trading terminal ever!</h2>
         </div>
       </div>
-      <div class="tablet-only ipad"></div>
+      <div class="tablet-only ipad from-bottom"></div>
 
       <div class="mac-ipad no-tablet">
-        <div class="mac"></div>
-        <div class="ipad"></div>
+        <div class="mac from-bottom"></div>
+        <div class="ipad from-bottom"></div>
         <h3>Manage your Fund’s portfolio on any device</h3>
       </div>
     </div>
@@ -279,8 +277,8 @@
     <i class="background-icon issue-icon"></i>
 
     <div class="wrapper">
-      <h1>Fund's tokenization</h1>
-      <p>A prime opportunity to create your own tokenized fund</p>
+      <h1 class="from-bottom">Fund's tokenization</h1>
+      <p class="from-bottom">A prime opportunity to create your own tokenized fund</p>
       <div class="row section-image-example">
         <div class="offset-by-one five columns">
           <div class="section-img-wrap fade-in-left">
@@ -298,7 +296,7 @@
   </section>
   <section class="send-request section">
     <div class="wrapper">
-      <h1>Want to become one of the first funds and traders using our ecosystem?</h1>
+      <h1 class="from-bottom">Want to become one of the first funds and traders using our ecosystem?</h1>
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
         <div class="row">
           <div class="six columns"><input required value="" name="NAME" id="mce-NAME" placeholder="Your Name"></div>
@@ -314,8 +312,8 @@
   <section class="roadmap">
     <div class="top">
       <div class="wrapper">
-        <h1>Smoothest crossplatform experience</h1>
-        <h3>Web-interface as well as native applications for main platforms:
+        <h1 class="from-bottom">Smoothest crossplatform experience</h1>
+        <h3 class="from-bottom">Web-interface as well as native applications for main platforms:
         <strong>PC, Mac, iOS, Android, VR.</strong></h3>
         <div class="devices">
           <div class="ipad"></div>
@@ -328,7 +326,7 @@
 
     <article class="blue-roadmap" id="roadmap">
       <div class="wrapper">
-        <h1>Our roadmap</h1>
+        <h1 class="from-bottom">Our roadmap</h1>
         <div class="timeline-wrap">
           <div class="timeline-bar">
             <div class="current"></div>
@@ -394,7 +392,7 @@
 
   <section class="technology" id="tech">
     <div class="wrapper">
-      <h1>Technology & infrastructure</h1>
+      <h1 class="from-bottom">Technology & infrastructure</h1>
       <div class="row">
         <div class="six columns logos">
           <div class="python fade-in-item"></div>
@@ -428,8 +426,8 @@
   <section class="team" id="team">
     <div class="wrapper">
       <article class="members">
-        <h1>Meet the Tokenbox team</h1>
-        <p>From the creators of The Token Fund. Professional team with extensive experience in crypto industry.</p>
+        <h1 class="from-bottom">Meet the Tokenbox team</h1>
+        <p class="from-bottom">From the creators of The Token Fund. Professional team with extensive experience in crypto industry.</p>
         <div class="members-list">
           <div class="member">
             <div class="img" style="background-image: url('/assets/front/img/team/shpakovsky.jpg')">
@@ -499,7 +497,7 @@
       </article>
 
       <article class="advisors">
-        <h1>Our advisors</h1>
+        <h1 class="from-bottom">Our advisors</h1>
         <!-- <p>Their goal is to make a difference to the way make investments.</p> -->
         <div class="members-list">
           <div class="member">
@@ -573,7 +571,7 @@
 
   <section class="media" style="display: none !important;">
     <div class="wrapper media-blocks">
-      <h1>Media about Tokenbox</h1>
+      <h1 class="from-bottom">Media about Tokenbox</h1>
       <div class="row">
         <div class="three columns">
           <a href="" target="_blank" class="img cointelegraph"></a>
@@ -602,7 +600,7 @@
 
       <section class="medium">
         <div class="medium-icon"></div>
-        <h1>We are on Medium</h1>
+        <h1 class="from-bottom">We are on Medium</h1>
         <div class="row">
           <article class="four columns">
             <div class="top">
@@ -656,7 +654,7 @@
 
   <footer class="footer">
     <div class="wrapper">
-      <div class="title">Learn more and stay tuned!</div>
+      <div class="title from-bottom">Learn more and stay tuned!</div>
       <div class="footer-social">
         <a href="https://www.facebook.com/Tokenbox/" class="link facebook" target="_blank"><span class="fa fa-facebook-square"></span></a>
         <a href="https://t.me/Tokenbox" class="link telegram" target="_blank"><span class="fa fa-telegram"></span></a>
@@ -665,7 +663,7 @@
         <a href="mailto:support@tokenbox.io" class="link email"><span class="fa fa-envelope-o"></span></a>
         <a href="https://www.linkedin.com/company-beta/11217933/" class="link linkedin" target="_blank"><span class="fa fa-linkedin-square"></span></a>
         <a href="https://www.reddit.com/r/tokenbox/" class="link reddit" target="_blank"><span class="fa fa-reddit-square"></span></a>
-        <a href="" class="link github" target="_blank"><span class="fa fa-github-square"></span></a>
+        <a href="https://github.com/zeriontech/tokenbox-ico-website" class="link github" target="_blank"><span class="fa fa-github-square"></span></a>
         <a href="https://medium.com/tokenbox" class="link medium" target="_blank"><span class="fa fa-medium"></span></a>
       </div>
       <div class="copy">
@@ -695,8 +693,12 @@
 
   <script>
     if (!sr.tools.isMobile()) {
+      sr.reveal('.from-bottom', {
+        distance: '-50px',
+        origin: 'top'
+      })
       sr.reveal('.topblock .fade-in-item', { viewFactor: 0 }, 100)
-      sr.reveal('.countdown', { viewFactor: 0 }, 100)
+      // sr.reveal('.countdown', { viewFactor: 0 }, 100)
       sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
       sr.reveal('.get-notified');
       sr.reveal('.invest-in-pro');
@@ -709,8 +711,14 @@
       sr.reveal('.roadmap .top');
       sr.reveal('.roadmap .blue-roadmap');
       sr.reveal('.technology');
-      sr.reveal('.team .member', 100);
-      sr.reveal('.advisors .member', 100);
+      sr.reveal('.team .member', {
+        distance: '-50px',
+        origin: 'top'
+      }, 100);
+      sr.reveal('.advisors .member', {
+        distance: '-50px',
+        origin: 'top'
+      }, 100);
       sr.reveal('.pay-with-screen', {
         distance: '50px'
       }, 150)
