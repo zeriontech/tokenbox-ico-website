@@ -39,8 +39,20 @@
       visibility: hidden;
     }
   </style>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K55HGJG');</script>
+  <!-- End Google Tag Manager -->
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K55HGJG"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <section class="topblock">
     <div class="hamburger-icon" id="hamburger-icon">
@@ -138,7 +150,7 @@
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div class="row">
           <div class="seven columns"><input required name="EMAIL" type="email" placeholder="Enter your email"></div>
           <div class="five columns"><button value="Subscribe" name="subscribe" type="submit" class="button">Get notified about ICO!</button></div>
@@ -300,7 +312,7 @@
   <section class="send-request section">
     <div class="wrapper">
       <h1 class="from-bottom">Want to become one of the first funds and traders using our ecosystem?</h1>
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form-2" name="mc-embedded-subscribe-form">
         <div class="row">
           <div class="six columns"><input required value="" name="NAME" id="mce-NAME" placeholder="Your Name"></div>
           <div class="six columns"><input required name="COMPANY" id="mce-COMPANY" placeholder="Company"></div>
@@ -645,7 +657,7 @@
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-3" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
         <div class="row">
           <div class="four columns"><h1>Get notified when we go into ICO!</h1></div>
           <div class="five columns"><input required name="EMAIL" type="email" placeholder="Enter your email address"></div>
@@ -744,6 +756,31 @@
     }
   </script>
 
+  <script type="text/javascript">
+    $('#mc-embedded-subscribe-form-1').submit(function() {
+      dataLayer.push({
+        'event': 'custom_event',
+        'event_id': 'top',
+        'event_name': 'form'
+      });
+    });
+
+    $('#mc-embedded-subscribe-form-2').submit(function() {
+      dataLayer.push({
+        'event': 'custom_event',
+        'event_id': 'middle',
+        'event_name': 'form'
+      });
+    });
+
+    $('#mc-embedded-subscribe-form-3').submit(function() {
+      dataLayer.push({
+        'event': 'custom_event',
+        'event_id': 'bottom',
+        'event_name': 'form'
+      });
+    });
+  </script>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45667677 = new Ya.Metrika({ id:45667677, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45667677" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
