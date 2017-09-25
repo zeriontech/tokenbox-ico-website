@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Themsaid\LangmanGUI\LangmanServiceProvider::class,
         /*
          * Application Service Providers...
          */
