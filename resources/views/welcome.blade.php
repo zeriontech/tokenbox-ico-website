@@ -99,6 +99,15 @@
                   {{__('White Paper')}}
 </a>
 </li>
+              {{--language select--}}
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                  <li>
+                    <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+{{--                      {{ $properties['native'] }}--}}
+                      {{ $localeCode }}
+                    </a>
+                  </li>
+                @endforeach
 </ul>
 </div>
 </div>
@@ -217,7 +226,7 @@
 <i class="background-icon pay-with-icon"></i>
 
 <h1 class="from-bottom">{{__('Pay by Credit/Debit Card and Fiat money')}}</h1>
-<p class="from-bottom">{{__('Yes, we accept payments in fiat currencies!'}}</p>
+<p class="from-bottom">{{__('Yes, we accept payments in fiat currencies!')}}</p>
 <div class="row">
 <div class="offset-by-four four columns">
 <div class="section-img-wrap pay-1">
