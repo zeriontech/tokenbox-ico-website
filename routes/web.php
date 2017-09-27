@@ -14,4 +14,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale()], function () {
     Route::get('/', function () {
         return view('welcome');
     });
+    Route::get('ico', function () {
+        return view('ico');
+    });
 });
