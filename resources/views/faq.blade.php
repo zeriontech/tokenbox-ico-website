@@ -55,8 +55,8 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br>
-                    For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.')}}
+                    {!! __('Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br>
+                    For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.') !!}
                 </div>
             </div>
 
@@ -68,8 +68,8 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>
-                    The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.')}}
+                    {!! __('Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>
+                    The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.') !!}
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.
+                    {!! __('Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.
                     <br>
                     For example, the Fund began with 1,000 Bitcoin investments. Initially, there were two investors and each invested 500 BTC. The capitalization was equal to USD 4,000,000.
                     <br>
@@ -115,7 +115,7 @@
                     <br>
                     Then a third investor comes and invested USD 1,500,000. In this case third investor receives FMG 10,000.
                     <br>
-                    So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.')}}
+                    So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.') !!}
                 </div>
             </div>
 
@@ -127,9 +127,9 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+                    {!! __('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
                     <br>
-                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
+                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.') !!}
                 </div>
             </div>
 
@@ -141,9 +141,9 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+                    {!! __('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
                     <br>
-                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
+                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.') !!}
                 </div>
             </div>
 
@@ -267,9 +267,9 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;
+                    {!! __('Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;
                     <a href="mailto:hello@tokenbox.io">contact us</a>&nbsp;
-                    for a special offer. During the TGE crowdsale period bonuses are not provided.')}}
+                    for a special offer. During the TGE crowdsale period bonuses are not provided.') !!}
                 </div>
             </div>
         </div>
