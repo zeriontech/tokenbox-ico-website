@@ -557,7 +557,6 @@
     </div>
   </section>
 
-
   <section class="media" style="display: none !important;">
     <div class="wrapper media-blocks">
       <h1 class="from-bottom">Media about Tokenbox</h1>
