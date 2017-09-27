@@ -3,8 +3,6 @@
   background: $blue url("../img/grid-blue.svg") top center no-repeat;
   background-size: cover;
   color: white;
-  margin-bottom: 150px;
-  padding-bottom: 0;
 
   h1 {
     text-align: center;
@@ -22,6 +20,15 @@
   .features {
     margin-bottom: -250px;
   }
+}
+
+.topblock-home {
+  margin-bottom: 150px;
+  padding-bottom: 0;
+
+  .countdown {
+    margin: 25px 0 102px;
+  }
 
   & + section {
     margin-top: 340px;
@@ -33,15 +40,27 @@
 }
 
 @mixin breakpoint tablet {
-  .topblock {
+  .topblock-home {
     margin-bottom: 220px
   }
 
-  .topblock .features {
+  .topblock-home .features {
     margin-bottom: -225px;
   }
 
-  .topblock .features + section {
+  .topblock-home .features + section {
     margin-top: 365px;
   }
+
+  .topblock-home .countdown {
+    margin-bottom: 111px;
+  }
+}
+
+.topblock-ico {
+  padding-bottom: 100px;
+}
+
+.section-powered-by {
+  background: #f6f6f8;
 }

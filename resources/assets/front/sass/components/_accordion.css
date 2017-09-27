@@ -1,0 +1,64 @@
+.accordion {
+  margin: 0 auto;
+  max-width: 960px;
+  border-top: 1px solid #f6f6f8;
+}
+
+.accordion-item {
+  position: relative;
+  padding: 30px 30px 30px 0;
+  border-bottom: 1px solid #f6f6f8;
+}
+
+.accordion-item-content {
+  color: #464f56;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.accordion-item input[type="checkbox"] {
+  display: none;
+}
+
+.accordion input[type="checkbox"] ~ label {
+  display: block;
+  color: #25258d;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.accordion input[type="checkbox"]:checked ~ label {
+  color: #464f56;
+}
+
+.accordion input[type="checkbox"] ~ label:after {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  display: block;
+  border: 1px solid #464f56;
+  border-width: 2px 2px 0 0;
+  transform: rotate(135deg);
+  height: 13px;
+  width: 13px;
+  content: '';
+  transition: .2s transform, .2s color;
+  opacity: 0.6;
+}
+
+.accordion input[type="checkbox"]:checked ~ label:after {
+  transform: rotate(-45deg);
+  top: 45px;
+  opacity: 1;
+}
+
+.accordion input[type="checkbox"]:checked ~ .accordion-item-content {
+  display: block;
+}
+
+.accordion-item-content {
+  display: none;
+  margin-top: 20px;
+}

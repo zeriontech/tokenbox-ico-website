@@ -1,0 +1,137 @@
+.progress {
+  position: relative;
+  margin-top: -41px;
+  color: #464f56;
+  text-align: center;
+  max-width: 820px;
+  margin: auto;
+}
+
+.progress-bar {
+  position: relative;
+  overflow: hidden;
+  margin: 13px auto 20px;
+  height: 20px;
+  border-radius: 30px;
+  background: #f7f7f7;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    border-radius: 30px;
+    background-image: linear-gradient(to left, #11d1aa 0%, #3aa5df 50%, #8069f8 100%);
+    content: '';
+  }
+}
+
+.progress-current {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.progress-target {
+  font-size: 24px;
+}
+
+.section-distribution {
+  background: url(../img/grid-white.svg) top no-repeat,#f6f6f8;
+}
+
+@mixin bp tablet {
+  .progress {
+    margin-top: 83px;
+    text-align: left;
+  }
+
+  .progress-target {
+    position: absolute;
+    top: 11px;
+    right: 0;
+  }
+}
+
+.founded-money {
+  position: relative;
+  margin: 41px auto 0;
+  border-radius: 4px;
+  border: 1px solid #edf0f3;
+  color: #464f56;
+  text-align: center;
+  max-width: 836px;
+
+  div:not(:first-child) {
+    float: left;
+    width: 33.33333333%;
+    border-right: 1px solid #edf0f3;
+    font-size: 16px;
+    line-height: 82px;
+  }
+
+  div:last-child {
+    border-right: none;
+  }
+}
+
+.founded-money-usd,
+.founded-money-btc,
+.founded-money-eth {
+  &:before {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.founded-money-usd:before {
+  background-image: url('../img/ico/sign-usd.svg');
+  width: 23px;
+  height: 38px;
+}
+
+.founded-money-btc:before {
+  width: 28px;
+  height: 38px;
+  background-image: url('../img/ico/sign-btc.svg');
+}
+
+.founded-money-eth:before {
+  width: 25px;
+  height: 38px;
+  background-image: url('../img/ico/sign-eth.svg');
+}
+
+.founded-money-participants {
+  color: #abb4bb;
+  font-size: 26px;
+}
+
+@mixin lp tablet {
+  .founded-money-participants {
+    border-bottom: 1px solid #edf0f3;
+    line-height: 70px;
+  }
+}
+
+@mixin bp tablet {
+  .founded-money {
+    margin-top: 122px;
+
+    div:not(:first-child) {
+      font-size: 36px;
+      line-height: 100px;
+    }
+  }
+
+  .founded-money-participants {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -82px;
+  }
+}
