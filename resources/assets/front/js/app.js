@@ -50,8 +50,7 @@ $(document).ready(function() {
   $('a[href^="#"]').click(function(){
     var anchor = $(this).attr('href');
 
-    $('body').animate({
-      scrollTop: $(anchor).offset().top}, 700);
+    $('html').animate({ scrollTop: $(anchor).offset().top }, 700);
 
     setTimeout(function(){
       window.location.hash = anchor;
