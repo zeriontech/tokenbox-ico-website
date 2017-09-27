@@ -13,6 +13,7 @@
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#tech">Technology</a></li>
         <li><a href="#team">Team & Advisors</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li class="active">
           <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank">White Paper</a>
         </li>
@@ -37,6 +38,7 @@
             <li><a href="#roadmap">Roadmap</a></li>
             <li><a href="#tech">Technology</a></li>
             <li><a href="#team">Team & Advisors</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </nav>
 
           <div class="lang two-sd three columns">
@@ -281,7 +283,7 @@
   <?php include 'shared/tech.php' ?>
   <?php include 'shared/team.php' ?>
 
-  <section class="section section-faq js-tabs">
+  <section class="section section-faq js-tabs" id="faq">
     <h1>FAQ</h1>
 
     <div class="tabs">
@@ -417,20 +419,6 @@
         </div>
 
         <div class="accordion-item">
-          <input type="checkbox" id="item-9">
-
-          <label class="heading-2" for="item-9">
-            What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?
-          </label>
-
-          <div class="accordion-item-content">
-            Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
-            <br>
-            For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.
-          </div>
-        </div>
-
-        <div class="accordion-item">
           <input type="checkbox" id="item-10">
 
           <label class="heading-2" for="item-10">
@@ -550,7 +538,9 @@
           </label>
 
           <div class="accordion-item-content">
-            Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can contact us for a special offer. ???MAIL??? During the TGE crowdsale period bonuses are not provided.
+            Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can
+            <a href="mailto:hello@tokenbox.io">contact us</a>
+            for a special offer. During the TGE crowdsale period bonuses are not provided.
           </div>
         </div>
       </div>
