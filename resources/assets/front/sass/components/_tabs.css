@@ -1,0 +1,31 @@
+.tabs {
+  margin: 47px 0 35px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 0 0 2px;
+    font-size: 21px;
+    color: $gray-light;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  a.current {
+    font-weight: 600;
+    border-color: $blue;
+  }
+
+  @mixin bp tablet {
+    a {
+      margin: 0 0 20px;
+    }
+
+    a:not(:first-child) {
+      margin-left: 65px;
+    }
+  }
+}
+
+

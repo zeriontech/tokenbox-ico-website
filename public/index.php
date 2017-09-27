@@ -506,19 +506,6 @@
           </div>
         </div>
 
-
-        <div class="accordion-item">
-          <input type="checkbox" id="item-3-3">
-
-          <label class="heading-2" for="item-3-3">
-            Do you have a hard cap?
-          </label>
-
-          <div class="accordion-item-content">
-            Yes, the amount raised cannot exceed USD 20 million.
-          </div>
-        </div>
-
         <div class="accordion-item">
           <input type="checkbox" id="item-3-4">
 
@@ -569,7 +556,6 @@
       </div>
     </div>
   </section>
-
 
   <section class="media" style="display: none !important;">
     <div class="wrapper media-blocks">
