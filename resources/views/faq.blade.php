@@ -1,10 +1,10 @@
 <section class="section section-faq js-tabs" id="faq">
-    <h1>FAQ</h1>
+    <h1>{{__('FAQ')}}</h1>
 
     <div class="tabs">
-        <a href="#faq-1" class="current">Tokenbox platform</a>
-        <a href="#faq-2">TBX tokens</a>
-        <a href="#faq-3">Crowdsale</a>
+        <a href="#faq-1" class="current">{{__('Tokenbox platform')}}</a>
+        <a href="#faq-2">{{__('TBX tokens')}}</a>
+        <a href="#faq-3">{{__('Crowdsale')}}</a>
     </div>
 
     <div class="wrapper">
@@ -13,12 +13,12 @@
                 <input type="checkbox" id="item-1">
 
                 <label class="heading-2" for="item-1">
-                    What you mean 'an ecosystem for crypto-investors, traders and funds' - does 'fund' mean an investment fund? Or does it have some kind of meaning?
+                    {{__('What you mean \'an ecosystem for crypto-investors, traders and funds\' - does \'fund\' mean an investment fund? Or does it have some kind of meaning?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Portfolio managers and traders receive a ready-made "box" solution for the creation of its own tokenized fund, operating within the legal framework. Investors can make their choice between different funds, according to the inherent ratio of risk and return.
-                    "Fund" means an investment fund which specializes in investing on cryptocurrencies and tokens markets.
+                    {{__('Portfolio managers and traders receive a ready-made "box" solution for the creation of its own tokenized fund, operating within the legal framework. Investors can make their choice between different funds, according to the inherent ratio of risk and return.
+                    "Fund" means an investment fund which specializes in investing on cryptocurrencies and tokens markets.')}}
                 </div>
             </div>
 
@@ -26,12 +26,12 @@
                 <input type="checkbox" id="item-2">
 
                 <label class="heading-2" for="item-2">
-                    What is the difference between a trader and a fund?
+                    {{__('What is the difference between a trader and a fund?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    <i>A trader is a person, who independently making decisions and selecting active trading strategies on the market.</i>
-                    A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.
+                    <i>{{__('A trader is a person, who independently making decisions and selecting active trading strategies on the market.')}}</i>
+                    {{__('A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.')}}
                 </div>
             </div>
 
@@ -39,11 +39,11 @@
                 <input type="checkbox" id="item-3">
 
                 <label class="heading-2" for="item-3">
-                    Is there any prototype of the platform?
+                    {{__('Is there any prototype of the platform?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    "Tokenized funds" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.
+                    {{__('"Tokenized funds" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.')}}
                 </div>
             </div>
 
@@ -51,12 +51,12 @@
                 <input type="checkbox" id="item-4">
 
                 <label class="heading-2" for="item-4">
-                    Is Tokenbox itself a trading exchange or is it a gateway to access trading exchanges?
+                    {{__('Is Tokenbox itself a trading exchange or is it a gateway to access trading exchanges?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br>
-                    For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.
+                    {{__('Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br>
+                    For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.')}}
                 </div>
             </div>
 
@@ -64,12 +64,12 @@
                 <input type="checkbox" id="item-4-1">
 
                 <label class="heading-2" for="item-4-1">
-                    Is the alpha-version going to be live and functional?
+                    {{__('Is the alpha-version going to be live and functional?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>
-                    The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.
+                    {{__('Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>
+                    The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.')}}
                 </div>
             </div>
 
@@ -77,11 +77,11 @@
                 <input type="checkbox" id="item-5">
 
                 <label class="heading-2" for="item-5">
-                    How will Tokenbox find funds and traders to use its alpha product?
+                    {{__('How will Tokenbox find funds and traders to use its alpha product?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Promotional activities, direct negotiations (business development).
+                    {{__('Promotional activities, direct negotiations (business development).')}}
                 </div>
             </div>
 
@@ -89,11 +89,11 @@
                 <input type="checkbox" id="item-6">
 
                 <label class="heading-2" for="item-6">
-                    What happens between the end of the crowdsale in October and Q2/3 next year.  Why does it take so long?
+                    {{__('What happens between the end of the crowdsale in October and Q2/3 next year.  Why does it take so long?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    We need to conduct complex legal procedures and large scale development. We do not think that this is long period for such a project even if we take into account our experience in creating the tokenized fund.
+                    {{__('We need to conduct complex legal procedures and large scale development. We do not think that this is long period for such a project even if we take into account our experience in creating the tokenized fund.')}}
                 </div>
             </div>
 
@@ -101,11 +101,11 @@
                 <input type="checkbox" id="item-7">
 
                 <label class="heading-2" for="item-7">
-                    What is "Fund’s tokenization"?
+                    {{__('What is "Fund’s tokenization"?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.
+                    {{__('Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.
                     <br>
                     For example, the Fund began with 1,000 Bitcoin investments. Initially, there were two investors and each invested 500 BTC. The capitalization was equal to USD 4,000,000.
                     <br>
@@ -115,7 +115,7 @@
                     <br>
                     Then a third investor comes and invested USD 1,500,000. In this case third investor receives FMG 10,000.
                     <br>
-                    So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.
+                    So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.')}}
                 </div>
             </div>
 
@@ -123,13 +123,13 @@
                 <input type="checkbox" id="item-8">
 
                 <label class="heading-2" for="item-8">
-                    What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?
+                    {{__('What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+                    {{__('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
                     <br>
-                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.
+                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
                 </div>
             </div>
 
@@ -137,13 +137,13 @@
                 <input type="checkbox" id="item-9">
 
                 <label class="heading-2" for="item-9">
-                    What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?
+                    {{__('What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+                    {{__('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
                     <br>
-                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.
+                    For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
                 </div>
             </div>
 
@@ -151,11 +151,11 @@
                 <input type="checkbox" id="item-10">
 
                 <label class="heading-2" for="item-10">
-                    What is unique key features of Tokenbox, that differs it from similar services?
+                    {{__('What is unique key features of Tokenbox, that differs it from similar services?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Differences from other services are presented in section 8 of White Paper.
+                    {{__('Differences from other services are presented in section 8 of White Paper.')}}
                 </div>
             </div>
         </div>
@@ -165,11 +165,11 @@
                 <input type="checkbox" id="item-2-1">
 
                 <label class="heading-2" for="item-2-1">
-                    What is TBX token?
+                    {{__('What is TBX token?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    TBX is a utility token allowing to access the platform’s services. A fund manager or trader who wishes to operate his own fund on the platform, acquires TBX tokens and deposits them on the platform. These funds in the TBX format, are placed in the portfolio of the Fund or Trader and are valued in the portfolio like any other assets. The share of TBX-tokens in portfolios should be maintained at a level of at least 5%.
+                    {{__('TBX is a utility token allowing to access the platform’s services. A fund manager or trader who wishes to operate his own fund on the platform, acquires TBX tokens and deposits them on the platform. These funds in the TBX format, are placed in the portfolio of the Fund or Trader and are valued in the portfolio like any other assets. The share of TBX-tokens in portfolios should be maintained at a level of at least 5%.')}}
                 </div>
             </div>
 
@@ -177,11 +177,11 @@
                 <input type="checkbox" id="item-2-2">
 
                 <label class="heading-2" for="item-2-2">
-                    What is the price of one TBX token?
+                    {{__('What is the price of one TBX token?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    The established price (1 TBX = 1 USD) is a price of initial token offering.
+                    {{__('The established price (1 TBX = 1 USD) is a price of initial token offering.')}}
                 </div>
             </div>
 
@@ -189,11 +189,11 @@
                 <input type="checkbox" id="item-13">
 
                 <label class="heading-2" for="item-13">
-                    What amount of TBX tokens can be issued?
+                    {{__('What amount of TBX tokens can be issued?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    The number of TBXs will be fixed at the end of TGE. Max. 31 000 000 TBX. No additional creation is available.
+                    {{__('The number of TBXs will be fixed at the end of TGE. Max. 31 000 000 TBX. No additional creation is available.')}}
                 </div>
             </div>
         </div>
@@ -203,11 +203,11 @@
                 <input type="checkbox" id="item-3-1">
 
                 <label class="heading-2" for="item-3-1">
-                    What is a TGE crowdsale?
+                    {{__('What is a TGE crowdsale?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    TGE - Token Generation Event. It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.
+                    {{__('TGE - Token Generation Event. It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}
                 </div>
             </div>
 
@@ -215,11 +215,11 @@
                 <input type="checkbox" id="item-3-2">
 
                 <label class="heading-2" for="item-3-2">
-                    Do you have a hard cap?
+                    {{__('Do you have a hard cap?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Yes, the amount raised cannot exceed USD 20 million.
+                    {{__('Yes, the amount raised cannot exceed USD 20 million.')}}
                 </div>
             </div>
 
@@ -227,11 +227,11 @@
                 <input type="checkbox" id="item-3-4">
 
                 <label class="heading-2" for="item-3-4">
-                    What currencies do you accept?
+                    {{__('What currencies do you accept?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    We accept ETH, BTC. We are sorry, but we don’t accept fiat contributions.
+                    {{__('We accept ETH, BTC. We are sorry, but we don’t accept fiat contributions.')}}
                 </div>
             </div>
 
@@ -239,11 +239,11 @@
                 <input type="checkbox" id="item-3-5">
 
                 <label class="heading-2" for="item-3-5">
-                    What address can I use to participate?
+                    {{__('What address can I use to participate?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on MyEtherWallet: https://myetherwallet.com
+                    {{__('You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on MyEtherWallet: https://myetherwallet.com')}}
                 </div>
             </div>
 
@@ -251,11 +251,11 @@
                 <input type="checkbox" id="item-3-6">
 
                 <label class="heading-2" for="item-3-6">
-                    In which countries will the TGE be compliant and able to accept funds from resident investors? Or, in which countries will the TGE not be accessible?
+                    {{__('In which countries will the TGE be compliant and able to accept funds from resident investors? Or, in which countries will the TGE not be accessible?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    All countries except the USA and Singapore.
+                    {{__('All countries except the USA and Singapore.')}}
                 </div>
             </div>
 
@@ -263,13 +263,13 @@
                 <input type="checkbox" id="item-3-7">
 
                 <label class="heading-2" for="item-3-7">
-                    Are there any special conditions, bonuses? Will there be a pre-sale?
+                    {{__('Are there any special conditions, bonuses? Will there be a pre-sale?')}}
                 </label>
 
                 <div class="accordion-item-content">
-                    Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;
+                    {{__('Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;
                     <a href="mailto:hello@tokenbox.io">contact us</a>&nbsp;
-                    for a special offer. During the TGE crowdsale period bonuses are not provided.
+                    for a special offer. During the TGE crowdsale period bonuses are not provided.')}}
                 </div>
             </div>
         </div>
