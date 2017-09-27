@@ -1,0 +1,179 @@
+.distribution {
+  position: relative;
+  margin: auto;
+  max-width: 970px;
+}
+
+.distribution-pie {
+  position: relative;
+  z-index: 1;
+  background: url(../img/distribution-pie.png);
+  width: 233px;
+  height: 233px;
+  box-shadow: 17.835px 16.059px 7px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  background-color: #f6f6f8;
+}
+
+.distribution-pie-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/ico/logo-mark-lb.svg) no-repeat;
+  content: '';
+  width: 86px;
+  height: 75px;
+  margin: auto;
+  text-align: center;
+  color: #b1b9bf;
+
+  &:before,
+  &:after {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+
+  &:before {
+    bottom: 100%;
+    content: "1 TBX";
+  }
+
+  &:after {
+    top: 100%;
+    content: "1 USD";
+  }
+}
+
+.distribution-item {
+  padding: 20px;
+  width: 140px;
+  background: #3434ba;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 10px;
+  line-height: 1.3;
+
+  span {
+    display: block;
+    margin-bottom: 13px;
+    font-size: 36px;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.distribution-item-token {
+  width: 194px;
+
+  &:after {
+    background-image: url(../img/ico/line003.svg);
+    width: 180px;
+    height: 72px;
+  }
+}
+
+.distribution-item-bounty {
+  background: #00cc99;
+
+  &:after {
+    background-image: url(../img/ico/line005.svg);
+    width: 177px;
+    height: 131px;
+  }
+}
+
+.distribution-item-team {
+  background: #a7b3c4;
+
+  &:after {
+    background-image: url(../img/ico/line004.svg);
+    width: 212px;
+    height: 157px;
+  }
+}
+
+@mixin lp tablet {
+  .distribution-item-token {
+    margin: 0 auto 50px;
+  }
+}
+
+@mixin bp tablet {
+  .distribution {
+    margin-top: 80px;
+    height: 382px;
+  }
+
+  .distribution-pie {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../img/ico/logo-mark-lb.svg) no-repeat;
+      content: '';
+      width: 86px;
+      height: 75px;
+      margin: auto;
+    }
+  }
+
+  .distribution-item {
+    position: absolute;
+    box-shadow: 17.835px 16.059px 7px 0px rgba(0, 0, 0, 0.08);
+
+    span {
+      font-size: 58px;
+    }
+  }
+
+  .distribution-item-token {
+    top: 94px;
+    left: 0;
+
+    &:after {
+      top: 30px;
+      left: calc(100% - 1px);
+    }
+  }
+
+  .distribution-item-bounty {
+    right: 0;
+    top: 249px;
+
+    &:after {
+      top: 30px;
+      right: calc(100% - 1px);
+    }
+  }
+
+  .distribution-item-bounty,
+  .distribution-item-team {
+    width: 193px;
+  }
+
+  .distribution-item-team {
+    right: 20px;
+
+    &:after {
+      top: 30px;
+      right: calc(100% - 1px);
+    }
+  }
+}

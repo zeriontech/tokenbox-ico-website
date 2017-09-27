@@ -1,0 +1,50 @@
+.section-fact-sheet {
+  text-align: center;
+  color: #464f56;
+  border-bottom: 1px solid #eef0f1;
+
+  h1 + dl {
+    margin-top: 52px;
+  }
+
+  dl {
+    margin: 0 auto;
+    line-height: 26px;
+  }
+
+  dt {
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  dl + dl {
+    margin-top: 33px;
+    padding-top: 33px;
+    border-top: 1px solid #eef0f1;
+  }
+}
+
+@mixin bp tablet {
+  .section-fact-sheet {
+    overflow: hidden;
+  }
+
+  .section-fact-sheet dl {
+    max-width: 930px;
+    text-align: left;
+  }
+
+  .section-fact-sheet dt {
+    float: left;
+    width: 29%;
+    padding-right: 20px;
+  }
+
+  .section-fact-sheet dd {
+    overflow: hidden;
+  }
+}

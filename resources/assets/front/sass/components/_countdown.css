@@ -1,18 +1,20 @@
 .countdown {
-  margin: 25px 0 102px;
   text-align: center;
 
   .button {
-    display: none;
     margin: 65px 0 0;
     max-width: 360px;
-    line-height: 60px;
 
     i {
       font-size: 18px;
       margin-left: 4px;
       position: relative;
     }
+  }
+
+  .button + .button {
+    margin-top: 20px;
+    width: auto;
   }
 }
 
@@ -76,8 +78,6 @@
   }
 
   .countdown {
-    margin-bottom: 111px;
-
     h1 {
       margin-bottom: 75px;
     }
@@ -89,6 +89,10 @@
         font-size: 23px;
       }
     }
+
+    .button + .button {
+      margin-left: 35px;
+    }
   }
 
   .countdown-item {
@@ -99,4 +103,3 @@
     font-size: 16px;
   }
 }
-

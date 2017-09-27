@@ -1,13 +1,15 @@
 .button {
+  display: inline-block;
   cursor: pointer;
   color: white;
   width: 100%;
   font-size: 2.6rem;
   font-family:'Gilroy';
   font-weight: 700;
-  padding: 10px 0;
+  padding: 10px 35px;
   margin: 0 auto;
   height: 80px;
+  line-height: 60px;
   background-color: $red;
   text-align: center;
   border: none;
@@ -33,9 +35,23 @@
   }
 }
 
+.button-info {
+  background: #3434bb;
+
+  &:hover {
+    background: #3434bb;
+  }
+}
+
 a.button {
-  display: inline-block;
   text-decoration: none;
+}
+
+.button-centred {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 360px;
 }
 
 .play-video {
@@ -152,3 +168,14 @@ a.button {
   100% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
 
+.button-details {
+  margin: 35px 0 37px;
+  text-align: center;
+
+  a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #3434bb;
+  }
+}

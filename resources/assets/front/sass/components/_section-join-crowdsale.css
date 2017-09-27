@@ -1,0 +1,87 @@
+body {
+  counter-reset: join-counter;
+}
+
+.section-join-crowdsale {
+  h2 {
+    margin: -17px 0 54px;
+  }
+
+  ol {
+    position: relative;
+    margin: 0 0 54px;
+    color: #464f56;
+    line-height: 26px;
+
+    li {
+      position: relative;
+      margin: 0 0 32px;
+      padding: 0 0 0 55px;
+      min-height: 60px;
+      list-style: none;
+      counter-increment: join-counter;
+
+      &:before {
+        position: absolute;
+        content: counter(join-counter);
+        left: 0;
+        top: 0;
+        color: #25258e;
+        font-size: 58px;
+        line-height: 1;
+      }
+    }
+
+    li:last-child {
+      content: '';
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.section-join-crowdsale h2,
+.section-join-crowdsale ol:after {
+  color: #abb4bb;
+  font-size: 36px;
+  text-align: center;
+}
+
+@mixin bp tablet {
+  .section-join-crowdsale ol {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .section-join-crowdsale ol li {
+    display: inline-block;
+    width: 33.333333%;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 20px;
+
+    &:before {
+      font-size: 80px;
+    }
+  }
+
+  .section-join-crowdsale ol li:nth-child(3) ~ li {
+    margin-top: 200px;
+  }
+
+  .section-join-crowdsale h2 {
+    display: none;
+  }
+
+  .section-join-crowdsale ol:after {
+    position: absolute;
+    content: "4 easy steps";
+    top: 50%;
+    right: 0;
+    left: 0;
+    font-size: 58px;
+  }
+}

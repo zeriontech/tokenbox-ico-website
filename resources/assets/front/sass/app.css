@@ -38,6 +38,13 @@
 @import "components/media";
 @import "components/footer";
 
+@import "components/raised-token";
+@import "components/progress";
+@import "components/distribution";
+@import "components/section-fact-sheet";
+@import "components/section-join-crowdsale";
+@import "components/accordion";
+
 .pay-with {
   margin-top: 110px;
 
@@ -83,7 +90,7 @@ section h1 {
   margin-bottom: 20px;
   text-align: center;
 
-  ~ p {
+  + p {
     color: $gray-light;
     font-size: 1.6rem;
     line-height: 2.6rem;
@@ -106,4 +113,31 @@ section h1 {
 
 #wt-sky-root {
   display: none !important;
+}
+
+.tabs {
+  margin: 47px 0 55px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    padding: 0 0 2px;
+    font-size: 21px;
+    color: $gray-light;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  a:not(:first-child) {
+    margin-left: 65px;
+  }
+
+  a.current {
+    font-weight: 600;
+    border-color: $blue;
+  }
+}
+
+.section-faq {
+  border-top: 1px solid #f6f6f8;
 }

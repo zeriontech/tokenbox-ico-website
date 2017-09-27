@@ -49,7 +49,9 @@ elixir((mix) => {
         paths.node + 'fastclick/lib/fastclick.js',
         paths.node + 'slick-carousel/slick/slick.js',
         paths.node + 'fancybox/dist/js/jquery.fancybox.js',
-        'app.js'
+        'animations.js',
+        'app.js',
+        'metrics.js',
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');
     // <END> Frontend Compilation
 
