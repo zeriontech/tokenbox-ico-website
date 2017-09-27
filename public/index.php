@@ -1,60 +1,6 @@
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Tokenbox — Unique ecosystem for crypto investors, traders & funds</title>
-  <meta name="description" content="">
-  <meta itemprop="description" content=""/>
-  <link rel="stylesheet" href="assets/front/css/app.css" />
-  <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-  <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
-  <link rel="apple-touch-icon" href="/favicon-195.png" sizes="144x144">
+<?php include 'shared/head.php'; ?>
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script type="text/javascript">
-    window.sr = ScrollReveal({
-      opacity: 0,
-      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-      distance: 0,
-      viewFactor: 0.4,
-      scale: 1,
-      duration: 1200,
-      mobile: false,
-      rotate: { x: 0, y: 0, z: 0 }
-    });
-
-    if (!sr.tools.isMobile()) {
-      document.documentElement.classList.add('sr-enabled')
-    }
-  </script>
-
-  <style>
-    .sr-enabled body > section:not(.topblock) {
-      /*overflow-x: hidden;*/
-    }
-
-    .sr-enabled .topblock .fade-in-item {
-      visibility: hidden;
-    }
-  </style>
-
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K55HGJG');</script>
-  <!-- End Google Tag Manager -->
-</head>
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K55HGJG"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <section class="topblock">
+  <section class="topblock topblock-home">
     <div class="hamburger-icon" id="hamburger-icon">
       <span class="line line-1"></span>
       <span class="line line-2"></span>
@@ -80,6 +26,7 @@
         <!--</li>-->
       </ul>
     </div>
+
     <div class="wrapper">
       <header class="header">
         <div class="row">
@@ -111,7 +58,7 @@
 
         <div id="countdown"></div>
 
-        <a href="#roadmap" class="button">
+        <a href="#roadmap" class="button" style="display: none;">
           Learn more about ICO
           <i class="fa fa-long-arrow-right"></i>
         </a>
@@ -159,7 +106,9 @@
     </div>
   </section>
 
-  <div class="big-title from-bottom" id="for-investors"><h1>For investors</h1></div>
+  <div class="big-title from-bottom" id="for-investors">
+    <h1>For investors</h1>
+  </div>
 
   <section class="multi-crypto">
     <i class="background-icon multi-crypto-icon offset-by-one"></i>
@@ -241,7 +190,9 @@
     </div>
   </section>
 
-  <div class="big-title from-bottom" id="traders-and-funds"><h1>For traders & funds</h1></div>
+  <div class="big-title from-bottom" id="traders-and-funds">
+    <h1>For traders & funds</h1>
+  </div>
 
   <section class="become-legal">
     <div class="wrapper">
@@ -309,6 +260,7 @@
       </div>
     </div>
   </section>
+
   <section class="send-request section">
     <div class="wrapper">
       <h1 class="from-bottom">Want to become one of the first funds and traders using our ecosystem?</h1>
@@ -324,262 +276,297 @@
       </form>
     </div>
   </section>
-  <section class="roadmap">
-    <div class="top">
-      <div class="wrapper">
-        <h1 class="from-bottom">Smoothest crossplatform experience</h1>
-        <h3 class="from-bottom">Web-interface as well as native applications for main platforms:
-        <strong>PC, Mac, iOS, Android, VR.</strong></h3>
-        <div class="devices">
-          <div class="ipad from-bottom"></div>
-          <div class="macbook from-bottom"></div>
-          <div class="watch from-bottom"></div>
-          <div class="iphone from-bottom"></div>
-        </div>
-      </div>
+
+  <?php include 'shared/roadmap.php' ?>
+  <?php include 'shared/tech.php' ?>
+  <?php include 'shared/team.php' ?>
+
+  <section class="section section-faq js-tabs">
+    <h1>FAQ</h1>
+
+    <div class="tabs">
+      <a href="#faq-1" class="current">Tokenbox platform</a>
+      <a href="#faq-2">TBX tokens</a>
+      <a href="#faq-3">Crowdsale</a>
     </div>
 
-    <article class="blue-roadmap" id="roadmap">
-      <div class="wrapper">
-        <h1 class="from-bottom">Our roadmap</h1>
-        <div class="timeline-wrap">
-          <div class="timeline-bar">
-            <div class="current"></div>
-          </div>
-
-          <div class="desc">
-            <div class="fade-in-left milestone active">
-              <div class="title">
-                Launch of The Token Fund 
-                <div class="time">March</div>
-              </div>
-            </div>
-            <div class="fade-in-right milestone active">
-              <div class="title">
-                More than 48,000 tokens sold to hundreds of investors
-                <div class="time">May</div>
-              </div>
-            </div>
-            <div class="fade-in-left milestone active">
-              <div class="title">
-                The Fund's capitalisation reached $2 million, and the yield exceeded 300%
-                <div class="time">June</div>
-              </div>
-            </div>
-            <div class="fade-in-right milestone active">
-              <div class="title">Tokenbox branding and naming, tech and operational team <div class="time">June</div></div>
-            </div>
-            <div class="fade-in-left milestone active">
-              <div class="title">Whitepaper & development plan <div class="time">July </div></div>
-            </div>
-            <div class="fade-in-right milestone active">
-              <div class="title">Advisory board & marketing plan  <div class="time">August</div>
-            </div>
-            </div>
-            <div class="fade-in-left milestone active">
-              <div class="title"> Escrow, Pre-ICO marketing
-                <div class="time">September</div>
-              </div>
-            </div>
-            <div class="fade-in-right milestone">
-              <div class="title"> 
-                TGE (crowdsale) and legalisation process
-                <div class="time">October</div>
-              </div>
-            </div>
-            <div class="fade-in-left milestone">
-              <div class="title"> Listing on exchanges<div class="time">Q4 2017</div></div>
-            </div>
-            <div class="fade-in-right milestone">
-              <div class="title">Completion of legalisation <div class="time">Q2 2018</div></div>
-            </div>
-            <div class="fade-in-left milestone">
-              <div class="title"> Tokenbox platform, Alpha-version, due diligence & investments for the selected partners (funds & traders) <div class="time">Q3 2018</div></div>
-            </div>
-            <div class="fade-in-right milestone">
-              <div class="title"> Beta-version of the platform, Tokenbox launch, new partners and investors on the platform<div class="time">Q4 2018</div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-  </section>
-
-  <section class="technology" id="tech">
     <div class="wrapper">
-      <h1 class="from-bottom">Technology & infrastructure</h1>
-      <div class="row">
-        <div class="six columns logos">
-          <div class="python fade-in-item"></div>
-          <div class="java fade-in-item"></div>
-          <div class="ethereum no-mobile fade-in-item"></div>
-        </div>
-        <div class="six columns text">
-          <p>The platform is based upon a set of microservices written in Python/Java. Separate interfaces to allow interaction between each group of Users and partners of the system are utilised.</p>
-          <p>Tokenization of all traders occur on Platform Ethereum based on the ERC20 token.</p>
-        </div>
-      </div>
-      <div class="row mobile-only logos">
-        <div class="ethereum"></div>
-      </div>
-      <div class="row">
-        <div class="twelve columns text">
-          <p>The infrastructure of the platform is built using Amazon Web Services. The description of the infrastructure uses Docker containers. The databases and their replications are built using PostgreSQL and Elastic Search.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="logos">
-          <div class="amazon fade-in-item"></div>
-          <div class="elastic fade-in-item"></div>
-          <div class="docker fade-in-item"></div>
-          <div class="postgres fade-in-item"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div class="accordion js-tab" id="faq-1">
+        <div class="accordion-item">
+          <input type="checkbox" id="item-1">
 
-  <section class="team" id="team">
-    <div class="wrapper">
-      <article class="members">
-        <h1 class="from-bottom">Meet the Tokenbox team</h1>
-        <p class="from-bottom">From the creators of The Token Fund. Professional team with extensive experience in crypto industry.</p>
-        <div class="members-list">
-          <div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/shpakovsky.jpg')">
-              <div class="overlay">
-                <a href="https://www.facebook.com/shpakovskycom" target="_blank" class="fa fa-facebook-square"></a>
-              </div>
-            </div>
-            <div class="name">Viktor Shpakovsky</div>
-            <div class="info">Managing Partner,
-              <br />The Token Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/smerkis.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/smerkis" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Vladimir Smerkis</div>
-            <div class="info">Managing Partner,
-              <br />The Token Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')">
-              <div class="overlay">
-                <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
-              </div>
-            </div>
-            <div class="name">Alexey Bashlykov</div>
-            <div class="info">Technical Project Manager,
-              <br />Zerion</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/doganov.jpg')">
-              <div class="overlay">
-                <a href="https://www.facebook.com/igor.doganov" target="_blank" class="fa fa-facebook-square"></a>
-              </div>
-            </div>
-            <div class="name">Igor Doganov</div>
-            <div class="info">Chief Analytics Officer,
-              <br />The Token Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Dmitry Shmakov</div>
-            <div class="info">Marketing Director,
-              <br />The Token Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Eugene Yuryev</div>
-            <div class="info">Art Director,
-              <br />The Token Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
-              <div class="overlay">
-                <a href="www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
-              </div>
-            </div>
-            <div class="name">Aleksandr Volkov</div>
-            <div class="info">Lead Backend Developer,
-              <br />Zerion</div>
+          <label class="heading-2" for="item-1">
+            What you mean 'an ecosystem for crypto-investors, traders and funds' - does 'fund' mean an investment fund? Or does it have some kind of meaning?
+          </label>
+
+          <div class="accordion-item-content">
+            Portfolio managers and traders receive a ready-made "box" solution for the creation of its own tokenized fund, operating within the legal framework. Investors can make their choice between different funds, according to the inherent ratio of risk and return.
+            "Fund" means an investment fund which specializes in investing on cryptocurrencies and tokens markets.
           </div>
         </div>
-      </article>
 
-      <article class="advisors">
-        <h1 class="from-bottom">Our advisors</h1>
-        <!-- <p>Their goal is to make a difference to the way make investments.</p> -->
-        <div class="members-list">
-          <div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/cmskinner" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Chris Skinner</div>
-            <div class="info">Advisor (Fintech),
-              <br />Innovate Finance, Moven and Meniga</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Julian L. Zegelman</div>
-            <div class="info">Advisor (Legal),
-              <br />Velton Zegelman PC</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Cao Yin</div>
-            <div class="info">Advisor (Blockchain technologies),
-              <br />Energy Blockchain Labs</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Ilya Sachkov</div>
-            <div class="info">Advisor (Cybersecurity),
-              <br />Group-IB</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/prabhu.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Peter Prabhu</div>
-            <div class="info">Advisor (Business Development),
-              <br />Interstice Consulting LLP</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Elena Masolova</div>
-            <div class="info">Advisor, Groupon Russia, AddVenture Fund</div>
-          </div><div class="member">
-            <div class="img" style="background-image: url('/assets/front/img/team/koleoshkin.jpg')">
-              <div class="overlay">
-                <a href="https://www.linkedin.com/in/vadim-koleoshkin" target="_blank" class="fa fa-linkedin-square"></a>
-              </div>
-            </div>
-            <div class="name">Vadim Koleoshkin</div>
-            <div class="info">Advisor (Product Development), Zerion</div>
+        <div class="accordion-item">
+          <input type="checkbox" id="item-2">
+
+          <label class="heading-2" for="item-2">
+            What is the difference between a trader and a fund?
+          </label>
+
+          <div class="accordion-item-content">
+            <i>A trader is a person, who independently making decisions and selecting active trading strategies on the market.</i>
+            A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.
           </div>
         </div>
-      </article>
 
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3">
+
+          <label class="heading-2" for="item-3">
+            Is there any prototype of the platform?
+          </label>
+
+          <div class="accordion-item-content">
+            "Tokenized funds" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-4">
+
+          <label class="heading-2" for="item-4">
+            Is Tokenbox itself a trading exchange or is it a gateway to access trading exchanges?
+          </label>
+
+          <div class="accordion-item-content">
+            Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br>
+            For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-4-1">
+
+          <label class="heading-2" for="item-4-1">
+            Is the alpha-version going to be live and functional?
+          </label>
+
+          <div class="accordion-item-content">
+            Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>
+            The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-5">
+
+          <label class="heading-2" for="item-5">
+            How will Tokenbox find funds and traders to use its alpha product?
+          </label>
+
+          <div class="accordion-item-content">
+            Promotional activities, direct negotiations (business development).
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-6">
+
+          <label class="heading-2" for="item-6">
+            What happens between the end of the crowdsale in October and Q2/3 next year.  Why does it take so long?
+          </label>
+
+          <div class="accordion-item-content">
+            We need to conduct complex legal procedures and large scale development. We do not think that this is long period for such a project even if we take into account our experience in creating the tokenized fund.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-7">
+
+          <label class="heading-2" for="item-7">
+            What is "Fund’s tokenization"?
+          </label>
+
+          <div class="accordion-item-content">
+          Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.
+          <br>
+          For example, the Fund began with 1,000 Bitcoin investments. Initially, there were two investors and each invested 500 BTC. The capitalization was equal to USD 4,000,000.
+          <br>
+          The Fund issued its own tokens at USD 100 (for instance, it selected a name “FMG”). Each FMG token costs USD 100. Both investors received FMG 20,000 (totally 40,000) as a confirmation of their shares in the Fund.
+          <br>
+          Then the fund manager sold a part of Bitcoins, bought other cryptocurrencies, market grows, and the capitalization grew to USD 6,000,000. Now each FMG token costs USD 150.
+          <br>
+          Then a third investor comes and invested USD 1,500,000. In this case third investor receives FMG 10,000.
+          <br>
+          So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-8">
+
+          <label class="heading-2" for="item-8">
+            What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?
+          </label>
+
+          <div class="accordion-item-content">
+            Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+            <br>
+            For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-9">
+
+          <label class="heading-2" for="item-9">
+            What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?
+          </label>
+
+          <div class="accordion-item-content">
+            Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).
+            <br>
+            For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-10">
+
+          <label class="heading-2" for="item-10">
+            What is unique key features of Tokenbox, that differs it from similar services?
+          </label>
+
+          <div class="accordion-item-content">
+            Differences from other services are presented in section 8 of White Paper.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion js-tab" id="faq-2">
+        <div class="accordion-item">
+          <input type="checkbox" id="item-2-1">
+
+          <label class="heading-2" for="item-2-1">
+            What is TBX token?
+          </label>
+
+          <div class="accordion-item-content">
+            TBX is a utility token allowing to access the platform’s services. A fund manager or trader who wishes to operate his own fund on the platform, acquires TBX tokens and deposits them on the platform. These funds in the TBX format, are placed in the portfolio of the Fund or Trader and are valued in the portfolio like any other assets. The share of TBX-tokens in portfolios should be maintained at a level of at least 5%.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-2-2">
+
+          <label class="heading-2" for="item-2-2">
+            What is the price of one TBX token?
+          </label>
+
+          <div class="accordion-item-content">
+            The established price (1 TBX = 1 USD) is a price of initial token offering.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-13">
+
+          <label class="heading-2" for="item-13">
+            What amount of TBX tokens can be issued?
+          </label>
+
+          <div class="accordion-item-content">
+            The number of TBXs will be fixed at the end of TGE. Max. 31 000 000 TBX. No additional creation is available.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion js-tab" id="faq-3">
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-1">
+
+          <label class="heading-2" for="item-3-1">
+            What is a TGE crowdsale?
+          </label>
+
+          <div class="accordion-item-content">
+            TGE - Token Generation Event. It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-2">
+
+          <label class="heading-2" for="item-3-2">
+            Do you have a hard cap?
+          </label>
+
+          <div class="accordion-item-content">
+            Yes, the amount raised cannot exceed USD 20 million.
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-3">
+
+          <label class="heading-2" for="item-3-3">
+            Do you have a hard cap?
+          </label>
+
+          <div class="accordion-item-content">
+            Yes, the amount raised cannot exceed USD 20 million.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-4">
+
+          <label class="heading-2" for="item-3-4">
+            What currencies do you accept?
+          </label>
+
+          <div class="accordion-item-content">
+            We accept ETH, BTC. We are sorry, but we don’t accept fiat contributions.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-5">
+
+          <label class="heading-2" for="item-3-5">
+            What address can I use to participate?
+          </label>
+
+          <div class="accordion-item-content">
+            You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on MyEtherWallet: https://myetherwallet.com
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-6">
+
+          <label class="heading-2" for="item-3-6">
+            In which countries will the TGE be compliant and able to accept funds from resident investors? Or, in which countries will the TGE not be accessible?
+          </label>
+
+          <div class="accordion-item-content">
+            All countries except the USA and Singapore.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <input type="checkbox" id="item-3-7">
+
+          <label class="heading-2" for="item-3-7">
+            Are there any special conditions, bonuses? Will there be a pre-sale?
+          </label>
+
+          <div class="accordion-item-content">
+            Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can contact us for a special offer. ???MAIL??? During the TGE crowdsale period bonuses are not provided.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -667,120 +654,5 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="wrapper">
-      <div class="title from-bottom">Learn more and stay tuned!</div>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/Tokenbox/" class="link facebook" target="_blank"><span class="fa fa-facebook-square"></span></a>
-        <a href="https://t.me/Tokenbox" class="link telegram" target="_blank"><span class="fa fa-telegram"></span></a>
-        <a href="https://twitter.com/tokenbox" class="link twitter" target="_blank"><span class="fa fa-twitter-square"></span></a>
-        <!--<a href="http://tokenbox.slack.com" class="link slack" target="_blank"><span class="fa fa-slack"></span></a>-->
-        <a href="mailto:support@tokenbox.io" class="link email"><span class="fa fa-envelope-o"></span></a>
-        <a href="https://www.linkedin.com/company-beta/11217933/" class="link linkedin" target="_blank"><span class="fa fa-linkedin-square"></span></a>
-        <a href="https://www.reddit.com/r/tokenbox/" class="link reddit" target="_blank"><span class="fa fa-reddit-square"></span></a>
-        <a href="https://github.com/zeriontech/tokenbox-ico-website" class="link github" target="_blank"><span class="fa fa-github-square"></span></a>
-        <a href="https://medium.com/tokenbox" class="link medium" target="_blank"><span class="fa fa-medium"></span></a>
-      </div>
-      <div class="copy">
-        <div class="logo"></div>
-        <a href="">Terms & Conditions</a>
-        <a href="">User Privacy</a>
-      </div>
-    </div>
-  </footer>
+<?php include 'shared/foot.php'; ?>
 
-  <script type="text/javascript" src="assets/front/js/app.min.js"></script>
-
-  <script type="text/javascript">
-    $(function(){
-      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        var ww = ( $(window).width() < window.screen.width ) ? $(window).width() : window.screen.width; //get proper width
-        var mw = 400; // min width of site
-        var ratio =  ww / mw; //calculate ratio
-        if( ww < mw){ //smaller than minimum size
-          $('#Viewport').attr('content', 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + ww);
-        }else{ //regular size
-          $('#Viewport').attr('content', 'initial-scale=1.0, maximum-scale=2, minimum-scale=1.0, user-scalable=yes, width=' + ww);
-        }
-      }
-    });
-  </script>
-
-  <script>
-    if (!sr.tools.isMobile()) {
-      sr.reveal('.from-bottom', {
-        distance: '-50px',
-        origin: 'top'
-      })
-      sr.reveal('.topblock .fade-in-item', { viewFactor: 0 }, 100)
-      // sr.reveal('.countdown', { viewFactor: 0 }, 100)
-      sr.reveal('.technology .fade-in-item', { viewFactor: 0 }, 100)
-      sr.reveal('.get-notified');
-      sr.reveal('.invest-in-pro');
-      sr.reveal('.pay-with');
-      sr.reveal('.become-legal');
-      sr.reveal('.trading-app');
-      sr.reveal('.issue');
-      sr.reveal('.big-title');
-      sr.reveal('.send-request');
-      sr.reveal('.roadmap .top');
-      sr.reveal('.technology');
-      sr.reveal('.team .member', {
-        distance: '-50px',
-        origin: 'top'
-      }, 100);
-      sr.reveal('.advisors .member', {
-        distance: '-50px',
-        origin: 'top'
-      }, 100);
-      sr.reveal('.pay-with-screen', {
-        distance: '50px'
-      }, 150)
-      sr.reveal('.multi-crypto');
-      sr.reveal('.media');
-      sr.reveal('.footer');
-      // sr.reveal('.milestone');
-      sr.reveal('.footer-social .link', 50)
-      sr.reveal('.background-icon', {
-        scale: 0.1,
-        easing: 'ease-in-out'
-      });
-      sr.reveal('.fade-in-left', {
-        distance: '50px',
-        origin: 'left'
-      });
-      sr.reveal('.fade-in-right', {
-        distance: '50px',
-        origin: 'right'
-      });
-    }
-  </script>
-
-  <script type="text/javascript">
-    $('#mc-embedded-subscribe-form-1').submit(function() {
-      dataLayer.push({
-        'event': 'custom_event',
-        'event_id': 'top',
-        'event_name': 'form'
-      });
-    });
-
-    $('#mc-embedded-subscribe-form-2').submit(function() {
-      dataLayer.push({
-        'event': 'custom_event',
-        'event_id': 'middle',
-        'event_name': 'form'
-      });
-    });
-
-    $('#mc-embedded-subscribe-form-3').submit(function() {
-      dataLayer.push({
-        'event': 'custom_event',
-        'event_id': 'bottom',
-        'event_name': 'form'
-      });
-    });
-  </script>
-
-</body>
-</html>

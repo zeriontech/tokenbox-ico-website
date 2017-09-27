@@ -1,0 +1,81 @@
+.accordion {
+  margin: 0 auto;
+  max-width: 960px;
+  border-top: 1px solid #f6f6f8;
+}
+
+.accordion-item {
+  position: relative;
+  padding: 30px 30px 30px 0;
+  border-bottom: 1px solid #f6f6f8;
+}
+
+.accordion-item-content {
+  color: #464f56;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.accordion-item input[type="checkbox"] {
+  display: none;
+}
+
+.accordion input[type="checkbox"] ~ label {
+  display: block;
+  color: #2f46c6;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.accordion input[type="checkbox"] ~ label:after {
+  position: absolute;
+  display: block;
+  border: 1px solid #abb4bb;
+  border-width: 2px 2px 0 0;
+  right: 0;
+  top: 3px;
+  transform: rotate(135deg);
+  height: 10px;
+  width: 10px;
+  content: '';
+  transition: .2s transform, .2s color;
+}
+
+.accordion input[type="checkbox"]:checked ~ label {
+  color: #464f56;
+}
+
+.accordion input[type="checkbox"]:checked ~ label:after {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
+.accordion input[type="checkbox"]:checked ~ .accordion-item-content {
+  display: block;
+}
+
+.accordion-item-content {
+  display: none;
+  margin-top: 20px;
+}
+
+@media (min-width: 960px) {
+  .accordion-item {
+    font-size: 21px;
+    line-height: 34px;
+  }
+
+  .accordion input[type="checkbox"] ~ label {
+  }
+
+  .accordion input[type="checkbox"] ~ label:after {
+    top: 39px;
+    border-color: #464f56;
+  }
+
+  .accordion input[type="checkbox"]:checked ~ label:after {
+    top: 45px;
+  }
+}
