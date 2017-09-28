@@ -1,5 +1,5 @@
-.nav, .lang {
-  li {
+.nav {
+  > li {
     display: inline-block;
     vertical-align: middle;
 
@@ -7,7 +7,7 @@
       font-weight: 700
     }
 
-    a {
+    > a {
       cursor: pointer;
       color: white;
       font-weight: $font-light;
@@ -24,8 +24,4 @@
 
 .nav {
   text-align: center;
-}
-
-.lang {
-  text-align: right;
 }

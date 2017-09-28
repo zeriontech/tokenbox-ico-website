@@ -1,0 +1,14 @@
+.lang {
+  list-style: none;
+
+  a {
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;;
+    }
+  }
+}

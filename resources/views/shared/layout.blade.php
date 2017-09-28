@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ru">
+<html lang="{{app()->getLocale()}}">
 <head>
   <meta charset="UTF-8">
-  <title>Tokenbox — Unique ecosystem for crypto investors, traders & funds</title>
+  <title>{{__('Tokenbox — Unique ecosystem for crypto investors, traders and funds')}}</title>
   <meta name="description" content="">
   <meta itemprop="description" content=""/>
-  <link rel="stylesheet" href="assets/front/css/app.css" />
+  <link rel="stylesheet" href="/assets/front/css/app.css" />
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
@@ -50,6 +50,16 @@
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K55HGJG"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K55HGJG" height="0" width="0" style="display:none; visibility:hidden">
+    </iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
+
+  @yield('content')
+
+  @include('shared/footer')
+
+  <script type="text/javascript" src="/assets/front/js/app.min.js"></script>
+</body>
+</html>

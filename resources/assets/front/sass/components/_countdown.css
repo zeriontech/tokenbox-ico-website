@@ -3,7 +3,7 @@
 
   .button {
     margin: 65px 0 0;
-    max-width: 360px;
+    width: auto;
 
     i {
       font-size: 18px;
