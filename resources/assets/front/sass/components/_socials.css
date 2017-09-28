@@ -1,66 +1,33 @@
-.socials {
-  cursor: default;
-  margin-top: 5px;
-  .soc {
-    display: inline-block;
-    margin-right: 3px;
-    width: 25px;
-    height: 25px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    &:hover {
-      opacity: .7;
-    }
-  }
-  .tw { background-image: inline('../img/socials/tw.png'); }
-  .fb { background-image: inline('../img/socials/fb.png'); }
-  .in { background-image: inline('../img/socials/in.png'); }
-  .am { background-image: inline('../img/socials/am.png'); }
-  .gh { background-image: inline('../img/socials/gh.png'); }
-}
-
 .footer-social {
+  position: relative;
   text-align: center;
-  margin-bottom: 15px;;
-
-  position: relative;;
+  margin-bottom: 15px;
 
   .link {
-    display: inline-block;
-    vertical-align: top;
     position: relative;
+    display: inline-block;
+    margin: 0 20px 20px;
     width: 40px;
     height: 40px;
     font-size: 4.6rem;
-    margin-bottom: 20px;
-
-    @mixin lp tablet {
-      margin-bottom: 40px;
-      width: 70px;
-      height: 70px;
-      margin-bottom: 0;
-    }
-
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-    span {
-      display: block;
-      position: absolute;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+    vertical-align: middle;
+    text-align: center;
 
     .fa {
-      transition: .3 opacity;
-      -webkit-transform: translateZ(0);
+      transition: .3s opacity;
 
       &:hover {
         opacity: .7;
       }
+    }
+  }
+
+  @mixin lp tablet {
+    .link {
+      margin-bottom: 0;
+      width: 70px;
+      height: 70px;
     }
   }
 }

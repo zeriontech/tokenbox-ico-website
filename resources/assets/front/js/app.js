@@ -39,7 +39,7 @@ $(document).ready(function() {
 
     $(this).find('.tabs a').click(function(e) {
       $items.hide();
-      $($(this).attr('href')).show();
+      $($(this).attr('href')).fadeIn(600);
       $(this).siblings().removeClass('current');
       $(this).addClass('current');
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
     })
   });
 
-  $('a[href^="#"]').click(function(){
+  $('.nav a[href^="#"]').click(function(){
     var anchor = $(this).attr('href');
 
     $('html').animate({ scrollTop: $(anchor).offset().top }, 700);

@@ -13,7 +13,7 @@
   }
 
   a.current {
-    font-weight: 600;
+    font-weight: 700;
     border-color: $blue;
   }
 
@@ -28,4 +28,8 @@
   }
 }
 
-
+.js-tabs {
+  .js-tab ~ .js-tab {
+    display: none;
+  }
+}
