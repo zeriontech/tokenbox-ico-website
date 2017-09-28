@@ -1,13 +1,14 @@
-@extends('layout')
+@extends('shared/layout')
 
 @section('content')
 
-  <section class="topblock">
+  <section class="topblock topblock-home">
     <div class="hamburger-icon" id="hamburger-icon">
       <span class="line line-1"></span>
       <span class="line line-2"></span>
       <span class="line line-3"></span>
     </div>
+
     <div class="mobile-nav">
       <div class="logo"></div>
       <ul>
@@ -36,6 +37,7 @@
         </li>
       </ul>
     </div>
+
     <div class="wrapper">
       <header class="header">
         <div class="row">
@@ -49,22 +51,32 @@
             <li><a href="#faq">{{__('FAQ')}}</a></li>
           </nav>
 
-          <div class="lang two-sd three columns">
-            <ul>
+          <div class="three columns">
+            <ul class="nav">
               <li class="active">
                 <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
                   {{__('White Paper')}}
                 </a>
               </li>
               {{--language select--}}
-              @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                <li>
-                  <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                    {{--                      {{ $properties['native'] }}--}}
-                    {{ $localeCode }}
-                  </a>
-                </li>
-              @endforeach
+              <li>
+                <div class="dropdown">
+                  <div class="title">
+                    {{ LaravelLocalization::getCurrentLocale() }}
+                  </div>
+
+                   <ul class="lang dropdown-menu">
+                      @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        <li>
+                          <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                            {{--                      {{ $properties['native'] }}--}}
+                            {{ $localeCode }}
+                          </a>
+                        </li>
+                      @endforeach
+                   </ul>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -76,7 +88,7 @@
 
         <div id="countdown"></div>
 
-        <a href="#roadmap" class="button">
+        <a href="#roadmap" class="button" style="display: none;">
           {{__('Learn more about ICO')}}
           <i class="fa fa-long-arrow-right"></i>
         </a>
@@ -248,7 +260,7 @@
       <div class="mac-ipad no-tablet">
         <div class="mac from-bottom"></div>
         <div class="ipad from-bottom"></div>
-        <h3>{{__('Manage your Fund’s portfolio on any device<')}}/h3>
+        <h3>{{__('Manage your Fund’s portfolio on any device')}}</h3>
       </div>
     </div>
   </section>
@@ -274,6 +286,7 @@
       </div>
     </div>
   </section>
+
   <section class="send-request section">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
@@ -290,13 +303,13 @@
     </div>
   </section>
 
-  @include('roadmap')
+  @include('shared/roadmap')
 
-  @include('tech')
+  @include('shared/tech')
 
-  @include('team')
-  @include('faq')
-  @include('media')
+  @include('shared/team')
+  @include('shared/faq')
+  @include('shared/media')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">

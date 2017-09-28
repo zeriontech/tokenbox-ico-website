@@ -4,14 +4,17 @@
   .title {
     cursor: pointer;
     position: relative;
+    text-transform: uppercase;
+
     &:after {
       display: block;
       content: "▾";
       color: $red;
       position: absolute;
-      right: -5px;
-      margin-top: -20px;
+      right: -12px;
+      top: 0px;
       transition: transform .2s ease;
+
       @media (max-width: 749px) {
         right: -20px;
         margin-top: -28px;
@@ -29,16 +32,17 @@
       max-height: 200px;
     }
   }
+
   .dropdown-menu {
     position: absolute;
+    top: 40px;
+    right: 0;
     overflow: hidden;
-    height: 200px;
+    margin: 0;
     max-height: 0;
     transition: all 0.2s;
-    margin: 0;
-    top: 40px;
     text-align: left;
-    width: 110px;
+
     @media (max-width: 749px) {
       position: relative;
       width:100%;

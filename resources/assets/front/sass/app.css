@@ -45,6 +45,7 @@
 @import "components/section-join-crowdsale";
 @import "components/accordion";
 @import "components/tabs";
+@import "components/lang";
 
 .pay-with {
   margin-top: 110px;
