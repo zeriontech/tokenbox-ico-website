@@ -66,7 +66,16 @@
                     </div>
                     <div class="name">{{__('Aleksandr Volkov')}}</div>
                     <div class="info">{{__('Lead Backend Developer')}},
-                        <br />The Token Fund</div>
+                        <br />Zerion</div>
+                </div><div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/cas.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/chris-abel-smith-a416271/" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Chris Abel-Smith')}}</div>
+                    <div class="info">{{__('Head of Supervisory Board')}},
+                        <br />Resultat Ltd., Varuna-Partners</div>
                 </div>
             </div>
         </article>
