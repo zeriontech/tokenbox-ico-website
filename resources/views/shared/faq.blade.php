@@ -124,7 +124,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Trading terminal will be developed with account taken of needs of various market participants (fund managers and traders).')}}
+                    {{__('Trading terminal will be developed according to the needs of various market participants (fund managers and traders).')}}
                     <br>
                     {{__('For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
                 </div>
@@ -152,7 +152,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('TBX is a utility token allowing to access the platform’s services. A fund manager or trader who wishes to operate his own fund on the platform, acquires TBX tokens and deposits them on the platform. These funds in the TBX format, are placed in the portfolio of the Fund or Trader and are valued in the portfolio like any other assets. The share of TBX-tokens in portfolios should be maintained at a level of at least 5%.')}}
+                    {{__('TBX is an utility token that providing an access to the platform’s services. A fund manager or trader who wishes to operate his own fund on the platform, acquires TBX tokens and deposits them on the platform. These funds in the TBX format, are placed in the portfolio of the Fund or Trader and are valued in the portfolio like any other assets. The share of TBX-tokens in portfolios should be maintained at a level of at least 5%.')}}
                 </div>
             </div>
 

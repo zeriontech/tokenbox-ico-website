@@ -1,33 +1,43 @@
-<section class="media" style="display: none !important;">
+<section class="media section">
     <div class="wrapper media-blocks">
         <h1 class="from-bottom">{{__('Media about Tokenbox')}}</h1>
         <div class="row">
             <div class="three columns">
-                <a href="" target="_blank" class="img cointelegraph"></a>
+                <a href="https://cryptopotato.com/miners-dilemma-sell-mined-tokens-fiat-invest/ " target="_blank" class="img crypto-potato"></a>
             </div>
             <div class="three columns">
-                <a href="" target="_blank" class="img smithcrown"></a>
+                <a href="http://bitcoinist.com/interview-with-token-fund-the-etf-alternative-for-cryptocurrency-investing/ " target="_blank" class="img bitcoinist"></a>
             </div>
             <div class="three columns">
-                <a href="" target="_blank" class="img coinspeaker"></a>
+                <a href="http://www.marketwatch.com/story/the-token-fund-welcomes-chris-skinner-on-board-2017-09-13 " target="_blank" class="img marketwatch"></a>
             </div>
             <div class="three columns">
-                <a href="" target="_blank" class="img coinidol"></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="three columns">
-                <a href="" target="_blank" class="img forbes"></a>
-            </div>
-            <div class="three columns">
-                <a href="" target="_blank" class="img forklog"></a>
-            </div>
-            <div class="three columns">
-                <a href="" target="_blank" class="img coindesk"></a>
+                <a href="https://www.investing.com/analysis/coin-traded-funds-new-kind-of-investment-funds-specializing-in-cryptocu-200204770" target="_blank" class="img investingcom"></a>
             </div>
         </div>
 
-        <section class="medium">
+        <div class="row">
+            <div class="three columns">
+                <a href="http://www.vesti.ru/videos/show/vid/723985/" target="_blank" class="img russia24"></a>
+            </div>
+            <div class="three columns">
+                <a href="http://news.btc123.com/news/detail?id=7413 " target="_blank" class="img btc123"></a>
+            </div>
+            <div class="three columns">
+                <a href="http://tv.rbc.ru/archive/lidery_rynka " target="_blank" class="img rbc"></a>
+            </div>
+            <div class="three columns">
+                <a href="https://www.cryptocoinsnews.com/ethereum-used-ctfs-coin-traded-funds-benefits/ " target="_blank" class="img cryptocoinsnews"></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="three columns">
+                <a href="http://www.forbes.ru/tehnologii/345973-novye-kriptovalyuty-kak-v-nih-investirovat-i-pochemu-im-nuzhen-pravovoy-status" target="_blank" class="img forbes"></a>
+            </div>
+        </div>
+
+        <section class="medium" style="display: none;">
             <div class="medium-icon"></div>
             <h1 class="from-bottom">{{__('We are on Medium')}}</h1>
             <div class="row">
