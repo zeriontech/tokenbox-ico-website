@@ -9,7 +9,7 @@
       <span class="line line-3"></span>
     </div>
 
-    <div class="mobile-nav">
+    <div class="mobile-nav js-scroll-nav">
       <div class="logo"></div>
       <ul>
         <li><a href="#for-investors">{{__('Features')}}</a></li>
@@ -20,7 +20,7 @@
         <li class="active">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">{{__('White Paper')}}</a>
         </li>
-        <!--<li><a href="#media">Media</a></li>-->
+        <li><a href="#media">Media</a></li>
         <li class="dropdown">
         {{--<div class="title">English</div>--}}
         <ul class="dropdown-menu">

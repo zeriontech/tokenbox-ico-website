@@ -143,6 +143,17 @@ body {
   .offset-by-one-half-sd.columns     { margin-left: 52%; }
 }
 
+.tile {
+  margin: 0 -2%;
+
+  .column:first-child,
+  .columns:first-child,
+  .column,
+  .columns {
+    margin: 0 2%;
+  }
+}
+
 .u-pull-right {
   float: right;
 }
