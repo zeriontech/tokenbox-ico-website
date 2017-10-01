@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>{{__('Tokenbox — Unique ecosystem for crypto investors, traders and funds')}}</title>
-  <meta name="description" content="ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in XX days!">
-  <meta itemprop="description" content="ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in XX days!">
+  <meta name="description" content="{{__('ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in 20 days!')}}">
+  <meta itemprop="description" content="{{__('ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in 20 days!')}}">
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
