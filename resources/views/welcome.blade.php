@@ -93,7 +93,7 @@
           <i class="fa fa-long-arrow-right"></i>
         </a>
 
-        <a href="#" class="button js-join-queue">
+        <a href="#" class="button js-modal-link" data-target="#join-queue-modal">
           {{__('Join the Queue')}}
         </a>
 
@@ -319,6 +319,7 @@
   @include('shared/team')
   @include('shared/faq')
   @include('shared/media')
+  @include('shared/terms')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">

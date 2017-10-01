@@ -24,7 +24,17 @@ body.hasModal {
 
 .modal-body {
   position: relative;
-  margin: 150px 20px;
+  margin: 80px 20px;
+}
+
+.modal-content {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+
+  h1 {
+    text-align: center;
+  }
 }
 
 .modal .send-request {
@@ -48,7 +58,7 @@ body.hasModal {
   }
 
   .button-details {
-    margin-top: 55px;
+    margin: 55px 0 0;
     color: #474c53;
   }
 }

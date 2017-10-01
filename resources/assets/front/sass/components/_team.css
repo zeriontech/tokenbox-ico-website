@@ -5,6 +5,10 @@
   margin: auto;
 }
 
+.team .wrapper {
+  padding: 0;
+}
+
 .advisors {
   margin: 100px auto 0;
 

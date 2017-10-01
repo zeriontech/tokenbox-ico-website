@@ -14,7 +14,7 @@
     </div>
     <div class="copy">
     <div class="logo"></div>
-    <a href="">{{__('Terms & Conditions')}}</a>
+    <a href="#" class="js-modal-link" data-target="#terms-modal">{{__('Terms & Conditions')}}</a>
     <a href="">{{__('User Privacy')}}</a>
     <h2>tokebox.io</h2>
     </div>
