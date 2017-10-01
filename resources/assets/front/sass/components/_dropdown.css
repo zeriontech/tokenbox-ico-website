@@ -4,7 +4,6 @@
   .title {
     cursor: pointer;
     position: relative;
-    text-transform: uppercase;
 
     &:after {
       display: block;

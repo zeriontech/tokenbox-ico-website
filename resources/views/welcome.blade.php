@@ -15,7 +15,7 @@
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#tech">{{__('Technology')}}</a></li>
-        <li><a href="#team">{{__('Team And Advisors')}}</a></li>
+        <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">{{__('White Paper')}}</a>
@@ -47,7 +47,7 @@
             <li><a href="#for-investors">{{__('Features')}}</a></li>
             <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
             <li><a href="#tech">{{__('Technology')}}</a></li>
-            <li><a href="#team">{{__('Team And Advisors')}}</a></li>
+            <li><a href="#team">{{__('Team')}}</a></li>
             <li><a href="#faq">{{__('FAQ')}}</a></li>
           </nav>
 

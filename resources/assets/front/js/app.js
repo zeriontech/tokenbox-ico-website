@@ -28,12 +28,6 @@ $(document).ready(function() {
     return false;
   });
 
-  var anchor = window.location.hash;
-  if (anchor != "") {
-    $('body').animate({
-      scrollTop: $(anchor).offset().top}, 700);
-  }
-
   $('.js-tabs').each(function() {
     var $items = $(this).find('.js-tab');
 
@@ -85,7 +79,7 @@ $(document).ready(function() {
 (function() {
   if (!$('.countdown').is(':visible')) return;
 
-  var deadline = new Date(2017, 9, 23, 11);
+  var deadline = new Date(2017, 9, 24, 12);
 
   var counts = {
     days: 60,

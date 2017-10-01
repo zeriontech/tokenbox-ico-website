@@ -134,6 +134,18 @@
                 <input type="checkbox" id="item-10">
 
                 <label class="heading-2" for="item-10">
+                    {{__('What kind of security measures and policies will be provided against investor funds losts and misappropriate usage by traders and other platform participants?')}}
+                </label>
+
+                <div class="accordion-item-content">
+                    {{__('Investor\'s funds, excluding daily liquidity, are stored on multi-signature wallets behind a closed loop. All private keys are placed in a separate storage behind the contour of the platform, which allows to guarantee a higher degree of their safety.')}}
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="item-10">
+
+                <label class="heading-2" for="item-10">
                     {{__('What is unique key features of Tokenbox, that differs it from similar services?')}}
                 </label>
 
