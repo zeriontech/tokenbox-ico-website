@@ -22,4 +22,12 @@ $(function() {
       'event_name': 'form'
     });
   });
+
+  $('#presale-form').submit(function() {
+    dataLayer.push({
+      'event': 'custom_event',
+      'event_id': 'modal',
+      'event_name': 'presale'
+    });
+  })
 });
