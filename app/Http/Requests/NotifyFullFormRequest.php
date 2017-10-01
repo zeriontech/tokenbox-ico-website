@@ -25,8 +25,8 @@ class NotifyFullFormRequest extends FormRequest
     {
         return [
             'EMAIL'   => 'required|email',
-            'NAME'    => 'required',
-            'COMPANY' => 'required',
+            'NAME'    => 'required|min:1',
+            'COMPANY' => 'required|min:1',
         ];
     }
 }
