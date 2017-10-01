@@ -15,7 +15,7 @@
           </div>
           <div class="row">
             <div class="six columns">
-              <input type="phone" value="" name="PHONE" id="mce-PHONE" placeholder="{{__('Phone')}}">
+              <input type="phone" value="" name="PHONE" id="mce-PHONE" placeholder="{{__('Phone (Optional)')}}">
             </div>
             <div class="six columns">
               <input required type="text" value="" name="AMOUNT" id="mce-AMOUNT" placeholder="{{__('Amount you wish to invest (min. $50k)')}}">
