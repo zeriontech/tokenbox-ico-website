@@ -169,6 +169,7 @@ return [
          */
         Themsaid\LangmanGUI\LangmanServiceProvider::class,
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Darkin1\Intercom\IntercomServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -228,7 +229,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
-
+        'Intercom'  => Darkin1\Intercom\Facades\Intercom::class,
     ],
 
 ];

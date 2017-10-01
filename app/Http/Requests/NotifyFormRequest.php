@@ -13,7 +13,7 @@ class NotifyFormRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,9 +24,7 @@ class NotifyFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'token'    => 'required',
-            'email'    => 'required|email',
-            'password' => 'required|confirmed|min:8'
+            'EMAIL' => 'required|email',
         ];
     }
 }
