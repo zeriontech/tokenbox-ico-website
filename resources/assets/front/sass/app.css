@@ -121,3 +121,48 @@ section h1 {
 .section-faq {
   border-top: 1px solid #f6f6f8;
 }
+
+body.hasModal {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+  background: #32323e;
+}
+
+.modal-body {
+  padding: 150px 20px;
+}
+
+.modal .send-request {
+  padding-top: 100px;
+  border-radius: 10px;
+  background-position-y: 62px;
+
+  h1 {
+    margin-bottom: 85px;
+  }
+
+  form {
+    max-width: 1020px;
+  }
+
+  .button {
+    display: block;
+    margin: 42px auto;
+    max-width: 640px;
+  }
+
+  .button-details {
+    margin-top: 55px;
+    color: #474c53;
+  }
+}

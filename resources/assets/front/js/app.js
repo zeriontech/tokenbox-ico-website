@@ -28,6 +28,23 @@ $(document).ready(function() {
     return false;
   });
 
+  $('.js-join-queue').click(function() {
+    $('body').addClass('hasModal');
+    $('#join-queue-modal').fadeIn();
+    $(window).scroll();
+
+    $(document).on('keyup.modal', function(e) {
+      if (e.keyCode == 27) {
+        $(document).off('off.modal');
+        $('#join-queue-modal').fadeOut(function() {
+          $('body').removeClass('hasModal');
+        });
+      }
+    })
+
+    return false;
+  })
+
   $('.js-tabs').each(function() {
     var $items = $(this).find('.js-tab');
 
