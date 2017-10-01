@@ -45,8 +45,11 @@
     a, h2 {
       font-weight: 400;
       color: white;
-      text-decoration: underline;
       font-size:1.6rem;
+    }
+
+    a {
+      text-decoration: underline;
       &:hover {
         opacity: .7;
       }
