@@ -28,7 +28,7 @@ body.hasModal {
 }
 
 .modal-content {
-  padding: 20px;
+  padding: 100px;
   background: #fff;
   border-radius: 10px;
 
@@ -39,6 +39,7 @@ body.hasModal {
 
 .modal .send-request {
   padding-top: 100px;
+  padding-bottom: 100px;
   border-radius: 10px;
   background-position-y: 62px;
 
