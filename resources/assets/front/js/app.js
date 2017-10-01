@@ -28,16 +28,18 @@ $(document).ready(function() {
     return false;
   });
 
-  $('.js-join-queue').click(function() {
+  $('.js-modal-link').click(function() {
+    var $modal = $($(this).data('target'));
+
     function hide() {
       $(document).off('off.modal');
-      $('#join-queue-modal').fadeOut(function() {
+      $modal.fadeOut(function() {
         $('body').removeClass('hasModal');
       });
     }
 
     $('body').addClass('hasModal');
-    $('#join-queue-modal').fadeIn();
+    $modal.fadeIn();
     $(window).scroll();
 
     $(document).on('keyup.modal', function(e) {
