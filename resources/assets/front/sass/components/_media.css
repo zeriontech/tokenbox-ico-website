@@ -32,7 +32,9 @@
 
     @media (max-width: 749px) {
       padding-bottom: 0;
-      height: 200px;
+      margin-bottom: 20px;
+      width: 240px;
+      height: 130px;
     }
 
     &:hover {
