@@ -1,17 +1,19 @@
 .media {
   background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
   background-size: cover;
+
   @media (max-width: 749px) {
     background-size: 1280px auto;
   }
 }
 
 .media-blocks {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   >h1 {
     margin-bottom: 50px;
+
     @media (max-width: 749px) {
       margin-bottom: 100px;
     }
@@ -20,18 +22,20 @@
   .img {
     display: block;
     cursor: pointer;
-    width: 100%;
-    max-width: 250px;
     padding-bottom: 53%;
-    @media (max-width: 749px) {
-      padding-bottom: 0;
-      height: 200px;
-    }
     margin: 0 auto 40px;
+    border-radius: 5px;
     background-color: white;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
+    @media (max-width: 749px) {
+      padding-bottom: 0;
+      margin-bottom: 20px;
+      width: 240px;
+      height: 130px;
+    }
 
     &:hover {
       opacity: .5;

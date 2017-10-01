@@ -13,7 +13,7 @@ if (!sr.tools.isMobile()) {
   sr.reveal('.trading-app');
   sr.reveal('.issue');
   sr.reveal('.big-title');
-  sr.reveal('.send-request');
+  sr.reveal('.send-request-body');
   sr.reveal('.roadmap .top');
   sr.reveal('.technology');
   sr.reveal('.team .member', {

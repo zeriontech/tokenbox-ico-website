@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>{{__('Tokenbox — Unique ecosystem for crypto investors, traders and funds')}}</title>
-  <meta name="description" content="">
-  <meta itemprop="description" content=""/>
-  <link rel="stylesheet" href="/assets/front/css/app.css" />
+  <meta name="description" content="ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in XX days!">
+  <meta itemprop="description" content="ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in XX days!">
   <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
   <link rel="apple-touch-icon" href="/favicon-195.png" sizes="144x144">
+
+  <link rel="stylesheet" href="/assets/front/css/app.css">
 
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
@@ -31,10 +33,6 @@
   </script>
 
   <style>
-    .sr-enabled body > section:not(.topblock) {
-      /*overflow-x: hidden;*/
-    }
-
     .sr-enabled .topblock .fade-in-item {
       visibility: hidden;
     }
@@ -47,7 +45,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-K55HGJG');</script>
   <!-- End Google Tag Manager -->
-  
+
   <script>
   window.intercomSettings = {
     app_id: "b2wlmg1s"

@@ -16,6 +16,7 @@
     <div class="logo"></div>
     <a href="">{{__('Terms & Conditions')}}</a>
     <a href="">{{__('User Privacy')}}</a>
+    <h2>tokebox.io</h2>
     </div>
   </div>
 </footer>

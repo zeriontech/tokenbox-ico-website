@@ -121,12 +121,12 @@
   h3 {
     color: $gray-light;
     font-size:1.6rem;
-    font-weight:$font-light;
+    font-weight: 400;
     text-align: right;
     position: absolute;
     left: 15%;
     width: 200px;
-    top: 235px;
+    top: 240px;
     z-index: 1;
     @media (max-width: 1099px) {
       top: 200px;

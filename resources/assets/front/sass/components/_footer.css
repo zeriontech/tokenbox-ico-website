@@ -30,7 +30,7 @@
   .copy {
     text-align: center;
     margin-top: 90px;
-    div, a {
+    div, a, h2 {
       display: inline-block;
       margin: 10px 20px;
       vertical-align: middle;
@@ -42,10 +42,14 @@
         margin: 90px auto 30px;
       }
     }
-    a {
+    a, h2 {
+      font-weight: 400;
       color: white;
-      text-decoration: underline;
       font-size:1.6rem;
+    }
+
+    a {
+      text-decoration: underline;
       &:hover {
         opacity: .7;
       }

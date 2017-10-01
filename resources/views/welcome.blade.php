@@ -15,7 +15,7 @@
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#tech">{{__('Technology')}}</a></li>
-        <li><a href="#team">{{__('Team And Advisors')}}</a></li>
+        <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">{{__('White Paper')}}</a>
@@ -47,7 +47,7 @@
             <li><a href="#for-investors">{{__('Features')}}</a></li>
             <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
             <li><a href="#tech">{{__('Technology')}}</a></li>
-            <li><a href="#team">{{__('Team And Advisors')}}</a></li>
+            <li><a href="#team">{{__('Team')}}</a></li>
             <li><a href="#faq">{{__('FAQ')}}</a></li>
           </nav>
 
@@ -80,6 +80,7 @@
           </div>
         </div>
       </header>
+
       <div class="countdown">
         <h1>
           {{__('Countdown until we go to ICO')}}
@@ -90,6 +91,15 @@
         <a href="#roadmap" class="button" style="display: none;">
           {{__('Learn more about ICO')}}
           <i class="fa fa-long-arrow-right"></i>
+        </a>
+
+        <a href="#" class="button js-join-queue">
+          {{__('Join the Queue')}}
+        </a>
+
+        <a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+          <i class="fa fa-telegram"></i>
+          {{__('Telegram')}}
         </a>
       </div>
 
@@ -286,7 +296,7 @@
     </div>
   </section>
 
-  <section class="send-request section">
+  <section class="send-request send-request-body section">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form-2" name="mc-embedded-subscribe-form">
@@ -321,5 +331,7 @@
       </form>
     </div>
   </section>
+
+  @include('shared/form')
 
 @endsection
