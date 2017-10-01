@@ -84,6 +84,7 @@
 
     .button {
       margin: 58px 0 0;
+      vertical-align: top;
 
       i {
         font-size: 23px;
@@ -92,6 +93,7 @@
 
     .button + .button {
       margin-left: 35px;
+      min-width: 260px;
     }
   }
 
