@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class NotifyFormRequest extends FormRequest
+class NotifyFullFormRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +13,7 @@ class NotifyFormRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,9 @@ class NotifyFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'EMAIL' => 'required|email',
+            'EMAIL'   => 'required|email',
+            'NAME'    => 'required',
+            'COMPANY' => 'required',
         ];
     }
 }
