@@ -29,17 +29,25 @@ $(document).ready(function() {
   });
 
   $('.js-join-queue').click(function() {
+    function hide() {
+      $(document).off('off.modal');
+      $('#join-queue-modal').fadeOut(function() {
+        $('body').removeClass('hasModal');
+      });
+    }
+
     $('body').addClass('hasModal');
     $('#join-queue-modal').fadeIn();
     $(window).scroll();
 
     $(document).on('keyup.modal', function(e) {
       if (e.keyCode == 27) {
-        $(document).off('off.modal');
-        $('#join-queue-modal').fadeOut(function() {
-          $('body').removeClass('hasModal');
-        });
+        hide();
       }
+    });
+
+    $(document).one('click', '.modal-overlay', function() {
+      hide();
     })
 
     return false;
