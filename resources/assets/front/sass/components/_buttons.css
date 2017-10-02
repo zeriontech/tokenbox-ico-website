@@ -16,6 +16,7 @@
   text-transform: none;
   border-radius: 5px;
   letter-spacing: normal;
+  white-space: nowrap;
 
   &:hover {
     animation: hover 1200ms linear 2 alternate;

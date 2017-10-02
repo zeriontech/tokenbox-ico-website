@@ -138,8 +138,8 @@
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div class="row">
-          <div class="seven columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}"></div>
-          <div class="five columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified about ICO')}}!</button></div>
+          <div class="six columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}"></div>
+          <div class="six columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified about ICO')}}!</button></div>
         </div>
       </form>
     </div>

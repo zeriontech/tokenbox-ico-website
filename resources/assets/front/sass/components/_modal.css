@@ -1,5 +1,7 @@
-body.hasModal {
-  overflow: hidden;
+html.hasModal {
+  &, body {
+    overflow: hidden;
+  }
 }
 
 .modal {
