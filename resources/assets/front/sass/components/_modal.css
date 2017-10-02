@@ -7,21 +7,24 @@ html.hasModal {
 .modal {
   position: fixed;
   top: 0;
-  overflow: auto;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 100;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: none;
   background: rgba(50,50,62,0.9);
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  cursor: pointer;
 }
 
 .modal-body {

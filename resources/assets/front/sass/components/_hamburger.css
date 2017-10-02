@@ -17,7 +17,7 @@ $translateX: 0;
   opacity: 1;
 
   &:hover {
-    @include opacity(.7);
+    opacity: .7;
   }
 
   .line {
