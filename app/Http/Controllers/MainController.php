@@ -11,6 +11,16 @@ class MainController extends Controller
 {
     use JsonResponseTrait;
 
+    public function mainPage()
+    {
+        return view('welcome');
+    }
+
+    public function icoPage()
+    {
+        return view('ico');
+    }
+
     /**
      * @param NotifyFormRequest $request
      * @param IntercomService   $intercomService
