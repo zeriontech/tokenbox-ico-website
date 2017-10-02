@@ -27,10 +27,6 @@ body {
   line-height: 1.6;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-
-  @mixin breakpoint retina {
-    @mixin font-smoothing on;
-  }
 }
 
 h1,

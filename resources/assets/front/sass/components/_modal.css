@@ -7,21 +7,24 @@ html.hasModal {
 .modal {
   position: fixed;
   top: 0;
-  overflow: auto;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 100;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: none;
   background: rgba(50,50,62,0.9);
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  cursor: pointer;
 }
 
 .modal-body {
@@ -40,10 +43,11 @@ html.hasModal {
 }
 
 .modal .send-request {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 20px;
   border-radius: 10px;
   background-position-y: 62px;
+  max-width: 1180px;
+  margin: auto;
 
   h1 {
     margin-bottom: 85px;

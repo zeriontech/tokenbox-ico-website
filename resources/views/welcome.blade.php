@@ -18,22 +18,12 @@
         <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
-          <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">{{__('White Paper')}}</a>
+          <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+            {{__('White Paper')}}
+          </a>
         </li>
-        <li><a href="#media">Media</a></li>
-        <li class="dropdown">
-        {{--<div class="title">English</div>--}}
-        <ul class="dropdown-menu">
-            {{--language select--}}
-            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-              <li>
-                <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                  {{--                      {{ $properties['native'] }}--}}
-                  {{ $localeCode }}
-                </a>
-              </li>
-            @endforeach
-          </ul>
+        <li>
+          @include('shared/langSwitcher')
         </li>
       </ul>
     </div>
@@ -60,21 +50,7 @@
               </li>
               {{--language select--}}
               <li>
-                <div class="dropdown">
-                  <div class="title">
-                    {{ LaravelLocalization::getSupportedLocales()[LaravelLocalization::getCurrentLocale()]['native'] }}
-                  </div>
-
-                   <ul class="lang dropdown-menu">
-                      @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                        <li>
-                          <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                                  {{ $properties['native'] }}
-                          </a>
-                        </li>
-                      @endforeach
-                   </ul>
-                </div>
+                @include('shared/langSwitcher')
               </li>
             </ul>
           </div>
@@ -138,8 +114,12 @@
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div class="row">
-          <div class="six columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}"></div>
-          <div class="six columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified about ICO')}}!</button></div>
+          <div class="seven columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}"></div>
+          <div class="five columns">
+            <button value="Subscribe" name="subscribe" type="submit" class="button button-condensed">
+              {{__('Get notified about ICO')}}!
+            </button>
+          </div>
         </div>
       </form>
     </div>

@@ -20,7 +20,7 @@
       padding-left: 20px;
       font-size: 2.6rem;
       box-sizing: border-box;
-      font-weight:$font-light;
+      font-weight: 400;
       -webkit-appearance: none;
 
       @media (max-width: 749px) {
