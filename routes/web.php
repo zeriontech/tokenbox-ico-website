@@ -20,4 +20,6 @@ Route::group([
     Route::get('ico', function () {
         return view('ico');
     });
+    Route::post('/send', 'MainController@addUser')->name('add-user');
+    Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
 });
