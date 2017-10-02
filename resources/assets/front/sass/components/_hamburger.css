@@ -86,7 +86,8 @@ $translateX: 0;
   left: 20px;
 }
 
-.nav, .lang {
+.nav,
+.header .lang {
   @media (max-width: 749px) {
     display: none;
   }
@@ -107,28 +108,31 @@ $translateX: 0;
     background-color: $blue;
     margin: 0;
     z-index: 3;
-    padding: 100px 0 20px;
+    padding: 90px 0 20px;
 
-    ul {
+    > ul {
       margin: 0 !important;
       text-align: center !important;
-      li {
+
+      > li {
         display: block;
         margin: 0;
-        a, div, span {
+        font-size: 26px;
+
+        a, .title  {
           display: inline-block;
-          padding: 20px 0;
+          padding: 17px 0 12px;
           border-radius: 0;
           border: none;
           color: white;
-          opacity: 1;
-          font-size: 20px;
           text-decoration: none;
-          &:hover {
-            opacity: .7;
-            text-decoration: underline;
-          }
         }
+
+        .title {
+          padding: 0 10px 0 0;
+          margin: 17px 0 12px;
+        }
+
         &.active {
           a {
             opacity: 1;

@@ -43,10 +43,11 @@ html.hasModal {
 }
 
 .modal .send-request {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 20px;
   border-radius: 10px;
   background-position-y: 62px;
+  max-width: 1180px;
+  margin: auto;
 
   h1 {
     margin-bottom: 85px;

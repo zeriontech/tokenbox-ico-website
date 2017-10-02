@@ -13,11 +13,6 @@
       right: -12px;
       top: 0px;
       transition: transform .2s ease;
-
-      @media (max-width: 749px) {
-        right: -20px;
-        margin-top: -28px;
-      }
     }
   }
 
