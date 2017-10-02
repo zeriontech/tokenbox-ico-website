@@ -34,11 +34,11 @@ $(document).ready(function() {
     function hide() {
       $(document).off('off.modal');
       $modal.fadeOut(function() {
-        $('body').removeClass('hasModal');
+        $('html').removeClass('hasModal');
       });
     }
 
-    $('body').addClass('hasModal');
+    $('html').addClass('hasModal');
     $modal.fadeIn();
     $(window).scroll();
 
