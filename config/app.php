@@ -169,6 +169,8 @@ return [
          */
         Themsaid\LangmanGUI\LangmanServiceProvider::class,
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Darkin1\Intercom\IntercomServiceProvider::class,
+        Arcanedev\SeoHelper\SeoHelperServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -228,7 +230,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
-
+        'Intercom'  => Darkin1\Intercom\Facades\Intercom::class,
+        'SeoHelper'    => Arcanedev\SeoHelper\Facades\SeoHelper::class,
     ],
 
 ];
