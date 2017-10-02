@@ -11,6 +11,30 @@ class MainController extends Controller
 {
     use JsonResponseTrait;
 
+    const ICO_START_DAY = 24;
+
+    public function mainPage()
+    {
+        $days = self::ICO_START_DAY - date('d');
+
+        $title = __('Tokenbox — Unique ecosystem for crypto investors, traders and funds');
+
+        $desctiption = __('ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in ');
+        $desctiption .= $days > 0 ? $days : '';
+        $desctiption .= ($days == 1) ? __(' day!') : (($days == 0) ? __(' now!') : __(' days!'));
+
+        $this->seo()
+            ->setTitle($title)
+            ->setDescription($desctiption);
+
+        return view('welcome');
+    }
+
+    public function icoPage()
+    {
+        return view('ico');
+    }
+
     /**
      * @param NotifyFormRequest $request
      * @param IntercomService   $intercomService
