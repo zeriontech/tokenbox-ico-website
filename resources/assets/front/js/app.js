@@ -1,15 +1,42 @@
 $(document).ready(function() {
-  var hamburger = $('.hamburger-icon');
-  hamburger.click(function() {
-    hamburger.toggleClass('active');
+  $('.hamburger-icon').each(function() {
+    var hamburger = $(this);
 
-    if (hamburger.hasClass('active')) {
-      $('html, body').css('overflow', 'hidden');
-    } else {
-      $('html, body').css('overflow', '');
-    }
+    hamburger.click(function() {
+      hamburger.toggleClass('active');
 
-    hamburger.next().toggleClass('opened');
+      if (hamburger.hasClass('active')) {
+        $('html, body').css('overflow', 'hidden');
+      } else {
+        $('html, body').css('overflow', '');
+      }
+
+      hamburger.next().toggleClass('opened');
+      return false;
+    });
+  });
+
+  $('.js-ajax-form').submit(function() {
+    var $form = $(this);
+    var $button = $form.find('button');
+    var buttonText = $button.text();
+
+    $.ajax({
+      url: $form.attr('action'),
+      type: $form.attr('method'),
+      data: $form.serialize()
+    }).done(function() {
+      $button.html('Succes');
+    }).fail(function() {
+      $button.html('Error, try later');
+    }).always(function() {
+      setTimeout(function() {
+        $button.text(buttonText);
+      }, 2000);
+    })
+
+    $button.html('<div class="button-loader"></div>');
+
     return false;
   });
 

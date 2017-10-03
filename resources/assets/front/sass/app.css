@@ -46,6 +46,7 @@
 @import "components/tabs";
 @import "components/lang";
 @import "components/modal";
+@import "components/notification";
 
 .pay-with {
   margin-top: 110px;

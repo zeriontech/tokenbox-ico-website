@@ -1,6 +1,6 @@
 @extends('shared/layout')
 
-@section('shared/content')
+@section('content')
 
   <section class="topblock topblock-ico">
     <div class="wrapper">
@@ -175,4 +175,3 @@
 
 @endsection
 
-@include('shared/footer')
