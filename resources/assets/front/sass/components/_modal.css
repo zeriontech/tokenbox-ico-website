@@ -35,12 +35,16 @@ html.hasModal {
 }
 
 .modal-content {
-  padding: 100px;
+  padding: 30px;
   background: #fff;
   border-radius: 10px;
 
   h1 {
     text-align: center;
+  }
+
+  @mixin bp tablet {
+    padding: 100px;
   }
 }
 
