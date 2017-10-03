@@ -5,8 +5,6 @@
 
   {!! seo_helper()->render() !!}
 
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
   <link rel="apple-touch-icon" href="/favicon-195.png" sizes="144x144">
