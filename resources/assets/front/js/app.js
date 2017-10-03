@@ -71,8 +71,6 @@ $(document).ready(function() {
     return false;
   });
 
-  $('.fancy').fancybox();
-
   $('.slider').slick({
     autoplay: true,
     arrows: false,

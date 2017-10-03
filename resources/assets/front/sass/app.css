@@ -7,7 +7,6 @@
 @import "fonts";
 @import "background-icon";
 
-@import "vendors/fancy";
 @import "vendors/slick";
 
 @import "components/dropdown";

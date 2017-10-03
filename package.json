@@ -13,8 +13,6 @@
   "dependencies": {
     "autoprefixer": "^6.5.4",
     "cssnano": "^3.9.1",
-    "fancybox": "^3.0.0",
-    "fastclick": "^1.0.6",
     "font-awesome": "^4.7.0",
     "postcss-assets": "^4.1.0",
     "postcss-cssnext": "^1.8.4",

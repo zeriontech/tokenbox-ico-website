@@ -25,7 +25,7 @@ elixir((mix) => {
             cachebuster: true
         }),
         require('autoprefixer')({
-            browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4']
+            browsers: ['last 2 version', 'safari 5', 'opera 12.1', 'ios 6', 'android 4']
         }),
         require('cssnano')({
             convertValues: {
@@ -46,9 +46,7 @@ elixir((mix) => {
 
     mix.scripts([
         paths.node + 'jquery/dist/jquery.min.js',
-        paths.node + 'fastclick/lib/fastclick.js',
         paths.node + 'slick-carousel/slick/slick.js',
-        paths.node + 'fancybox/dist/js/jquery.fancybox.js',
         'animations.js',
         'app.js',
         'metrics.js',
