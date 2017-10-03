@@ -143,9 +143,9 @@
             </div>
 
             <div class="accordion-item">
-                <input type="checkbox" id="item-10">
+                <input type="checkbox" id="item-11">
 
-                <label class="heading-2" for="item-10">
+                <label class="heading-2" for="item-11">
                     {{__('What is unique key features of Tokenbox, that differs it from similar services?')}}
                 </label>
 
