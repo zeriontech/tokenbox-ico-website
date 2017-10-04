@@ -4,7 +4,6 @@
   a {
     cursor: pointer;
     color: white;
-    padding: 5px;
     text-decoration: none;
 
     &:hover {

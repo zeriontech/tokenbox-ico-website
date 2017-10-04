@@ -73,4 +73,17 @@ html.hasModal {
     margin: 55px 0 0;
     color: #474c53;
   }
+
+  @mixin lp mobile {
+    padding: 30px 0;
+    background-position-y: 15px;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    input {
+      padding-left: 15px;
+    }
+  }
 }

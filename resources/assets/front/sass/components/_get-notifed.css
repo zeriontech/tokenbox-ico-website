@@ -8,43 +8,35 @@
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
+  }
 
-    input {
-      width: 100%;
-      height: 80px;
-      color: black;
-      font-family:'Gilroy';
+  input {
+    width: 100%;
+    height: 80px;
+    color: black;
+    font-family:'Gilroy';
+    box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
+    border: solid 2px rgba(171, 180, 187, 0.26);
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 2.6rem;
+    box-sizing: border-box;
+    font-weight: 400;
+    -webkit-appearance: none;
+
+    @media (max-width: 749px) {
+      font-size: 2.1rem;
+      margin-bottom: 20px;
+    }
+
+    &:focus {
+      border: 2px solid $blue;
       box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
-      border: solid 2px rgba(171, 180, 187, 0.26);
-      border-radius: 5px;
-      padding-left: 20px;
-      font-size: 2.6rem;
-      box-sizing: border-box;
-      font-weight: 400;
-      -webkit-appearance: none;
+      outline: none;
+    }
 
-      @media (max-width: 749px) {
-        font-size: 2.1rem;
-        margin-bottom: 20px;
-      }
-
-      &:focus {
-        border: 2px solid $blue;
-        box-shadow: 0 0 14px 0 rgba(49, 49, 51, 0.04);
-        outline: none;
-      }
-      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $gray-light;
-      }
-      &::-moz-placeholder { /* Firefox 19+ */
-        color: $gray-light;
-      }
-      &:-ms-input-placeholder { /* IE 10+ */
-        color: $gray-light;
-      }
-      &:-moz-placeholder { /* Firefox 18- */
-        color: $gray-light;
-      }
+    &::placeholder {
+      color: $gray-light;
     }
   }
 }

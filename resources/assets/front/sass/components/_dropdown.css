@@ -16,6 +16,24 @@
     }
   }
 
+  .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    overflow: hidden;
+    margin: 0;
+    max-height: 0;
+    transition: max-height 0.2s;
+    text-align: right;
+
+    @media (max-width: 749px) {
+      position: relative;
+      width:100%;
+      top: 0;
+      text-align: center;
+    }
+  }
+
   &.opened {
     .title {
       &:after {
@@ -24,24 +42,6 @@
     }
     .dropdown-menu {
       max-height: 200px;
-    }
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 40px;
-    right: 0;
-    overflow: hidden;
-    margin: 0;
-    max-height: 0;
-    transition: all 0.2s;
-    text-align: left;
-
-    @media (max-width: 749px) {
-      position: relative;
-      width:100%;
-      top: 0;
-      text-align: center;
     }
   }
 }

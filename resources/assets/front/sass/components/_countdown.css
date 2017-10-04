@@ -3,7 +3,6 @@
 
   .button {
     margin: 65px 0 0;
-    width: auto;
 
     i {
       font-size: 18px;
@@ -14,7 +13,6 @@
 
   .button + .button {
     margin-top: 20px;
-    width: auto;
   }
 }
 
@@ -83,6 +81,7 @@
     }
 
     .button {
+      width: auto;
       margin: 58px 0 0;
       vertical-align: top;
 
