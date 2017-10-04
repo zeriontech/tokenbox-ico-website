@@ -112,7 +112,7 @@
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
-      <form action="/send" method="post" id="mc-embedded-subscribe-form-1" class="js-ajax-form">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" method="post" id="mc-embedded-subscribe-form-1" class="js-ajax-form">
         <div class="row">
           <div class="seven columns">
             <input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}">
@@ -306,6 +306,7 @@
   @include('shared/faq')
   @include('shared/media')
   @include('shared/terms')
+  @include('shared/privacy')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">

@@ -24,15 +24,18 @@ $(document).ready(function() {
     $.ajax({
       url: $form.attr('action'),
       type: $form.attr('method'),
-      data: $form.serialize()
+      data: $form.serialize(),
+      cache: false,
+      dataType: 'json',
+      contentType: "application/json; charset=utf-8"
     }).done(function() {
-      $button.html('Succes');
+      $button.html('Check your email');
     }).fail(function() {
       $button.html('Error, try later');
     }).always(function() {
       setTimeout(function() {
         $button.text(buttonText);
-      }, 2000);
+      }, 5000);
     })
 
     $button.html('<div class="button-loader"></div>');
