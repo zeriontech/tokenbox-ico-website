@@ -19,7 +19,7 @@
   white-space: nowrap;
   outline: none;
 
-  &:hover {
+  &:not(.button-waiting):hover {
     animation: hover 1200ms linear 2 alternate;
   }
 
@@ -28,8 +28,9 @@
   }
 
   &:hover, &:focus {
-    background-color: #af232f;
-    color: white;
+    &:not(.button-waiting) {
+      background-color: #af232f;
+    }
   }
 
   &:active {
@@ -48,6 +49,14 @@
 
 a.button {
   text-decoration: none;
+}
+
+.button-waiting {
+  background: #abb4bb;
+}
+
+.button-success {
+  background: #00cc99;
 }
 
 .button-centred {
