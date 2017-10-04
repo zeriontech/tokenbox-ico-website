@@ -7,41 +7,64 @@
 
     &:after {
       display: block;
-      content: "▾";
-      color: $red;
+      content: "";
       position: absolute;
-      right: -12px;
-      top: 0px;
+      top: 8px;
+      right: -17px;
+      height: 6px;
+      width: 6px;
+      border: 1px solid $red;
+      border-left-color: transparent;
+      border-top-color: transparent;
+      transform: rotate(45deg);
       transition: transform .2s ease;
-    }
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 40px;
-    right: 0;
-    overflow: hidden;
-    margin: 0;
-    max-height: 0;
-    transition: max-height 0.2s;
-    text-align: right;
-
-    @media (max-width: 749px) {
-      position: relative;
-      width:100%;
-      top: 0;
-      text-align: center;
     }
   }
 
   &.opened {
     .title {
       &:after {
-        transform: rotate(180deg);
+        top: 12px;
+        transform: rotate(-135deg);
       }
     }
     .dropdown-menu {
-      max-height: 200px;
+      max-height: 1000px;
     }
   }
 }
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  overflow: hidden;
+  margin: 0;
+  max-height: 0;
+  transition: max-height 0.2s;
+  text-align: right;
+}
+
+@media (max-width: 749px) {
+  .dropdown .title:after {
+    top: 12px;
+    height: 12px;
+    width: 12px;
+    border-width: 2px;
+  }
+
+
+  .dropdown.opened {
+    .title:after {
+      top: 18px;
+    }
+  }
+
+  .dropdown-menu {
+    position: relative;
+    width:100%;
+    top: 0;
+    text-align: center;
+  }
+}
+

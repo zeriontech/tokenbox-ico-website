@@ -16,6 +16,7 @@
 
     .fa {
       transition: .3s opacity;
+      -webkit-transform: translateZ(0); /* fix safari opacity hover bug */
 
       &:hover {
         opacity: .7;
