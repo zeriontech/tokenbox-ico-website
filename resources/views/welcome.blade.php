@@ -299,14 +299,10 @@
   </section>
 
   @include('shared/roadmap')
-
   @include('shared/tech')
-
   @include('shared/team')
   @include('shared/faq')
   @include('shared/media')
-  @include('shared/terms')
-  @include('shared/privacy')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
@@ -320,6 +316,8 @@
     </div>
   </section>
 
+  @include('shared/powered')
   @include('shared/form')
-
+  @include('shared/terms')
+  @include('shared/privacy')
 @endsection

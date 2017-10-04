@@ -3,12 +3,14 @@
     <h1>Powered by</h1>
     <p>Tokenbox is powered by these awesome companies</p>
 
-    <div class="partner-logo">
-      <img src="" alt="">
-    </div>
+    <div class="powered-by-logos">
+      <a href="https://thetoken.io" target="_blank">
+        <img src="/assets/front/img/ico/logo-tkn.svg" alt="" width="142">
+      </a>
 
-    <div class="partner-logo">
-      <img src="" alt="">
+      <a href="https://zerion.io" target="_blank">
+        <img src="/assets/front/img/ico/logo-zerion.svg" alt="" width="256">
+      </a>
     </div>
   </div>
 </section>
