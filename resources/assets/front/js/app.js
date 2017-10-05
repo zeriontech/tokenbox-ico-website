@@ -30,13 +30,10 @@ $(document).ready(function() {
       contentType: "application/json; charset=utf-8"
     }).done(function() {
       $button.html('Check your email').addClass('button-waiting');
+      localStorage.setItem('waitedForm', '#' + $form.attr('id'));
     }).fail(function() {
       $button.html('Error, try later');
-    }).always(function() {
-      // setTimeout(function() {
-      //   $button.text(buttonText);
-      // }, 5000);
-    });
+    })
 
     $button.html('<div class="button-loader"></div>');
 
@@ -113,6 +110,41 @@ $(document).ready(function() {
   //Dropdown language
   $(".dropdown .title").click(function () {
     $(this).closest('.dropdown').toggleClass("opened");
+  });
+});
+
+window.addEventListener('storage', function(e) {
+  console.log(e);
+
+  if (e.key == 'emailConfirmed') {
+  }
+});
+
+$(window).on('load', function() {
+  if (location.search.search('confirmed') == -1) return;
+
+  var waitedFormId = localStorage.getItem('waitedForm');
+  if (!waitedFormId) return;
+
+  var $form = $(waitedFormId);
+  if ($form.length == 0) return;
+
+  var $button = $form.find('.button');
+
+  $button.html('<div class="button-loader"></div>').addClass('button-waiting');
+
+  $('html').animate({
+    scrollTop: $form.offset().top - 100
+  }, 700, function() {
+    setTimeout(function() {
+      window.localStorage.setItem('emailConfirmed', true);
+
+      $('.button-waiting')
+        .removeClass('button-waiting')
+        .text('Thank you')
+        .addClass('button-success');
+
+    }, 1000);
   });
 });
 
