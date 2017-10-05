@@ -46,6 +46,11 @@
       background-size: 136px auto;
     }
 
+    &.yahoo {
+      background-image: url("../img/media/yahoo.png");
+      background-size: 140px auto;
+    }
+
     &.bitcoinist {
       background-image: url("../img/media/bitcoinist.png");
       background-size: 66px auto;

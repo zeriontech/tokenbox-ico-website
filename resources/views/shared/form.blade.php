@@ -25,7 +25,7 @@
 
           <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{__('Join the Queue')}}</button>
           <div class="button-details">
-            Due to high demand, we cannot guarantee your participation in private pre-sale.
+            Due to high demand, we cannot guarantee your participation in the private pre-sale.
           </div>
         </form>
       </div>

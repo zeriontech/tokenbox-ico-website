@@ -7,7 +7,6 @@
 @import "fonts";
 @import "background-icon";
 
-@import "vendors/fancy";
 @import "vendors/slick";
 
 @import "components/dropdown";
@@ -47,6 +46,7 @@
 @import "components/tabs";
 @import "components/lang";
 @import "components/modal";
+@import "components/notification";
 
 .pay-with {
   margin-top: 110px;
@@ -122,3 +122,21 @@ section h1 {
   border-top: 1px solid #f6f6f8;
 }
 
+.powered-by-logos {
+  max-width: 542px;
+  margin: auto;
+  text-align: center;
+
+  @mixin lp tablet {
+    > * {
+      display: block;
+      margin-top: 70px;
+    }
+  }
+
+  @mixin bp tablet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

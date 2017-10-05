@@ -4,8 +4,8 @@
   a {
     cursor: pointer;
     color: white;
-    padding: 5px;
     text-decoration: none;
+    white-space: nowrap;
 
     &:hover {
       text-decoration: underline;

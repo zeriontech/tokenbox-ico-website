@@ -1,15 +1,45 @@
 $(document).ready(function() {
-  var hamburger = $('.hamburger-icon');
-  hamburger.click(function() {
-    hamburger.toggleClass('active');
+  $('.hamburger-icon').each(function() {
+    var hamburger = $(this);
 
-    if (hamburger.hasClass('active')) {
-      $('html, body').css('overflow', 'hidden');
-    } else {
-      $('html, body').css('overflow', '');
-    }
+    hamburger.click(function() {
+      hamburger.toggleClass('active');
 
-    hamburger.next().toggleClass('opened');
+      if (hamburger.hasClass('active')) {
+        $('html, body').css('overflow', 'hidden');
+      } else {
+        $('html, body').css('overflow', '');
+      }
+
+      hamburger.next().toggleClass('opened');
+      return false;
+    });
+  });
+
+  $('.js-ajax-form').submit(function() {
+    var $form = $(this);
+    var $button = $form.find('button');
+    var buttonText = $button.text();
+
+    $.ajax({
+      url: $form.attr('action'),
+      type: $form.attr('method'),
+      data: $form.serialize(),
+      cache: false,
+      dataType: 'json',
+      contentType: "application/json; charset=utf-8"
+    }).done(function() {
+      $button.html('Check your email').addClass('button-waiting');
+    }).fail(function() {
+      $button.html('Error, try later');
+    }).always(function() {
+      // setTimeout(function() {
+      //   $button.text(buttonText);
+      // }, 5000);
+    });
+
+    $button.html('<div class="button-loader"></div>');
+
     return false;
   });
 
@@ -71,8 +101,6 @@ $(document).ready(function() {
     return false;
   });
 
-  $('.fancy').fancybox();
-
   $('.slider').slick({
     autoplay: true,
     arrows: false,
@@ -110,14 +138,11 @@ $(document).ready(function() {
   }, 400);
 
   function getMarkup(key, current, text) {
-    var c = Math.PI*(67*2);
-    var offset = 0; // (current/counts[key] + 0.01)*c;
-
     return '\
       <div class="countdown-item" data-key="' + key + '">\
-        <svg width="144" height="144" viewPort="0 0 0 0" version="1.1" xmlns="http://www.w3.org/2000/svg">\
-          <circle r="67" cx="72" cy="72" fill="transparent" stroke-dasharray="420.97" stroke-dashoffset="0"></circle>\
-          <circle class="bar" r="67" cx="72" cy="72" fill="transparent" stroke-dasharray="420.97" style="stroke-dashoffset:' + offset + '"></circle>\
+        <svg viewPort="0 0 0 0" version="1.1" xmlns="http://www.w3.org/2000/svg">\
+          <circle class="inner-bar"></circle>\
+          <circle class="bar"></circle>\
         </svg>\
         <div class="countdown-item-text">0</div>\
         <div class="countdown-item-label">' + key[0].toUpperCase() + key.slice(1) + '</div>\
@@ -129,22 +154,23 @@ $(document).ready(function() {
     var time = getTimeRemaining(deadline);
 
     $('.countdown-item').each(function() {
+      var $circle = $(this).find('.bar');
+      var $text = $(this).find('.countdown-item-text');
+
       var key = $(this).data('key');
       var current = time[key];
-      var $circle = $(this).find('.bar');
 
-      var r = $circle.attr('r');
+      var r = parseInt($circle.css('r'));
       var c = Math.PI*(r*2);
       var pct = (current/counts[key] + 0.01)*c;
       $circle.css({ strokeDashoffset: 0.01 });
-      var $text = $(this).find('.countdown-item-text');
 
       spin($text, current);
 
       $circle.animate({ strokeDashoffset: pct }, 1000, function() {
         $(this).addClass('loaded');
       });
-    })
+    });
   }
 
   function spin($el, to) {
@@ -163,7 +189,6 @@ $(document).ready(function() {
       return getMarkup(key, time[key], key)
     }).join('');
 
-
     $('#countdown').html(html);
   }
 
@@ -175,7 +200,7 @@ $(document).ready(function() {
       var current = time[key];
       var $circle = $(this).find('.bar');
 
-      var r = $circle.attr('r');
+      var r = parseInt($circle.css('r'), 10);
       var c = Math.PI*(r*2);
       var pct = (current/counts[key] + 0.01)*c;
 
@@ -191,7 +216,7 @@ $(document).ready(function() {
           $text.removeClass('-hidden');
         }, 200);
       }
-    })
+    });
   }
 
   function getTimeRemaining(endtime) {

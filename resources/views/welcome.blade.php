@@ -112,9 +112,15 @@
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <!--
+      action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form"
+      -->
+
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" target="_blank">
         <div class="row">
-          <div class="seven columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}"></div>
+          <div class="seven columns">
+            <input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}">
+          </div>
           <div class="five columns">
             <button value="Subscribe" name="subscribe" type="submit" class="button button-condensed">
               {{__('Get notified about ICO')}}!
@@ -278,11 +284,15 @@
 
   <section class="send-request send-request-body section">
     <div class="wrapper">
-      <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=6317d830cb" method="post" id="mc-embedded-subscribe-form-2" name="mc-embedded-subscribe-form">
+      <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&id=6317d830cb" method="post" id="mc-embedded-subscribe-form-2">
         <div class="row">
-          <div class="six columns"><input required value="" name="NAME" id="mce-NAME" placeholder="{{__('Your Name')}}"></div>
-          <div class="six columns"><input required name="COMPANY" id="mce-COMPANY" placeholder="{{__('Company')}}"></div>
+          <div class="six columns">
+            <input required value="" name="NAME" id="mce-NAME" placeholder="{{__('Your Name')}}">
+          </div>
+          <div class="six columns">
+            <input required name="COMPANY" id="mce-COMPANY" placeholder="{{__('Company')}}">
+          </div>
         </div>
         <div class="row">
           <div class="six columns"><input required type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="{{__('Email')}}"></div>
@@ -293,17 +303,14 @@
   </section>
 
   @include('shared/roadmap')
-
   @include('shared/tech')
-
   @include('shared/team')
   @include('shared/faq')
   @include('shared/media')
-  @include('shared/terms')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&amp;id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-3" name="mc-embedded-subscribe-form" class="validate" target="_blank" >
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
         <div class="row">
           <div class="four columns"><h1>Get notified when we go into ICO!</h1></div>
           <div class="five columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}"></div>
@@ -313,6 +320,8 @@
     </div>
   </section>
 
+  @include('shared/powered')
   @include('shared/form')
-
+  @include('shared/terms')
+  @include('shared/privacy')
 @endsection

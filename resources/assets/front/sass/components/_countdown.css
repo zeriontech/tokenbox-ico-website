@@ -3,7 +3,6 @@
 
   .button {
     margin: 65px 0 0;
-    width: auto;
 
     i {
       font-size: 18px;
@@ -14,7 +13,6 @@
 
   .button + .button {
     margin-top: 20px;
-    width: auto;
   }
 }
 
@@ -25,10 +23,56 @@
 .countdown-item {
   position: relative;
   display: inline-block;
-  width: 144px;
-  margin: 10px;
+  width: 64px;
+  margin: 4px;
   vertical-align: middle;
-  border-radius: 50%;
+}
+
+.countdown-item svg {
+  width: 64px;
+  height: 64px;
+}
+
+.countdown-item circle {
+  stroke-dashoffset: 0;
+  stroke: #3434bb;
+  stroke-width: 10px;
+  fill: transparent;
+  r: 26;
+  cx: 31px;
+  cy: 31px;
+  stroke-dasharray: 163;
+}
+
+.countdown-item .bar {
+  stroke: #ee3d49;
+  transform: translateY(64px) rotate(-90deg);
+}
+
+@mixin bp tablet {
+  .countdown-item {
+    width: 144px;
+  }
+
+  .countdown-item .bar {
+    transform: translateY(144px) rotate(-90deg);
+  }
+
+  .countdown-item svg {
+    width: 144px;
+    height: 144px;
+  }
+
+  .countdown-item circle {
+    r: 67;
+    cx: 72;
+    cy: 72;
+    stroke-dasharray: 422;
+  }
+}
+
+.countdown-item .bar.loaded {
+  transition: .5s stroke-dashoffset;
 }
 
 .countdown-item-text {
@@ -37,8 +81,8 @@
   top: 0;
   left: 0;
   text-align: center;
-  font-size: 58px;
-  line-height: 144px;
+  font-size: 26px;
+  line-height: 64px;
   color: #fff;
   transition: .2s opacity, .4s .2s transform;
 }
@@ -46,21 +90,6 @@
 .countdown-item-label {
   font-size: 13px;
   margin-top: 10px;
-}
-
-.countdown-item circle {
-  stroke-dashoffset: 0;
-  stroke: #3434bb;
-  stroke-width: 10px;
-}
-
-.countdown-item .bar {
-  stroke: #ee3d49;
-  transform: translateY(144px) rotate(-90deg);
-}
-
-.countdown-item .bar.loaded {
-  transition: .5s stroke-dashoffset;
 }
 
 @keyframes load {0%{stroke-dashoffset: 500}}
@@ -83,6 +112,7 @@
     }
 
     .button {
+      width: auto;
       margin: 58px 0 0;
       vertical-align: top;
 
@@ -98,10 +128,22 @@
   }
 
   .countdown-item {
-    margin: 2em 40px;
+    margin: 2em 10px;
   }
 
   .countdown-item-label {
     font-size: 16px;
+  }
+
+  .countdown-item-text {
+    font-size: 58px;
+    line-height: 144px;
+  }
+}
+
+@mixin bp desktop {
+  .countdown-item {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 }
