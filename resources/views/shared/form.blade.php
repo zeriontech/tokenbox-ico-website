@@ -4,7 +4,7 @@
     <section class="send-request section">
       <div class="wrapper">
         <h1>{{__('Get a chance to participate in the Private Pre-Sale')}}</h1>
-        <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=80b1bdf6fe&c=?" method="post" id="presale-form" name="mc-embedded-subscribe-form">
+        <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=80b1bdf6fe&c=?" class="js-ajax-form" method="post" id="presale-form" name="mc-embedded-subscribe-form">
           <div class="row">
             <div class="six columns">
               <input required name="NAME" id="mce-NAME" placeholder="{{__('Your Name')}}">
