@@ -15,5 +15,6 @@ class VerifyCsrfToken extends Middleware
         //
         '/send',
         '/sendfull',
+        '/sendqueue',
     ];
 }
