@@ -11,11 +11,12 @@
 |
 */
 Route::group([
-    'prefix' => LaravelLocalization::setLocale(),
-    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+    'prefix'     => LaravelLocalization::setLocale(),
+    'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
 ], function () {
     Route::get('/', 'MainController@mainPage')->name('main');
     Route::get('/ico', 'MainController@icoPage')->name('ico');
     Route::post('/send', 'MainController@addUser')->name('add-user');
     Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
+    Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
 });

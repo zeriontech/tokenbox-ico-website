@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\NotifyFormRequest;
 use App\Http\Requests\NotifyFullFormRequest;
+use App\Http\Requests\NotifyQueueFormRequest;
 use App\Library\JsonResponseTrait;
 use App\Services\IntercomService;
 
@@ -46,7 +47,9 @@ class MainController extends Controller
         try {
             $email = $request->input('EMAIL');
 
-            $user = $intercomService->create($email);
+            $user = $intercomService->leadCreate($email, [
+                'tag' => 'ICO Notification'//1301786
+            ]);
 
             return $this->respondWithSuccess($user, 'Email added successfull');
 
@@ -68,7 +71,33 @@ class MainController extends Controller
             $name    = $request->input('NAME');
             $company = $request->input('COMPANY');
 
-            $user = $intercomService->create($email, $name, $company);
+            $user = $intercomService->leadCreate($email, [
+                'name'    => $name,
+                'company' => $company,
+                'tag'     => 'Partnership Request',//1294274
+            ]);
+
+            return $this->respondWithSuccess($user, 'Email added successfull');
+
+        } catch (\Exception $exception) {
+            return $this->respondWithError($exception->getMessage());
+        }
+    }
+
+    public function addQueueUser(NotifyQueueFormRequest $request, IntercomService $intercomService)
+    {
+        try {
+            $email  = $request->input('EMAIL');
+            $name   = $request->input('NAME');
+            $phone  = $request->input('PHONE');
+            $amount = $request->input('AMOUNT');
+
+            $user = $intercomService->leadCreate($email, [
+                'name'   => $name,
+                'phone'  => $phone,
+                'amount' => $amount,
+                'tag'    => 'Private Pre-Sale Queue',//1294270
+            ]);
 
             return $this->respondWithSuccess($user, 'Email added successfull');
 
