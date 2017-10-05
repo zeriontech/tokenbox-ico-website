@@ -28,8 +28,19 @@ $(document).ready(function() {
       cache: false,
       dataType: 'json',
       contentType: "application/json; charset=utf-8"
-    }).done(function() {
-      $button.html('Check your email').addClass('button-waiting');
+    }).done(function(response) {
+      console.log(response)
+      if (response.result == 'error') {
+        $('.notification.error').text(response.msg).fadeIn();
+
+        setTimeout(function() {
+          $('.notification.error').fadeOut();
+        }, 3000);
+
+        return $button.html(buttonText);
+      }
+
+      $button.html('Check your email...').addClass('button-waiting');
       localStorage.setItem('waitedForm', '#' + $form.attr('id'));
     }).fail(function() {
       $button.html('Error, try later');
@@ -117,6 +128,10 @@ window.addEventListener('storage', function(e) {
   console.log(e);
 
   if (e.key == 'emailConfirmed') {
+    $('.button-waiting')
+      .removeClass('button-waiting')
+      .text('Thank you')
+      .addClass('button-success');
   }
 });
 
@@ -139,7 +154,7 @@ $(window).on('load', function() {
     setTimeout(function() {
       window.localStorage.setItem('emailConfirmed', true);
 
-      $('.button-waiting')
+      $button
         .removeClass('button-waiting')
         .text('Thank you')
         .addClass('button-success');
