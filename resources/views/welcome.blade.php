@@ -112,11 +112,7 @@
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
-      <!--
-      action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form"
-      -->
-
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post?u=10249fa68b5f02a162df5af34&id=22cb9e6caf" method="post" id="mc-embedded-subscribe-form-1" target="_blank">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-1">
         <div class="row">
           <div class="seven columns">
             <input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}">

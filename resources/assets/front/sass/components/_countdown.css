@@ -41,34 +41,12 @@
   r: 26;
   cx: 31px;
   cy: 31px;
-  stroke-dasharray: 163;
+  stroke-dasharray: 164;
 }
 
 .countdown-item .bar {
   stroke: #ee3d49;
   transform: translateY(64px) rotate(-90deg);
-}
-
-@mixin bp tablet {
-  .countdown-item {
-    width: 144px;
-  }
-
-  .countdown-item .bar {
-    transform: translateY(144px) rotate(-90deg);
-  }
-
-  .countdown-item svg {
-    width: 144px;
-    height: 144px;
-  }
-
-  .countdown-item circle {
-    r: 67;
-    cx: 72;
-    cy: 72;
-    stroke-dasharray: 422;
-  }
 }
 
 .countdown-item .bar.loaded {
@@ -128,7 +106,24 @@
   }
 
   .countdown-item {
+    width: 144px;
     margin: 2em 10px;
+  }
+
+  .countdown-item .bar {
+    transform: translateY(144px) rotate(-90deg);
+  }
+
+  .countdown-item svg {
+    width: 144px;
+    height: 144px;
+  }
+
+  .countdown-item circle {
+    r: 67;
+    cx: 72;
+    cy: 72;
+    stroke-dasharray: 425;
   }
 
   .countdown-item-label {
