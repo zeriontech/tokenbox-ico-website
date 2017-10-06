@@ -1,8 +1,26 @@
 @extends('shared/layout')
 
 @section('content')
-
   <section class="topblock topblock-ico">
+    <div class="hamburger-icon" id="hamburger-icon">
+      <span class="line line-1"></span>
+      <span class="line line-2"></span>
+      <span class="line line-3"></span>
+    </div>
+
+    <div class="mobile-nav js-scroll-nav">
+      <div class="logo"></div>
+      <ul>
+        <li><a href="#raised-token">Raised</a></li>
+        <li><a href="#token-distribution">Token Distribution</a></li>
+        <li><a href="#fact-sheat">Fact Sheet</a></li>
+        <li><a href="#join-crowdsale">How to Join</a></li>
+        <li>
+          @include('shared/langSwitcher')
+        </li>
+      </ul>
+    </div>
+
     <div class="wrapper">
       <header class="header">
         <div class="row">
