@@ -12,9 +12,8 @@
   background-color: rgba(0, 162, 81, 0.88);
   color: white;
 
-
   &.success {
-    background-color: rgba(0, 162, 81, 0.88);
+    background-color: rgba(0, 162, 81, 0.90);
   }
 
   &.error {
