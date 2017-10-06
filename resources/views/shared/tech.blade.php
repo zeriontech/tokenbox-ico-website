@@ -1,4 +1,4 @@
-<section class="technology" id="tech">
+<section class="section technology" id="tech">
     <div class="wrapper">
         <h1 class="from-bottom">{{__('Technology & infrastructure')}}</h1>
         <div class="row">

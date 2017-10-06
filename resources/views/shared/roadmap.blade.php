@@ -1,4 +1,4 @@
-<section class="roadmap" id="roadmap">
+<section class="section roadmap" id="roadmap">
     <div class="wrapper">
         <h1 class="from-bottom">{{__('Our roadmap')}}</h1>
         <div class="timeline-wrap">

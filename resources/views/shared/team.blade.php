@@ -1,4 +1,4 @@
-<section class="team" id="team">
+<section class="section team" id="team">
     <div class="wrapper">
         <article class="members">
             <h1 class="from-bottom">{{__('Meet the Tokenbox team')}}</h1>
