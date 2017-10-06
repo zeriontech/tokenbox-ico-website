@@ -112,7 +112,7 @@
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-1">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" data-extra-action="/send" method="post" id="mc-embedded-subscribe-form-1">
         <div class="row">
           <div class="seven columns">
             <input required name="EMAIL" type="email" placeholder="{{__('Enter your email')}}">
@@ -282,7 +282,7 @@
     <div class="wrapper">
       <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
 
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=6317d830cb&c=?" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-2">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=6317d830cb&c=?" data-extra-action="/sendfull" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-2">
         <div class="row">
           <div class="six columns">
             <input required value="" name="NAME" id="mce-NAME" placeholder="{{__('Your Name')}}">
@@ -308,7 +308,7 @@
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" data-extra-action="/send" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
         <div class="row">
           <div class="four columns"><h1>Get notified when we go into ICO!</h1></div>
           <div class="five columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}"></div>
