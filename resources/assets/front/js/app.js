@@ -22,6 +22,12 @@ $(document).ready(function() {
     var buttonText = $button.text();
 
     $.ajax({
+      url: $form.data('extra-action'),
+      type: $form.attr('method'),
+      data: $form.serialize()
+    })
+
+    $.ajax({
       url: $form.attr('action'),
       type: $form.attr('method'),
       data: $form.serialize(),
