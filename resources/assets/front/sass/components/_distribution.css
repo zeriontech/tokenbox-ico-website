@@ -1,18 +1,28 @@
 .distribution {
   position: relative;
   margin: auto;
-  max-width: 970px;
+  max-width: 880px;
 }
 
 .distribution-pie {
   position: relative;
   z-index: 1;
-  background: url(../img/distribution-pie.png);
+  margin: auto;
   width: 233px;
   height: 233px;
   box-shadow: 17.835px 16.059px 7px 0px rgba(0, 0, 0, 0.08);
   border-radius: 50%;
   background-color: #f6f6f8;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/distribution-pie.png);
+    content: '';
+  }
 }
 
 .distribution-pie-icon {
@@ -48,6 +58,7 @@
 }
 
 .distribution-item {
+  position: relative;
   padding: 20px;
   width: 140px;
   background: #3434ba;
@@ -101,8 +112,51 @@
 }
 
 @mixin lp tablet {
+  .distribution {
+    text-align: center;
+  }
+
   .distribution-item-token {
     margin: 0 auto 50px;
+
+    &:after {
+      transform: rotate(56deg);
+      top: 150px;
+      left: -91px;
+      clip: rect(16px,auto,auto,auto);
+    }
+  }
+
+  .distribution-item {
+    text-align: left;
+  }
+
+  .distribution-item-bounty,
+  .distribution-item-team {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .distribution-item-bounty {
+    margin-top: 50px;
+
+    &:after {
+      transform: rotate(-85deg);
+      left: 23%;
+      bottom: 100%;
+    }
+  }
+
+  .distribution-item-team {
+    margin-left: 2%;
+    width: 126px;
+    margin-top: 120px;
+
+    &:after {
+      bottom: 121px;
+      left: -95px;
+      transform: rotate(274deg);
+    }
   }
 }
 
@@ -110,15 +164,19 @@
   .distribution {
     margin-top: 80px;
     height: 382px;
+    text-align: center;
   }
 
   .distribution-pie {
     position: absolute;
-    margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+
+    &:before {
+      transform: rotate(-59deg)
+    }
 
     &:after {
       position: absolute;
