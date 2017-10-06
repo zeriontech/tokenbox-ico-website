@@ -29,7 +29,6 @@ $(document).ready(function() {
       dataType: 'json',
       contentType: "application/json; charset=utf-8"
     }).done(function(response) {
-      console.log(response)
       if (response.result == 'error') {
         $('.notification.error').html(response.msg).fadeIn();
 
