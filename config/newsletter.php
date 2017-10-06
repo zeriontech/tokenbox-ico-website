@@ -2,17 +2,17 @@
 
 return [
 
-    'apiKey'          => env('MAILCHIMP_APIKEY', 'c68fcb97722ce42c82ca902a2cf43c03-us16'),
+    'apiKey'          => env('MAILCHIMP_APIKEY'),
     'defaultListName' => 'notification',
     'lists'           => [
         'notification' => [
-            'id' => env('MAILCHIMP_NOTIFICATION_LIST_ID', '22cb9e6caf'),
+            'id' => env('MAILCHIMP_NOTIFICATION_LIST_ID'),
         ],
         'presalequeue' => [
-            'id' => env('MAILCHIMP_PRESALE_LIST_ID', '80b1bdf6fe'),
+            'id' => env('MAILCHIMP_PRESALE_LIST_ID'),
         ],
         'partnership'  => [
-            'id' => env('MAILCHIMP_PARTNERSHIP_LIST_ID', '6317d830cb'),
+            'id' => env('MAILCHIMP_PARTNERSHIP_LIST_ID'),
         ],
     ],
     'ssl'             => true,
