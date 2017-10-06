@@ -14,7 +14,6 @@ var paths = {
 };
 
 elixir((mix) => {
-
     // <START> Frontend Compilation
     processors = [
         require('precss'),
@@ -37,7 +36,6 @@ elixir((mix) => {
         }),
     ];
 
-
     mix.postcss('app.css', {
         srcDir  : paths.srcFront  + 'sass/',
         output  : paths.destFront + 'css/',
@@ -53,4 +51,9 @@ elixir((mix) => {
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');
     // <END> Frontend Compilation
 
+    mix.browserSync({
+        proxy: 'tokenbox.dev',
+        port: 8000,
+        files: ['public/**/*.css']
+    });
 });
