@@ -10,10 +10,6 @@
       position: relative;
     }
   }
-
-  .button + .button {
-    margin-top: 20px;
-  }
 }
 
 #countdown {
@@ -78,6 +74,14 @@
   opacity: 0.9;
 }
 
+@mixin lp tablet {
+  .countdown {
+    .button + .button {
+      margin-top: 20px;
+    }
+  }
+}
+
 @mixin bp tablet {
   #countdown {
     margin-right: 0;
@@ -102,6 +106,7 @@
     .button + .button {
       margin-left: 35px;
       min-width: 260px;
+      vertical-align: top;
     }
   }
 

@@ -299,6 +299,7 @@
     </div>
   </section>
 
+  @include('shared/devices')
   @include('shared/roadmap')
   @include('shared/tech')
   @include('shared/team')

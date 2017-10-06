@@ -164,9 +164,16 @@ a.button {
   text-align: center;
 
   a {
-    display: block;
     text-decoration: none;
     font-weight: 700;
     color: #3434bb;
+  }
+}
+
+@mixin lp mobile {
+  .button-details {
+    a {
+      display: block;
+    }
   }
 }

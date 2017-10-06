@@ -1,16 +1,6 @@
 .technology {
-  margin-bottom: 125px;
-  padding-bottom: 100px;
-  padding-top: 125px;
   background: url("../img/grid-white.svg") top center no-repeat, #f6f6f8;
   background-size: cover;
-
-  @mixin bp tablet {
-    margin-bottom: 140px;
-    padding-top: 140px;
-    padding-bottom: 140px;
-
-  }
 
   .wrapper > h1 {
     margin-bottom: 55px;
@@ -23,11 +13,13 @@
       margin-bottom: 25px;
     }
   }
+
   .row {
     &:nth-of-type(2) {
       margin: 50px 0 30px;
     }
   }
+
   .row.logos {
     @media (max-width: 749px) {
       margin-top: 0;
@@ -36,6 +28,7 @@
       margin-bottom: 0;
     }
   }
+
   .logos {
     @mixin clf;
     font-size:0;

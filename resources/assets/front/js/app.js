@@ -31,7 +31,7 @@ $(document).ready(function() {
     }).done(function(response) {
       console.log(response)
       if (response.result == 'error') {
-        $('.notification.error').text(response.msg).fadeIn();
+        $('.notification.error').html(response.msg).fadeIn();
 
         setTimeout(function() {
           $('.notification.error').fadeOut();
