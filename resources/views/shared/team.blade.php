@@ -102,7 +102,8 @@
                     <div class="name">{{__('Julian L. Zegelman')}}</div>
                     <div class="info">{{__('Advisor (Legal)')}},
                         <br />{{__('Velton Zegelman PC')}}</div>
-                </div><div class="member">
+                </div><!-- 
+<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin-square"></a>
@@ -111,7 +112,8 @@
                     <div class="name">{{__('Cao Yin')}}</div>
                     <div class="info">{{__('Advisor (Blockchain technologies)')}},
                         <br />{{__('Energy Blockchain Labs')}}</div>
-                </div><div class="member">
+                </div>
+ --><div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin-square"></a>
