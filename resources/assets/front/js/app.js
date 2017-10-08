@@ -25,7 +25,7 @@ $(document).ready(function() {
       url: $form.data('extra-action'),
       type: $form.attr('method'),
       data: $form.serialize()
-    });
+    })
 
     $.ajax({
       url: $form.attr('action'),
@@ -58,7 +58,28 @@ $(document).ready(function() {
 
   $('.js-modal-link').click(function() {
     var $modal = $($(this).data('target'));
-    openModal($modal);
+
+    function hide() {
+      $(document).off('off.modal');
+      $modal.fadeOut(function() {
+        $('html').removeClass('hasModal');
+      });
+    }
+
+    $('html').addClass('hasModal');
+    $modal.fadeIn();
+    $(window).scroll();
+
+    $(document).on('keyup.modal', function(e) {
+      if (e.keyCode == 27) {
+        hide();
+      }
+    });
+
+    $(document).one('click', '.modal-overlay', function() {
+      hide();
+    })
+
     return false;
   })
 
@@ -109,6 +130,8 @@ $(document).ready(function() {
 });
 
 window.addEventListener('storage', function(e) {
+  console.log(e);
+
   if (e.key == 'emailConfirmed') {
     $('.button-waiting')
       .removeClass('button-waiting')
@@ -125,10 +148,6 @@ $(window).on('load', function() {
 
   var $form = $(waitedFormId);
   if ($form.length == 0) return;
-
-  if ($form.is(':hidden') && $form.closest('.modal').length) {
-    openModal($form.closest('.modal'));
-  }
 
   var $button = $form.find('.button');
 
@@ -148,29 +167,6 @@ $(window).on('load', function() {
     }, 1000);
   });
 });
-
-function openModal($modal) {
-  function hide() {
-    $(document).off('off.modal');
-    $modal.fadeOut(function() {
-      $('html').removeClass('hasModal');
-    });
-  }
-
-  $('html').addClass('hasModal');
-  $modal.fadeIn();
-  $(window).scroll();
-
-  $(document).on('keyup.modal', function(e) {
-    if (e.keyCode == 27) {
-      hide();
-    }
-  });
-
-  $(document).one('click', '.modal-overlay', function() {
-    hide();
-  })
-}
 
 (function() {
   if (!$('.countdown').is(':visible')) return;

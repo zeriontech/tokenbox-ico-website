@@ -1,48 +1,8 @@
 .header {
   padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
 
-  @mixin bp desktop {
+  @mixin bp tablet {
     padding: 45px 0;
     height: 150px;
-  }
-}
-
-.header_logo {
-  width: 200px;
-}
-
-.mobile-nav .logo,
-.hamburger-icon {
-  position: absolute;
-  z-index: 4;
-}
-
-.mobile-nav .logo {
-  width: 100%;
-  top: 20px;
-  left: 20px;
-}
-
-.hamburger-icon {
-  top: 23px;
-  right: 20px;
-}
-
-@media (max-width: 959px) {
-  .header .nav,
-  .header .lang {
-    display: none;
-  }
-}
-
-@mixin bp desktop {
-  .hamburger-icon {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: none;
   }
 }

@@ -13,7 +13,7 @@
                 <input type="checkbox" id="item-1">
 
                 <label class="heading-2" for="item-1">
-                    {{__("What you mean 'an ecosystem for crypto-investors, traders and funds' - does 'fund' mean an investment fund? Or does it have some kind of meaning?")}}
+                    {{__('What you mean \'an ecosystem for crypto-investors, traders and funds\' - does \'fund\' mean an investment fund? Or does it have some kind of meaning?')}}
                 </label>
 
                 <div class="accordion-item-content">
