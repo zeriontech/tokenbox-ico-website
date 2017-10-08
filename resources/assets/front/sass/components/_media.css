@@ -91,6 +91,16 @@
       background-size: 170px auto;
     }
 
+    &.coinspeaker {
+      background-image: url("../img/media/coinspeaker.png");
+      background-size: 174px auto;
+    }
+
+    &.bitsonline {
+      background-image: url("../img/media/bitsonline.png");
+      background-size: 158px auto;
+    }
+
     @media (min-width: 750px) and (max-width: 900px) {
       &:not(.bitcoinist) {
         background-size: 90% auto !important;

@@ -15,7 +15,7 @@
     <a href="https://medium.com/tokenbox" title="Medium" class="link medium" target="_blank"><span class="fa fa-medium"></span></a>
     </div>
     <div class="copy">
-    <div class="logo"></div>
+    <img class="logo" src="/assets/front/img/logo.svg">
     <a href="#" class="js-modal-link" data-target="#terms-modal">{{__('Terms & Conditions')}}</a>
     <a href="#" class="js-modal-link" data-target="#privacy-modal">{{__('User Privacy')}}</a>
     <h2>tokebox.io</h2>
