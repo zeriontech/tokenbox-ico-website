@@ -18,7 +18,7 @@
     <img class="logo" src="/assets/front/img/logo.svg">
     <a href="#" class="js-modal-link" data-target="#terms-modal">{{__('Terms & Conditions')}}</a>
     <a href="#" class="js-modal-link" data-target="#privacy-modal">{{__('User Privacy')}}</a>
-    <h2>tokebox.io</h2>
+    <h2>tokenbox.io</h2>
     </div>
   </div>
 </footer>
