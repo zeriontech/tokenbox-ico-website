@@ -33,9 +33,11 @@
 
     <div class="wrapper">
       <header class="header">
-        <a href="/" class="logo header_logo">
-          <img src="/assets/front/img/logo.svg">
-        </a>
+        <div class="header_logo">
+          <a href="/" class="logo">
+            <img src="/assets/front/img/logo.svg">
+          </a>
+        </div>
 
         <nav class="nav" role="navigation">
           <li><a href="#for-investors">{{__('Features')}}</a></li>
