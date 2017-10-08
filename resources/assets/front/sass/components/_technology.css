@@ -2,6 +2,10 @@
   background: url("../img/grid-white.svg") top center no-repeat, #f6f6f8;
   background-size: cover;
 
+  .wrapper {
+    max-width: 980px;
+  }
+
   .wrapper > h1 {
     margin-bottom: 55px;
   }
@@ -59,7 +63,7 @@
     }
     .python {
       background-image: url(../img/technology/python.png);
-      background-size: 236px auto;
+      background-size: 220px auto;
       @mixin breakpoint retina {
         background-image: url("../img/technology/python@2x.png");
       }
