@@ -34,7 +34,6 @@
 
 .progress-target {
   font-size: 24px;
-  white-space: nowrap; /* safari fix */
 }
 
 .section-distribution {

@@ -10,10 +10,7 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <a href="/" class="logo">
-        <img src="/assets/front/img/logo.svg">
-      </a>
-
+      <div class="logo"></div>
       <ul>
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
@@ -33,29 +30,31 @@
 
     <div class="wrapper">
       <header class="header">
-        <a href="/" class="logo header_logo">
-          <img src="/assets/front/img/logo.svg">
-        </a>
+        <div class="row">
+          <div class="offset-by-one-sd logo two-sd three columns"></div>
 
-        <nav class="nav" role="navigation">
-          <li><a href="#for-investors">{{__('Features')}}</a></li>
-          <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
-          <li><a href="#tech">{{__('Technology')}}</a></li>
-          <li><a href="#team">{{__('Team')}}</a></li>
-          <li><a href="#faq">{{__('FAQ')}}</a></li>
-        </nav>
+          <nav class="nav six columns" role="navigation">
+            <li><a href="#for-investors">{{__('Features')}}</a></li>
+            <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
+            <li><a href="#tech">{{__('Technology')}}</a></li>
+            <li><a href="#team">{{__('Team')}}</a></li>
+            <li><a href="#faq">{{__('FAQ')}}</a></li>
+          </nav>
 
-        <ul class="nav">
-          <li class="active">
-            <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
-              {{__('White Paper')}}
-            </a>
-          </li>
-          {{--language select--}}
-          <li>
-            @include('shared/langSwitcher')
-          </li>
-        </ul>
+          <div class="three columns">
+            <ul class="nav">
+              <li class="active">
+                <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+                  {{__('White Paper')}}
+                </a>
+              </li>
+              {{--language select--}}
+              <li>
+                @include('shared/langSwitcher')
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
 
       <div class="countdown">
@@ -311,9 +310,7 @@
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" data-extra-action="/send" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
         <div class="row">
-          <div class="four columns">
-            <h1>{{__('Get notified when we go into ICO!')}}</h1>
-          </div>
+          <div class="four columns"><h1>Get notified when we go into ICO!</h1></div>
           <div class="five columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}"></div>
           <div class="three columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified!')}}</button></div>
         </div>

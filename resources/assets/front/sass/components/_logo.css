@@ -1,9 +1,12 @@
 .logo {
-  width: 150px;
+  background-image: url('../img/logo.svg');
+  max-width: 150px;
   height: 25px;
-  vertical-align: middle;
-}
-
-.logo img {
-  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  cursor: pointer;
+  &:hover {
+    opacity: .7;
+  }
 }

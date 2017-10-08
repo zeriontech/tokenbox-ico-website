@@ -1,7 +1,4 @@
 .nav {
-  text-align: center;
-  white-space: nowrap;
-
   > li {
     display: inline-block;
     vertical-align: middle;
@@ -14,7 +11,7 @@
       cursor: pointer;
       color: white;
       font-weight: 400;
-      padding: 5px 10px;
+      padding: 5px 20px;
       text-decoration: none;
 
       &:hover {
@@ -24,9 +21,6 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .nav > li > a {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+.nav {
+  text-align: center;
 }

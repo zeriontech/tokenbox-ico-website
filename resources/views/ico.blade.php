@@ -9,10 +9,7 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <a href="/" class="logo">
-        <img src="/assets/front/img/logo.svg">
-      </a>
-
+      <div class="logo"></div>
       <ul>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
@@ -26,23 +23,23 @@
 
     <div class="wrapper">
       <header class="header">
-        <a href="/" class="header_logo logo">
-          <img class="logo" src="/assets/front/img/logo.svg">
-        </a>
+        <div class="row">
+          <div class="offset-by-one-sd logo two-sd three columns"></div>
 
-        <nav class="nav js-scroll-nav" role="navigation">
-          <li><a href="#raised-token">Raised</a></li>
-          <li><a href="#token-distribution">Token Distribution</a></li>
-          <li><a href="#fact-sheat">Fact Sheet</a></li>
-          <li><a href="#join-crowdsale">How to Join</a></li>
-        </nav>
+          <nav class="nav six columns js-scroll-nav" role="navigation">
+            <li><a href="#raised-token">Raised</a></li>
+            <li><a href="#token-distribution">Token Distribution</a></li>
+            <li><a href="#fact-sheat">Fact Sheet</a></li>
+            <li><a href="#join-crowdsale">How to Join</a></li>
+          </nav>
 
-        <div class="three columns">
-          <ul class="nav">
-            <li>
-              @include('shared/langSwitcher')
-            </li>
-          </ul>
+          <div class="three columns">
+            <ul class="nav">
+              <li>
+                @include('shared/langSwitcher')
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
 
@@ -115,7 +112,7 @@
     </div>
   </section>
 
-  <!--<section class="section section-fact-sheet" id="fact-sheat">
+  <section class="section section-fact-sheet" id="fact-sheat">
     <div class="wrapper">
       <h1>Fact Sheet</h1>
 
@@ -149,9 +146,7 @@
         <dd>Price per token, locked. 1 token = 1 USD</dd>
       </dl>
     </div>
-  </section>-->
-
-  @include('shared/faq')
+  </section>
 
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">

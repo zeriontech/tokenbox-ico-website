@@ -1,6 +1,5 @@
 .dropdown {
   position: relative;
-  margin-right: 20px;
 
   .title {
     cursor: pointer;
@@ -47,16 +46,13 @@
 }
 
 @media (max-width: 749px) {
-  .dropdown {
-    margin-right: 0;
-  }
-
   .dropdown .title:after {
     top: 12px;
     height: 12px;
     width: 12px;
     border-width: 2px;
   }
+
 
   .dropdown.opened {
     .title:after {

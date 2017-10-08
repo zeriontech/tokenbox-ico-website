@@ -8,9 +8,12 @@ $translateY: (calc($height-icon / 2));
 $translateX: 0;
 
 .hamburger-icon {
-  display: inline-block;
+  display: none;
   width: $width-line;
   height: $height-icon;
+  position:relative;
+  display: inline-block;
+  margin-right: 0px;
   opacity: 1;
 
   &:hover {
@@ -36,9 +39,7 @@ $translateX: 0;
       top:100%;
     }
   }
-
-  &:hover,
-  &:focus {
+  &:hover, &:focus {
     .line-1 {
       transform: translateY(calc($height-line / 2 * -1));
     }
@@ -46,7 +47,6 @@ $translateX: 0;
       transform: translateY(calc($height-line / 2));
     }
   }
-
   &.active {
     position: fixed;
     .line {
@@ -60,6 +60,99 @@ $translateX: 0;
     }
     .line-3 {
       transform: translateY(calc($translateY * -1)) translateX($translateX) rotate(calc($rotation * -1));
+    }
+  }
+}
+
+.mobile-nav .logo,
+.hamburger-icon {
+  position: absolute;
+  z-index: 4;
+}
+
+.hamburger-icon {
+  top: 23px;
+  right: 20px;
+  display: none;
+
+  @media (max-width: 749px) {
+    display: block;
+  }
+}
+
+.mobile-nav .logo {
+  width: 100%;
+  top: 20px;
+  left: 20px;
+}
+
+.nav,
+.header .lang {
+  @media (max-width: 749px) {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  overflow: auto;
+
+  @media (max-width: 749px) {
+    display: none;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $blue;
+    margin: 0;
+    z-index: 3;
+    padding: 90px 0 20px;
+
+    > ul {
+      margin: 0 !important;
+      text-align: center !important;
+
+      > li {
+        display: block;
+        margin: 0;
+        font-size: 26px;
+
+        a, .title  {
+          display: inline-block;
+          padding: 17px 0 12px;
+          border-radius: 0;
+          border: none;
+          color: white;
+          text-decoration: none;
+        }
+
+        .title {
+          padding: 0 10px 0 0;
+          margin: 17px 0 12px;
+        }
+
+        &.active {
+          a {
+            opacity: 1;
+            text-decoration: none;
+            font-weight: 700;
+          }
+
+          &:hover {
+            opacity: 1;
+            a {
+              opacity: 1;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    &.opened {
+      display: block;
     }
   }
 }
