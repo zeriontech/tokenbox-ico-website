@@ -26,11 +26,9 @@
 
     <div class="wrapper">
       <header class="header">
-        <div class="header_logo">
-          <a href="/" class="logo">
-            <img class="logo" src="/assets/front/img/logo.svg">
-          </a>
-        </div>
+        <a href="/" class="header_logo logo">
+          <img class="logo" src="/assets/front/img/logo.svg">
+        </a>
 
         <nav class="nav js-scroll-nav" role="navigation">
           <li><a href="#raised-token">Raised</a></li>
