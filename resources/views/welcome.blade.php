@@ -10,7 +10,7 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <div class="logo"></div>
+      <img class="logo" src="/assets/front/img/logo.svg">
       <ul>
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
@@ -30,31 +30,29 @@
 
     <div class="wrapper">
       <header class="header">
-        <div class="row">
-          <div class="offset-by-one-sd logo two-sd three columns"></div>
-
-          <nav class="nav six columns" role="navigation">
-            <li><a href="#for-investors">{{__('Features')}}</a></li>
-            <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
-            <li><a href="#tech">{{__('Technology')}}</a></li>
-            <li><a href="#team">{{__('Team')}}</a></li>
-            <li><a href="#faq">{{__('FAQ')}}</a></li>
-          </nav>
-
-          <div class="three columns">
-            <ul class="nav">
-              <li class="active">
-                <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
-                  {{__('White Paper')}}
-                </a>
-              </li>
-              {{--language select--}}
-              <li>
-                @include('shared/langSwitcher')
-              </li>
-            </ul>
-          </div>
+        <div class="header_logo">
+          <img class="logo" src="/assets/front/img/logo.svg">
         </div>
+
+        <nav class="nav" role="navigation">
+          <li><a href="#for-investors">{{__('Features')}}</a></li>
+          <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
+          <li><a href="#tech">{{__('Technology')}}</a></li>
+          <li><a href="#team">{{__('Team')}}</a></li>
+          <li><a href="#faq">{{__('FAQ')}}</a></li>
+        </nav>
+
+        <ul class="nav">
+          <li class="active">
+            <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+              {{__('White Paper')}}
+            </a>
+          </li>
+          {{--language select--}}
+          <li>
+            @include('shared/langSwitcher')
+          </li>
+        </ul>
       </header>
 
       <div class="countdown">
