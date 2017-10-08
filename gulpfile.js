@@ -51,9 +51,9 @@ elixir((mix) => {
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');
     // <END> Frontend Compilation
 
-    mix.browserSync({
-        proxy: 'tokenbox.dev',
-        port: 8000,
-        files: ['public/**/*.css']
-    });
+    // mix.browserSync({
+    //     proxy: 'tokenbox.dev',
+    //     port: 8000,
+    //     files: ['public/**/*.css']
+    // });
 });
