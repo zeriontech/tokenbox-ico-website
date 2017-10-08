@@ -31,18 +31,22 @@
   .copy {
     text-align: center;
     margin-top: 90px;
+
     div, a, h2 {
       display: inline-block;
       margin: 10px 20px;
       vertical-align: middle;
     }
+
     .logo {
       width: 150px;
+
       @media (max-width: 749px) {
         display: block;
         margin: 90px auto 30px;
       }
     }
+
     a, h2 {
       font-weight: 400;
       color: white;
