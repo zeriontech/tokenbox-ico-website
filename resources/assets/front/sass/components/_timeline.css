@@ -52,7 +52,7 @@
 
 .milestone {
   width: 100%;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   box-sizing: border-box;
   font-size: 1.4rem;
   color: white;
@@ -146,7 +146,6 @@
 
     &:nth-of-type(2n) {
       margin-left: 50%;
-      text-align: right;
 
       &:before {
         left: 0;

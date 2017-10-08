@@ -2,6 +2,8 @@
   <div class="modal-overlay"></div>
   <div class="modal-body">
     <div class="modal-content">
+      {{-- @include('shared/terms_' . LaravelLocalization::getCurrentLocale()) --}}
+
       <h1>TOKENBOX CROWDSALE TERMS</h1>
       <p class="info-text">IF YOU ARE A UNITED STATES CITIZEN,  SINGAPORE CITIZEN, PEOPLE'S REPUBLIC OF CHINA CITIZEN OR OTHER REPRESENTATIVES OF THE UNITED STATES, SINGAPORE, OR THE PEOPLE'S REPUBLIC OF CHINA OR PERMANENT RESIDENT OF THE UNITED STATES, OR YOU HAVE A PRIMARY RESIDENCE OR DOMICILE IN THE UNITED STATES, INCLUDING PUERTO RICO, THE U.S. VIRGIN ISLANDS, ANY OTHER POSSESSION OF THE UNITED STATES, YOU ARE NOT ELIGIBLE TO PURCHASE THE TOKENS.</p>
       <p>Your purchase of any TBX tokens (<b>“Tokens”</b>) during the Crowdsale (as defined below) from Token Box LLC. (the <b>“Company,”</b> <b>“we,”</b> or <b>“us”</b>) is subject to these terms of sale (“Terms”). Each of you and the Company is a <b>“Party”</b> and, together, the <b>“Parties.”</b></p>

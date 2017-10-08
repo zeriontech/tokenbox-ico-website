@@ -124,8 +124,17 @@ section h1 {
   border-top: 1px solid #f6f6f8;
 }
 
+.section-powered-by {
+  background: #f6f6f8;
+}
+
+.section-powered-by_head {
+  h1, p {
+    color: #abb4bb;
+  }
+}
+
 .powered-by-logos {
-  max-width: 700px;
   margin: auto;
   text-align: center;
 
@@ -142,3 +151,32 @@ section h1 {
     justify-content: space-between;
   }
 }
+
+@mixin bp desktop {
+  .section-powered-by .wrapper {
+    display: flex;
+    max-width: 940px;
+  }
+
+  .section-powered-by_head {
+    max-width: 205px;
+
+    h1, p {
+      text-align: right;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .powered-by-logos {
+    flex-grow: 1;
+    margin-left: 100px;
+  }
+}
+
