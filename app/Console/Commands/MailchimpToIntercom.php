@@ -10,6 +10,7 @@ use Spatie\Newsletter\NewsletterListCollection;
 
 class MailchimpToIntercom extends Command
 {
+    const COUNT = 700;
     /**
      * The name and signature of the console command.
      *
@@ -57,9 +58,11 @@ class MailchimpToIntercom extends Command
     public function handle()
     {
         $emails = [];
+        $cnt    = 0;
         foreach ($this->lists as $list) {
             $membersList = $this->newsletter->getMembers($list->getName(), [
                 'status' => 'subscribed',
+                'count'  => self::COUNT,
             ]);
             foreach (array_get($membersList, 'members') as $member) {
                 $emails[$list->getName()][] = [
@@ -70,9 +73,10 @@ class MailchimpToIntercom extends Command
                     'amount'  => array_get($member, 'merge_fields.AMOUNT'),
                     'status'  => array_get($member, 'status'),
                 ];
+                $cnt++;
             }
         }
-        $this->output->progressStart(count($emails));
+        $this->output->progressStart($cnt);
 
         foreach ($emails as $listName => $members) {
             foreach ($members as $member) {
