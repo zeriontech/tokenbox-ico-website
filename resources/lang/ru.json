@@ -2,7 +2,7 @@
   " day!": "день!",
   " days!": "дней!",
   " now!": "СЕЙЧАС!",
-  "\"Tokenized funds\" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.": "«Токенизированные фонды» - ключевые элементы системы. The Token Fund (https://thetoken.io) функционирущий на данный момент, является примером токенизированого фонда, созданного командой Tokenbox.",
+  "\"Tokenized funds\" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.": "«Токенизированные фонды» - ключевые элементы системы. <a href=\"https://thetoken.io\" target='_blank'>The Token Fund</a>&nbsp;функционирущий на данный момент, является примером токенизированого фонда, созданного командой Tokenbox.",
   "/docs/TBX-WhitePaper-Eng.pdf": "/docs/TBX-WhitePaper-Rus.pdf",
   "A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.": "Фонд в большинстве случаев включает в себя команду специалистов (портфельный менеджер, отдел аналитики и стратегии), решения могут приниматься коллективно.",
   "A prime opportunity to create your own tokenized fund": "Получите возможность создать свой токенизированный фонд",
@@ -175,7 +175,7 @@
   "What is unique key features of Tokenbox, that differs it from similar services?": "Каковы основные функциональные отличия Токенбокс от других похожих сервисов? В чём его уникальность?",
   "What kind of security measures and policies will be provided against investor funds losts and misappropriate usage by traders and other platform participants?": "Какие меры и политики безопасности будут внедрены для предотвращения неправильного использования и потери средств инвесторов трейдерами и другими участниками платформы?",
   "What kind of trading terminal will be developed? Will it be a cross platform application for Windows and *NIX systems? What about browser based version and app for Android and IOS devices?": "Какой именно торговый терминал будет разработан? Будет ли это кроссплатформенное приложение для Windows и *NIX операционных систем? А как насчёт браузерной версии и приложения для Android и iOS устройств? ",
-  "What you mean 'an ecosystem for crypto-investors, traders and funds' - does 'fund' mean an investment fund? Or does it have some kind of meaning?": "Что подразумевается под \"экосистемой для крипто-инвесторов, трейдеров и фондов\"? Является ли \"фонд\" классическим инвестиционным фондом, или же он может обладать дополнительными качествами?",
+  "What you mean 'an ecosystem for crypto-investors, traders and funds' - does 'fund' mean an investment fund? Or does it have some kind of meaning?": "Что подразумевается под «экосистемой для крипто-инвесторов, трейдеров и фондов»? Является ли «фонд» классическим инвестиционным фондом, или же он может обладать дополнительными качествами?",
   "What you mean \\'an ecosystem for crypto-investors, traders and funds\\' - does \\'fund\\' mean an investment fund? Or does it have some kind of meaning?": "Что подразумевается под \"экосистемой для крипто-инвесторов, трейдеров и фондов\"? Является ли \"фонд\" классическим инвестиционным фондом, или же он может обладать дополнительными качествами?",
   "White Paper": "White Paper",
   "Whitepaper and development plan": "White Paper, планы разработки  и развития",
