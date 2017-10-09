@@ -9,7 +9,10 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <div class="logo"></div>
+      <a href="/" class="logo">
+        <img src="/assets/front/img/logo.svg">
+      </a>
+
       <ul>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
@@ -23,23 +26,25 @@
 
     <div class="wrapper">
       <header class="header">
-        <div class="row">
-          <div class="offset-by-one-sd logo two-sd three columns"></div>
+        <div class="header_logo">
+          <a href="/" class="logo">
+            <img class="logo" src="/assets/front/img/logo.svg">
+          </a>
+        </div>
 
-          <nav class="nav six columns js-scroll-nav" role="navigation">
-            <li><a href="#raised-token">Raised</a></li>
-            <li><a href="#token-distribution">Token Distribution</a></li>
-            <li><a href="#fact-sheat">Fact Sheet</a></li>
-            <li><a href="#join-crowdsale">How to Join</a></li>
-          </nav>
+        <nav class="nav js-scroll-nav" role="navigation">
+          <li><a href="#raised-token">Raised</a></li>
+          <li><a href="#token-distribution">Token Distribution</a></li>
+          <li><a href="#fact-sheat">Fact Sheet</a></li>
+          <li><a href="#join-crowdsale">How to Join</a></li>
+        </nav>
 
-          <div class="three columns">
-            <ul class="nav">
-              <li>
-                @include('shared/langSwitcher')
-              </li>
-            </ul>
-          </div>
+        <div class="three columns">
+          <ul class="nav">
+            <li>
+              @include('shared/langSwitcher')
+            </li>
+          </ul>
         </div>
       </header>
 
@@ -112,7 +117,7 @@
     </div>
   </section>
 
-  <section class="section section-fact-sheet" id="fact-sheat">
+  <!--<section class="section section-fact-sheet" id="fact-sheat">
     <div class="wrapper">
       <h1>Fact Sheet</h1>
 
@@ -146,7 +151,9 @@
         <dd>Price per token, locked. 1 token = 1 USD</dd>
       </dl>
     </div>
-  </section>
+  </section>-->
+
+  @include('shared/faq')
 
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">

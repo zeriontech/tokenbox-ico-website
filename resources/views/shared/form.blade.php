@@ -21,13 +21,13 @@
             <div class="six columns">
               <input required type="text" value="" name="AMOUNT" id="mce-AMOUNT" placeholder="{{__('You wish to invest')}}">
 
-              <p style="margin: 0;">Minimum $50,000</p>
+              <p style="margin: 0;">{{__('Minimum')}} $50,000</p>
             </div>
           </div>
 
           <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{__('Join the Queue')}}</button>
           <div class="button-details">
-            Due to high demand, we cannot guarantee your participation in the private pre-sale.
+            {{__('Due to high demand, we cannot guarantee your participation in the private pre-sale.')}}
           </div>
         </form>
       </div>
