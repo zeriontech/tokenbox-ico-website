@@ -10,34 +10,34 @@
         <div class="fade-in-right milestone active">
           <div class="title">
             {{__('Launch of The Token Fund ')}}
-            <div class="time">{{__('March')}}</div>
+            <div class="time">{{__('March 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-left milestone active">
           <div class="title">
             {{__('More than 48,000 tokens sold to hundreds of investors')}}
-            <div class="time">{{__('May')}}</div>
+            <div class="time">{{__('May 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-right milestone active">
           <div class="title">
             {{__('The Funds capitalisation reached $2 million, and the yield exceeded 300%')}}
-            <div class="time">{{__('June')}}</div>
+            <div class="time">{{__('June 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-left milestone active">
-          <div class="title">{{__('Tokenbox branding and naming, tech and operational team')}} <div class="time">{{__('June')}}</div></div>
+          <div class="title">{{__('Tokenbox branding and naming, tech and operational team')}} <div class="time">{{__('June 2017')}}</div></div>
         </div>
         <div class="fade-in-right milestone active">
-          <div class="title">{{__('Whitepaper and development plan')}} <div class="time">{{__('July')}} </div></div>
+          <div class="title">{{__('Whitepaper and development plan')}} <div class="time">{{__('July 2017')}} </div></div>
         </div>
         <div class="fade-in-left milestone active">
-          <div class="title">{{__('Advisory board & marketing plan')}}  <div class="time">{{__('August')}}</div>
+          <div class="title">{{__('Advisory board & marketing plan')}}  <div class="time">{{__('August 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-right milestone active">
           <div class="title"> {{__('Escrow, Pre-ICO marketing')}}
-            <div class="time">{{__('September')}}</div>
+            <div class="time">{{__('September 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-left active milestone">
