@@ -1,9 +1,9 @@
 .logo {
+  display: inline-block;
   width: 150px;
   height: 25px;
   vertical-align: middle;
 }
 
 .logo img {
-  vertical-align: middle;
 }

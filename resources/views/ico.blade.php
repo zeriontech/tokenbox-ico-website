@@ -16,7 +16,7 @@
       <ul>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
-        <li><a href="#fact-sheat">Fact Sheet</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#join-crowdsale">How to Join</a></li>
         <li>
           @include('shared/langSwitcher')
@@ -39,13 +39,11 @@
           <li><a href="#join-crowdsale">How to Join</a></li>
         </nav>
 
-        <div class="three columns">
-          <ul class="nav">
-            <li>
-              @include('shared/langSwitcher')
-            </li>
-          </ul>
-        </div>
+        <ul class="nav" style="width: 205px">
+          <li>
+            @include('shared/langSwitcher')
+          </li>
+        </ul>
       </header>
 
       <div class="countdown">
