@@ -135,7 +135,7 @@
 
     .title {
       font-size: 1.6rem;
-      max-width: 300px;
+      max-width: 250px;
     }
 
     &:before {
@@ -188,6 +188,14 @@
 
     .current {
       height: 39%;
+    }
+  }
+}
+
+@media (min-width: 940px) {
+  .milestone {
+    .title {
+      max-width: 300px;
     }
   }
 }
