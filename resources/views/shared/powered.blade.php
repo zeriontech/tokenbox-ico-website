@@ -14,7 +14,7 @@
         <img src="/assets/front/img/ico/logo-zerion.svg" alt="Zerion" width="185">
       </a>
 
-      <a href="https://cindicator.com">
+      <a href="https://cindicator.com" target="_blank">
         <img src="/assets/front/img/ico/logo-cindicator.svg" alt="Cindicator" width="171">
       </a>
     </div>
