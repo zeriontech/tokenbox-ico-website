@@ -238,7 +238,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on MyEtherWallet: https://myetherwallet.com')}}
+                    {!!__('You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on &nbsp;<a href="https://myetherwallet.com" target="_blank">contact us</a>') !!}
                 </div>
             </div>
 
