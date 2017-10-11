@@ -20,6 +20,10 @@
       transform: rotate(45deg);
       transition: transform .2s ease;
     }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &.opened {
