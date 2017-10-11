@@ -42,7 +42,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {!!__('"Tokenized funds" will be a key element of the system. The Token Fund (https://thetoken.io) that is currently working is an example or prototype, it was created and developed by the Tokenbox team.')!!}
+                    {!!__('"Tokenized funds" will be a key element of the system. <a href="https://thetoken.io" target="_blank">The Token Fund</a> that is currently working is an example or prototype, it was created and developed by the Tokenbox team.')!!}
                 </div>
             </div>
 
