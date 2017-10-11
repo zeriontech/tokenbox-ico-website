@@ -9,7 +9,7 @@
       <div class="desc">
         <div class="fade-in-right milestone active">
           <div class="title">
-            {{__('Launch of The Token Fund ')}}
+            {{__('Launch of The Token Fund')}}
             <div class="time">{{__('March 2017')}}</div>
           </div>
         </div>
@@ -26,36 +26,36 @@
           </div>
         </div>
         <div class="fade-in-left milestone active">
-          <div class="title">{{__('Tokenbox branding and naming, tech and operational team')}} <div class="time">{{__('June 2017')}}</div></div>
+          <div class="title">{{__('Tokenbox branding and naming, tech and operational team')}}<div class="time">{{__('June 2017')}}</div></div>
         </div>
         <div class="fade-in-right milestone active">
-          <div class="title">{{__('Whitepaper and development plan')}} <div class="time">{{__('July 2017')}} </div></div>
+          <div class="title">{{__('Whitepaper and development plan')}}<div class="time">{{__('July 2017')}} </div></div>
         </div>
         <div class="fade-in-left milestone active">
-          <div class="title">{{__('Advisory board & marketing plan')}}  <div class="time">{{__('August 2017')}}</div>
+          <div class="title">{{__('Advisory board & marketing plan')}}<div class="time">{{__('August 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-right milestone active">
-          <div class="title"> {{__('Escrow, Pre-ICO marketing')}}
+          <div class="title">{{__('Escrow, Pre-ICO marketing')}}
             <div class="time">{{__('September 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-left active milestone">
           <div class="title">
-              {{__(' TGE (crowdsale)')}}
+              {{__('TGE (crowdsale)')}}
               <div class="time">{{__('October 2017')}}</div>
             </div>
         </div>
         <div class="fade-in-right milestone">
           <div class="title">
-              {{__(' Listing on exchanges')}}
-              <div class="time">{{__('October 2017')}}</div>
+              {{__('Listing on exchanges')}}
+              <div class="time">{{__('November 2017')}}</div>
             </div>
         </div>
         <div class="fade-in-left milestone">
           <div class="title">
               <ul>
-                <li>{{__(' Registration and licensing')}}</li>
+                <li>{{__('Registration and licensing')}}</li>
                 <li>{{__('Multi-currency wallet')}}</li>
                 <li>{{__('Trading terminal for fund managers')}}</li>
                 <li>{{__('KYC module')}}</li>
