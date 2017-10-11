@@ -138,7 +138,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Investor\'s funds, excluding daily liquidity, are stored on multi-signature wallets behind a closed loop. All private keys are placed in a separate storage behind the contour of the platform, which allows to guarantee a higher degree of their safety.')}}
+                    {{__("Investor's funds, excluding daily liquidity, are stored on multi-signature wallets behind a closed loop. All private keys are placed in a separate storage behind the contour of the platform, which allows to guarantee a higher degree of their safety.")}}
                 </div>
             </div>
 
