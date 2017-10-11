@@ -35,7 +35,7 @@
         <nav class="nav js-scroll-nav" role="navigation">
           <li><a href="#raised-token">Raised</a></li>
           <li><a href="#token-distribution">Token Distribution</a></li>
-          <li><a href="#fact-sheat">Fact Sheet</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#join-crowdsale">How to Join</a></li>
         </nav>
 
