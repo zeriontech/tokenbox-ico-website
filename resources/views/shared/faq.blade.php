@@ -262,7 +262,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {!!__('Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;<a href="mailto:hello@tokenbox.io">contact us</a>&nbsp;for a special offer. During the TGE crowdsale period bonuses are not provided.') !!}
+                    {!!__('Currently, there is still an opportunity to participate in a private sale. If you are a fund or a major investor, you can&nbsp;<a href="mailto:hello@tokenbox.io">contact us</a>&nbsp;for a special offer. During the TGE crowdsale period bonuses are not provided.') !!}
                 </div>
             </div>
         </div>
