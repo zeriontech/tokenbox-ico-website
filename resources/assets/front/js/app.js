@@ -175,7 +175,7 @@ function openModal($modal) {
 (function() {
   if (!$('.countdown').is(':visible')) return;
 
-  var deadline = new Date(2017, 9, 24, 12);
+  var deadline = new Date(2017, 10, 14, 12);
 
   var counts = {
     days: 60,
