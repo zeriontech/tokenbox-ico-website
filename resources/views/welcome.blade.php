@@ -39,7 +39,7 @@
           </a>
         </div>
 
-        <nav class="nav" role="navigation">
+        <nav class="nav js-scroll-nav" role="navigation">
           <li><a href="#for-investors">{{__('Features')}}</a></li>
           <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
           <li><a href="#tech">{{__('Technology')}}</a></li>
@@ -73,7 +73,7 @@
         </a>
 
         <a href="#" class="button js-modal-link" data-target="#join-queue-modal">
-          {{__('Join the Queue')}}
+          {{__('Join Private Sale')}}
         </a>
 
         <a href="https://t.me/Tokenbox" target="_blank" class="button button-info">

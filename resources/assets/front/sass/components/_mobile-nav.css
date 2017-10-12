@@ -27,6 +27,10 @@
         border: none;
         color: white;
         text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       .title {
@@ -45,7 +49,6 @@
           opacity: 1;
           a {
             opacity: 1;
-            text-decoration: underline;
           }
         }
       }

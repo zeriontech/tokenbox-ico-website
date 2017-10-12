@@ -50,7 +50,7 @@
   text-align: right;
 }
 
-@media (max-width: 749px) {
+@media (max-width: 959px) {
   .dropdown {
     margin-right: 0;
   }

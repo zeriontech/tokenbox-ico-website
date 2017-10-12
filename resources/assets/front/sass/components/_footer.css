@@ -39,6 +39,7 @@
     }
 
     .logo {
+      margin-right: 20px;
       width: 150px;
 
       @media (max-width: 749px) {

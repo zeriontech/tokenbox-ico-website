@@ -183,6 +183,7 @@
   }
 
   .timeline-bar {
+    height: calc(100% - 60px);
     left: 50%;
     margin-left: -5px;
 

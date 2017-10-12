@@ -177,6 +177,15 @@ section h1 {
   .powered-by-logos {
     flex-grow: 1;
     margin-left: 100px;
+
+    img {
+      opacity: 1;
+      transition: .4s opacity;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
   }
 }
 

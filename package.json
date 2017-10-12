@@ -5,22 +5,22 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
-    "laravel-elixir": "^6.0.0-14",
-    "laravel-elixir-browsersync-official": "^1.0.0",
-    "laravel-elixir-postcss": "^0.4.1"
-  },
-  "dependencies": {
     "autoprefixer": "^6.5.4",
     "cssnano": "^3.9.1",
-    "font-awesome": "^4.7.0",
+    "laravel-elixir": "^6.0.0-14",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "laravel-elixir-postcss": "^0.4.1",
     "postcss-assets": "^4.1.0",
     "postcss-cssnext": "^1.8.4",
     "postcss-font-awesome": "^0.3.4",
     "postcss-scss": "^0.4.0",
     "precss": "^1.4.0",
-    "skeleton-css": "^2.0.4",
-    "slick-carousel": "^1.6.0"
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "slick-carousel": "^1.6.0",
+    "font-awesome": "^4.7.0",
+    "waypoints": "^4.0.1"
   }
 }
