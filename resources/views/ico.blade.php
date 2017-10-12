@@ -48,7 +48,7 @@
 
       <div class="countdown">
         <h1>
-          Tokenbox token crowdsale is now live!
+          Tokenbox crowdsale is now live!
         </h1>
 
         <div id="countdown"></div>
@@ -64,7 +64,7 @@
   <section class="section raised-token" id="raised-token">
     <div class="wrapper">
       <h1> Total Raised </h1>
-      <p>Pay only for what you use. No setup fees, no minimum usage.</p>
+      <p>The number of participants and the amounts collected.</p>
 
       <div class="progress">
         <div class="progress-current">
@@ -90,7 +90,7 @@
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
       <h1>Token Distribution</h1>
-      <p>Pay only for what you use. No setup fees, no minimum usage.</p>
+      <p>No more than 31,000,000 TBX will be released.</p>
 
       <div class="distribution">
         <div class="distribution-item distribution-item-token">
@@ -162,7 +162,7 @@
 
       <ol class="step-list">
         <li>
-          <span><b>Make</b> sure you comply with our Terms & Conditions.</span>
+          <span><b>Make sure</b> you comply with our Terms & Conditions.</span>
         </li><li>
           <span><b>Create</b> a Zerion account.</span>
         </li><li>
@@ -181,7 +181,7 @@
         <a href="">See the detailed guide.</a>
       </div>
 
-      <p>If you decide to purchase more tokens, repeat steps 4-5 by signing-in to your dashboard.</p>
+      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your dashboard.</p>
     </div>
   </section>
 
