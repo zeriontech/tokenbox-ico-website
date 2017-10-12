@@ -40,7 +40,7 @@
             <div class="time">{{__('September 2017')}}</div>
           </div>
         </div>
-        <div class="fade-in-left active milestone">
+        <div class="fade-in-left milestone">
           <div class="title">
               {{__('TGE (crowdsale)')}}
               <div class="time">{{__('October 2017')}}</div>
