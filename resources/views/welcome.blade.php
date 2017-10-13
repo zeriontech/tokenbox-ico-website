@@ -3,10 +3,14 @@
 @section('content')
 
   <section class="topblock topblock-home">
-    <div class="hamburger-icon" id="hamburger-icon">
-      <span class="line line-1"></span>
-      <span class="line line-2"></span>
-      <span class="line line-3"></span>
+    <div class="sticky-top">
+      <div class="wrapper">
+        <div class="hamburger-icon" id="hamburger-icon">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </div>
+      </div>
     </div>
 
     <div class="mobile-nav js-scroll-nav">
@@ -45,7 +49,7 @@
           <li><a href="#faq">{{__('FAQ')}}</a></li>
         </nav>
 
-        <ul class="nav">
+        <ul class="nav header_right">
           <li class="active">
             <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
               {{__('White Paper')}}
@@ -111,7 +115,7 @@
     </div>
   </section>
 
-  {{-- @include('shared/video') --}}
+  <!-- @include('shared/video') -->
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">

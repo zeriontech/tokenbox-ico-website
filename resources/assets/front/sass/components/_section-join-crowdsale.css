@@ -36,10 +36,17 @@ body {
       width: 55px;]
       flex-shrink: 0;
     }
-  }
 
-  li:last-child {
-    content: '';
+    &:last-child {
+      &:before {
+        content: '';
+        background: url(../img/check-green.svg);
+        width: 45px;
+        height: 31px;
+        margin: 0 35px 0 47px;
+        background-size: 45px auto;
+      }
+    }
   }
 }
 

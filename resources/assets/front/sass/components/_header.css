@@ -11,6 +11,14 @@
 
 .header_logo {
   width: 200px;
+
+  .logo {
+    vertical-align: top;
+  }
+}
+
+.header_right {
+  width: 200px;
 }
 
 .hamburger-icon {
@@ -19,12 +27,16 @@
 }
 
 .header_social {
+  margin: -10px 10px 0;
+  font-size: 27px;
+
   a {
     color: #fff;
+    margin: 0 10px;
   }
 
   .fa {
-    font-size: 20px;
+    vertical-align: middle;
   }
 }
 
@@ -35,6 +47,7 @@
 
 @media (max-width: 959px) {
   .header .nav,
+  .header_social,
   .header .lang {
     display: none;
   }

@@ -35,14 +35,14 @@
           <li><a href="#join-crowdsale">How to Join</a></li>
         </nav>
 
-        <ul class="nav" style="width: 205px; text-align: right;">
-          <li>
-            <div class="header_social">
-              <a href="http://tokenbox.slack.com" class="link slack" target="_blank"><i class="fa fa-slack"></i></a>
-              <a href="https://github.com/zeriontech/tokenbox-ico-website" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
-              <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
-            </div>
-          </li>
+        <div class="header_social">
+          <a href="https://bitcointalk.org/index.php?topic=2243307.0" class="icon-bitcointalk" target="_blank"></a>
+          <a href="http://tokenbox.slack.com" class="link slack" target="_blank"><i class="fa fa-slack"></i></a>
+          <a href="https://github.com/zeriontech/tokenbox-ico-website" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
+          <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+        </div>
+
+        <ul class="nav">
           <li>
             @include('shared/langSwitcher')
           </li>
@@ -173,7 +173,7 @@
         </li><li>
           <span><b>Send</b> the required amount to the specified wallet address and wait for 6 confirmations.</span>
         </li><li>
-          <span><b>Congratulations!</b> You’ve just purchased TBX Tokens.</span>
+          <span><b>Congratulations!</b><br> You’ve just purchased TBX Tokens.</span>
         </li>
       </ol>
 

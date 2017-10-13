@@ -190,3 +190,11 @@ section h1 {
   }
 }
 
+.icon-bitcointalk {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/ico/btalk.svg);
+  width: 26px;
+  height: 26px;
+}
+

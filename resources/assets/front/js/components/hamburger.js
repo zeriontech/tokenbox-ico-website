@@ -18,14 +18,16 @@ $(function() {
     });
   });
 
+  var $top = $('.sticky-top');
+
   var inview = new Waypoint.Inview({
     element: $('.get-notified-top + .big-title')[0],
     enter: function(direction) {
-      $burger.toggleClass('fixed', direction == 'down');
+      $top.toggleClass('fixed', direction == 'down');
     },
 
     exit: function(direction) {
-      $burger.toggleClass('fixed', direction == 'down');
+      $top.toggleClass('fixed', direction == 'down');
     }
   });
 });
