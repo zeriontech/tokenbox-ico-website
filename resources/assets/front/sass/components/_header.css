@@ -13,15 +13,19 @@
   width: 200px;
 }
 
-.mobile-nav .logo,
 .hamburger-icon {
   position: absolute;
   z-index: 4;
 }
 
-.mobile-nav .logo {
-  top: 22px;
-  left: 20px;
+.header_social {
+  a {
+    color: #fff;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
 }
 
 .hamburger-icon {

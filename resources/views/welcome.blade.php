@@ -10,10 +10,6 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <a href="/" class="logo">
-        <img src="/assets/front/img/logo.svg">
-      </a>
-
       <ul>
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
@@ -29,6 +25,8 @@
           @include('shared/langSwitcher')
         </li>
       </ul>
+
+      @include('shared/social')
     </div>
 
     <div class="wrapper">
@@ -112,6 +110,8 @@
       </div>
     </div>
   </section>
+
+  {{-- @include('shared/video') --}}
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">

@@ -81,4 +81,14 @@
     top: 0;
     text-align: center;
   }
+
+  .social {
+    margin-top: 30px;
+  }
+
+  @mixin bp desktop {
+    .social {
+      margin-top: 80px;
+    }
+  }
 }

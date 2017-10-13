@@ -49,6 +49,7 @@
 @import "components/lang";
 @import "components/modal";
 @import "components/notification";
+@import "components/video";
 
 .pay-with {
   margin-top: 110px;

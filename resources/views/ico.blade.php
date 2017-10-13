@@ -9,10 +9,6 @@
     </div>
 
     <div class="mobile-nav js-scroll-nav">
-      <a href="/" class="logo">
-        <img src="/assets/front/img/logo.svg">
-      </a>
-
       <ul>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
@@ -39,7 +35,14 @@
           <li><a href="#join-crowdsale">How to Join</a></li>
         </nav>
 
-        <ul class="nav" style="width: 205px">
+        <ul class="nav" style="width: 205px; text-align: right;">
+          <li>
+            <div class="header_social">
+              <a href="http://tokenbox.slack.com" class="link slack" target="_blank"><i class="fa fa-slack"></i></a>
+              <a href="https://github.com/zeriontech/tokenbox-ico-website" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
+              <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+            </div>
+          </li>
           <li>
             @include('shared/langSwitcher')
           </li>
