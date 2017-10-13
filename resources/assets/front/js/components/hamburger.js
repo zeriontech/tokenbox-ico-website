@@ -13,7 +13,7 @@ $(function() {
         $('body').css('overflow', '');
       }
 
-      hamburger.next().toggleClass('opened');
+      $('.mobile-nav').toggleClass('opened');
       return false;
     });
   });
