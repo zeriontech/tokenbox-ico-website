@@ -7,16 +7,16 @@ use App\Http\Requests\NotifyFullFormRequest;
 use App\Http\Requests\NotifyQueueFormRequest;
 use App\Library\JsonResponseTrait;
 use App\Services\IntercomService;
+use Carbon\Carbon;
 
 class MainController extends Controller
 {
     use JsonResponseTrait;
 
-    const ICO_START_DAY = 24;
-
     public function mainPage()
     {
-        $days = self::ICO_START_DAY - date('d');
+        $icoDate = Carbon::createFromDate('2017', 11, 14);
+        $days    = $icoDate->diffInDays(Carbon::now());
 
         $title = __('Tokenbox — Unique ecosystem for crypto investors, traders and funds');
 

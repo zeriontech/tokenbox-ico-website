@@ -60,27 +60,31 @@ class MailchimpToIntercom extends Command
     {
         $emails = [];
         $cnt    = 0;
+
         foreach ($this->lists as $list) {
             $membersList = $this->newsletter->getMembers($list->getName(), [
                 'status' => 'subscribed',
                 'count'  => self::COUNT,
             ]);
             foreach (array_get($membersList, 'members') as $member) {
-
                 if (array_get($member, 'merge_fields.IS_IMPORT') !== 'Y' &&
                     array_get($member, 'merge_fields.IS_IMPORT') !== 'ERROR') {
                     $emails[$list->getName()][] = [
-                        'email'   => array_get($member, 'email_address'),
-                        'name'    => array_get($member, 'merge_fields.NAME'),
-                        'phone'   => array_get($member, 'merge_fields.PHONE'),
-                        'company' => array_get($member, 'merge_fields.COMPANY'),
-                        'amount'  => array_get($member, 'merge_fields.AMOUNT'),
-                        'status'  => array_get($member, 'status'),
+                        'email'        => array_get($member, 'email_address'),
+                        'name'         => array_get($member, 'merge_fields.NAME'),
+                        'phone'        => array_get($member, 'merge_fields.PHONE'),
+                        'company'      => array_get($member, 'merge_fields.COMPANY'),
+                        'amount'       => array_get($member, 'merge_fields.AMOUNT'),
+                        'status'       => array_get($member, 'status'),
+                        'country_code' => array_get($member, 'location.country_code'),
+                        'timezone'     => array_get($member, 'location.timezone')
                     ];
+
                     $cnt++;
                 }
             }
         }
+
         $this->output->progressStart($cnt);
 
         foreach ($emails as $listName => $members) {
