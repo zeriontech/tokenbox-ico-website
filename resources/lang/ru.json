@@ -33,7 +33,7 @@
   "Conducting activities on the Tokenbox Platform within the relevant legislative infrastructure. Tokenbox is a legal \"umbrella\" fund. Thus, funds and traders can minimize their legal costs": "Работайте в рамках действующего правового поля. Tokenbox – легальный «зонтичный» фонд. Таким образом, фонды и трейдеры минимизируют затраты на юридическое оформление своей деятельности",
   "Countdown until we go to ICO": "Отсчет до начала TGE",
   "Crowdsale": "Краудсейл",
-  "Currently, there is still an opportunity to participate in a private pre-sale. If you are a fund or a major investor, you can&nbsp;<a href=\"mailto:hello@tokenbox.io\">contact us</a>&nbsp;for a special offer. During the TGE crowdsale period bonuses are not provided.": "Сейчас всё ещё есть возможность поучаствовать в закрытой предпродаже. Если вы представитель фонда, или крупный инвестор, можете <a href=\"mailto:hello@tokenbox.io\">связаться с нами</a> для обсуждения специальных условий. Во время проведения основного раунда TGE бонусы не предоставляются.",
+  "Currently, there is still an opportunity to participate in a private sale. If you are a fund or a major investor, you can&nbsp;<a href=\"mailto:hello@tokenbox.io\">contact us</a>&nbsp;for a special offer. During the TGE crowdsale period bonuses are not provided.": "Сейчас всё ещё есть возможность поучаствовать в закрытой продаже. Если вы представитель фонда, или крупный инвестор, можете <a href=\"mailto:hello@tokenbox.io\">связаться с нами</a> для обсуждения специальных условий. Во время проведения основного раунда TGE бонусы не предоставляются.",
   "Customer analytics module": "Модуль аналитики по клиентам",
   "Differences from other services are presented in section 8 of White Paper.": "Отличия от других сервисов представлены в разделе 8 White Paper.",
   "Dmitry Shmakov": "Дмитрий Шмаков",
@@ -208,5 +208,7 @@
   "investors": "инвесторов",
   "is an ecosystem": "— экосистема",
   "traders and funds": "фондов и трейдеров",
-  "ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in ": "ᐅᐅᐅ Tokenbox это №❶ экосистема для крипто инвесторов, фондов и трейдеров. ᐅᐅᐅ ICO стартует: "
+  "ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in ": "ᐅᐅᐅ Tokenbox это №❶ экосистема для крипто инвесторов, фондов и трейдеров. ᐅᐅᐅ ICO стартует: ",
+  "You can use only ETH address. You will receive TBX tokens after token distribution period on this address. Do not use exchanges or online services addresses, you will not be able to receive TBX there. If you do not own an ETH address, we recommend you to create one on &nbsp;<a href=\"https://myetherwallet.com\" target=\"_blank\">MyEtherWallet</a>.": "Допускается использовать только ETH (эфирные) адреса. Вы получите TBX токены на этот адрес в конце этапа распределения токенов. Использовать адреса бирж и онлайн-сервисов запрещено, вы не сможете получить TBX на их адреса. Если у вас всё ещё нет ETH адреса, мы рекомендуем создать его на сайте <a href=\"https://myetherwallet.com\" target=\"_blank\">MyEtherWallet</a>.",
+  "Join Private Sale": "Закрытый сейл"
 }

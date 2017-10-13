@@ -6,13 +6,13 @@
 
       <h1>TOKENBOX CROWDSALE TERMS</h1>
       <p class="info-text">IF YOU ARE A UNITED STATES CITIZEN,  SINGAPORE CITIZEN, PEOPLE'S REPUBLIC OF CHINA CITIZEN OR OTHER REPRESENTATIVES OF THE UNITED STATES, SINGAPORE, OR THE PEOPLE'S REPUBLIC OF CHINA OR PERMANENT RESIDENT OF THE UNITED STATES, OR YOU HAVE A PRIMARY RESIDENCE OR DOMICILE IN THE UNITED STATES, INCLUDING PUERTO RICO, THE U.S. VIRGIN ISLANDS, ANY OTHER POSSESSION OF THE UNITED STATES, YOU ARE NOT ELIGIBLE TO PURCHASE THE TOKENS.</p>
-      <p>Your purchase of any TBX tokens (<b>“Tokens”</b>) during the Crowdsale (as defined below) from Token Box LLC. (the <b>“Company,”</b> <b>“we,”</b> or <b>“us”</b>) is subject to these terms of sale (“Terms”). Each of you and the Company is a <b>“Party”</b> and, together, the <b>“Parties.”</b></p>
+      <p>Your purchase of any TBX tokens (<b>“Tokens”</b>) during the Crowdsale (as defined below) from Tokenbox LLC. (the <b>“Company,”</b> <b>“we,”</b> or <b>“us”</b>) is subject to these terms of sale (“Terms”). Each of you and the Company is a <b>“Party”</b> and, together, the <b>“Parties.”</b></p>
       <p>
         By purchasing Tokens from us during the Crowdsale, you will be bound by these Terms and any terms incorporated by reference. If you have any questions regarding these Terms, please contact us at <a href="mailto:support@tokenbox.io">support@tokenbox.io</a>.
       </p>
       <p>You and the Company agree as follows:</p>
       <p>
-        1. Commencement and Duration of Crowdsale. The Company will conduct a sale of Tokens (the <b>“Crowdsale”</b>), which will begin at 12:00 UTC on October 24, 2017 (the <b>“Launch Date”</b>) and end at 12:00 UTC on  November 7, 2017 (the <b>“Crowdsale End Date”</b> or the <b>“Token Sale End Date”</b>).
+        1. Commencement and Duration of Crowdsale. The Company will conduct a sale of Tokens (the <b>“Crowdsale”</b>), which will begin at 12:00 UTC on November 14, 2017 (the <b>“Launch Date”</b>) and end at 12:00 UTC on  November 28, 2017 (the <b>“Crowdsale End Date”</b> or the <b>“Token Sale End Date”</b>).
       </p>
       <p>
         2. Eligibility. In order to be eligible to participate in the Crowdsale and to log into the Crowdsale portal to make a purchase, you will have to provide us with your email address (your <b>“User Credentials”</b>). You must also have a wallet capable of storing tokens of ERC-20 standard in order to receive any Tokens you purchase from us and provide the address for that wallet (the <b>“Token Receipt Address”</b>). We reserve the right to prescribe additional guidance regarding specific wallet requirements. We are not responsible for any delays, losses, costs, non-delivery of refunds or of Tokens, or other issues arising from the failure to provide, or providing an inaccurate or incomplete refund address or Token Receipt Address. If you are a United States citizen or permanent resident of the United States, or you have a primary residence or domicile in the United States, including Puerto Rico, the U.S. Virgin Islands, any other possession of the United States, you are not eligible to purchase the tokens in the Crowdsale.
