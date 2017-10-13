@@ -45,16 +45,17 @@ class IntercomService
     protected function prepareOptions($email, $parameters)
     {
         $customAttributes = [
-            'company' => array_get($parameters, 'company'),
-            'amount'  => array_get($parameters, 'amount'),
-            'tags'    => array_get($parameters, 'tag'),
+            'company'      => array_get($parameters, 'company'),
+            'amount'       => array_get($parameters, 'amount'),
+            'tags'         => array_get($parameters, 'tag'),
+            'country_code' => array_get($parameters, 'country_code'),
+            'timezone'     => array_get($parameters, 'timezone'),
         ];
 
         return array_filter([
             'email'             => $email,
             'name'              => array_get($parameters, 'name'),
             'phone'             => array_get($parameters, 'phone'),
-//            'tags'              => array_get($parameters, 'tag'),
             'custom_attributes' => array_filter($customAttributes),
         ]);
     }
