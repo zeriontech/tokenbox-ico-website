@@ -19,4 +19,6 @@ Route::group([
     Route::post('/send', 'MainController@addUser')->name('add-user');
     Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
     Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
+
+    Route::post('/intercom/callback', 'MainController@callback')->name('intercom-callback');
 });
