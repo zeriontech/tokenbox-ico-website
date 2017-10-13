@@ -36,20 +36,20 @@
           </div>
         </div>
         <div class="fade-in-right milestone active">
-          <div class="title">{{__('Escrow, Pre-ICO marketing')}}
-            <div class="time">{{__('September 2017')}}</div>
+          <div class="title">{{__('Escrow, Private Sale')}}
+            <div class="time">{{__('October 2017')}}</div>
           </div>
         </div>
         <div class="fade-in-left milestone">
           <div class="title">
               {{__('TGE (crowdsale)')}}
-              <div class="time">{{__('October 2017')}}</div>
+              <div class="time">{{__('November 2017')}}</div>
             </div>
         </div>
         <div class="fade-in-right milestone">
           <div class="title">
               {{__('Listing on exchanges')}}
-              <div class="time">{{__('November 2017')}}</div>
+              <div class="time">{{__('December 2017')}}</div>
             </div>
         </div>
         <div class="fade-in-left milestone">
