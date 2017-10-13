@@ -13,7 +13,10 @@ class IntercomService
      */
     public function __construct()
     {
-        $this->client = new IntercomClient(config('intercom.access_token'), null);
+        $this->client = new IntercomClient(
+            config('intercom.access_token'),
+            null
+            );
     }
 
     /**
@@ -57,6 +60,13 @@ class IntercomService
             'name'              => array_get($parameters, 'name'),
             'phone'             => array_get($parameters, 'phone'),
             'custom_attributes' => array_filter($customAttributes),
+        ]);
+    }
+
+    public function findByEmail($email)
+    {
+        return $this->client->leads->getLeads([
+            'email' => $email,
         ]);
     }
 
