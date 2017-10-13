@@ -7,7 +7,7 @@ $('.js-scroll-nav a[href^="#"]').click(function(){
     }, 300);
   }
 
-  $('html').animate({ scrollTop: $(anchor).offset().top }, 700);
+  $('html,body').animate({ scrollTop: $(anchor).offset().top }, 700);
 
   setTimeout(function(){
     window.location.hash = anchor;

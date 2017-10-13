@@ -58,6 +58,7 @@ $translateX: 0;
   &.fixed {
     position: fixed;
     opacity: 0.8;
+    display: block;
 
     &:before {
       position: absolute;

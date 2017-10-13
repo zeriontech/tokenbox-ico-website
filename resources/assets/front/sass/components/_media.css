@@ -71,6 +71,11 @@
       background-size: 170px auto;
     }
 
+    &.cointelegraph {
+      background-image: url("../img/media/cointelegraph.png");
+      background-size: 175px auto;
+    }
+
     &.btc123 {
       background-image: url("../img/media/btc123.png");
       background-size: 108px auto;

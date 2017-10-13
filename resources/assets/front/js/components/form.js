@@ -4,12 +4,6 @@ $('.js-ajax-form').submit(function() {
   var buttonText = $button.text();
 
   $.ajax({
-    url: $form.data('extra-action'),
-    type: $form.attr('method'),
-    data: $form.serialize()
-  });
-
-  $.ajax({
     url: $form.attr('action'),
     type: $form.attr('method'),
     data: $form.serialize(),
@@ -26,6 +20,12 @@ $('.js-ajax-form').submit(function() {
 
       return $button.html(buttonText);
     }
+
+    $.ajax({
+      url: $form.data('extra-action'),
+      type: $form.attr('method'),
+      data: $form.serialize()
+    });
 
     $button.html('Check your email...').addClass('button-waiting');
     localStorage.setItem('waitedForm', '#' + $form.attr('id'));

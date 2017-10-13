@@ -19,9 +19,13 @@ $(function() {
   });
 
   var inview = new Waypoint.Inview({
-    element: $('#for-investors')[0],
+    element: $('.get-notified-top + .big-title')[0],
     enter: function(direction) {
       $burger.toggleClass('fixed', direction == 'down');
     },
+
+    exit: function(direction) {
+      $burger.toggleClass('fixed', direction == 'down');
+    }
   });
 });

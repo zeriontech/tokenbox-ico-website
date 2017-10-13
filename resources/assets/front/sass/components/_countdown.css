@@ -42,7 +42,7 @@
 
 .countdown-item .bar {
   stroke: #ee3d49;
-  transform: translateY(64px) rotate(-90deg);
+  transform: translateY(62px) rotate(-90deg);
 }
 
 .countdown-item .bar.loaded {
@@ -105,7 +105,7 @@
 
     .button + .button {
       margin-left: 35px;
-      min-width: 260px;
+      min-width: 270px;
       vertical-align: top;
     }
   }

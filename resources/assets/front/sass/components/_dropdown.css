@@ -50,29 +50,3 @@
   text-align: right;
 }
 
-@media (max-width: 959px) {
-  .dropdown {
-    margin-right: 0;
-  }
-
-  .dropdown .title:after {
-    top: 12px;
-    height: 12px;
-    width: 12px;
-    border-width: 2px;
-  }
-
-  .dropdown.opened {
-    .title:after {
-      top: 18px;
-    }
-  }
-
-  .dropdown-menu {
-    position: relative;
-    width:100%;
-    top: 0;
-    text-align: center;
-  }
-}
-
