@@ -93,7 +93,7 @@ class MailchimpToIntercom extends Command
 
                 try {
                     $contact = $this->intercomService->findLeadByEmail($email);
-                    
+
                     if (is_null($contact)) {
                         $result = $this->intercomService->userCreate($email, [
                             'name'         => array_get($member, 'name'),
