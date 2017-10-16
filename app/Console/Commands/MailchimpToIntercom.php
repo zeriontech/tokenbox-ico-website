@@ -92,13 +92,21 @@ class MailchimpToIntercom extends Command
                 $email = array_get($member, 'email');
 
                 try {
-                    $result = $this->intercomService->userCreate($email, [
-                        'name'    => array_get($member, 'name'),
-                        'phone'   => array_get($member, 'phone'),
-                        'company' => array_get($member, 'company'),
-                        'amount'  => array_get($member, 'amount'),
-                        'tag'     => $listName,
-                    ]);
+                    $contact = $this->intercomService->findLeadByEmail($email);
+
+                    if (is_null($contact)) {
+                        $result = $this->intercomService->userCreate($email, [
+                            'name'         => array_get($member, 'name'),
+                            'phone'        => array_get($member, 'phone'),
+                            'company'      => array_get($member, 'company'),
+                            'amount'       => array_get($member, 'amount'),
+                            'tag'          => $listName,
+                            'country_code' => array_get($member, 'country_code'),
+                            'timezone'     => array_get($member, 'timezone')
+                        ]);
+                    } else {
+                        $result = $this->intercomService->convertLead($contact);
+                    }
 
                     if ($result->id) {
                         $this->newsletter->subscribeOrUpdate($email, [
