@@ -62,11 +62,26 @@ class IntercomService
         ]);
     }
 
-    public function findByEmail($email)
+    public function findLeadByEmail($email)
     {
-        return $this->client->leads->getLeads([
+        $leads = $this->client->leads->getLeads([
             'email' => $email,
         ]);
+        return array_get($leads->contacts, '0');
     }
 
+    public function convertLead($lead)
+    {
+        if ($lead && isset($lead->user_id)) {
+            return $this->client->leads->convertLead([
+                'contact' => [
+                    'id' => $lead->id
+                ],
+                'user' => [
+                    'user_id' => $lead->user_id
+                ]
+            ]);
+        }
+        return null;
+    }
 }
