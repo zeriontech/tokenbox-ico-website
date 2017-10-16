@@ -6,6 +6,6 @@
     <a href="mailto:support@tokenbox.io" class="link email" title="Email"><i class="fa fa-envelope-o"></i></a>
     <a href="https://www.linkedin.com/company-beta/11217933/" title="Linkedin" class="link linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
     <a href="https://www.reddit.com/r/tokenbox/" title="Reddit" class="link reddit" target="_blank"><i class="fa fa-reddit-square"></i></a>
-    <a href="https://github.com/zeriontech/tokenbox-ico-website" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
+    <a href="https://github.com/zeriontech/" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
     <a href="https://medium.com/tokenbox" title="Medium" class="link medium" target="_blank"><i class="fa fa-medium"></i></a>
 </div>
