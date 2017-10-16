@@ -25,7 +25,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-         $schedule->command(MailchimpToIntercom::class)->hourly();
+         $schedule->command(MailchimpToIntercom::class)->everyTenMinutes();
     }
 
     /**

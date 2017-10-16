@@ -13,7 +13,10 @@ class IntercomService
      */
     public function __construct()
     {
-        $this->client = new IntercomClient(config('intercom.access_token'), null);
+        $this->client = new IntercomClient(
+            config('intercom.access_token'),
+            null
+            );
     }
 
     /**
@@ -60,4 +63,26 @@ class IntercomService
         ]);
     }
 
+    public function findLeadByEmail($email)
+    {
+        $leads = $this->client->leads->getLeads([
+            'email' => $email,
+        ]);
+        return array_get($leads->contacts, '0');
+    }
+
+    public function convertLead($lead)
+    {
+        if ($lead && isset($lead->user_id)) {
+            return $this->client->leads->convertLead([
+                'contact' => [
+                    'id' => $lead->id
+                ],
+                'user' => [
+                    'user_id' => $lead->user_id
+                ]
+            ]);
+        }
+        return null;
+    }
 }
