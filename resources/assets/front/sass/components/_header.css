@@ -29,10 +29,18 @@
 .header_social {
   margin: -10px 10px 0;
   font-size: 27px;
+  white-space: nowrap;
 
   a {
     color: #fff;
     margin: 0 10px;
+
+    transition: .3s opacity;
+    -webkit-transform: translateZ(0); /* fix safari opacity hover bug */
+
+    &:hover {
+      opacity: .7;
+    }
   }
 
   .fa {

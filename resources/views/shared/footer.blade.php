@@ -6,8 +6,8 @@
 
     <div class="copy">
     <img class="logo" src="/assets/front/img/logo.svg">
-    <a href="#" class="js-modal-link" data-target="#terms-modal">{{__('Terms & Conditions')}}</a>
-    <a href="#" class="js-modal-link" data-target="#privacy-modal">{{__('User Privacy')}}</a>
+    <a href=#terms class="js-modal-link">{{__('Terms & Conditions')}}</a>
+    <a href="#privacy" class="js-modal-link">{{__('User Privacy')}}</a>
     <h2>tokenbox.io</h2>
     </div>
   </div>

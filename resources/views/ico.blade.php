@@ -184,7 +184,7 @@
         <a href="">See the detailed guide.</a>
       </div>
 
-      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your dashboard.</p>
+      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.</p>
     </div>
   </section>
 

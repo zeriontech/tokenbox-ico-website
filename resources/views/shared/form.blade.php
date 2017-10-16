@@ -1,4 +1,4 @@
-<div class="modal" id="join-queue-modal">
+<div class="modal" id="join-queue">
   <div class="modal-overlay"></div>
   <div class="modal-body">
     <section class="send-request section">

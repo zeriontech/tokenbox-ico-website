@@ -63,6 +63,7 @@
   color: #464f56;
   text-align: center;
   max-width: 836px;
+  white-space: nowrap;
 
   div:not(:first-child) {
     float: left;
@@ -83,8 +84,8 @@
   &:before {
     position: relative;
     display: inline-block;
-    top: 6px;
-    margin-right: 20px;
+    top: 13px;
+    margin-right: 10px;
     background-repeat: no-repeat;
     content: '';
   }
@@ -127,6 +128,15 @@
     div:not(:first-child) {
       font-size: 36px;
       line-height: 100px;
+    }
+  }
+
+  .founded-money-usd,
+  .founded-money-btc,
+  .founded-money-eth {
+    &:before {
+      top: 6px;
+      margin-right: 20px;
     }
   }
 

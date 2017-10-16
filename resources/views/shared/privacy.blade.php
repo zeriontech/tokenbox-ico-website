@@ -1,4 +1,4 @@
-<div class="modal" id="privacy-modal">
+<div class="modal" id="privacy">
   <div class="modal-overlay"></div>
   <div class="modal-body">
     <div class="modal-content">

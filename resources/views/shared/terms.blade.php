@@ -1,4 +1,4 @@
-<div class="modal" id="terms-modal">
+<div class="modal" id="terms">
   <div class="modal-overlay"></div>
   <div class="modal-body">
     <div class="modal-content">

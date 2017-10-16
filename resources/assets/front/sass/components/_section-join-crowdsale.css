@@ -40,11 +40,11 @@ body {
     &:last-child {
       &:before {
         content: '';
-        background: url(../img/check-green.svg);
-        width: 45px;
-        height: 31px;
-        margin: 0 35px 0 47px;
-        background-size: 45px auto;
+        background: no-repeat url(../img/check-green.svg);
+        background-size: 35px auto;
+        width: 35px;
+        height: 25px;
+        margin: 0 25px 0 0;
       }
     }
   }
@@ -78,6 +78,15 @@ body {
       font-size: 80px;
       width: 80px;
       text-align: center;
+    }
+
+    &:last-child {
+      &:before {
+        width: 45px;
+        height: 31px;
+        margin: 0 35px 0 47px;
+        background-size: 45px auto;
+      }
     }
   }
 

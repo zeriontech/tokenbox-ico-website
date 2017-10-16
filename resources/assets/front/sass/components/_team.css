@@ -4,10 +4,6 @@
   margin: auto;
 }
 
-.team .wrapper {
-  padding: 0;
-}
-
 .advisors {
   margin: 100px auto 0;
 
@@ -96,5 +92,11 @@
     font-size: 1.6rem;
     color: $gray-light;
     line-height: 1.6;
+  }
+}
+
+@mixin bp desktop {
+  .team .wrapper {
+    padding: 0;
   }
 }

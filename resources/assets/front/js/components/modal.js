@@ -5,6 +5,7 @@ $('body').on('shown.modal', function(e, options) {
     $(document).off('off.modal');
     $modal.fadeOut(function() {
       $('html').removeClass('hasModal');
+      history.pushState('', document.title, window.location.pathname);
     });
   }
 
@@ -25,9 +26,20 @@ $('body').on('shown.modal', function(e, options) {
 
 $('.js-modal-link').click(function() {
   var options = {
-    target: $($(this).data('target'))
+    target: $($(this).attr('href'))
   };
 
   $('body').trigger('shown.modal', options);
-  return false;
 });
+
+$(window).on('load', function() {
+  if (!location.hash) return;
+
+  var $block = $(location.hash);
+  if (!$block.is('.modal')) return;
+
+  var options = {
+    target: $block
+  };
+  $('body').trigger('shown.modal', options);
+})

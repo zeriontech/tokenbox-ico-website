@@ -74,7 +74,7 @@
           <i class="fa fa-long-arrow-right"></i>
         </a>
 
-        <a href="#" class="button js-modal-link" data-target="#join-queue-modal">
+        <a href="#join-queue" class="button js-modal-link">
           {{__('Join Private Sale')}}
         </a>
 
