@@ -21,7 +21,7 @@ $(function() {
   var $top = $('.sticky-top');
 
   var inview = new Waypoint.Inview({
-    element: $('.get-notified-top + .big-title')[0],
+    element: $('.get-notified-top + .big-title')[0] || $('#raised-token h1')[0],
     enter: function(direction) {
       $top.toggleClass('fixed', direction == 'down');
     },

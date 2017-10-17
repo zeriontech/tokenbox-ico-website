@@ -2,53 +2,34 @@
 
 @section('content')
   <section class="topblock topblock-ico">
-    <div class="hamburger-icon" id="hamburger-icon">
-      <span class="line line-1"></span>
-      <span class="line line-2"></span>
-      <span class="line line-3"></span>
-    </div>
-
-    <div class="mobile-nav js-scroll-nav">
-      <ul>
+    @component('shared/header')
+      @slot('mobile')
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#join-crowdsale">How to Join</a></li>
-        <li>
-          @include('shared/langSwitcher')
-        </li>
+      @endslot
+
+      <nav class="nav js-scroll-nav" role="navigation">
+        <li><a href="#raised-token">Raised</a></li>
+        <li><a href="#token-distribution">Token Distribution</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#join-crowdsale">How to Join</a></li>
+      </nav>
+
+      <div class="header_social">
+        <a href="https://bitcointalk.org/index.php?topic=2243307.0" class="icon-bitcointalk" target="_blank"></a>
+        <a href="https://www.facebook.com/Tokenbox/" title="Facebook" class="link facebook" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/tokenbox" class="link twitter" title="Twitter" target="_blank"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+      </div>
+
+      <ul class="nav">
+        <li>@include('shared/langSwitcher')</li>
       </ul>
-    </div>
+    @endcomponent
 
     <div class="wrapper">
-      <header class="header">
-        <div class="header_logo">
-          <a href="/" class="logo">
-            <img class="logo" src="/assets/front/img/logo.svg">
-          </a>
-        </div>
-
-        <nav class="nav js-scroll-nav" role="navigation">
-          <li><a href="#raised-token">Raised</a></li>
-          <li><a href="#token-distribution">Token Distribution</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#join-crowdsale">How to Join</a></li>
-        </nav>
-
-        <div class="header_social">
-          <a href="https://bitcointalk.org/index.php?topic=2243307.0" class="icon-bitcointalk" target="_blank"></a>
-          <a href="http://tokenbox.slack.com" class="link slack" target="_blank"><i class="fa fa-slack"></i></a>
-          <a href="https://github.com/zeriontech/tokenbox-ico-website" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
-          <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
-        </div>
-
-        <ul class="nav">
-          <li>
-            @include('shared/langSwitcher')
-          </li>
-        </ul>
-      </header>
-
       <div class="countdown">
         <h1>
           Tokenbox crowdsale is now live!

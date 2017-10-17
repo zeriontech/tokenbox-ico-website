@@ -8,6 +8,7 @@
 @import "background-icon";
 
 @import "vendors/slick";
+@import "vendors/intl-tel-input";
 
 @import "components/dropdown";
 @import "components/tooltip";

@@ -47,6 +47,7 @@ elixir((mix) => {
         paths.node + 'slick-carousel/slick/slick.js',
         paths.node + 'waypoints/lib/jquery.waypoints.min.js',
         paths.node + 'waypoints/src/shortcuts/inview.js',
+        paths.node + 'intl-tel-input/build/js/intlTelInput.min.js',
         'components/*.js',
         'app.js',
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');

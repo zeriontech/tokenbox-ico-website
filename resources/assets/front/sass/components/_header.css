@@ -28,10 +28,11 @@
 
 .header_social {
   margin: -10px 10px 0;
-  font-size: 27px;
+  font-size: 28px;
   white-space: nowrap;
 
   a {
+    text-decoration: none;
     color: #fff;
     margin: 0 10px;
 
@@ -45,6 +46,10 @@
 
   .fa {
     vertical-align: middle;
+  }
+
+  .telegram {
+    font-size: 26px;
   }
 }
 

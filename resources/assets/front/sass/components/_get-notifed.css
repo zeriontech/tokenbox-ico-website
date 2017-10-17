@@ -67,7 +67,8 @@
   background-size: 192px auto;
   padding: 130px 0;
 
-  input {
+  input,
+  .intl-tel-input {
     margin-bottom: 20px;
   }
 

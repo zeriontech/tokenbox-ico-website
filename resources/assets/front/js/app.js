@@ -8,4 +8,4 @@ window.addEventListener('storage', function(e) {
 });
 
 
-
+$('input[type="tel"]').intlTelInput();

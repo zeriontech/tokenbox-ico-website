@@ -3,18 +3,8 @@
 @section('content')
 
   <section class="topblock topblock-home">
-    <div class="sticky-top">
-      <div class="wrapper">
-        <div class="hamburger-icon" id="hamburger-icon">
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-        </div>
-      </div>
-    </div>
-
-    <div class="mobile-nav js-scroll-nav">
-      <ul>
+    @component('shared/header')
+      @slot('mobile')
         <li><a href="#for-investors">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#tech">{{__('Technology')}}</a></li>
@@ -25,43 +15,29 @@
             {{__('White Paper')}}
           </a>
         </li>
+      @endslot
+
+      <nav class="nav js-scroll-nav" role="navigation">
+        <li><a href="#for-investors">{{__('Features')}}</a></li>
+        <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
+        <li><a href="#tech">{{__('Technology')}}</a></li>
+        <li><a href="#team">{{__('Team')}}</a></li>
+        <li><a href="#faq">{{__('FAQ')}}</a></li>
+      </nav>
+
+      <ul class="nav header_right">
+        <li class="active">
+          <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+            {{__('White Paper')}}
+          </a>
+        </li>
         <li>
           @include('shared/langSwitcher')
         </li>
       </ul>
-
-      @include('shared/social')
-    </div>
+    @endcomponent
 
     <div class="wrapper">
-      <header class="header">
-        <div class="header_logo">
-          <a href="/" class="logo">
-            <img src="/assets/front/img/logo.svg">
-          </a>
-        </div>
-
-        <nav class="nav js-scroll-nav" role="navigation">
-          <li><a href="#for-investors">{{__('Features')}}</a></li>
-          <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
-          <li><a href="#tech">{{__('Technology')}}</a></li>
-          <li><a href="#team">{{__('Team')}}</a></li>
-          <li><a href="#faq">{{__('FAQ')}}</a></li>
-        </nav>
-
-        <ul class="nav header_right">
-          <li class="active">
-            <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
-              {{__('White Paper')}}
-            </a>
-          </li>
-          {{--language select--}}
-          <li>
-            @include('shared/langSwitcher')
-          </li>
-        </ul>
-      </header>
-
       <div class="countdown">
         <h1>
           {{__('Countdown until we go to ICO')}}
