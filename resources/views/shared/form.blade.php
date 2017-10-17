@@ -17,6 +17,8 @@
           <div class="row">
             <div class="six columns">
               <input type="tel" value="" name="PHONE" id="mce-PHONE" placeholder="{{__('Phone (Optional)')}}">
+
+              <p style="margin: 0;">{{__('Example: +1 123 4567890')}}</p>
             </div>
             <div class="six columns">
               <input required type="text" value="" name="AMOUNT" id="mce-AMOUNT" placeholder="{{__('You wish to invest')}}">
