@@ -8,4 +8,5 @@
     <a href="https://www.reddit.com/r/tokenbox/" title="Reddit" class="link reddit" target="_blank"><i class="fa fa-reddit-square"></i></a>
     <a href="https://github.com/zeriontech/" title="Github" class="link github" target="_blank"><i class="fa fa-github-square"></i></a>
     <a href="https://medium.com/tokenbox" title="Medium" class="link medium" target="_blank"><i class="fa fa-medium"></i></a>
+    <!-- <a href="https://goo.gl/xEmQgB" title="Youtube" class="link youtube" target="_blank"><i class="fa fa-youtube-play"></i></a> -->
 </div>
