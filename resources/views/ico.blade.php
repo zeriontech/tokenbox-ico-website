@@ -134,7 +134,7 @@
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
       <h1>How to Join the Crowdsale</h1>
-      <p>The process is simple and only takes ~5 minutes</p>
+      <p>The process is simple and only takes ~5 minutes.</p>
 
       <h2>4 easy steps</h2>
 
@@ -142,9 +142,9 @@
         <li>
           <span><b>Make sure</b> you comply with our <a href="#terms" class="js-modal-link">Terms & Conditions</a>.</span>
         </li><li>
-          <span><b>Create</b> a Zerion account when TGE starts (14 November 2017).</span>
+          <span><b>Create</b> a Zerion account when TGE starts (14 November 2017 12:00 UTC).</span>
         </li><li>
-          <span><b>Choose currency</b> and the amount of Tokens you want topurchase.</span>
+          <span><b>Choose currency</b> and the amount of Tokens you want to purchase.</span>
         </li><li>
           <span><b>Send</b> the required amount to the specified wallet address and wait for 6 confirmations.</span>
         </li><li>
