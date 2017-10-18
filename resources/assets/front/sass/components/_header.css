@@ -71,6 +71,7 @@
   }
 
   .topblock-ico .header {
+    position: relative;
     background: #25258e;
   }
 

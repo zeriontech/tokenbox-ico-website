@@ -5,18 +5,18 @@
     @component('shared/header')
       @slot('mobile')
         <li><a href="/">About</a></li>
-        <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#join-crowdsale">How to Join</a></li>
+        <li><a href="#raised-token">Raised</a></li>
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
         <li><a href="/">About</a></li>
-        <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="#join-crowdsale">How to Join</a></li>
+        <li><a href="#documentation">Docs</a></li>
       </nav>
 
       <div class="header_social">
@@ -165,7 +165,7 @@
   </section>
 
   <section>
-    <div class="documentation">
+    <div class="documentation" id="documentation">
       <h1>Documentation</h1>
       <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a><a href="/docs/Tokenbox-LLC-SAFT.docx"><i class="fa fa-file-pdf-o"></i>Tokenbox LLC SAFT</a>
     </div>

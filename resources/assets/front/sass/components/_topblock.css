@@ -60,7 +60,7 @@
 .topblock-ico {
   padding-bottom: 100px;
   background: #1f1f64;
-  background: linear-gradient(to bottom, rgb(37,37,142) 0%, rgb(28,28,77) 100%);
+  background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
 
   &:before {
     position: absolute;
@@ -68,7 +68,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.5;
     background: url("../img/grid-blue.svg") top center no-repeat;
     background-size: cover;
     content: '';
