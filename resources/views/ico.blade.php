@@ -167,7 +167,7 @@
   <section>
     <div class="documentation">
       <h1>Documentation</h1>
-      <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a><a href="/docs/Tokenbox-LLC-SAFT.docx"><i class="fa fa-file-pdf-o"></i>Tokenbox LLC SAFT</a>
+      <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a>
     </div>
   </section>
 
