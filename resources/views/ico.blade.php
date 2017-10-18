@@ -134,17 +134,17 @@
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
       <h1>How to Join the Crowdsale</h1>
-      <p>The process is simple and only takes ~5 minutes</p>
+      <p>The process is simple and only takes ~5 minutes.</p>
 
       <h2>4 easy steps</h2>
 
       <ol class="step-list">
         <li>
-          <span><b>Make sure</b> you comply with our Terms & Conditions.</span>
+          <span><b>Make sure</b> you comply with our <a href="#terms" class="js-modal-link">Terms & Conditions</a>.</span>
         </li><li>
-          <span><b>Create</b> a Zerion account.</span>
+          <span><b>Create</b> a Zerion account (opens on 14 Nov 2017 12:00 UTC).</span>
         </li><li>
-          <span><b>Choose currency</b> and the amount of Tokens you want topurchase.</span>
+          <span><b>Choose currency</b> and the amount of Tokens you want to purchase.</span>
         </li><li>
           <span><b>Send</b> the required amount to the specified wallet address and wait for 6 confirmations.</span>
         </li><li>
@@ -167,7 +167,7 @@
   <section>
     <div class="documentation" id="documentation">
       <h1>Documentation</h1>
-      <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a><a href="/docs/Tokenbox-LLC-SAFT.docx"><i class="fa fa-file-pdf-o"></i>Tokenbox LLC SAFT</a>
+      <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a>
     </div>
   </section>
 
