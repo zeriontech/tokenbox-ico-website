@@ -4,19 +4,19 @@
   <section class="topblock topblock-ico">
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/">About</a></li>
-        <li><a href="#token-distribution">Token Distribution</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#join-crowdsale">How to Join</a></li>
-        <li><a href="#raised-token">Raised</a></li>
+        <li><a href="/">{{__('About')}}</a></li>
+        <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
+        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
+        <li><a href="#documentation">{{__('Docs')}}</a></li>
+        <li><a href="#faq">{{__('FAQ')}}</a></li>
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/">About</a></li>
-        <li><a href="#token-distribution">Token Distribution</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#join-crowdsale">How to Join</a></li>
-        <li><a href="#documentation">Docs</a></li>
+        <li><a href="/">{{__('About')}}</a></li>
+        <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
+        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
+        <li><a href="#documentation">{{__('Docs')}}</a></li>
+        <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
       <div class="header_social">
@@ -33,9 +33,9 @@
 
     <div class="wrapper">
       @component('shared/countdown')
-        <a class="button" href="#join-crowdsale">How to Join Crowdsale</a><a class="button button-info" href="/docs/TBX-WhitePaper-Eng.pdf">
+        <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="/docs/TBX-WhitePaper-Eng.pdf">
           <i class="fa fa-file-pdf-o"></i>
-          White Paper
+          {{__('White Paper')}}
         </a>
       @endcomponent
     </div>
@@ -69,15 +69,13 @@
 
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
-      <h1>Token Distribution</h1>
-      <p>No more than 31,000,000 TBX will be released.</p>
+      <h1>{{__('Token Distribution')}}</h1>
+      <p>{{__('No more than 31,000,000 TBX will be released.')}}</p>
 
       <div class="distribution">
         <div class="distribution-item distribution-item-token">
           <span>75%</span>
-          Token
-          Generation
-          Even
+          {{__('Token Generation Even')}}
         </div>
         <div class="distribution-pie">
           <div class="distribution-pie-icon">
@@ -85,11 +83,11 @@
         </div>
         <div class="distribution-item distribution-item-bounty">
           <span>5%</span>
-          Bounty
+          {{__('Bounty')}}
         </div>
         <div class="distribution-item distribution-item-team">
           <span>20%</span>
-          Team
+          {{__('Team')}}
         </div>
       </div>
     </div>
@@ -133,26 +131,31 @@
 
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
-      <h1>How to Join the Crowdsale</h1>
-      <p>The process is simple and only takes ~5 minutes.</p>
+      <h1>{{__('How to Join the Crowdsale')}}</h1>
+      <p>{{__('The process is simple and only takes ~5 minutes')}}.</p>
 
-      <h2>4 easy steps</h2>
+      <h2>{{__('4 easy steps')}}</h2>
 
       <ol class="step-list">
         <li>
-          <span><b>Make sure</b> you comply with our <a href="#terms" class="js-modal-link">Terms & Conditions</a>.</span>
+          <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link">{{__('Terms & Conditions')}}</a>.</span>
         </li><li>
-          <span><b>Create</b> a Zerion account (opens on 14 Nov 2017 12:00 UTC).</span>
+          <span>
+            <b>{{__('Create')}}</b>
+            {{__('a Zerion account (opens on 14 Nov 2017 12:00 UTC)')}}.
+          </span>
         </li><li>
-          <span><b>Choose currency</b> and the amount of Tokens you want to purchase.</span>
+          <span><b>{{__('Choose currency')}}</b> {{__('and the amount of Tokens you want to purchase')}}.</span>
         </li><li>
-          <span><b>Send</b> the required amount to the specified wallet address and wait for 6 confirmations.</span>
+          <span><b>{{__('Send')}}</b> {{__('the required amount to the specified wallet address and wait for 6 confirmations')}}.</span>
         </li><li>
-          <span><b>Congratulations!</b><br> You’ve just purchased TBX Tokens.</span>
+          <span><b>{{__('Congratulations!')}}</b><br>{{__("You've just purchased TBX Tokens.")}}</span>
         </li>
       </ol>
 
-      <div class="button button-centred button-waiting" style="cursor: text">14 November</div>
+      <div class="button button-centred button-waiting" style="cursor: text">
+        {{__('14 November')}}
+      </div>
       <!--<a href="" class="button button-centred">Join the Crowdsale!</a>
 
       <div class="button-details">
@@ -166,8 +169,23 @@
 
   <section>
     <div class="documentation" id="documentation">
-      <h1>Documentation</h1>
-      <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a>
+      <h1>{{__('Documentation')}}</h1>
+      <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+        {{__('White Paper')}}
+      </a><a href="/docs/Tokenbox-Onepager-Eng.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+        {{__('One-Pager')}}
+      </a><a href="/docs/Tokenbox-Overview-Eng.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+        {{__('Tokenbox Overview')}}
+      </a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+        {{__('Business Overview')}}
+      </a><a href="/docs/Tokenbox-Presentation-Eng.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+        {{__('TGE Presentation')}}
+      </a>
     </div>
   </section>
 
