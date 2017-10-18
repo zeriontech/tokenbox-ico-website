@@ -43,9 +43,6 @@
 
   <!--<section class="section raised-token" id="raised-token">
     <div class="wrapper">
-      <h1> Total Raised </h1>
-      <p>The number of participants and the amounts collected.</p>
-
       <div class="progress">
         <div class="progress-current">
           9,163,974  USD
@@ -59,7 +56,7 @@
       </div>
 
       <div class="founded-money u-cf">
-        <div class="founded-money-participants">2563 participants</div>
+        <div class="founded-money-participants">2563 {{__('participants')}}</div>
         <div class="founded-money-usd">3,109,852</div>
         <div class="founded-money-btc">21.1560</div>
         <div class="founded-money-eth">2,357.0492</div>
@@ -97,42 +94,6 @@
     </div>
   </section>
 
-  <!--<section class="section section-fact-sheet" id="fact-sheat">
-    <div class="wrapper">
-      <h1>Fact Sheet</h1>
-
-      <dl>
-        <dt>What is a Tokenbox token</dt>
-        <dd>Tokenbox token  represents the right to receive a part of company's profit. All token holders are eligible for obtaining dividends according to their stakes. Any number of tokens (100％) sold at the end of ICO have right to receive 20％ of company's profits</dd>
-      </dl>
-
-      <dl>
-        <dt>Payout Structure</dt>
-        <dd>According to the company bylaws, at the end of a financial year 20％ of the company's profit is transferred to an ETH wallet. The ETH is then redistributed to all holders of Tokenbox Tokens according to smart contract conditions</dd>
-      </dl>
-
-      <dl>
-        <dt>Symbol</dt>
-        <dd>TBX</dd>
-      </dl>
-
-      <dl>
-        <dt>Total Supply</dt>
-        <dd>31 000 000 (thrity one million) tokens</dd>
-      </dl>
-
-      <dl>
-        <dt>Adjustable</dt>
-        <dd>Yes. All unsold tokens will be burned</dd>
-      </dl>
-
-      <dl>
-        <dt>Initial Rate</dt>
-        <dd>Price per token, locked. 1 token = 1 USD</dd>
-      </dl>
-    </div>
-  </section>-->
-
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
       <h1>{{__('How to Join the Crowdsale')}}</h1>
@@ -160,14 +121,13 @@
       <div class="button button-centred button-waiting" style="cursor: text">
         {{__('14 November')}}
       </div>
-      <!--<a href="" class="button button-centred">Join the Crowdsale!</a>
+      <!--<a href="" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
 
       <div class="button-details">
-        Got questions?
-        <a href="">See the detailed guide.</a>
+        {{__('Got questions? <a href="">See the detailed guide.')}}</a>
       </div>
 
-      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.</p>-->
+      <p>{{__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.')}}</p>-->
     </div>
   </section>
 
