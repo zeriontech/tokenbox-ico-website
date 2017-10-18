@@ -75,7 +75,7 @@
       <div class="distribution">
         <div class="distribution-item distribution-item-token">
           <span>75%</span>
-          {{__('Token Generation Even')}}
+          {{__('Token Generation Event')}}
         </div>
         <div class="distribution-pie">
           <div class="distribution-pie-icon">
