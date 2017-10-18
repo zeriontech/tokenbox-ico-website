@@ -67,7 +67,7 @@ return [
         'prefix'      => 'og:',
         'type'        => 'website',
         'title'       => 'Tokenbox - TGE starts on 14 November 2017',
-        'description' => 'Tokenbox is a №1 ecosystem for crypto-investors, traders and funds.',
+        'description' => 'ᐅᐅᐅ A №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ',
         'site-name'   => '',
         'properties'  => [
             //
