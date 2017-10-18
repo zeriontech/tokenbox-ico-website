@@ -59,5 +59,18 @@
 
 .topblock-ico {
   padding-bottom: 100px;
-  background-color: #1f1f64;
+  background: #1f1f64;
+  background: linear-gradient(to bottom, rgb(37,37,142) 0%, rgb(28,28,77) 100%);
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    background: url("../img/grid-blue.svg") top center no-repeat;
+    background-size: cover;
+    content: '';
+  }
 }

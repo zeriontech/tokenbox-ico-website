@@ -296,6 +296,4 @@
 
   @include('shared/powered')
   @include('shared/form')
-  @include('shared/terms')
-  @include('shared/privacy')
 @endsection

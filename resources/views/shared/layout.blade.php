@@ -65,6 +65,8 @@
   @yield('content')
 
   @include('shared/footer')
+  @include('shared/terms')
+  @include('shared/privacy')
 
   <script type="text/javascript" src="/assets/front/js/app.min.js?v=3"></script>
 </body>
