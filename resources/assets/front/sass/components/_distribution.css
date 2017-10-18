@@ -111,6 +111,17 @@
   }
 }
 
+.distibution-desc {
+  margin: 60px 0 0;
+  color: #464f56;
+  text-align: center;
+
+  a {
+    font-weight: 700;
+    color: #3434bb;
+  }
+}
+
 @mixin lp tablet {
   .distribution {
     text-align: center;

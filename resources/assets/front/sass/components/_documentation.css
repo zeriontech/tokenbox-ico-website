@@ -35,6 +35,25 @@
   }
 }
 
+.documentation_list {
+  position: relative;
+  margin: auto;
+  max-width: 760px;
+  text-align-last: left;
+
+  &:before {
+    position: absolute;
+    top: -114px;
+    left: 30px;
+    content: '';
+    width: 74px;
+    height: 94px;
+    opacity: .1;
+    background-size: 74px auto;
+    background: url('../img/back-icons/icon014.svg');
+  }
+}
+
 @mixin bp tablet {
   .documentation {
     padding: 136px 0;
@@ -46,7 +65,6 @@
       margin: 15px;
       padding: 18px 35px;
       width: calc(50% - 30px);
-      max-width: 350px;
     }
   }
 }

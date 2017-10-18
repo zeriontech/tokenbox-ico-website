@@ -33,7 +33,7 @@
 
     <div class="wrapper">
       @component('shared/countdown')
-        <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="/docs/TBX-WhitePaper-Eng.pdf">
+        <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">
           <i class="fa fa-file-pdf-o"></i>
           {{__('White Paper')}}
         </a>
@@ -89,6 +89,10 @@
           <span>20%</span>
           {{__('Team')}}
         </div>
+      </div>
+
+      <div class="distibution-desc">
+        <a href="#faq">See detailed information</a> in our FAQ section.
       </div>
     </div>
   </section>
@@ -170,22 +174,25 @@
   <section>
     <div class="documentation" id="documentation">
       <h1>{{__('Documentation')}}</h1>
-      <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank">
-        <i class="fa fa-file-pdf-o"></i>
-        {{__('White Paper')}}
-      </a><a href="/docs/Tokenbox-Onepager-Eng.pdf" target="_blank">
-        <i class="fa fa-file-pdf-o"></i>
-        {{__('One-Pager')}}
-      </a><a href="/docs/Tokenbox-Overview-Eng.pdf" target="_blank">
-        <i class="fa fa-file-pdf-o"></i>
-        {{__('Tokenbox Overview')}}
-      </a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf" target="_blank">
-        <i class="fa fa-file-pdf-o"></i>
-        {{__('Business Overview')}}
-      </a><a href="/docs/Tokenbox-Presentation-Eng.pdf" target="_blank">
-        <i class="fa fa-file-pdf-o"></i>
-        {{__('TGE Presentation')}}
-      </a>
+
+      <div class="documentation_list">
+        <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>
+          {{__('White Paper')}}
+        </a><a href="{{__('/docs/Tokenbox-Onepager-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>
+          {{__('One-Pager')}}
+        </a><a href="{{__('/docs/Tokenbox-Overview-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>
+          {{__('Tokenbox Overview')}}
+        </a><a href="{{__('/docs/Tokenbox-BusinessOverview-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>
+          {{__('Business Overview')}}
+        </a><a href="{{__('/docs/Tokenbox-Presentation-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>
+          {{__('TGE Presentation')}}
+        </a>
+      </div>
     </div>
   </section>
 

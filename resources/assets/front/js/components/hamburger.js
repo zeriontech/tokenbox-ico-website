@@ -20,13 +20,13 @@ $(function() {
 
   var $top = $('.sticky-top');
 
-  var inview = new Waypoint.Inview({
-    element: $('.get-notified-top + .big-title')[0] || $('#token-distribution h1')[0],
+  new Waypoint.Inview({
+    element: $('.topblock')[0],
     enter: function(direction) {
-      $top.toggleClass('fixed', direction == 'down');
+      $top.removeClass('fixed');
     },
 
-    exit: function(direction) {
+    exited: function(direction) {
       $top.toggleClass('fixed', direction == 'down');
     }
   });

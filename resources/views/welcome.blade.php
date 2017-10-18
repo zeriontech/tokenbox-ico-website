@@ -25,11 +25,13 @@
         <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
-      <div class="header_social">
-        <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
-      </div>
-
       <ul class="nav header_right">
+        <li>
+          <div class="header_social">
+            <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"> <i class="fa fa-telegram"></i>
+            </a>
+          </div>
+        </li>
         <li class="active">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
             {{__('White Paper')}}
