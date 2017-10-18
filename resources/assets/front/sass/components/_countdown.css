@@ -16,6 +16,27 @@
   margin: 0 -10px;
 }
 
+.countdown h1 {
+  margin: 0 0 8px;
+
+  sup {
+    position: relative;
+    top: -6px;
+    left: -1px;
+    font-size: 19px;
+  }
+}
+
+.countdown p {
+  margin: 0 0 63px;
+  color: #abb4bb;
+
+  a {
+    color: inherit;
+    font-weight: 700;
+  }
+}
+
 .countdown-item {
   position: relative;
   display: inline-block;
@@ -83,16 +104,7 @@
 }
 
 @mixin bp tablet {
-  #countdown {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
   .countdown {
-    h1 {
-      margin-bottom: 75px;
-    }
-
     .button {
       width: auto;
       margin: 58px 0 0;

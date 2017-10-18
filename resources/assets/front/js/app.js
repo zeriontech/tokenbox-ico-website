@@ -23,7 +23,7 @@ $(function() {
   $phoneInput.on("countrychange", function(e, countryData) {
     var val = $.trim($(this).val());
     if (val && val.indexOf('+') == 0) return
-    var newVal = '+' + countryData.dialCode + val;
+    var newVal = '+' + countryData.dialCode + ' ' + val;
     $(this).val(newVal);
   });
 });

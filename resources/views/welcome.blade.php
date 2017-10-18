@@ -25,6 +25,10 @@
         <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
+      <div class="header_social">
+        <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+      </div>
+
       <ul class="nav header_right">
         <li class="active">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
@@ -38,27 +42,14 @@
     @endcomponent
 
     <div class="wrapper">
-      <div class="countdown">
-        <h1>
-          {{__('Countdown until we go to ICO')}}
-        </h1>
-
-        <div id="countdown"></div>
-
-        <a href="#roadmap" class="button" style="display: none;">
-          {{__('Learn more about ICO')}}
-          <i class="fa fa-long-arrow-right"></i>
-        </a>
-
+      @component('shared/countdown')
         <a href="#join-queue" class="button js-modal-link">
           {{__('Join Private Sale')}}
+        </a><a href="/tge" class="button button-info">
+          {{__('Learn about TGE')}}
+          <i class="fa fa-long-arrow-right"></i>
         </a>
-
-        <a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
-          <i class="fa fa-telegram"></i>
-          {{__('Telegram')}}
-        </a>
-      </div>
+      @endcomponent
 
       <h1 class="main-title">
         <span class="fade-in-item">{{__('Tokenbox')}}</span>

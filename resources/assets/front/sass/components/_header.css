@@ -1,12 +1,10 @@
 .header {
   padding: 20px 0;
+}
+
+.header .wrapper {
   display: flex;
   justify-content: space-between;
-
-  @mixin bp desktop {
-    padding: 45px 0;
-    height: 150px;
-  }
 }
 
 .header_logo {
@@ -67,6 +65,15 @@
 }
 
 @mixin bp desktop {
+  .header {
+    margin: 0 0 74px;
+    padding: 45px 0 38px;
+  }
+
+  .topblock-ico .header {
+    background: #25258e;
+  }
+
   .hamburger-icon {
     display: none;
   }

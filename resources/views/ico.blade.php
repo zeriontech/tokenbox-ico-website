@@ -4,6 +4,7 @@
   <section class="topblock topblock-ico">
     @component('shared/header')
       @slot('mobile')
+        <li><a href="/">About</a></li>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -11,6 +12,7 @@
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
+        <li><a href="/">About</a></li>
         <li><a href="#raised-token">Raised</a></li>
         <li><a href="#token-distribution">Token Distribution</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -30,22 +32,16 @@
     @endcomponent
 
     <div class="wrapper">
-      <div class="countdown">
-        <h1>
-          Tokenbox crowdsale is now live!
-        </h1>
-
-        <div id="countdown"></div>
-
-        <a class="button">Join the Crowdsale!</a><a class="button button-info" href="/docs/TBX-WhitePaper-Eng.pdf">
+      @component('shared/countdown')
+        <a class="button" href="#join-crowdsale">How to Join Crowdsale</a><a class="button button-info" href="/docs/TBX-WhitePaper-Eng.pdf">
           <i class="fa fa-file-pdf-o"></i>
           White Paper
         </a>
-      </div>
+      @endcomponent
     </div>
   </section>
 
-  <section class="section raised-token" id="raised-token">
+  <!--<section class="section raised-token" id="raised-token">
     <div class="wrapper">
       <h1> Total Raised </h1>
       <p>The number of participants and the amounts collected.</p>
@@ -69,7 +65,7 @@
         <div class="founded-money-eth">2,357.0492</div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
@@ -135,8 +131,6 @@
     </div>
   </section>-->
 
-  @include('shared/faq')
-
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
       <h1>How to Join the Crowdsale</h1>
@@ -158,17 +152,26 @@
         </li>
       </ol>
 
-      <a href="" class="button button-centred">Join the Crowdsale!</a>
+      <div class="button button-centred button-waiting" style="cursor: text">14 November</div>
+      <!--<a href="" class="button button-centred">Join the Crowdsale!</a>
 
       <div class="button-details">
         Got questions?
         <a href="">See the detailed guide.</a>
       </div>
 
-      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.</p>
+      <p>If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.</p>-->
     </div>
   </section>
 
+  <section>
+    <div class="documentation">
+      <h1>Documentation</h1>
+      <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a><a href="/docs/Tokenbox-LLC-SAFT.docx"><i class="fa fa-file-pdf-o"></i>Tokenbox LLC SAFT</a>
+    </div>
+  </section>
+
+  @include('shared/faq')
   @include('shared/powered')
   @include('shared/roadmap')
   @include('shared/team')

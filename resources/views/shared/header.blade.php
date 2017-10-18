@@ -20,8 +20,8 @@
   @include('shared/social')
 </div>
 
-<div class="wrapper">
-  <header class="header">
+<header class="header">
+  <div class="wrapper">
     <div class="header_logo">
       <a href="/" class="logo">
         <img src="/assets/front/img/logo.svg">
@@ -29,5 +29,5 @@
     </div>
 
     {{ $slot }}
-  </header>
-</div>
+  </div>
+</header>
