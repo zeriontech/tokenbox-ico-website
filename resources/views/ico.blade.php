@@ -142,7 +142,7 @@
         <li>
           <span><b>Make sure</b> you comply with our <a href="#terms" class="js-modal-link">Terms & Conditions</a>.</span>
         </li><li>
-          <span><b>Create</b> a Zerion account when TGE starts (14 November 2017 12:00 UTC).</span>
+          <span><b>Create</b> a Zerion account when TGE starts (14 Nov 2017 12:00 UTC).</span>
         </li><li>
           <span><b>Choose currency</b> and the amount of Tokens you want to purchase.</span>
         </li><li>
