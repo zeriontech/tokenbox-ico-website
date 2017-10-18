@@ -18,7 +18,7 @@ return [
      | -----------------------------------------------------------------
      */
     'description' => [
-        'default'   => 'ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in 20 days!',
+        'default'   => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts on 14 November 2017!',
         'max'       => 155,
     ],
 
@@ -67,7 +67,7 @@ return [
         'prefix'      => 'og:',
         'type'        => 'website',
         'title'       => 'Tokenbox - Unique ecosystem for crypto investors, traders and funds',
-        'description' => 'Tokenbox is an №1 ecosystem for crypto-investors, traders and funds.',
+        'description' => 'Tokenbox is a №1 ecosystem for crypto-investors, traders and funds.',
         'site-name'   => '',
         'properties'  => [
             //
