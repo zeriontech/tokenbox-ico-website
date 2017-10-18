@@ -67,7 +67,7 @@
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
       <h1>{{__('Token Distribution')}}</h1>
-      <p>{{__('No more than 31,000,000 TBX will be released.')}}</p>
+      <p>{{__('No more than 31,000,000 TBX will be released')}}</p>
 
       <div class="distribution">
         <div class="distribution-item distribution-item-token">
@@ -97,7 +97,7 @@
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
       <h1>{{__('How to Join the Crowdsale')}}</h1>
-      <p>{{__('The process is simple and only takes ~5 minutes')}}.</p>
+      <p>{{__('The process is simple and only takes ~5 minutes')}}</p>
 
       <h2>{{__('4 easy steps')}}</h2>
 
