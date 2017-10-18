@@ -2,7 +2,7 @@
     <div class="wrapper">
         <article class="members">
             <h1 class="from-bottom">{{__('Meet the Tokenbox team')}}</h1>
-            <p class="from-bottom">{{__('From the creators of The Token Fund. Professional team with extensive experience in crypto industry')}}.</p>
+            <p class="from-bottom">{{__('From the creators of The Token Fund. Professional team with extensive experience in crypto industry')}}</p>
             <div class="members-list">
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/shpakovsky.jpg')">

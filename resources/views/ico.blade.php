@@ -89,7 +89,7 @@
       </div>
 
       <div class="distibution-desc">
-        <a href="#faq">See detailed information</a> in our FAQ section.
+        <a href="#faq">{{__('See detailed information')}}</a> {{__('in our FAQ section')}}.
       </div>
     </div>
   </section>
