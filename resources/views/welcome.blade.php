@@ -95,7 +95,7 @@
           </div>
           <div class="five columns">
             <button value="Subscribe" name="subscribe" type="submit" class="button button-condensed">
-              {{__('Get notified about ICO')}}!
+              {{__('Get notified about TGE')}}!
             </button>
           </div>
         </div>
@@ -199,7 +199,7 @@
             <div class="section-img-wrap mobile-only">
               <div class="section-img"></div>
             </div>
-            <p>{{__('Tokenbox undertakes to perform of KYC / AML for user-investors as well liaising with the requisite data verification systems')}}.</p>
+            <p>{{__('Tokenbox undertakes to perform of KYC/AML for user-investors as well liaising with the requisite data verification systems')}}.</p>
           </div>
         </div>
         <div class="six columns no-mobile fade-in-right">
@@ -287,7 +287,7 @@
       <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" data-extra-action="/send" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
         <div class="row">
           <div class="four columns">
-            <h1>{{__('Get notified when we go into ICO!')}}</h1>
+            <h1>{{__('Get notified when we go into TGE!')}}</h1>
           </div>
           <div class="five columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}"></div>
           <div class="three columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified!')}}</button></div>
