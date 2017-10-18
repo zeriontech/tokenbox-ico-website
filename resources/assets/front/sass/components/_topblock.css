@@ -58,7 +58,7 @@
 }
 
 .topblock-ico {
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: #1f1f64;
   background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
 
@@ -68,9 +68,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.5;
-    background: url("../img/grid-blue.svg") top center no-repeat;
+    opacity: 0.04;
+    background: url("../img/grid-white.svg") top center no-repeat;
     background-size: cover;
     content: '';
   }
 }
+
