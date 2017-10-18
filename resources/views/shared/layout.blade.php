@@ -6,8 +6,8 @@
   {!! seo_helper()->render() !!}
 
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
-  <link rel="icon" type="image/png" href="/favicon-144.png" sizes="195x195">
-  <link rel="apple-touch-icon" href="/favicon-195.png" sizes="144x144">
+  <link rel="icon" type="image/png" href="/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/favicon-195.png?a" sizes="195x195">
 
   <link rel="stylesheet" href="/assets/front/css/app.css?v=8">
 
