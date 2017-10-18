@@ -18,7 +18,7 @@ return [
      | -----------------------------------------------------------------
      */
     'description' => [
-        'default'   => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts on 14 November 2017!',
+        'default'   => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE starts on 14 November 2017!',
         'max'       => 155,
     ],
 
@@ -66,7 +66,7 @@ return [
         'enabled'     => true,
         'prefix'      => 'og:',
         'type'        => 'website',
-        'title'       => 'Tokenbox - Unique ecosystem for crypto investors, traders and funds',
+        'title'       => 'Tokenbox - TGE starts on 14 November 2017',
         'description' => 'Tokenbox is a №1 ecosystem for crypto-investors, traders and funds.',
         'site-name'   => '',
         'properties'  => [
