@@ -77,7 +77,7 @@
           <span>75%</span>
           Token
           Generation
-          Even
+          Event
         </div>
         <div class="distribution-pie">
           <div class="distribution-pie-icon">
