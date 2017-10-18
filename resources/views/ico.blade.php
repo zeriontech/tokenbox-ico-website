@@ -140,9 +140,9 @@
 
       <ol class="step-list">
         <li>
-          <span><b>Make sure</b> you comply with our Terms & Conditions.</span>
+          <span><b>Make sure</b> you comply with our <a href="#terms" class="js-modal-link">Terms & Conditions</a>.</span>
         </li><li>
-          <span><b>Create</b> a Zerion account.</span>
+          <span><b>Create</b> a Zerion account when TGE starts (14 November 2017).</span>
         </li><li>
           <span><b>Choose currency</b> and the amount of Tokens you want topurchase.</span>
         </li><li>
@@ -167,7 +167,7 @@
   <section>
     <div class="documentation">
       <h1>Documentation</h1>
-      <a href="/docs/TBX-WhitePaper-Eng.pdf"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a>
+      <a href="/docs/TBX-WhitePaper-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>White Paper</a><a href="/docs/Tokenbox-Onepager-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>One-Pager</a><a href="/docs/Tokenbox-Overview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Tokenbox Overview</a><a href="/docs/Tokenbox-BusinessOverview-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Business Overview</a><a href="/docs/Tokenbox-Presentation-Eng.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>TGE Presentation</a>
     </div>
   </section>
 
