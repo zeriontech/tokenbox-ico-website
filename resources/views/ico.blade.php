@@ -4,7 +4,7 @@
   <section class="topblock topblock-ico">
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/">{{__('About')}}</a></li>
+        <li><a href="/">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
@@ -12,7 +12,7 @@
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/">{{__('About')}}</a></li>
+        <li><a href="/">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
