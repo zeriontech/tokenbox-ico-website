@@ -20,7 +20,7 @@ class MainController extends Controller
 
         $title = __('Tokenbox — Unique ecosystem for crypto investors, traders and funds');
 
-        $desctiption = __('ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ ICO starts in ');
+        $desctiption = __('ᐅᐅᐅ Tokenbox is an №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE starts in ');
         $desctiption .= $days > 0 ? $days : '';
         $desctiption .= ($days == 1) ? __(' day!') : (($days == 0) ? __(' now!') : __(' days!'));
 

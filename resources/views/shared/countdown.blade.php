@@ -14,7 +14,7 @@
   </h1>
 
   <p>
-    <a href="/docs/Tokenbox-TGE-Start.ics">Add event to calendar</a> and get notified
+    <a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a> {{__('and get notified')}}
   </p>
 
   <div id="countdown"

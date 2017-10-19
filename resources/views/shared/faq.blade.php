@@ -29,8 +29,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    <i>{{__('A trader is a person, who independently making decisions and selecting active trading strategies on the market.')}}</i>
-                    {{__('A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.')}}
+                    {{__('A trader is a person, who independently making decisions and selecting active trading strategies on the market. A fund mostly includes a team of specialists (a fund manager, a portfolio manager, a department of analysis and strategy). Decisions can be made collectively.')}}
                 </div>
             </div>
 
@@ -102,17 +101,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts.')}}
-                    <br>
-                    {{__('For example, the Fund began with 1,000 Bitcoin investments. Initially, there were two investors and each invested 500 BTC. The capitalization was equal to USD 4,000,000.')}}
-                    <br>
-                    {{__('The Fund issued its own tokens at USD 100 (for instance, it selected a name “FMG”). Each FMG token costs USD 100. Both investors received FMG 20,000 (totally 40,000) as a confirmation of their shares in the Fund.')}}
-                    <br>
-                    {{__('Then the fund manager sold a part of Bitcoins, bought other cryptocurrencies, market grows, and the capitalization grew to USD 6,000,000. Now each FMG token costs USD 150.')}}
-                    <br>
-                    {{__('Then a third investor comes and invested USD 1,500,000. In this case third investor receives FMG 10,000.')}}
-                    <br>
-                    {{__('So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.') }}
+                    {{__('Each Fund will be able to create its own token which will be an equivalent of a share in the Fund. The cost of a token depends on the portfolio capitalization growth without dependency on investors number. The process of issuing and redeeming tokens is fully built on Ethereum smart-contracts. For example, the Fund began with 1,000 Bitcoin investments. Initially, there were two investors and each invested 500 BTC. The capitalization was equal to USD 4,000,000. The Fund issued its own tokens at USD 100 (for instance, it selected a name “FMG”). Each FMG token costs USD 100. Both investors received FMG 20,000 (totally 40,000) as a confirmation of their shares in the Fund. Then the fund manager sold a part of Bitcoins, bought other cryptocurrencies, market grows, and the capitalization grew to USD 6,000,000. Now each FMG token costs USD 150. Then a third investor comes and invested USD 1,500,000. In this case third investor receives FMG 10,000. So, the Fund’s capitalization is USD 7,500,000. The total number of FMG tokens is 50,000. Each FMG token costs USD 150.') }}
                 </div>
             </div>
 
@@ -124,9 +113,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Trading terminal will be developed according to the needs of various market participants (fund managers and traders).')}}
-                    <br>
-                    {{__('For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
+                    {{__('Trading terminal will be developed according to the needs of various market participants (fund managers and traders). For instance, portfolio managers will get an opportunity to re-balance portfolios in accordance with the parameters set beforehand, by making transactions with a few assets. This will cut labor costs. Also, the software will allow automatic reports generation for portfolios via messengers (using bots), etc.')}}
                 </div>
             </div>
 
