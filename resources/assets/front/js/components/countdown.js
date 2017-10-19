@@ -1,5 +1,6 @@
 (function() {
-  if (!$('.countdown').is(':visible')) return;
+  var $container = $('#countdown');
+  if (!$container[0]) return;
 
   var deadline = new Date(2017, 10, 14, 12);
 
@@ -19,7 +20,7 @@
     setInterval(updateCountdown, 1500);
   }, 400);
 
-  function getMarkup(key, current, text) {
+  function getMarkup(key, label) {
     return '\
       <div class="countdown-item" data-key="' + key + '">\
         <svg viewPort="0 0 0 0" version="1.1" xmlns="http://www.w3.org/2000/svg">\
@@ -27,7 +28,7 @@
           <circle class="bar"></circle>\
         </svg>\
         <div class="countdown-item-text">0</div>\
-        <div class="countdown-item-label">' + key[0].toUpperCase() + key.slice(1) + '</div>\
+        <div class="countdown-item-label">' + label + '</div>\
       </div>\
     '
   }
@@ -66,12 +67,14 @@
 
   function render() {
     var time = getTimeRemaining(deadline);
+    var options = $container.data();
 
     var html = items.map(function(key) {
-      return getMarkup(key, time[key], key)
+      var label = options[key + 'Label'] || (key[0].toUpperCase() + key.slice(1));
+      return getMarkup(key, label)
     }).join('');
 
-    $('#countdown').html(html);
+    $container.html(html);
   }
 
   function updateCountdown() {

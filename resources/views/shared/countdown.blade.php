@@ -17,7 +17,12 @@
     <a href="/docs/Tokenbox-TGE-Start.ics">Add event to calendar</a> and get notified
   </p>
 
-  <div id="countdown"></div>
+  <div id="countdown"
+       data-days-label="{{__('Days')}}"
+       data-hours-label="{{__('Hours')}}"
+       data-minutes-label="{{__('Minutes')}}"
+       data-seconds-labels="{{__('Seconds')}}"
+  ></div>
 
   {{ $slot }}
 </div>
