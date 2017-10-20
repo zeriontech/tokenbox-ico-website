@@ -30,7 +30,12 @@
   background-position: center;
   margin: auto;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 1;
+  transition: .4s opacity;
+}
+
+.video_play:hover {
+  opacity: 0.8;
 }
 
 .video iframe {
