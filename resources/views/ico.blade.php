@@ -33,8 +33,9 @@
 
     <div class="wrapper founded">
       @if(app('request')->input('started'))
-        <h1>Tokenbox TGE crowdsale now live!</h1>
+        <h1>{{__('Tokenbox TGE crowdsale now live!')}}</h1>
         <p>10 hours 12 min 45 sec</p>
+
         <div class="progress">
           <div class="progress-current">
             9,163,974  USD

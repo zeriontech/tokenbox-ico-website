@@ -72,6 +72,7 @@
     border-right: 1px solid #353687;
     font-size: 16px;
     line-height: 82px;
+    background: #212176;
   }
 
   div:last-child {
@@ -119,6 +120,7 @@
   .founded-money-participants {
     border-bottom: 1px solid #353687;
     line-height: 70px;
+    background: #212176;
   }
 }
 
