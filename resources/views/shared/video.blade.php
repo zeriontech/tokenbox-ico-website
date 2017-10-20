@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section section-video">
   <div class="wrapper">
     <p class="video-title">Watch this simple one-minute video explainer for Tokenbox.</p>
 

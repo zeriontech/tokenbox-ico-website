@@ -177,3 +177,49 @@ a.button {
     }
   }
 }
+
+.buttons {
+  margin: 65px 0 0;
+  text-align: center;
+
+  .button {
+    padding-right: 30px;
+    padding-left: 30px;
+
+    i {
+      position: relative;
+      font-size: 18px;
+    }
+
+    .fa-file-pdf-o {
+      top: -1px;
+      margin-right: 4px;
+      position: relative;
+    }
+  }
+
+  @mixin lp tablet {
+    .button + .button {
+      margin-top: 20px;
+    }
+  }
+
+  @mixin bp tablet {
+    margin: 58px 0 0;
+
+    .button {
+      width: auto;
+      vertical-align: top;
+
+      i {
+        font-size: 23px;
+      }
+    }
+
+    .button + .button {
+      margin-left: 35px;
+      min-width: 270px;
+      vertical-align: top;
+    }
+  }
+}

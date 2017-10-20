@@ -1,22 +1,5 @@
 .countdown {
   text-align: center;
-
-  .button {
-    margin: 65px 0 0;
-    padding-right: 30px;
-    padding-left: 30px;
-
-    i {
-      position: relative;
-      font-size: 18px;
-    }
-
-    .fa-file-pdf-o {
-      top: -1px;
-      margin-right: 4px;
-      position: relative;
-    }
-  }
 }
 
 #countdown {
@@ -102,33 +85,7 @@
   opacity: 0.9;
 }
 
-@mixin lp tablet {
-  .countdown {
-    .button + .button {
-      margin-top: 20px;
-    }
-  }
-}
-
 @mixin bp tablet {
-  .countdown {
-    .button {
-      width: auto;
-      margin: 58px 0 0;
-      vertical-align: top;
-
-      i {
-        font-size: 23px;
-      }
-    }
-
-    .button + .button {
-      margin-left: 35px;
-      min-width: 270px;
-      vertical-align: top;
-    }
-  }
-
   .countdown-item {
     width: 144px;
     margin: 2em 10px;

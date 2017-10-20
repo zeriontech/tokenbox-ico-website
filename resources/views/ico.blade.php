@@ -31,38 +31,41 @@
       </ul>
     @endcomponent
 
-    <div class="wrapper">
-      @component('shared/countdown')
+    <div class="wrapper founded">
+      @if(app('request')->input('started'))
+        <h1>Tokenbox TGE crowdsale now live!</h1>
+        <p>10 hours 12 min 45 sec</p>
+        <div class="progress">
+          <div class="progress-current">
+            9,163,974  USD
+          </div>
+
+          <div class="progress-bar"></div>
+
+          <div class="progress-target">
+            20,000,000  USD
+          </div>
+        </div>
+
+        <div class="founded-money u-cf">
+          <div class="founded-money-participants">2563 {{__('participants')}}</div>
+          <div class="founded-money-usd">3,109,852</div>
+          <div class="founded-money-btc">21.1560</div>
+          <div class="founded-money-eth">2,357.0492</div>
+        </div>
+      @else
+        @component('shared/countdown')
+        @endcomponent
+      @endif
+      <div class="buttons">
         <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
-      @endcomponent
+      </div>
     </div>
   </section>
 
-  <!--<section class="section raised-token" id="raised-token">
-    <div class="wrapper">
-      <div class="progress">
-        <div class="progress-current">
-          9,163,974  USD
-        </div>
-
-        <div class="progress-bar"></div>
-
-        <div class="progress-target">
-          20,000,000  USD
-        </div>
-      </div>
-
-      <div class="founded-money u-cf">
-        <div class="founded-money-participants">2563 {{__('participants')}}</div>
-        <div class="founded-money-usd">3,109,852</div>
-        <div class="founded-money-btc">21.1560</div>
-        <div class="founded-money-eth">2,357.0492</div>
-      </div>
-    </div>
-  </section>-->
 
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">

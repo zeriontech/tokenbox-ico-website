@@ -45,12 +45,14 @@
 
     <div class="wrapper">
       @component('shared/countdown')
-        <a href="#join-queue" class="button js-modal-link">
-          {{__('Join Private Sale')}}
-        </a><a href="/tge" class="button button-info">
-          {{__('Learn about TGE')}}
-          <i class="fa fa-long-arrow-right"></i>
-        </a>
+        <div class="buttons">
+          <a href="#join-queue" class="button js-modal-link">
+            {{__('Join Private Sale')}}
+          </a><a href="/tge" class="button button-info">
+            {{__('Learn about TGE')}}
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
+        </div>
       @endcomponent
 
       <h1 class="main-title">
@@ -84,7 +86,9 @@
     </div>
   </section>
 
-  <!-- @include('shared/video') -->
+  @if(app('request')->input('video'))
+    @include('shared/video')
+  @endif
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">

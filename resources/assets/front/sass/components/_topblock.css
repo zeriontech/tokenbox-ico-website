@@ -29,14 +29,19 @@
   .countdown {
     margin: 25px 0 102px;
   }
+}
 
-  & + section {
-    margin-top: 340px;
 
-    @mixin bp tablet {
-      margin-top: 400px;
-    }
+.topblock-home + .get-notified {
+  margin-top: 340px;
+
+  @mixin bp tablet {
+    margin-top: 400px;
   }
+}
+
+.topblock-home + .section-video {
+  margin-top: 212px;
 }
 
 @mixin breakpoint tablet {

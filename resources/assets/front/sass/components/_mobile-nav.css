@@ -10,6 +10,7 @@
   background-color: $blue;
   z-index: 3;
   padding: 90px 0 20px;
+  -webkit-overflow-scrolling: touch; /* fix safari scroll bug */
 
   > ul {
     margin: 0 !important;
