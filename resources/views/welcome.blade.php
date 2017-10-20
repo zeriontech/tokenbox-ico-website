@@ -50,10 +50,15 @@
         <div class="buttons">
           <a href="#join-queue" class="button js-modal-link">
             {{__('Join Private Sale')}}
-          </a><a href="/tge" class="button button-info">
+          </a><!-- 
+<a href="/tge" class="button button-info">
             {{__('Learn about TGE')}}
             <i class="fa fa-long-arrow-right"></i>
           </a>
+ --><a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+          <i class="fa fa-telegram"></i>
+          {{__('Join Community')}}
+        </a>
         </div>
       @endcomponent
 

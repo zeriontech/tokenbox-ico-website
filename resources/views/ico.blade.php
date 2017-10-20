@@ -154,7 +154,7 @@
           {{__('Business Overview')}}
         </a><a href="{{__('/docs/Tokenbox-Presentation-Eng.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>
-          {{__('TGE Presentation')}}
+          {{__('Product Presentation')}}
         </a>
       </div>
     </div>
