@@ -3,7 +3,7 @@
         <h1 class="from-bottom">{{__('Media about Tokenbox.io')}}</h1>
         <div class="row no-mobile">
             <div class="three columns">
-                <a href="http://www.forbes.ru/tehnologii/345973-novye-kriptovalyuty-kak-v-nih-investirovat-i-pochemu-im-nuzhen-pravovoy-status" target="_blank" class="img forbes"></a>
+                <a href="https://www.forbes.com/sites/mfonobongnsehe/2017/10/19/russian-bitcoin-tycoon-expands-into-africa/#30c8db6514db" target="_blank" class="img forbes"></a>
             </div>
             <div class="three columns">
                 <a href="https://finance.yahoo.com/news/token-fund-founders-set-october-151900653.html" target="_blank" class="img yahoo"></a>
@@ -43,7 +43,7 @@
         <div class="mobile-only">
             <div class="slider">
                 <div>
-                    <a href="http://www.forbes.ru/tehnologii/345973-novye-kriptovalyuty-kak-v-nih-investirovat-i-pochemu-im-nuzhen-pravovoy-status" target="_blank" class="img forbes"></a>
+                    <a href="https://www.forbes.com/sites/mfonobongnsehe/2017/10/19/russian-bitcoin-tycoon-expands-into-africa/#30c8db6514db" target="_blank" class="img forbes"></a>
                     <a href="https://finance.yahoo.com/news/token-fund-founders-set-october-151900653.html" target="_blank" class="img yahoo"></a>
                     <a href="http://www.marketwatch.com/story/the-token-fund-welcomes-chris-skinner-on-board-2017-09-13" target="_blank" class="img marketwatch"></a>
                 </div>

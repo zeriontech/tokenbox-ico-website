@@ -65,7 +65,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {!! __('Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox.<br>The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.') !!}
+                    {!! __('Yes, the alfa-version will be functional for early-bird Funds and Traders which will announce their partnership with Tokenbox. The first partners of Tokenbox (funds and traders) have the opportunity to receive significant funds for managment at the start of work with Tokenbox.') !!}
                 </div>
             </div>
 
