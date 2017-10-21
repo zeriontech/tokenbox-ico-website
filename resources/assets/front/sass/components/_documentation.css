@@ -63,8 +63,12 @@
       display: inline-block;
       vertical-align: middle;
       margin: 15px;
-      padding: 18px 35px;
+      padding: 18px 25px;
       width: calc(50% - 30px);
+
+      .fa {
+        margin-right: 18px;
+      }
     }
   }
 }

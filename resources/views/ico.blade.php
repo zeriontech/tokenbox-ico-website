@@ -141,20 +141,15 @@
 
       <div class="documentation_list">
         <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
-          <i class="fa fa-file-pdf-o"></i>
-          {{__('White Paper')}}
+          <i class="fa fa-file-pdf-o"></i>{{__('White Paper')}}
         </a><a href="{{__('/docs/Tokenbox-Onepager-Eng.pdf')}}" target="_blank">
-          <i class="fa fa-file-pdf-o"></i>
-          {{__('One-Pager')}}
+          <i class="fa fa-file-pdf-o"></i>{{__('One-Pager')}}
         </a><a href="{{__('/docs/Tokenbox-Overview-Eng.pdf')}}" target="_blank">
-          <i class="fa fa-file-pdf-o"></i>
-          {{__('Tokenbox Overview')}}
+          <i class="fa fa-file-pdf-o"></i>{{__('Tokenbox Overview')}}
         </a><a href="{{__('/docs/Tokenbox-BusinessOverview-Eng.pdf')}}" target="_blank">
-          <i class="fa fa-file-pdf-o"></i>
-          {{__('Business Overview')}}
+          <i class="fa fa-file-pdf-o"></i>{{__('Business Overview')}}
         </a><a href="{{__('/docs/Tokenbox-Presentation-Eng.pdf')}}" target="_blank">
-          <i class="fa fa-file-pdf-o"></i>
-          {{__('Product Presentation')}}
+          <i class="fa fa-file-pdf-o"></i>{{__('Product Presentation')}}
         </a>
       </div>
     </div>
