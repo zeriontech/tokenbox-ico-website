@@ -1,30 +1,25 @@
-window.addEventListener('storage', function(e) {
-  if (e.key == 'emailConfirmed') {
-    $('.button-waiting')
-      .removeClass('button-waiting')
-      .text('Thank you')
-      .addClass('button-success');
-  }
-});
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
 
-$(function() {
-  var $phoneInput = $('input[type="tel"]');
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
 
-  $('input[type="tel"]').on('input', function() {
-    var val = $.trim($(this).val());
-    if (!val || val.length != 1 || val == '+') return;
-    $(this).val('+' + val);
-  });
-
-  $phoneInput.intlTelInput({
-    autoPlaceholder: 'off'
-  });
-
-  $phoneInput.on("countrychange", function(e, countryData) {
-    var val = $.trim($(this).val());
-    if (val && val.indexOf('+') == 0) return
-    var newVal = '+' + countryData.dialCode + ' ' + val;
-    $(this).val(newVal);
-  });
-});
+function spin($el, to) {
+  setTimeout(function() {
+    if (+$el.text() != to) {
+      $el.text(+$el.text() + 1);
+      spin($el, to);
+    }
+  }, 20)
+}
 

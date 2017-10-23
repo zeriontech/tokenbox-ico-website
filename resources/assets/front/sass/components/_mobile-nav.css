@@ -1,11 +1,11 @@
 .mobile-nav {
   position: fixed;
   top: 0;
+  right: 0;
   left: 0;
   bottom: 0;
   display: none;
   overflow: auto;
-  width: 100%;
   text-align: center;
   background-color: $blue;
   z-index: 3;
