@@ -150,6 +150,8 @@
       <div class="documentation_list">
         <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('White Paper')}}
+        </a><a href="{{__('/docs/Tokenbox-Lightpaper-Eng.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>{{__('Light Paper')}}
         </a><a href="{{__('/docs/Tokenbox-Onepager-Eng.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('One-Pager')}}
         </a><a href="{{__('/docs/Tokenbox-Overview-Eng.pdf')}}" target="_blank">
