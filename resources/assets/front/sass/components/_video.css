@@ -20,6 +20,20 @@
   box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.28);
 }
 
+.video_preview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  transition: .4s opacity;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
 .video_play {
   position: absolute;
   top: 0;
@@ -30,12 +44,6 @@
   background-position: center;
   margin: auto;
   cursor: pointer;
-  opacity: 1;
-  transition: .4s opacity;
-}
-
-.video_play:hover {
-  opacity: 0.8;
 }
 
 .video iframe {
