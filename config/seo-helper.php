@@ -6,7 +6,7 @@ return [
      | -----------------------------------------------------------------
      */
     'title' => [
-        'default'   => 'Tokenbox — Unique ecosystem for crypto investors, traders and funds',
+        'default'   => 'Tokenbox — Uniting Crypto',
         'site-name' => '',
         'separator' => '—',
         'first'     => false,
@@ -84,7 +84,7 @@ return [
         'prefix'  => 'twitter:',
         'card'    => 'summary',
         'site'    => 'tokenbox',
-        'title'   => 'Tokenbox - Unique ecosystem for crypto investors, traders and funds',
+        'title'   => 'Tokenbox - Uniting Crypto',
         'metas'   => [
             //
         ],
