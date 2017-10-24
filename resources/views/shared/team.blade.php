@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Eugene Yuryev')}}</div>
-                    <div class="info">{{__('Art Director')}},
+                    <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
                 </div><div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
