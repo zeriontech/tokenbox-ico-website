@@ -18,7 +18,7 @@ class MainController extends Controller
         $icoDate = Carbon::createFromDate('2017', 11, 14);
         $days    = $icoDate->diffInDays(Carbon::now());
 
-        $title = __('Tokenbox — Unique ecosystem for crypto investors, traders and funds');
+        $title = __('Tokenbox — Uniting Crypto');
 
         $desctiption = __('ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE starts in ');
         $desctiption .= $days > 0 ? $days : '';
