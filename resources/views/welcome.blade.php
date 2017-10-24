@@ -50,7 +50,7 @@
         <div class="buttons">
           <a href="#join-queue" class="button js-modal-link">
             {{__('Join Private Sale')}}
-          </a><!-- 
+          </a><!--
 <a href="/tge" class="button button-info">
             {{__('Learn about TGE')}}
             <i class="fa fa-long-arrow-right"></i>
@@ -111,88 +111,6 @@
           </div>
         </div>
       </form>
-    </div>
-  </section>
-
-  <div class="big-title from-bottom" id="for-investors"><h1>{{__('For investors')}}</h1></div>
-
-  <section class="multi-crypto">
-    <i class="background-icon multi-crypto-icon offset-by-one"></i>
-
-    <div class="wrapper">
-      <h1 class="from-bottom">{{__('Multi-cryptocurrency wallet')}}</h1>
-      <p class="from-bottom">{{__('Keep all your crypto assets conveniently in a single wallet')}}</p>
-
-      <div class="row section-image-example">
-        <div class="mobile-only">
-          <div class="section-img-wrap fade-in-right">
-            <div class="section-img"></div>
-          </div>
-        </div>
-        <div class="offset-by-two-sd four-sd six columns">
-          <div class="text">
-            <p>{{__('Universal crypto-currency wallet for the secure storage of digital assets. The wallet allows you to store all main crypto-currencies and tokens')}}.</p>
-            <p>{{__('For the convenience, there are two types of wallets - "Easy" and "Professional" which can both  store keys both inside and outside the system')}}. </p>
-          </div>
-        </div>
-        <div class="columns five-sd six no-mobile">
-          <div class="section-img-wrap fade-in-right">
-            <div class="section-img"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="invest-in-pro">
-    <div class="wrapper">
-      <i class="background-icon invest-in-pro-top-icon"></i>
-      <i class="background-icon invest-in-pro-bottom-icon"></i>
-
-      <h1 class="from-bottom">{{__('Invest in pro traders and funds')}}</h1>
-      <p class="from-bottom">{{__('Reliable, transparent professional funds and traders')}}</p>
-      <div class="row section-image-example">
-        <div class="offset-by-one-sd five-sd six columns">
-          <div class="section-img-wrap fade-in-left">
-            <div class="section-img"></div>
-          </div>
-        </div>
-        <div class="columns offset-by-one-sd four-sd six">
-          <div class="text">
-            <p>{{__('Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no Fund can withdraw assets from a client’s account')}}.</p>
-            <p>{{__('The Rating System and “Advisory Service” can assist you in making the optimal choice of the traders represented on our system')}}.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pay-with">
-    <div class="wrapper">
-      <i class="background-icon pay-with-icon"></i>
-
-      <h1 class="from-bottom">{{__('Pay by Credit/Debit Card and Fiat money')}}</h1>
-      <p class="from-bottom">{{__('Yes, we accept payments in fiat currencies!')}}</p>
-      <div class="row">
-        <div class="offset-by-four four columns">
-          <div class="section-img-wrap pay-1">
-            <div class="section-img pay-with-screen"></div>
-            <div class="pay-1-add pay-with-screen"></div>
-          </div>
-          <div class="section-img-wrap pay-2">
-            <div class="section-img pay-with-screen"></div>
-            <div class="pay-2-add pay-with-screen"></div>
-          </div>
-          <div class="text">
-            <p>{{__('The payment gateway integrated with our platform allows you to accept payments in traditional "fiat" currencies (USD, EUR)')}}.</p>
-            <p>{{__('Investors can convert fiat currencies into crypto-currencies and tokens, and conduct reverse operations on the Tokenbox platform')}}.</p>
-          </div>
-          <div class="section-img-wrap pay-3">
-            <div class="section-img pay-with-screen"></div>
-            <div class="pay-3-add pay-with-screen"></div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -283,6 +201,88 @@
           <div class="six columns"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">{{__('Send Request')}}</button></div>
         </div>
       </form>
+    </div>
+  </section>
+
+  <div class="big-title from-bottom" id="for-investors"><h1>{{__('For investors')}}</h1></div>
+
+  <section class="multi-crypto">
+    <i class="background-icon multi-crypto-icon offset-by-one"></i>
+
+    <div class="wrapper">
+      <h1 class="from-bottom">{{__('Multi-cryptocurrency wallet')}}</h1>
+      <p class="from-bottom">{{__('Keep all your crypto assets conveniently in a single wallet')}}</p>
+
+      <div class="row section-image-example">
+        <div class="mobile-only">
+          <div class="section-img-wrap fade-in-right">
+            <div class="section-img"></div>
+          </div>
+        </div>
+        <div class="offset-by-two-sd four-sd six columns">
+          <div class="text">
+            <p>{{__('Universal crypto-currency wallet for the secure storage of digital assets. The wallet allows you to store all main crypto-currencies and tokens')}}.</p>
+            <p>{{__('For the convenience, there are two types of wallets - "Easy" and "Professional" which can both  store keys both inside and outside the system')}}. </p>
+          </div>
+        </div>
+        <div class="columns five-sd six no-mobile">
+          <div class="section-img-wrap fade-in-right">
+            <div class="section-img"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="invest-in-pro">
+    <div class="wrapper">
+      <i class="background-icon invest-in-pro-top-icon"></i>
+      <i class="background-icon invest-in-pro-bottom-icon"></i>
+
+      <h1 class="from-bottom">{{__('Invest in pro traders and funds')}}</h1>
+      <p class="from-bottom">{{__('Reliable, transparent professional funds and traders')}}</p>
+      <div class="row section-image-example">
+        <div class="offset-by-one-sd five-sd six columns">
+          <div class="section-img-wrap fade-in-left">
+            <div class="section-img"></div>
+          </div>
+        </div>
+        <div class="columns offset-by-one-sd four-sd six">
+          <div class="text">
+            <p>{{__('Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no Fund can withdraw assets from a client’s account')}}.</p>
+            <p>{{__('The Rating System and “Advisory Service” can assist you in making the optimal choice of the traders represented on our system')}}.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pay-with">
+    <div class="wrapper">
+      <i class="background-icon pay-with-icon"></i>
+
+      <h1 class="from-bottom">{{__('Pay by Credit/Debit Card and Fiat money')}}</h1>
+      <p class="from-bottom">{{__('Yes, we accept payments in fiat currencies!')}}</p>
+      <div class="row">
+        <div class="offset-by-four four columns">
+          <div class="section-img-wrap pay-1">
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-1-add pay-with-screen"></div>
+          </div>
+          <div class="section-img-wrap pay-2">
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-2-add pay-with-screen"></div>
+          </div>
+          <div class="text">
+            <p>{{__('The payment gateway integrated with our platform allows you to accept payments in traditional "fiat" currencies (USD, EUR)')}}.</p>
+            <p>{{__('Investors can convert fiat currencies into crypto-currencies and tokens, and conduct reverse operations on the Tokenbox platform')}}.</p>
+          </div>
+          <div class="section-img-wrap pay-3">
+            <div class="section-img pay-with-screen"></div>
+            <div class="pay-3-add pay-with-screen"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

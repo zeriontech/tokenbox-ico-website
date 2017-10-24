@@ -49,8 +49,8 @@
     width: 74px;
     height: 94px;
     opacity: .1;
-    background-size: 74px auto;
     background: url('../img/back-icons/icon014.svg');
+    background-size: 74px auto;
   }
 }
 
