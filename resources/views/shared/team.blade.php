@@ -56,12 +56,12 @@
                         </div>
                     </div>
                     <div class="name">{{__('Eugene Yuryev')}}</div>
-                    <div class="info">{{__('Art Director')}},
+                    <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
                 </div><div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
                         <div class="overlay">
-                            <a href="www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
                         </div>
                     </div>
                     <div class="name">{{__('Aleksandr Volkov')}}</div>
@@ -113,6 +113,16 @@
                         <br />{{__('Energy Blockchain Labs')}}</div>
                 </div> -->
  				<div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/kaal.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/wulf.kaal" target="_blank" class="fa fa-facebook-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Wulf Kaal')}}</div>
+                    <div class="info">{{__('Advisor (Blockchain Tech)')}},
+                        <br />{{__('HighTechBlock')}}</div>
+                </div>
+ 				<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/galam.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/elie-galam-85414b3" target="_blank" class="fa fa-linkedin-square"></a>
@@ -145,12 +155,13 @@
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')">
                         <div class="overlay">
-                            <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
+                            <a href="https://www.linkedin.com/in/masolova/" target="_blank" class="fa fa-linkedin-square"></a>
                         </div>
                     </div>
                     <div class="name">{{__('Elena Masolova')}}</div>
                     <div class="info">{{__('Advisor, Groupon Russia')}}, AddVenture Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/koleoshkin.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/vadim-koleoshkin" target="_blank" class="fa fa-linkedin-square"></a>
