@@ -31,7 +31,7 @@
       </ul>
     @endcomponent
 
-    <div class="wrapper founded">
+    <div class="wrapper">
       @if(app('request')->input('started'))
         <h1>{{__('Tokenbox TGE crowdsale now live!')}}</h1>
         <p style="opacity: 0;"">
