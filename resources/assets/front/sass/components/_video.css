@@ -28,6 +28,7 @@
   left: 0;
   opacity: 1;
   transition: .4s opacity;
+  border-radius: 6px;
 
   &:hover {
     opacity: 0.8;

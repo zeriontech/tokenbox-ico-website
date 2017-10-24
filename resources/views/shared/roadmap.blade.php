@@ -3,7 +3,7 @@
     <h1 class="from-bottom">{{__('Our roadmap')}}</h1>
     <div class="timeline-wrap">
       <div class="timeline-bar">
-        <div class="current"></div>
+        <div class="current" style="height: 37%"></div>
       </div>
 
       <div class="desc">

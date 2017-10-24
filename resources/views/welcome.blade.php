@@ -93,9 +93,7 @@
     </div>
   </section>
 
-  @if(app('request')->input('video'))
-    @include('shared/video')
-  @endif
+  @include('shared/video')
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">

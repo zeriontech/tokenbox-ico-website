@@ -24,6 +24,12 @@
   a {
     color: inherit;
     font-weight: 700;
+    border-bottom: 1px dotted;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 
