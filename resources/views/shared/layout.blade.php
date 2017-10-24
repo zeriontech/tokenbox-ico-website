@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="144x144">
   <link rel="apple-touch-icon" href="/favicon-195.png?a" sizes="195x195">
 
-  <link rel="stylesheet" href="/assets/front/css/app.css?v=10">
+  <link rel="stylesheet" href="/assets/front/css/app.css?v=11">
 
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
@@ -68,6 +68,6 @@
   @include('shared/terms')
   @include('shared/privacy')
 
-  <script type="text/javascript" src="/assets/front/js/app.min.js?v=8"></script>
+  <script type="text/javascript" src="/assets/front/js/app.min.js?v=9"></script>
 </body>
 </html>

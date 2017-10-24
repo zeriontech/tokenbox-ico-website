@@ -9,8 +9,10 @@ $(function() {
 
       if (hamburger.hasClass('active')) {
         $('body').css('overflow', 'hidden');
+        if (window.iOS()) $.lockBody();
       } else {
         $('body').css('overflow', '');
+        if (window.iOS()) $.unlockBody();
       }
 
       $('.mobile-nav').toggleClass('opened');
