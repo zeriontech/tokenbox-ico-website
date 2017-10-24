@@ -119,8 +119,8 @@
                         </div>
                     </div>
                     <div class="name">{{__('Wulf Kaal')}}</div>
-                    <div class="info">{{__('Advisor (Finance)')}},
-                        <br />{{__('The Eastmore Group')}}</div>
+                    <div class="info">{{__('Advisor (Blockchain Tech)')}},
+                        <br />{{__('HighTechBlock')}}</div>
                 </div>
  				<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/galam.jpg')">
