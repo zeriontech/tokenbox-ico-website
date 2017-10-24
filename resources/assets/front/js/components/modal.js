@@ -3,6 +3,8 @@ $('body').on('shown.modal', function(e, options) {
 
   function hide() {
     $(document).off('off.modal');
+    if (window.iOS()) $.unlockBody();
+
     $modal.fadeOut(function() {
       $('html').removeClass('hasModal');
       history.pushState('', document.title, window.location.pathname);
@@ -11,6 +13,7 @@ $('body').on('shown.modal', function(e, options) {
 
   $('html').addClass('hasModal');
   $modal.fadeIn();
+  if (window.iOS()) $.lockBody();
   $(window).scroll();
 
   $(document).on('keyup.modal', function(e) {
