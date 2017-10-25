@@ -39,7 +39,7 @@
 }
 
 .section-distribution {
-  background: url(../img/grid-white.svg) top no-repeat,#f6f6f8;
+  background: url("../img/grid-white.svg?v=1") top no-repeat,#f6f6f8;
   background-size: 100% auto;
 }
 

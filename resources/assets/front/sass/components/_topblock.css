@@ -1,6 +1,6 @@
 .topblock {
   z-index: 10;
-  background: $blue url("../img/grid-blue.svg") top center no-repeat;
+  background: $blue url("../img/grid-blue.svg?v=1") top center no-repeat;
   background-size: cover;
   color: white;
 
