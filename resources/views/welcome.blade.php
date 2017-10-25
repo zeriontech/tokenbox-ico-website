@@ -3,6 +3,8 @@
 @section('content')
 
   <section class="topblock topblock-home">
+    <div class="topblock_bg"></div>
+
     @component('shared/header')
       @slot('mobile')
         <li><a href="/tge">{{__('TGE')}}</a></li>

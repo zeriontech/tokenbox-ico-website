@@ -6,23 +6,8 @@
 	.st0 {
 		fill:none;
 		stroke: #2D2D9B;
-		stroke-width: 1.25;
+		stroke-width: 1.5;
 		stroke-miterlimit: 10;
-	}
-
-	.container {
-		animation: 400s linear pulse infinite alternate;
-		transform-origin: center;
-	}
-
-	@keyframes pulse {
-		0% {
-			transform: rotate(0) scale(1.2);
-		}
-
-		100% {
-			transform: rotate(360deg) scale(1.2);
-		}
 	}
 </style>
 <g class="container">

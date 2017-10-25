@@ -2,6 +2,8 @@
 
 @section('content')
   <section class="topblock topblock-ico">
+    <div class="topblock_bg"></div>
+
     @component('shared/header')
       @slot('mobile')
         <li><a href="/">{{__('Product')}}</a></li>
