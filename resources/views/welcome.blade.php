@@ -18,6 +18,12 @@
             {{__('White Paper')}}
           </a>
         </li>
+        <li class="active">
+          <a href="{{__('/docs/Tokenbox-LightPaper-Eng.pdf')}}" target="_blank">
+            {{__('Light Paper')}}
+          </a>
+        </li>
+
       @endslot
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
