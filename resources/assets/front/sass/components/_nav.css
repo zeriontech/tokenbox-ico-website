@@ -26,6 +26,13 @@
   }
 }
 
+@media (min-width: 1260px) {
+  .nav > li > a {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+}
+
 .nav-pill {
   border: 2px solid #41419d;
   border-radius: 4px;
