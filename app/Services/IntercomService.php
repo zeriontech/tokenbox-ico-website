@@ -25,7 +25,7 @@ class IntercomService
      *
      * @return mixed
      */
-    public function userCreate($email, array $parameters)
+    public function userCreate($email, array $parameters = [])
     {
         $options = $this->prepareOptions($email, $parameters);
 
@@ -38,7 +38,7 @@ class IntercomService
      *
      * @return mixed
      */
-    public function leadCreate($email, array $parameters)
+    public function leadCreate($email, array $parameters = [])
     {
         $options = $this->prepareOptions($email, $parameters);
 
