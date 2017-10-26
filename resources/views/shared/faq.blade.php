@@ -53,7 +53,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br> For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.') }}
+                    {!!__('Tokenbox is not an exchange. Individual investors will not be using the platform as an exchange, meanwhile, investors will be able to buy tokens of Funds and Traders (to make a choice, buy, keep tokens on the platform, repay tokens, receive revenue, etc.) <br> For Funds and Traders Tokenbox will be a gateway for entering to exchanges via API, using trading terminal.') !!}
                 </div>
             </div>
 

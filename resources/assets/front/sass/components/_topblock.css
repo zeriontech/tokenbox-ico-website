@@ -33,24 +33,24 @@
 .topblock_bg:after {
   position: absolute;
   display: block;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: -500px;
+  right: -500px;
+  bottom: -500px;
+  left: -500px;
   animation: 400s linear rotate infinite alternate;
   transform-origin: center;
-  background: url("../img/grid-blue.svg?v=2") top center no-repeat;
+  background: url("../img/grid-blue.svg?v=3") top center no-repeat;
   background-size: cover;
   content: '';
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(0) scale(1.2);
+    transform: rotate(0);
   }
 
   100% {
-    transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg);
   }
 }
 
@@ -99,16 +99,9 @@
   background: #1f1f64;
   background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
 
-  .topblock_bg :after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.04;
-    background: url("../img/grid-white.svg") top center no-repeat;
-    background-size: cover;
-    content: '';
+  .topblock_bg:after {
+    opacity: 0.08;
+    background: url("../img/grid-white.svg?v=2") top center no-repeat;
   }
 }
 

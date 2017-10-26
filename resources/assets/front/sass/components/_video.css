@@ -40,7 +40,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url('../img/video-play.png') no-repeat;
+  background: url('../img/video-play.svg') no-repeat;
+  background-size: 123px auto;
   background-position: center;
   margin: auto;
   cursor: pointer;

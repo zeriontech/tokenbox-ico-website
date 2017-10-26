@@ -20,13 +20,13 @@
         </li>
       @endslot
 
-      <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/tge">{{__('TGE')}}</a></li>
-        <li><a href="#for-investors">{{__('Features')}}</a></li>
-        <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
-        <li><a href="#tech">{{__('Technology')}}</a></li>
-        <li><a href="#team">{{__('Team')}}</a></li>
-        <li><a href="#faq">{{__('FAQ')}}</a></li>
+      <nav class="nav header_main-nav js-scroll-nav" role="navigation">
+        <li><a href="/tge">{!!__('TGE')!!}</a></li>
+        <li><a href="#for-investors">{!!__('Features')!!}</a></li>
+        <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
+        <li><a href="#tech">{!!__('Technology')!!}</a></li>
+        <li><a href="#team">{!!__('Team')!!}</a></li>
+        <li><a href="#faq">{!!__('FAQ')!!}</a></li>
       </nav>
 
       <ul class="nav header_right">
@@ -36,9 +36,13 @@
             </a>
           </div>
         </li>
-        <li class="active">
+        <li class="active nav-pill">
           <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
             {{__('White Paper')}}
+          </a>
+        </li><li class="active nav-pill">
+          <a href="{{__('/docs/Tokenbox-LightPaper-Eng.pdf')}}" target="_blank">
+            {{__('Light Paper')}}
           </a>
         </li>
         <li>
@@ -183,7 +187,7 @@
     </div>
   </section>
 
-  <section class="send-request send-request-body section">
+  <section class="send-request send-request-body section" id="partnership">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
 
