@@ -19,7 +19,7 @@
           </a>
         </li>
         <li class="active">
-          <a href="{{__('/docs/Tokenbox-LightPaper-Eng.pdf')}}" target="_blank">
+          <a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
             {{__('Light Paper')}}
           </a>
         </li>
@@ -46,7 +46,7 @@
             {{__('White Paper')}}
           </a>
         </li><li class="active nav-pill">
-          <a href="{{__('/docs/Tokenbox-LightPaper-Eng.pdf')}}" target="_blank">
+          <a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
             {{__('Light Paper')}}
           </a>
         </li>
