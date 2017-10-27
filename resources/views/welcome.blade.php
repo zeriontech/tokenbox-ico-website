@@ -59,13 +59,9 @@
     <div class="wrapper">
       <div class="topblock_tabs">
         <a href="#traders-and-funds">
-          <span>Create</span>
-          and manage crypto Funds.
-          Legally and securely.
+          {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
         </a><a href="#for-investors">
-          <span>Invest</span>
-          in crypto Funds and assets.
-          In one place.
+          {!!__('<span>Invest</span> in crypto Funds and assets. In one place.')!!}
         </a>
       </div>
 		<div class="countdown" style="margin-top:70px; margin-bottom:70px;">
