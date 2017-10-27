@@ -64,7 +64,7 @@
           Legally and securely.
         </a><a href="#for-investors">
           <span>Invest</span>
-          in crypto funds and assets.
+          in crypto Funds and assets.
           In one place.
         </a>
       </div>
