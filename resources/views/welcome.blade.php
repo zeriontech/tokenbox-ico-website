@@ -68,8 +68,31 @@
           In one place.
         </a>
       </div>
+		<div class="countdown">
+		  <h1>
+			{{__('TGE')}}
 
-      <div class="countdown-mini">
+			<sup data-tooltip>
+			  <i class="fa fa-question-circle"></i>
+
+			  <div class="tooltip">
+				<b>{{__('TGE - Token Generation Event.')}}</b>
+				<br>
+				{!!__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.<br><a href="/tge">Learn more &rarr;</a>') !!}
+			  </div>
+			</sup>
+			{{__('will start on 14 November 2017, 12:00 UTC')}}
+		  </h1>
+
+		  <p>
+			<i class="fa fa-calendar-check-o"></i>
+			<a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
+			{{__('and get notified')}}
+		  </p>
+
+		</div>
+      <!-- 
+<div class="countdown-mini">
         <div class="countdown-mini_title">
           TGE
 
@@ -87,6 +110,7 @@
         </div>
         @include('shared/countdownBlock')
       </div>
+ -->
 
       <div class="buttons">
         <a href="#join-queue" class="button js-modal-link">

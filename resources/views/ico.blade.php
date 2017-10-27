@@ -68,7 +68,7 @@
         @include('shared/countdown')
       @endif
       <div class="buttons">
-        <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">
+        <a class="button" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
