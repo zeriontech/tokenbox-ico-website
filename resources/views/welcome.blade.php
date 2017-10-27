@@ -68,7 +68,7 @@
           In one place.
         </a>
       </div>
-		<div class="countdown-mini">
+		<div class="countdown">
 			<div class="countdown-mini_title">
 				{{__('TGE')}}
 
