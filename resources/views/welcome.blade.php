@@ -77,7 +77,7 @@
 					{!!__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.<br><a href="/tge">Learn more &rarr;</a>') !!}
 				  </div>
 				</sup>
-				{{__('will start on 14 November 2017, 12:00 UTC')}}
+				{{__('will start on')}} <span style="color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
 	        </div>
 		  <p>
 			<i class="fa fa-calendar-check-o"></i>
