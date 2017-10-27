@@ -102,6 +102,7 @@
         </a>
       </div>
 
+<!-- 
       <h1 class="main-title">
         <span class="fade-in-item">{{__('Tokenbox')}}</span>
         <span class="fade-in-item">{{__('is an ecosystem')}}</span><br />
@@ -109,6 +110,7 @@
         <strong class="fade-in-item"><a href="#for-investors">{{__('investors')}},</a></strong>
         <strong class="fade-in-item"><a href="#traders-and-funds">{{__('traders and funds')}}.</a></strong>
       </h1>
+ -->
 
 
       <div class="row" style="margin-top:100px">
