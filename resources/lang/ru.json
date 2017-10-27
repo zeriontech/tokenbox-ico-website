@@ -5,6 +5,7 @@
   "\"Tokenized funds\" will be a key element of the system. <a href=\"https://thetoken.io\" target=\"_blank\">The Token Fund</a> that is currently working is an example or prototype, it was created and developed by the Tokenbox team.": "«Токенизированные фонды» - ключевые элементы системы. <a href=\"https://thetoken.io\" target=\"_blank\">The Token Fund</a> функционирущий на данный момент, является примером токенизированого фонда, созданного командой Tokenbox.",
   "/docs/TBX-WhitePaper-Eng.pdf": "/docs/TBX-WhitePaper-Rus.pdf",
   "/docs/Tokenbox-BusinessOverview-Eng.pdf": "/docs/Tokenbox-BusinessOverview-Rus.pdf",
+  "/docs/Tokenbox-LightPaper-Eng.pdf": "/docs/Tokenbox-LightPaper-Rus.pdf",
   "/docs/Tokenbox-LitePaper-Eng.pdf": "/docs/Tokenbox-LitePaper-Eng.pdf",
   "/docs/Tokenbox-Onepager-Eng.pdf": "/docs/Tokenbox-Onepager-Eng.pdf",
   "/docs/Tokenbox-Overview-Eng.pdf": "/docs/Tokenbox-Overview-Rus.pdf",
@@ -106,6 +107,7 @@
   "Is there any prototype of the platform?": "Существует какой-либо прототип платформы?",
   "It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.<br><a href=\"/tge\">Learn more &rarr;</a>": "Это синоним ICO. Мы используем TGE, потому что будут выпускаться не «коины», а «токены».<br><a href=\"/tge\">Узнать больше &rarr;</a>",
   "Join Community": "Сообщество",
+  "Join Crowdsale!": "Принять участие!",
   "Join Private Sale": "Закрытый сейл",
   "Join the Crowdsale!": "Принять участие!",
   "Join the Queue": "Встать в очередь",
@@ -120,6 +122,7 @@
   "Learn more and stay tuned!": "Узнайте больше и оставайтесь с нами!",
   "Legal Clarity and Transparency": "Юридическая чистота деятельности",
   "Legal Entity": "Юридическое лицо",
+  "Light Paper": "Light Paper",
   "Listing on exchanges": "Листинг на биржах",
   "Lite Paper": "Lite Paper",
   "Make sure": "Убедитесь",
@@ -264,6 +267,7 @@
   "s": "с",
   "the required amount to the specified wallet address and wait for 6 confirmations": "требуемую сумму на указанный адрес кошелька и дождитесь 6 подтверждений сети",
   "traders and funds": "фондов и трейдеров",
+  "will start on 14 November 2017, 12:00 UTC": "стартует 14 ноября 2017, 15:00 МСК",
   "you comply with our": "что вы соблюдаете наши условия.",
   "ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE starts in ": "ᐅᐅᐅ Tokenbox — это №❶ экосистема для крипто инвесторов, фондов и трейдеров. ᐅᐅᐅ TGE стартует: "
 }
