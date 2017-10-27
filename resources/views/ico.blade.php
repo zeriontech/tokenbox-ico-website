@@ -68,7 +68,7 @@
         @include('shared/countdown')
       @endif
       <div class="buttons">
-        <a class="button" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">
+        <a class="button" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
@@ -149,7 +149,7 @@
       <h1>{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
-        <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+        <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('White Paper')}}
         </a><a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Light Paper')}}

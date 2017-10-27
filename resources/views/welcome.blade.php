@@ -14,7 +14,7 @@
         <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
-          <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+          <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
           </a>
         </li>
@@ -42,7 +42,7 @@
           </div>
         </li>
         <li class="active nav-pill">
-          <a href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}" target="_blank">
+          <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
           </a>
         </li><li class="active nav-pill">
