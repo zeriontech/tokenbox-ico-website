@@ -63,8 +63,8 @@
           and manage crypto Funds.
           Legally and securely.
         </a><a href="#for-investors">
-          <span>Wide choice</span>
-          of portfolios for investors.
+          <span>Invest</span>
+          in crypto funds and assets.
           In one place.
         </a>
       </div>
