@@ -153,13 +153,13 @@
           <i class="fa fa-file-pdf-o"></i>{{__('White Paper')}}
         </a><a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Light Paper')}}
-        </a><a href="{{__('/docs/Tokenbox-Onepager-Eng.pdf')}}" target="_blank">
+        </a><a href="{{__('/docs/Tokenbox-Onepager-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('One-Pager')}}
-        </a><a href="{{__('/docs/Tokenbox-Overview-Eng.pdf')}}" target="_blank">
+        </a><a href="{{__('/docs/Tokenbox-Overview-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Tokenbox Overview')}}
-        </a><a href="{{__('/docs/Tokenbox-BusinessOverview-Eng.pdf')}}" target="_blank">
+        </a><a href="{{__('/docs/Tokenbox-BusinessOverview-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Business Overview')}}
-        </a><a href="{{__('/docs/Tokenbox-Presentation-Eng.pdf')}}" target="_blank">
+        </a><a href="{{__('/docs/Tokenbox-Presentation-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Product Presentation')}}
         </a>
       </div>
