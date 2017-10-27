@@ -3,14 +3,13 @@
 return [
 
     'supportedLocales'        => [
-        'en' => ['name' => 'English', 'script' => 'Latn', 'native' => 'English', 'regional' => 'en_GB'],
-        'ru' => ['name' => 'Russian', 'script' => 'Cyrl', 'native' => 'Русский', 'regional' => 'ru_RU'],
-        'es' => ['name' => 'Spanish', 'script' => 'Latn', 'native' => 'Español', 'regional' => 'es_ES'],
-        'fr' => ['name' => 'French', 'script' => 'Latn', 'native' => 'Français', 'regional' => 'fr_FR'],
-        'de' => ['name' => 'German', 'script' => 'Latn', 'native' => 'Deutsch', 'regional' => 'de_DE'],
-        'jp' => ['name' => 'Japanese', 'script' => 'Jpan', 'native' => '日本語', 'regional' => 'ja_JP'],
-        'zh' => ['name' => 'Chinese', 'script' => 'Hans', 'native' => '简体中文', 'regional' => 'zh_CN'],
-
+        'en' => ['name' => 'English', 'script' => 'Latn', 'native' => 'English', 'short' => 'Eng', 'regional' => 'en_GB'],
+        'ru' => ['name' => 'Russian', 'script' => 'Cyrl', 'native' => 'Русский', 'short' => 'Рус', 'regional' => 'ru_RU'],
+        'es' => ['name' => 'Spanish', 'script' => 'Latn', 'native' => 'Español', 'short' => 'Esp', 'regional' => 'es_ES'],
+        'fr' => ['name' => 'French', 'script' => 'Latn', 'native' => 'Français', 'short' => 'Fra', 'regional' => 'fr_FR'],
+        'de' => ['name' => 'German', 'script' => 'Latn', 'native' => 'Deutsch', 'short' => 'Deu', 'regional' => 'de_DE'],
+        'jp' => ['name' => 'Japanese', 'script' => 'Jpan', 'native' => '日本語', 'short' => '日本語', 'regional' => 'ja_JP'],
+        'zh' => ['name' => 'Chinese', 'script' => 'Hans', 'native' => '简体中文', 'short' => '简体中文', 'regional' => 'zh_CN'],
     ],
 
     // Negotiate for the user locale using the Accept-Language header if it's not defined in the URL?

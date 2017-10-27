@@ -1,6 +1,6 @@
 <div class="dropdown">
   <div class="title">
-    {{ LaravelLocalization::getSupportedLocales()[LaravelLocalization::getCurrentLocale()]['native'] }}
+    {{ LaravelLocalization::getSupportedLocales()[LaravelLocalization::getCurrentLocale()]['short'] }}
   </div>
 
    <ul class="lang dropdown-menu">
