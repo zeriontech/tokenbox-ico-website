@@ -63,7 +63,6 @@
   }
 }
 
-
 .topblock-home + .get-notified {
   margin-top: 340px;
 
@@ -74,6 +73,48 @@
 
 .topblock-home + .section-video {
   margin-top: 212px;
+}
+
+.topblock-ico {
+  padding-bottom: 150px;
+  background: #1f1f64;
+  background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
+
+  .topblock_bg:after {
+    opacity: 0.08;
+    background: url("../img/grid-white.svg?v=2") top center no-repeat;
+  }
+}
+
+.topblock_tabs {
+  overflow: hidden;
+  max-width: 860px;
+  margin: auto;
+  box-shadow: 0px 24px 7px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+
+  a {
+    display: block;
+    border: 3px solid #7570ff;
+    padding: 13px 20px;
+    border-image: linear-gradient(to bottom, #7570ff, #bd5191) 20 20 stretch;
+    color: #fff;
+    text-align: left;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  a + a {
+    margin-top: -3px;
+  }
+
+  span {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+  }
 }
 
 @mixin breakpoint tablet {
@@ -94,14 +135,31 @@
   }
 }
 
-.topblock-ico {
-  padding-bottom: 150px;
-  background: #1f1f64;
-  background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
+@mixin bp tablet {
+  .topblock-home  {
+    .header {
+      margin-bottom: 26px;
+    }
+  }
 
-  .topblock_bg:after {
-    opacity: 0.08;
-    background: url("../img/grid-white.svg?v=2") top center no-repeat;
+  .topblock_tabs {
+    display: flex;
+
+    a {
+      padding: 23px 45px 21px;
+      width: 50%;
+      font-size: 26px;
+      line-height: 39px;
+    }
+
+    a + a {
+      margin-top: 0;
+      margin-left: -3px;
+    }
+
+    span {
+      margin: 0 0 2px;
+      font-size: 36px;
+    }
   }
 }
-

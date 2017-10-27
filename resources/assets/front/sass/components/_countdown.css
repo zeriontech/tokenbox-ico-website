@@ -39,6 +39,7 @@
   width: 64px;
   margin: 4px;
   vertical-align: middle;
+  text-align: center;
 }
 
 .countdown-item svg {
@@ -91,10 +92,34 @@
   opacity: 0.9;
 }
 
+.countdown-mini {
+  margin: 60px 0 0;
+  text-align: center;
+}
+
+.countdown-mini_title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+
+  sup {
+    top: -6px;
+    font-size: 15px;
+  }
+
+  .tooltip {
+    right: auto;
+  }
+}
+
 @mixin bp tablet {
   .countdown-item {
     width: 144px;
     margin: 2em 10px;
+  }
+  .countdown-item {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 
   .countdown-item .bar {
@@ -121,11 +146,78 @@
     font-size: 58px;
     line-height: 144px;
   }
+
+  .countdown-mini {
+    .countdown-item {
+      width: 92px;
+    }
+
+    .countdown-item {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .countdown-item svg {
+      width: 92px;
+      height: 92px;
+    }
+
+    .countdown-item-text {
+      right: auto;
+      width: 92px;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 92px;
+    }
+
+    .countdown-item .bar {
+      transform: translateY(92px) rotate(-90deg);
+    }
+
+    .countdown-item circle {
+      r: 43;
+      cx: 46;
+      cy: 46;
+      stroke-dasharray: 270;
+      stroke-width: 5px;
+    }
+
+    .countdown-item-label {
+      margin-top: 0;
+    }
+
+    .countdown-item .inner-bar {
+      stroke: transparent;
+    }
+  }
+
+  .countdown-mini_title {
+    margin-top: -7px;
+  }
 }
 
 @mixin bp desktop {
-  .countdown-item {
-    margin-right: 40px;
-    margin-left: 40px;
+  .countdown-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .countdown-item {
+      display: flex;
+      width: auto;
+      align-items: center;
+    }
+
+    .countdown-item-label {
+      margin-left: 20px;
+    }
+
+    #countdown {
+      display: flex;
+    }
+  }
+
+  .countdown-mini_title {
+    margin-right: 20px;
   }
 }

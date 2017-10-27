@@ -65,8 +65,7 @@
           <div class="founded-money-eth">2,357.0492</div>
         </div>
       @else
-        @component('shared/countdown')
-        @endcomponent
+        @include('shared/countdown')
       @endif
       <div class="buttons">
         <a class="button" href="#join-crowdsale">{{__('How to Join Crowdsale')}}</a><a class="button button-info" href="{{__('/docs/TBX-WhitePaper-Eng.pdf')}}">

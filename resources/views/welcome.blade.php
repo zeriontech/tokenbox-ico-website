@@ -23,7 +23,6 @@
             {{__('Light Paper')}}
           </a>
         </li>
-
       @endslot
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
@@ -58,21 +57,50 @@
     @endcomponent
 
     <div class="wrapper">
-      @component('shared/countdown')
-        <div class="buttons">
-          <a href="#join-queue" class="button js-modal-link">
-            {{__('Join Private Sale')}}
-          </a><!--
-<a href="/tge" class="button button-info">
-            {{__('Learn about TGE')}}
-            <i class="fa fa-long-arrow-right"></i>
-          </a>
- --><a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+      <div class="topblock_tabs">
+        <a href="#traders-and-funds">
+          <span>Create</span>
+          and manage crypto Funds.
+          Legally and securely.
+        </a><a href="#for-investors">
+          <span>Wide choice</span>
+          of portfolios for investors.
+          In one place.
+        </a>
+      </div>
+
+      <div class="countdown-mini">
+        <div class="countdown-mini_title">
+          TGE
+
+          <sup data-tooltip>
+            <i class="fa fa-question-circle"></i>
+
+            <div class="tooltip">
+              <b>{{__('TGE - Token Generation Event.')}}</b>
+              <br>
+              {!!__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.<br><a href="/tge">Learn more &rarr;</a>') !!}
+            </div>
+          </sup>
+
+          starts in
+        </div>
+        @include('shared/countdownBlock')
+      </div>
+
+      <div class="buttons">
+        <a href="#join-queue" class="button js-modal-link">
+          {{__('Join Private Sale')}}
+        </a><!--
+        <a href="/tge" class="button button-info">
+          {{__('Learn about TGE')}}
+          <i class="fa fa-long-arrow-right"></i>
+        </a>
+        --><a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
         </a>
-        </div>
-      @endcomponent
+      </div>
 
       <h1 class="main-title">
         <span class="fade-in-item">{{__('Tokenbox')}}</span>
