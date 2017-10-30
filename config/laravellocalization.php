@@ -8,6 +8,7 @@ return [
         'es' => ['name' => 'Spanish', 'script' => 'Latn', 'native' => 'Español', 'short' => 'Esp', 'regional' => 'es_ES'],
         'fr' => ['name' => 'French', 'script' => 'Latn', 'native' => 'Français', 'short' => 'Fra', 'regional' => 'fr_FR'],
         'de' => ['name' => 'German', 'script' => 'Latn', 'native' => 'Deutsch', 'short' => 'Deu', 'regional' => 'de_DE'],
+        'po' => ['name' => 'Português', 'script' => 'Latn', 'native' => 'Português', 'short' => 'Por', 'regional' => 'pt_PT'],
         'jp' => ['name' => 'Japanese', 'script' => 'Jpan', 'native' => '日本語', 'short' => '日本語', 'regional' => 'ja_JP'],
         'zh' => ['name' => 'Chinese', 'script' => 'Hans', 'native' => '简体中文', 'short' => '简体中文', 'regional' => 'zh_CN'],
     ],
