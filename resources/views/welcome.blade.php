@@ -66,7 +66,7 @@
       </div>
 		<div class="countdown" style="margin-top:70px; margin-bottom:70px;">
 			<div class="countdown-mini_title">
-				{{__('TGE')}}
+				{{__('Tokenbox TGE')}}
 
 				<sup data-tooltip>
 				  <i class="fa fa-question-circle"></i>
