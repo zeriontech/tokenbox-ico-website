@@ -36,7 +36,7 @@
     <div class="wrapper">
       @if(app('request')->input('started'))
         <h1>{{__('Tokenbox TGE crowdsale now live!')}}</h1>
-        <p style="opacity: 0;"">
+        <p style="opacity: 0;" class="topblock_subtitle">
           {{__('Time left')}}:
           <span class="inline-countdown">
             <span data-key="days"></span>{{__('d')}}

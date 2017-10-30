@@ -49,7 +49,7 @@
 
 .countdown-item circle {
   stroke-dashoffset: 0;
-  stroke: #3434bb;
+  /* stroke: #3434bb; */
   stroke-width: 10px;
   fill: transparent;
   r: 26;

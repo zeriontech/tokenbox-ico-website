@@ -57,7 +57,7 @@
     @endcomponent
 
     <div class="wrapper">
-      <div class="topblock_tabs" style="background-color:rgba(37, 37, 141, 0.5);">
+      <div class="topblock_tabs">
         <a href="#traders-and-funds">
           {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
         </a><a href="#for-investors">

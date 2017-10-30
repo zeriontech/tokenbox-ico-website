@@ -54,7 +54,7 @@ elixir((mix) => {
     // <END> Frontend Compilation
 
     mix.browserSync({
-        proxy: 'tokenbox.dev',
+        proxy: 'tokenbox.tokenbox',
         port: 8000,
         files: ['public/**/*.css', 'public/**/*.js']
     });

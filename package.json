@@ -11,7 +11,6 @@
     "laravel-elixir-browsersync-official": "^1.0.0",
     "laravel-elixir-postcss": "^0.4.1",
     "postcss-assets": "^4.1.0",
-    "postcss-cssnext": "^1.8.4",
     "postcss-font-awesome": "^0.3.4",
     "postcss-scss": "^0.4.0",
     "precss": "^1.4.0",
