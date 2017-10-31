@@ -59,6 +59,15 @@
                     <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
                 </div><div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/rastorguev.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/sergey-rastorguev" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Sergey Rastorguev')}}</div>
+                    <div class="info">{{__('Front-End Engineer')}},
+                        <br />The Token Fund</div>
+                </div><div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
                         <div class="overlay">
                             <a href="https://www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
@@ -66,16 +75,7 @@
                     </div>
                     <div class="name">{{__('Aleksandr Volkov')}}</div>
                     <div class="info">{{__('Lead Backend Developer')}},
-                        <br />Zerion</div>
-                </div><div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/cas.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/chris-abel-smith-a416271/" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Chris Abel-Smith')}}</div>
-                    <div class="info">{{__('Head of Supervisory Board')}},
-                        <br />Resultat Ltd., Varuna-Partners</div>
+                        <br />The Token Fund</div>
                 </div>
             </div>
         </article>
@@ -84,6 +84,15 @@
             <h1 class="from-bottom">{{__('Our advisors')}}</h1>
             <div class="members-list">
                 <div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/cas.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/chris-abel-smith-a416271/" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Chris Abel-Smith')}}</div>
+                    <div class="info">{{__('Head of Supervisory Board')}},
+                        <br />Resultat Ltd., Varuna-Partners</div>
+                </div><div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/cmskinner" target="_blank" class="fa fa-linkedin-square"></a>
