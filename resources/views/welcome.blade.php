@@ -8,7 +8,7 @@
     @component('shared/header')
       @slot('mobile')
         <li><a href="/tge">{{__('TGE')}}</a></li>
-        <li><a href="#for-investors">{{__('Features')}}</a></li>
+        <li><a href="#traders-and-funds">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#tech">{{__('Technology')}}</a></li>
         <li><a href="#team">{{__('Team')}}</a></li>
@@ -27,7 +27,7 @@
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
         <li><a href="/tge">{!!__('TGE')!!}</a></li>
-        <li><a href="#for-investors">{!!__('Features')!!}</a></li>
+        <li><a href="#traders-and-funds">{!!__('Features')!!}</a></li>
         <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
         <li><a href="#tech">{!!__('Technology')!!}</a></li>
         <li><a href="#team">{!!__('Team')!!}</a></li>
