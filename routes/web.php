@@ -20,6 +20,7 @@ Route::group([
     Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
     Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
 
+    // redirects
     Route::any('/docs/TBX-WhitePaper-Eng.pdf', function () {
         return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-WhitePaper-En.pdf');
     });
