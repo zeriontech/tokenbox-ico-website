@@ -26,7 +26,7 @@
 
   @mixin lp tablet {
     .link {
-      margin-bottom: 0;
+      margin: 0 10px 10px;
       width: 70px;
       height: 70px;
     }

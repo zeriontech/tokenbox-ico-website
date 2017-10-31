@@ -1,5 +1,14 @@
 .section-video {
+  overflow: hidden;
+}
 
+.section-video .wrapper {
+  padding: 0;
+  max-width: 640px;
+}
+
+.section-video .swiper-container {
+  overflow: visible;
 }
 
 .video-title {
@@ -12,11 +21,18 @@
 .video {
   position: relative;
   max-width: 640px;
-  height: 360px;
+  padding-bottom: 56.25%;
   margin: auto;
   border-radius: 6px;
   background-position: center;
   box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.28);
+}
+
+.video + .video-title {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 30px 0 0;
 }
 
 .video_preview {
@@ -28,6 +44,8 @@
   opacity: 1;
   transition: .4s opacity;
   border-radius: 6px;
+  background-size: cover;
+  background-position: center;
 
   &:hover {
     opacity: 0.8;
@@ -42,6 +60,8 @@
   left: 0;
   background: url('../img/video-play.svg') no-repeat;
   background-size: 123px auto;
+  width: 123px;
+  height: 123px;
   background-position: center;
   margin: auto;
   cursor: pointer;

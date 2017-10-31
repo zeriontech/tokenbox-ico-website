@@ -35,8 +35,8 @@
       }
 
       .title {
-        padding: 0 10px 0 0;
-        margin: 17px 0 12px;
+        padding: 0 25px 0 0;
+        margin: 17px -22px 12px 0;
       }
 
       &.active {

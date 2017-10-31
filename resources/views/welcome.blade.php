@@ -57,7 +57,7 @@
     @endcomponent
 
     <div class="wrapper">
-      <div class="topblock_tabs">
+      <div class="topblock_tabs js-scroll-nav">
         <a href="#traders-and-funds">
           {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
         </a><a href="#for-investors">
@@ -86,11 +86,10 @@
 		  </p>
 
 		</div>
-      <!-- 
-<div class="countdown-mini">
+      
+      <!--<div class="countdown-mini">
         <div class="countdown-mini_title">
           TGE
-
           <sup data-tooltip>
             <i class="fa fa-question-circle"></i>
 
@@ -104,8 +103,7 @@
           starts in
         </div>
         @include('shared/countdownBlock')
-      </div>
- -->
+      </div>-->
 
       <div class="buttons">
         <a href="#join-queue" class="button js-modal-link">
@@ -121,16 +119,13 @@
         </a>
       </div>
 
-<!-- 
-      <h1 class="main-title">
+      <!-- <h1 class="main-title">
         <span class="fade-in-item">{{__('Tokenbox')}}</span>
         <span class="fade-in-item">{{__('is an ecosystem')}}</span><br />
         <strong class="fade-in-item">{{__('for crypto')}}-</strong>
         <strong class="fade-in-item"><a href="#for-investors">{{__('investors')}},</a></strong>
         <strong class="fade-in-item"><a href="#traders-and-funds">{{__('traders and funds')}}.</a></strong>
-      </h1>
- -->
-
+      </h1>-->
 
       <div class="row" style="margin-top:100px">
         <div class="columns offset-by-two eight features">
@@ -155,7 +150,11 @@
     </div>
   </section>
 
+  @if(app('request')->input('video'))
+    @include('shared/videoSlider')
+  @else
   @include('shared/video')
+  @endif
 
   <section class="get-notified get-notified-top">
     <div class="wrapper">
