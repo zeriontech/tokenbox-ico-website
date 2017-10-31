@@ -21,6 +21,6 @@ Route::group([
     Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
 
     Route::any('/docs/TBX-WhitePaper-Eng.pdf', function () {
-        return response()->download(public_path('/docs/Tokenbox-WhitePaper-En.pdf'));
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-WhitePaper-En.pdf');
     });
 });
