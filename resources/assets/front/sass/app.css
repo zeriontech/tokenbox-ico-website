@@ -137,24 +137,37 @@ section h1 {
 }
 
 .powered-by-logos {
-  margin: auto;
-  text-align: center;
-
   @mixin lp tablet {
     > * {
       display: block;
+    }
+
+    > *:not(:first-child) {
       margin-top: 70px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
     }
   }
 
   @mixin bp tablet {
+    margin: -20px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 760px;
+
+    > * {
+      margin: 20px;
+    }
   }
 }
 
 @mixin bp desktop {
+  /*
   .section-powered-by .wrapper {
     display: flex;
     max-width: 940px;
@@ -175,10 +188,11 @@ section h1 {
       margin: 0;
     }
   }
+  */
 
   .powered-by-logos {
     flex-grow: 1;
-    margin-left: 100px;
+    max-width: 940px;
 
     img {
       opacity: 1;
