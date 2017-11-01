@@ -96,7 +96,7 @@
     display: block;
     border: 3px solid #7570ff;
     padding: 13px 20px;
-    border-image: linear-gradient(to bottom, #7570ff, #bd5191) 20 20 stretch;
+    border-image: linear-gradient(to right, #7570ff, #bd5191, #7570ff) 20 20 stretch;
     color: #fff;
     text-align: left;
 
@@ -115,6 +115,13 @@
     font-size: 24px;
     font-weight: 700;
   }
+}
+
+.topblock_tabs_info {
+  text-align: center;
+  font-size: 14px;
+  padding: 0 10px 3px;
+  background: linear-gradient(to right, #7570ff, #bd5191, #7570ff);
 }
 
 @mixin breakpoint tablet {
@@ -151,18 +158,26 @@
     transform-origin: center;
   }
 
-  .topblock_tabs {
+  .topblock_tabs_list {
     display: flex;
+  }
 
+  .topblock_tabs_info {
+    font-size: 16px;
+  }
+
+  .topblock_tabs {
     a {
       padding: 23px 45px 21px;
       width: calc(50% + 1px);
       font-size: 26px;
       line-height: 39px;
+      border-image: linear-gradient(to right, #7570ff, #bd5191) 20 20 stretch;
     }
 
     a + a {
       margin-top: 0;
+      border-image: linear-gradient(to right, #bd5191, #7570ff) 20 20 stretch;
     }
 
     a:first-child {

@@ -58,11 +58,16 @@
 
     <div class="wrapper">
       <div class="topblock_tabs js-scroll-nav">
-        <a href="#traders-and-funds">
-          {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
-        </a><a href="#for-investors">
-          {!!__('<span>Invest</span> in crypto Funds and assets. In one place.')!!}
-        </a>
+        <div class="topblock_tabs_list">
+          <a href="#traders-and-funds">
+            {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
+          </a><a href="#for-investors">
+            {!!__('<span>Invest</span> in crypto Funds and assets. In one place.')!!}
+          </a>
+        </div>
+        <div class="topblock_tabs_info">
+          {!!__('Created by the <b>The Token Fund</b> team (one of the first successful crypto Funds in the world)')!!}
+        </div>
       </div>
 		<div class="countdown" style="margin-top:70px; margin-bottom:70px;">
 			<div class="countdown-mini_title">
