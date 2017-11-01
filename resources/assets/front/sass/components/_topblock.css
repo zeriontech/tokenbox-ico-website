@@ -82,6 +82,14 @@
     opacity: 0.05;
     background: url("../img/grid-white.svg?v=2") top center no-repeat;
   }
+
+  h1,
+  .countdown-mini_title {
+    font-weight: 400;
+    max-width: 680px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .topblock_tabs {

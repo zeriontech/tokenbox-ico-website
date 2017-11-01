@@ -178,11 +178,15 @@
     </div>
   </section>
 
-  <section class="section" style="padding-bottom: 0">
+  <section class="section section-benefits">
     <div class="wrapper">
       <h1>Tokenbox Benefits</h1>
       <img src="/assets/front/img/benefits/{{__('solution-en-mob.svg')}}" class="mobile-only">
-      <img src="/assets/front/img/benefits/{{__('solution-en.svg')}}" class="no-mobile">
+      <div class="row no-mobile">
+        <div class="offset-by-one ten columns">
+          <img src="/assets/front/img/benefits/{{__('solution-en.svg')}}">
+        </div>
+      </div>
     </div>
   </section>
 
@@ -380,5 +384,4 @@
   </section>
 
   @include('shared/powered')
-  @include('shared/form')
 @endsection

@@ -136,6 +136,19 @@ section h1 {
   }
 }
 
+.section-benefits {
+  margin-top: 70px;
+  padding: 70px 0 0;
+  background-image: linear-gradient(to bottom, #fcfcfe, #fff);
+
+  @mixin bp desktop {
+    h1 {
+      margin-bottom: 40px;
+      font-size: 54px;
+    }
+  }
+}
+
 .powered-by-logos {
   @mixin lp tablet {
     > * {

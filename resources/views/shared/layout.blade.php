@@ -67,7 +67,8 @@
   @include('shared/footer')
   @include('shared/terms')
   @include('shared/privacy')
-
+  @include('shared/form')
+  
   <script type="text/javascript" src="/assets/front/js/app.min.js?v=13"></script>
 </body>
 </html>

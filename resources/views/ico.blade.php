@@ -65,10 +65,37 @@
           <div class="founded-money-eth">2,357.0492</div>
         </div>
       @else
-        @include('shared/countdown')
+      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
+			<div class="countdown-mini_title">
+				{{__('Tokenbox TGE')}}
+
+				<sup data-tooltip>
+				  <i class="fa fa-question-circle"></i>
+
+				  <div class="tooltip">
+					<b>{{__('TGE - Token Generation Event.')}}</b>
+					<br>
+					{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
+				  </div>
+				</sup>
+				{{__('will start on')}} <span style="color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
+	        </div>
+		  <p>
+			<i class="fa fa-calendar-check-o"></i>
+			<a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
+			{{__('and get notified')}}
+		  </p>
+
+		</div>
+      
+      <div class="countdown-mini">
+        @include('shared/countdownBlock')
+      </div>
+
+      <h1>You have a chance to participate in the <b>Private Sale with a bonus</b> right now!</h1>
       @endif
       <div class="buttons">
-        <a class="button" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button js-modal-link" href="#join-queue">{{__('Join Private Sale')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
