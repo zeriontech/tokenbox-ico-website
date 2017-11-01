@@ -160,7 +160,7 @@
   @else
   @include('shared/video')
   @endif
-
+  
   <section class="get-notified get-notified-top">
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" data-extra-action="/send" method="post" id="mc-embedded-subscribe-form-1">
@@ -175,6 +175,14 @@
           </div>
         </div>
       </form>
+    </div>
+  </section>
+
+  <section class="section" style="padding-bottom: 0">
+    <div class="wrapper">
+      <h1>Tokenbox Benefits</h1>
+      <img src="/assets/front/img/benefits/{{__('solution-en-mob.svg')}}" class="mobile-only">
+      <img src="/assets/front/img/benefits/{{__('solution-en.svg')}}" class="no-mobile">
     </div>
   </section>
 
