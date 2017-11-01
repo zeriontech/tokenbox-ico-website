@@ -66,7 +66,7 @@
           </a>
         </div>
         <div class="topblock_tabs_info">
-          {!!__('Created by the <b>The Token Fund</b> team (one of the first successful crypto Funds in the world)')!!}
+          {!!__('Created by the team behind <a href="https://thetoken.io/" target="_blank"><b>The Token Fund</b></a> — one of the first successful crypto funds in the world)')!!}
         </div>
       </div>
 		<div class="countdown" style="margin-top:70px; margin-bottom:70px;">
