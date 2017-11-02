@@ -6,12 +6,12 @@
     @component('shared/header')
       @slot('mobile')
         <li><a href="/" target="_blank" class="link">{{__('Learn about Tokenbox')}}</a></li>
-        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts on')}} {{__('14 November')}}</u></a></li>
+        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts')}} - {{__('14 November')}}</u></a></li>
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
         <li><a href="/" target="_blank" class="link">{{__('Learn about Tokenbox')}}</a></li>
-        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts on')}} {{__('14 November')}}</a></li>
+        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts')}} - {{__('14 November')}}</a></li>
       </nav>
 
       <ul class="nav header_right">
@@ -69,8 +69,8 @@
     }
 
     .link {
-      font-weight: bold;
-      text-decoration: underline;
+      font-weight: bold !important;
+      text-decoration: underline !important;
     }
     .link:hover {
       opacity: 0.8;
