@@ -39,6 +39,11 @@ class MainController extends Controller
     public function quizResult($level)
     {
         $results = [
+            'crypto-spaceman' => [
+                'title' => '10/10 Crypto Spaceman',
+                'image' => '10'
+            ],
+            
             'crypto-rockstar' => [
                 'title' => '9/10 Crypto Rockstar',
                 'image' => '9'
