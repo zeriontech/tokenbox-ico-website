@@ -13,7 +13,8 @@
                     <div class="name">{{__('Viktor Shpakovsky')}}</div>
                     <div class="info">{{__('Managing Partner')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/smerkis.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/smerkis" target="_blank" class="fa fa-linkedin-square"></a>
@@ -22,7 +23,8 @@
                     <div class="name">{{__('Vladimir Smerkis')}}</div>
                     <div class="info">{{__('Managing Partner')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')">
                         <div class="overlay">
                             <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
@@ -31,7 +33,8 @@
                     <div class="name">{{__('Alexey Bashlykov')}}</div>
                     <div class="info">{{__('Technical Project Manager')}},
                         <br />Zerion</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/doganov.jpg')">
                         <div class="overlay">
                             <a href="https://www.facebook.com/igor.doganov" target="_blank" class="fa fa-facebook-square"></a>
@@ -40,7 +43,8 @@
                     <div class="name">{{__('Igor Doganov')}}</div>
                     <div class="info">{{__('Chief Analytics Officer')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin-square"></a>
@@ -49,7 +53,8 @@
                     <div class="name">{{__('Dmitry Shmakov')}}</div>
                     <div class="info">{{__('Marketing Director')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin-square"></a>
@@ -58,7 +63,8 @@
                     <div class="name">{{__('Eugene Yuryev')}}</div>
                     <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/rastorguev.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/sergey-rastorguev" target="_blank" class="fa fa-linkedin-square"></a>
@@ -67,7 +73,8 @@
                     <div class="name">{{__('Sergey Rastorguev')}}</div>
                     <div class="info">{{__('Front-End Engineer')}},
                         <br />The Token Fund</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
                         <div class="overlay">
                             <a href="https://www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
@@ -92,7 +99,8 @@
                     <div class="name">{{__('Chris Abel-Smith')}}</div>
                     <div class="info">{{__('Head of Supervisory Board')}},
                         <br />Resultat Ltd., Varuna-Partners</div>
-                </div><div class="member">
+                </div>
+                <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/cmskinner" target="_blank" class="fa fa-linkedin-square"></a>
@@ -101,15 +109,6 @@
                     <div class="name">{{__('Chris Skinner')}}</div>
                     <div class="info">{{__('Advisor (Fintech)')}},
                         <br />{{__('Innovate Finance, Moven and Meniga')}}</div>
-                </div><div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Julian L. Zegelman')}}</div>
-                    <div class="info">{{__('Advisor (Legal)')}},
-                        <br />{{__('Velton Zegelman PC')}}</div>
                 </div>
 <!-- 			<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
@@ -130,6 +129,27 @@
                     <div class="name">{{__('Wulf Kaal')}}</div>
                     <div class="info">{{__('Advisor (Blockchain Tech)')}},
                         <br />{{__('HighTechBlock')}}</div>
+                </div>
+ 				<div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/pavel.salas.33" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://www.linkedin.com/in/pavel-salas-14423512" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Pavel Salas')}}</div>
+                    <div class="info">{{__('Advisor (Fintech)')}},
+                        <br />{{__('Blockchain Consult')}}</div>
+                </div>
+                <div class="member">
+                    <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Julian L. Zegelman')}}</div>
+                    <div class="info">{{__('Advisor (Legal)')}},
+                        <br />{{__('Velton Zegelman PC')}}</div>
                 </div>
  				<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/galam.jpg')">
