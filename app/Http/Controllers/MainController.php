@@ -36,6 +36,76 @@ class MainController extends Controller
         return view('ico');
     }
 
+    public function quizResult($level)
+    {
+        $results = [
+            'crypto-rockstar' => [
+                'title' => '9/10 Crypto Rockstar',
+                'image' => '9'
+            ],
+
+            'crypto-bull' => [
+                'title' => '8/10 Crypto Bull',
+                'image' => '8'
+            ],
+
+            'crypto-mayor' => [
+                'title' => '7/10 Crypto Mayor',
+                'image' => '7'
+            ],
+
+            'crypto-geek' => [
+                'title' => '6/10 Crypto Geek',
+                'image' => '6'
+            ],
+            
+            'halfway-crypto-champion' => [
+                'title' => '5/10 Halfway Crypto Champion',
+                'image' => '5'
+            ],
+
+            'shy-hamster' => [
+                'title' => '4/10 Shy Hamster',
+                'image' => '4'
+            ],
+
+            'crypto-dumper' => [
+                'title' => '3/10 Crypto Dumper',
+                'image' => '3'
+            ],
+
+            'sad-crypto-hamster' => [
+                'title' => '2/10 Sad Crypto Hamster',
+                'image' => '2'
+            ],
+
+            'crypto-dumster' => [
+                'title' => '1/10 Crypto Dumster',
+                'image' => '1'
+            ],
+
+            'angry-hamster' => [
+                'title' => '0/10 Angry Hamster',
+                'image' => '0'
+            ]
+        ];
+
+        $title = $results[$level]['title'];
+        $desc = 'What kind of crypto trader are you? Test yourself!';
+        $image = 'https://tokenbox.io/assets/front/img/hamsters/' . $results[$level]['image'] . '.png';
+
+        $this->seo()
+            ->setTitle($title)
+            ->setDescription($desc);
+        
+        $this->seo()->openGraph()
+            ->setTitle($title)
+            ->setDescription($desc)
+            ->setImage($image);
+            
+        return view('quizResult');
+    }
+
     /**
      * @param NotifyFormRequest $request
      * @param IntercomService   $intercomService

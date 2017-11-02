@@ -3,6 +3,10 @@
   padding: 20px 0;
 }
 
+.header-wrapper {
+  background: $blue url("../img/grid-blue.svg?v=3") center;
+}
+
 .header .wrapper {
   display: flex;
   justify-content: space-between;
