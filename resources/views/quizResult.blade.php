@@ -5,13 +5,13 @@
   <div class="header-wrapper">
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/" target="_blank" style="font-weight:bold; text-decoration:underline; hover:opacity 0.8;">{{__('Learn about Tokenbox')}}</a></li>
-        <li><a href="/tge" target="_blank" style="font-weight:bold; text-decoration:underline;">{{__('Tokenbox TGE crowdsale starts on')}} <u>{{__('14 November')}}</u></a></li>
+        <li><a href="/" target="_blank" class="link">{{__('Learn about Tokenbox')}}</a></li>
+        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts on')}} {{__('14 November')}}</u></a></li>
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/" target="_blank" style="font-weight:bold; text-decoration:underline;">{{__('Learn about Tokenbox')}}</a></li>
-        <li><a href="/tge" target="_blank" style="font-weight:bold; text-decoration:underline;">{{__('Tokenbox TGE crowdsale starts on')}} <u>{{__('14 November')}}</u></a></li>
+        <li><a href="/" target="_blank" class="link">{{__('Learn about Tokenbox')}}</a></li>
+        <li><a href="/tge" target="_blank" class="link">{{__('TGE crowdsale starts on')}} {{__('14 November')}}</a></li>
       </nav>
 
       <ul class="nav header_right">
@@ -65,6 +65,14 @@
     }
 
     .quiz-button:hover {
+      opacity: 0.8;
+    }
+
+    .link {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .link:hover {
       opacity: 0.8;
     }
 
