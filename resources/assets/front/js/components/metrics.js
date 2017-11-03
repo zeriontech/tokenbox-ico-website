@@ -29,5 +29,7 @@ $(function() {
       'event_id': 'modal',
       'event_name': 'presale'
     });
+    
+    fbq('track', 'TokenBoxPresaleSignedUp');
   })
 });

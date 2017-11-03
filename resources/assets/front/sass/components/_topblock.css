@@ -99,7 +99,9 @@
   box-shadow: 0px 24px 7px 0px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   background-color: rgba(37, 37, 141, 0.5);
+}
 
+.topblock_tabs_list {
   a {
     display: block;
     border: 3px solid #7570ff;
@@ -130,6 +132,16 @@
   font-size: 14px;
   padding: 0 10px 3px;
   background: linear-gradient(to right, #7570ff, #bd5191, #7570ff);
+  
+  a {
+    font-weight: 700;
+    color: #fff;
+  }
+
+  a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
 }
 
 @mixin breakpoint tablet {
@@ -174,7 +186,7 @@
     font-size: 16px;
   }
 
-  .topblock_tabs {
+  .topblock_tabs_list {
     a {
       padding: 23px 45px 21px;
       width: calc(50% + 1px);
