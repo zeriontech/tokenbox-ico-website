@@ -1,7 +1,7 @@
 <section class="section section-powered-by">
   <div class="wrapper">
     <div class="section-powered-by_head">
-      <h1>{{__('Powered by')}}</h1>
+      <h1>{{__('Partners')}}</h1>
       <p>{{__('Tokenbox is powered by these awesome companies')}}</p>
     </div>
 
@@ -20,6 +20,10 @@
 
       <a href="https://www.dlapiper.com" target="_blank">
         <img src="/assets/front/img/ico/dlapiper.svg" alt="Dlapiper" width="116">
+      </a>
+
+      <a href="https://www.wings.ai" target="_blank">
+        <img src="/assets/front/img/ico/wings.svg" alt="Wings. Technological Partner" width="146">
       </a>
     </div>
 
@@ -47,6 +51,15 @@
           </a>
         </div>
       </div>
+      
+      <div>
+        <div class="powered-by-logos">
+		  <a href="https://www.wings.ai" target="_blank">
+			<img src="/assets/front/img/ico/wings.svg" alt="Wings" width="146">
+		  </a>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
