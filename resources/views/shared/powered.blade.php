@@ -23,7 +23,7 @@
       </a>
 
       <a href="https://www.wings.ai" target="_blank">
-        <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
+        <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings" title="Technological Partner" width="146">
       </a>
     </div>
 
@@ -55,7 +55,7 @@
       <div>
         <div class="powered-by-logos">
 		  <a href="https://www.wings.ai" target="_blank">
-			<img src="/assets/front/img/ico/wings.svg" alt="Wings" width="146">
+			<img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
 		  </a>
         </div>
       </div>
