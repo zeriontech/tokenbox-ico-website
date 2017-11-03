@@ -19,11 +19,11 @@
       </a>
 
       <a href="https://www.dlapiper.com" target="_blank">
-        <img src="/assets/front/img/ico/dlapiper.svg" alt="Dlapiper" width="116">
+        <img src="/assets/front/img/ico/logo-dlapiper.svg" alt="Dlapiper" width="116">
       </a>
 
       <a href="https://www.wings.ai" target="_blank">
-        <img src="/assets/front/img/ico/wings.svg" alt="Wings. Technological Partner" width="146">
+        <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
       </a>
     </div>
 
