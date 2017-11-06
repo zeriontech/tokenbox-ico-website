@@ -205,7 +205,7 @@ section h1 {
 
   .powered-by-logos {
     flex-grow: 1;
-    max-width: 940px;
+    max-width: 840px;
 
     img {
       opacity: 1;
