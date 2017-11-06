@@ -5,7 +5,7 @@
       <p>{{__('Tokenbox is powered by these awesome companies')}}</p>
     </div>
 
-    <div class="powered-by-logos no-mobile">
+    <div class="powered-by-logos no-mobile" style="flex-wrap: wrap">
       <a href="https://thetoken.io" target="_blank">
         <img src="/assets/front/img/ico/logo-tkn.svg" alt="TokenFund" width="116">
       </a>
@@ -54,9 +54,9 @@
       
       <div>
         <div class="powered-by-logos">
-		  <a href="https://www.wings.ai" target="_blank">
-			<img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
-		  </a>
+          <a href="https://www.wings.ai" target="_blank">
+            <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
+          </a>
         </div>
       </div>
       
