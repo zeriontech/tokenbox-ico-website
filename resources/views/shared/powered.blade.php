@@ -26,12 +26,12 @@
         <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings" title="Technological Partner" width="146">
       </a>
       
-      <a href="https://www.sumsub.com" target="_blank">
-        <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
-      </a>
-      
       <a href="http://tradingview.com" target="_blank">
         <img src="/assets/front/img/ico/logo-tradingview.svg" alt="TradingView" width="188">
+      </a>
+      
+      <a href="https://www.sumsub.com" target="_blank">
+        <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
       </a>
     </div>
 
@@ -65,17 +65,18 @@
           <a href="https://www.wings.ai" target="_blank">
             <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
           </a>
-          <a href="https://www.sumsub.com" target="_blank">
-            <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
-          </a>          
+          <a href="http://www.tradingview.com" target="_blank">
+            <img src="/assets/front/img/ico/logo-tradingview.svg" alt="TradingView" width="188">
+          </a>
         </div>
       </div>
       
       <div>
         <div class="powered-by-logos">
-          <a href="http://www.tradingview.com" target="_blank">
-            <img src="/assets/front/img/ico/logo-tradingview.svg" alt="TradingView" width="188">
-          </a>       
+
+          <a href="https://www.sumsub.com" target="_blank">
+            <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
+          </a> 
         </div>
       </div>
       

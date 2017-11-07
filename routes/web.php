@@ -25,4 +25,29 @@ Route::group([
     Route::any('/docs/TBX-WhitePaper-Eng.pdf', function () {
         return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-WhitePaper-En.pdf');
     });
+    Route::any('/docs/TBX-WhitePaper-Rus.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-WhitePaper-Ru.pdf');
+    });
+    
+    Route::any('/docs/Tokenbox-BusinessOverview-Eng.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-BusinessOverview-En.pdf');
+    });
+    Route::any('/docs/Tokenbox-BusinessOverview-Rus.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-BusinessOverview-Ru.pdf');
+    });
+    
+    Route::any('/docs/Tokenbox-Overview-Eng.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-Overview-En.pdf');
+    });
+    Route::any('/docs/Tokenbox-Overview-Rus.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-Overview-Ru.pdf');
+    });
+    
+    Route::any('/docs/Tokenbox-Onepager-Eng.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-Onepager-En.pdf');
+    });
+    Route::any('/docs/Tokenbox-OnepagerPS-Eng.pdf', function () {
+        return \Illuminate\Support\Facades\Redirect::away('https://tokenbox.io/docs/Tokenbox-OnepagerPS-En.pdf');
+    });
+    
 });
