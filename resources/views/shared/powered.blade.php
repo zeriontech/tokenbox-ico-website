@@ -25,6 +25,10 @@
       <a href="https://www.wings.ai" target="_blank">
         <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings" title="Technological Partner" width="146">
       </a>
+      
+      <a href="https://www.sumsub.com" target="_blank">
+        <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
+      </a>
     </div>
 
     <div class="mobile-only swipe-slider">
@@ -47,7 +51,7 @@
           </a>
 
           <a href="https://www.dlapiper.com" target="_blank">
-            <img src="/assets/front/img/ico/dlapiper.svg" alt="Dlapiper" width="116">
+            <img src="/assets/front/img/ico/logo-dlapiper.svg" alt="Dlapiper" width="116">
           </a>
         </div>
       </div>
@@ -57,6 +61,9 @@
           <a href="https://www.wings.ai" target="_blank">
             <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings. Technological Partner" width="146">
           </a>
+          <a href="https://www.sumsub.com" target="_blank">
+            <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
+          </a>          
         </div>
       </div>
       
