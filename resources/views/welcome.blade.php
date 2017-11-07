@@ -60,9 +60,9 @@
       <div class="topblock_tabs js-scroll-nav">
         <div class="topblock_tabs_list">
           <a href="#traders-and-funds">
-            {!!__('<span>Create</span> and manage crypto Funds. Legally and securely.')!!}
+            {!!__('<span>Create</span> and manage crypto funds. Legally and securely.')!!}
           </a><a href="#for-investors">
-            {!!__('<span>Invest</span> in crypto Funds and assets. In one place.')!!}
+            {!!__('<span>Invest</span> in crypto funds and assets. In one place.')!!}
           </a>
         </div>
         <div class="topblock_tabs_info">
@@ -232,7 +232,7 @@
       <div class="mac-ipad no-tablet">
         <div class="mac from-bottom"></div>
         <div class="ipad from-bottom"></div>
-        <h3>{{__('Manage your Fund’s portfolio on any device')}}</h3>
+        <h3>{{__('Manage your fund’s portfolio on any device')}}</h3>
       </div>
     </div>
   </section>
@@ -241,7 +241,7 @@
     <i class="background-icon issue-icon"></i>
 
     <div class="wrapper">
-      <h1 class="from-bottom">{{__('Funds tokenization')}}</h1>
+      <h1 class="from-bottom">{{__('Fund’s tokenization')}}</h1>
       <p class="from-bottom">{{__('A prime opportunity to create your own tokenized fund')}}</p>
       <div class="row section-image-example">
         <div class="offset-by-one five columns">
@@ -325,7 +325,7 @@
         </div>
         <div class="columns offset-by-one-sd four-sd six">
           <div class="text">
-            <p>{{__('Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no Fund can withdraw assets from a client’s account')}}.</p>
+            <p>{{__('Tokenbox is a platform for professionals only. Traders and Funds participating are carefully selected and reviewed. We conduct Due Diligence of all traders. And no fund can withdraw assets from a client’s account')}}.</p>
             <p>{{__('The Rating System and “Advisory Service” can assist you in making the optimal choice of the traders represented on our system')}}.</p>
           </div>
         </div>
