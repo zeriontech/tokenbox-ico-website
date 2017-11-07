@@ -139,7 +139,7 @@
                     </div>
                     <div class="name">{{__('Pavel Salas')}}</div>
                     <div class="info">{{__('Advisor (Fintech)')}},
-                        <br />{{__('Blockchain Consult')}}</div>
+                        <br />{{__('Blockchain Consult, e-Toro')}}</div>
                 </div>
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
@@ -159,7 +159,7 @@
                     </div>
                     <div class="name">{{__('Elie Galam')}}</div>
                     <div class="info">{{__('Advisor (Finance)')}},
-                        <br />{{__('The Eastmore Group')}}</div>
+                        <br />{{__('The Eastmore Group, Bancor')}}</div>
                 </div>
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
