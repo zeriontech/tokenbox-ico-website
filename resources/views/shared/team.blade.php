@@ -139,7 +139,7 @@
                     </div>
                     <div class="name">{{__('Pavel Salas')}}</div>
                     <div class="info">{{__('Advisor (Fintech)')}},
-                        <br />{{__('Blockchain Consult, e-Toro')}}</div>
+                        <br />{{__('Blockchain Consult, eToro')}}</div>
                 </div>
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
