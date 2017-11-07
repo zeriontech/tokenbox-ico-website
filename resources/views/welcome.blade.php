@@ -138,15 +138,15 @@
           <i class="background-icon features-icon-r"></i>
           <div class="slider fade-in-item">
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-1.png')"></div>
+              <div class="img" style="background-image: url('/assets/front/img/slider/slide-1.png?v2')"></div>
               <div class="caption">{{__('Choose crypto funds for your investments')}}.</div>
             </div>
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-2.png')"></div>
+              <div class="img" style="background-image: url('/assets/front/img/slider/slide-2.png?v2')"></div>
               <div class="caption">{{__('Invest with any currency and store tokens in a handy and secure multi-currency wallet')}}.</div>
             </div>
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-3.png')"></div>
+              <div class="img" style="background-image: url('/assets/front/img/slider/slide-3.png?v2')"></div>
               <div class="caption">{{__('The services of experienced traders when and wherever you need them')}}.</div>
             </div>
           </div>
