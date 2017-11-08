@@ -158,16 +158,19 @@
         </li>
       </ol>
 
-      <div class="button button-centred button-waiting" style="cursor: text">
-        {{__('14 November')}}
-      </div>
-      <!--<a href="" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
+@if(app('request')->input('started'))
+      <a href="" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
 
       <div class="button-details">
         {{__('Got questions? <a href="">See the detailed guide.')}}</a>
       </div>
 
       <p>{{__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.')}}</p>-->
+@else
+      <div class="button button-centred button-waiting" style="cursor: text">
+        {{__('14 November')}}
+      </div>
+@endif
     </div>
   </section>
 
