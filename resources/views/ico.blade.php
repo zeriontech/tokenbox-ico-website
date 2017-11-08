@@ -162,10 +162,10 @@
       <a href="https://tokebox.zerion.io/" target="_blank" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
 
       <div class="button-details">
-        {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank">{!!__('See the detailed guide.')!!}</a>
+        <a href="#wire" target="_blank">{!!__('Request Wire Transfer?')!!}</a>
       </div>
 
-      <p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank">dashboard</a>.')!!}</p>-->
+      <p>{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank">{!!__('See the detailed guide.')!!}</a><br>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank">dashboard</a>.')!!}</p>
 @else
       <div class="button button-centred button-waiting" style="cursor: text">
         {{__('14 November')}}
