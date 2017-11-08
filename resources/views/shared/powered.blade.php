@@ -1,4 +1,4 @@
-<section class="section section-powered-by">
+<section class="section section-powered-by" id="partners">
   <div class="wrapper">
     <div class="section-powered-by_head">
       <h1>{{__('Partners')}}</h1>

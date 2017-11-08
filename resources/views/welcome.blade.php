@@ -12,7 +12,7 @@
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
-        <li><a href="#tech">{{__('Partners')}}</a></li>
+        <li><a href="#partners">{{__('Partners')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
@@ -31,7 +31,7 @@
         <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
         <li><a href="#team">{!!__('Team')!!}</a></li>
         <li><a href="#faq">{!!__('FAQ')!!}</a></li>
-        <li><a href="#tech">{!!__('Partners')!!}</a></li>
+        <li><a href="#partners">{!!__('Partners')!!}</a></li>
       </nav>
 
       <ul class="nav header_right">
