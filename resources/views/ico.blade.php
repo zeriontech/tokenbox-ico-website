@@ -188,6 +188,8 @@
           <i class="fa fa-file-pdf-o"></i>{{__('Business Overview')}}
         </a><a href="{{__('/docs/Tokenbox-Presentation-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Product Presentation')}}
+        </a><a href="{{__('/docs/Tokenbox-HoweyTest-En.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>{{__('Howey Test')}}
         </a>
       </div>
     </div>
