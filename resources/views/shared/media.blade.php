@@ -68,8 +68,7 @@
             <a href="http://icorating.com/project/581/Tokenbox" target="_blank" class="img img-rating">
                 <img src="/assets/front/img/media/ico-rating.png" width="192">
                 <div style="color: #389012; font-size: 16px;">
-                    <b style="font-size: 21px;">Stable</b><br>
-                    Hype score: VERY HIGH
+                    <b style="font-size: 21px;">Stable</b><br>Hype score: VERY HIGH
                 </div>
             </a>
             <a href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="img img-rating">
@@ -79,6 +78,7 @@
                 </div>
             </a>
         </div>
+
 <!-- 
         <section class="medium" style="display: none;">
             <div class="medium-icon"></div>

@@ -69,28 +69,46 @@
           {!!__('Created by the team behind <a href="https://thetoken.io" target="_blank">The Token Fund</a> — one of the first successful crypto funds in the world')!!}
         </div>
       </div>
-		<div class="countdown" style="margin-top:70px; margin-bottom:70px;">
-			<div class="countdown-mini_title">
-				{{__('Tokenbox TGE')}}
 
-				<sup data-tooltip>
-				  <i class="fa fa-question-circle"></i>
+      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
+        @if(app('request')->input('tgestart')) 
+          <h1>
+            Tokenbox TGE crowdsale now live! 
+          </h1>
 
-				  <div class="tooltip">
-					<b>{{__('TGE - Token Generation Event.')}}</b>
-					<br>
-					{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
-				  </div>
-				</sup>
-				{{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
-	        </div>
-		  <p>
-			<i class="fa fa-calendar-check-o"></i>
-			<a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
-			{{__('and get notified')}}
-		  </p>
+          <p class="topblock_subtitle">
+            Time left:
 
-		</div>
+            <span class="inline-countdown">
+              <span data-key="days"></span>{{__('d')}}
+              <span data-key="hours"></span>{{__('h')}}
+              <span data-key="minutes"></span>{{__('m')}}
+              <span data-key="seconds"></span>{{__('s')}}
+            </span>
+          </p>
+        @else
+          <div class="countdown-mini_title">
+              {{__('Tokenbox TGE')}}
+
+              <sup data-tooltip>
+                <i class="fa fa-question-circle"></i>
+
+                <div class="tooltip">
+                <b>{{__('TGE - Token Generation Event.')}}</b>
+                <br>
+                {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
+                </div>
+              </sup>
+              {{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
+            </div>
+            
+            <p>
+              <i class="fa fa-calendar-check-o"></i>
+              <a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
+              {{__('and get notified')}}
+            </p>
+        @endif
+      </div>
       
       <!--<div class="countdown-mini">
         <div class="countdown-mini_title">
@@ -111,17 +129,23 @@
       </div>-->
 
       <div class="buttons">
-        <a href="#join-queue" class="button js-modal-link">
-          {{__('Join Private Sale')}}
+        @if(app('request')->input('tgestart')) 
+          <a href="/tge" class="button js-modal-link">
+            {{__('Join Crowdsale!')}}
+          </a>   
+        @else
+          <a href="#join-queue" class="button js-modal-link">
+            {{__('Join Private Sale')}}
+          </a>
+        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+          <i class="fa fa-telegram"></i>
+          {{__('Join Community')}}
         </a><!--
         <a href="/tge" class="button button-info">
           {{__('Learn about TGE')}}
           <i class="fa fa-long-arrow-right"></i>
         </a>
-        --><a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
-          <i class="fa fa-telegram"></i>
-          {{__('Join Community')}}
-        </a>
+        -->
       </div>
 
       <!-- <h1 class="main-title">
