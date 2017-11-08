@@ -1,6 +1,7 @@
 .media {
   background: url("../img/grid-white.svg") no-repeat top center, #f6f6f8;
   background-size: cover;
+  text-align: center;
 
   @media (max-width: 749px) {
     background-size: 1280px auto;
@@ -11,7 +12,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
 
-  >h1 {
+  > h1 {
     margin-bottom: 50px;
 
     @media (max-width: 749px) {
@@ -19,12 +20,17 @@
     }
   }
 
+  h1 ~ h1 {
+    margin-top: 100px;
+  }
+
   .img {
-    display: block;
-    cursor: pointer;
-    padding-bottom: 53%;
-    margin: 0 auto 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 16px 40px;
     border-radius: 5px;
+    width: 240px;
+    height: 130px;
     background-color: white;
     background-position: center;
     background-size: contain;
@@ -33,12 +39,11 @@
     @media (max-width: 749px) {
       padding-bottom: 0;
       margin-bottom: 20px;
-      width: 240px;
-      height: 130px;
     }
 
     &:hover {
       opacity: .5;
+      text-decoration: none;
     }
 
     &.crypto-potato {
@@ -105,13 +110,25 @@
       background-image: url("../img/media/bitsonline.png");
       background-size: 158px auto;
     }
+  }
 
-    @media (min-width: 750px) and (max-width: 900px) {
-      &:not(.bitcoinist) {
-        background-size: 90% auto !important;
-      }
+  .img-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+
+    img {
+      margin-bottom: 20px;
     }
   }
+}
+
+.media-rating {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .medium {

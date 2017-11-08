@@ -167,46 +167,20 @@ section h1 {
   }
 
   @mixin bp tablet {
-    margin: -20px auto;
+    margin: -30px auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 760px;
+    justify-content: center;
+    max-width: 940px;
 
     > * {
-      margin: 20px;
+      margin: 30px 40px;
     }
   }
 }
 
 @mixin bp desktop {
-  /*
-  .section-powered-by .wrapper {
-    display: flex;
-    max-width: 940px;
-  }
-
-  .section-powered-by_head {
-    max-width: 205px;
-
-    h1, p {
-      text-align: right;
-    }
-
-    h1 {
-      margin-bottom: 8px;
-    }
-
-    p {
-      margin: 0;
-    }
-  }
-  */
-
   .powered-by-logos {
-    flex-grow: 1;
-    max-width: 840px;
-
     img {
       opacity: 1;
       transition: .4s opacity;
