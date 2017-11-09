@@ -2,32 +2,9 @@
   position: relative;
   z-index: 1;
 
-  @mixin lp tablet {
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
-
-    .caption {
-      padding: 0 20px;
-    }
-
-    .slide:first-child .img {
-      background-size: cover;
-      background-position: 36% top;
-    }
-  }
-
   .slide {
     text-align: center;
     outline: none;
-
-    .img {
-      display: block;
-      padding-bottom: 50%;
-      background-size: contain;
-      background-position: center bottom;
-      background-repeat: no-repeat;
-    }
   }
 
   .caption {
@@ -44,6 +21,14 @@
       margin-top: 1.5rem;
     }
   }
+}
+
+.features-img {
+  display: block;
+  padding-bottom: 50%;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .features-icon-l,
@@ -81,9 +66,37 @@
     bottom: -70px;
   }
 
-  .features .slide .img {
+  .features-img {
     width: 100%;
     padding-bottom: 70%;
     background-position: top center;
+  }
+}
+
+.features-img-funds {
+  background-image: url('../img/slider/slide-1.png?v2');
+}
+
+.features-img-invest {
+  background-image: url('../img/slider/slide-2.png?v2');
+}
+
+.features-img-traders {
+  background-image: url('../img/slider/slide-3.png?v2');
+}
+
+@mixin lp tablet {
+  .features {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+
+    .caption {
+      padding: 0 20px;
+    }
+  }
+
+  .features-img {
+    background-size: auto 100%;
   }
 }

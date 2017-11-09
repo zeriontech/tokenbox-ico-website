@@ -162,15 +162,15 @@
           <i class="background-icon features-icon-r"></i>
           <div class="slider fade-in-item">
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-1.png?v2')"></div>
+              <div class="features-img features-img-funds"></div>
               <div class="caption">{{__('Choose crypto funds for your investments')}}.</div>
             </div>
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-2.png?v2')"></div>
+              <div class="features-img features-img-invest"></div>
               <div class="caption">{{__('Invest with any currency and store tokens in a handy and secure multi-currency wallet')}}.</div>
             </div>
             <div class="slide">
-              <div class="img" style="background-image: url('/assets/front/img/slider/slide-3.png?v2')"></div>
+              <div class="features-img features-img-traders"></div>
               <div class="caption">{{__('The services of experienced traders when and wherever you need them')}}.</div>
             </div>
           </div>
@@ -395,14 +395,10 @@
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
-      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" data-extra-action="/send" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
-        <div class="row">
-          <div class="four columns">
-            <h1>{{__('Get notified when we go into TGE!')}}</h1>
-          </div>
-          <div class="five columns"><input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}"></div>
-          <div class="three columns"><button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified!')}}</button></div>
-        </div>
+      <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" data-extra-action="/send" class="js-ajax-form u-cf" method="post" id="mc-embedded-subscribe-form-3" target="_blank">
+        <h1 class="get-notified-title">{{__('Get notified when we go into TGE!')}}</h1>
+        <input required name="EMAIL" type="email" placeholder="{{__('Enter your email address')}}">
+        <button value="Subscribe" name="subscribe" type="submit" class="button">{{__('Get notified!')}}</button>
       </form>
     </div>
   </section>

@@ -41,6 +41,10 @@
   }
 }
 
+.get-notified-top {
+  margin-top: -25px;
+}
+
 .get-notified-bottom {
   border-top: 2px solid #f6f6f8;
   padding: 125px 0;
@@ -59,6 +63,31 @@
 
   @mixin bp tablet {
     padding: 150px 0;
+
+    input, button {
+      float: left;
+      width: 48%;
+    }
+
+    button {
+      margin-left: 4%;
+    }
+  }
+
+  @media (min-width: 1020px) {
+    h1 {
+      float: left;
+      width: 30.6666666667%;
+    }
+
+    input {
+      width: 39.3333333333%;
+      margin-left: 4%;
+    }
+
+    button {
+      width: 22%;
+    }
   }
 }
 

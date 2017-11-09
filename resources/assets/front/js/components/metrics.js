@@ -5,6 +5,8 @@ $(function() {
       'event_id': 'top',
       'event_name': 'form'
     });
+
+    fbq('track', 'TokenBoxPresaleSignedUp');
   });
 
   $('#mc-embedded-subscribe-form-2').submit(function() {
@@ -13,6 +15,8 @@ $(function() {
       'event_id': 'middle',
       'event_name': 'form'
     });
+
+    fbq('track', 'TokenBoxPresaleSignedUp');
   });
 
   $('#mc-embedded-subscribe-form-3').submit(function() {
@@ -21,6 +25,8 @@ $(function() {
       'event_id': 'bottom',
       'event_name': 'form'
     });
+    
+    fbq('track', 'TokenBoxPresaleSignedUp');
   });
 
   $('#presale-form').submit(function() {

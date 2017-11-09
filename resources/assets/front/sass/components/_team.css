@@ -32,15 +32,6 @@
     width: 164px;
     height: 164px;
     border-radius: 50%;
-    @media (max-width: 749px) {
-      width: 80%;
-      height: 0;
-      padding-bottom: 80%;
-      .overlay a {
-        margin-top: 45%;
-      }
-    }
-
     overflow: hidden;
     position: relative;
     margin: 0 auto 15px;
@@ -49,9 +40,11 @@
     background-repeat:no-repeat;
     filter: grayscale(100%);
     transition: filter .2s ease;
+    
     &:hover {
       filter: grayscale(0%);
     }
+    
     .overlay {
       position: absolute;
       width: 100%;
@@ -92,6 +85,27 @@
     font-size: 1.6rem;
     color: $gray-light;
     line-height: 1.6;
+  }
+}
+
+@mixin lp tablet {
+  .members-list {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .member {
+    margin: 0;
+    
+    .img {
+      width: 80%;
+      height: 0;
+      padding-bottom: 80%;
+
+      .overlay a {
+        margin-top: 45%;
+      }
+    }
   }
 }
 
