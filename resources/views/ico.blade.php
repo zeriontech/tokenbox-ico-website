@@ -164,7 +164,7 @@
       <a href="https://tokebox.zerion.io/" target="_blank" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
 
       <div class="button-details">
-        <a href="#wire" target="_blank">{!!__('Request Wire Transfer?')!!}</a>
+        <a href="#wire">{!!__('Request Wire Transfer?')!!}</a>
       </div>
 
       <p>{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank">{!!__('See the detailed guide.')!!}</a><br>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank">dashboard</a>.')!!}</p>
