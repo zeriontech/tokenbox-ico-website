@@ -27,6 +27,10 @@ class MainController extends Controller
         $this->seo()
             ->setTitle($title)
             ->setDescription($desctiption);
+        $this->seo()
+            ->openGraph()
+            ->setTitle(config('seo-helper.open-graph.title'))
+            ->setDescription(config('seo-helper.open-graph.description'));
 
         return view('welcome');
     }
