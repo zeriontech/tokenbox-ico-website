@@ -27,9 +27,9 @@
             </div>
           </div>
 
-          <button type="submit" value="Subscribe" name="subscribe" class="button">{{__('Join the Queue')}}</button>
+          <button type="submit" value="Subscribe" name="subscribe" class="button">{{__('Send Wire Transfer Request')}}</button>
           <div class="button-details">
-            {{__('We will handle your request and send the invoice for payment via email as soon as possible. The value of the bonus is set at the time of the request.')}}
+            {{__('We will handle your request and send the invoice for payment via email as soon as possible. <br>The value of the bonus is set at the time of the request.')}}
           </div>
         </form>
       </div>
