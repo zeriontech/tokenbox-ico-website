@@ -85,6 +85,7 @@ return [
         'card'    => 'summary',
         'site'    => 'tokenbox',
         'title'   => 'Tokenbox - Uniting Crypto',
+        'image'    => 'https://tokenbox.io/favicon-228.png',
         'metas'   => [
             //
         ],
