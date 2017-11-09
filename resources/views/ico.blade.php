@@ -48,7 +48,7 @@
 
         <div class="progress">
           <div class="progress-current">
-            9,163,974 USD
+            <span class="js-progress-current">0</span> USD
           </div>
 
           <div class="progress-bar"></div>
@@ -60,9 +60,9 @@
 
         <div class="founded-money u-cf">
           <div class="founded-money-participants">2563 {{__('participants')}}</div>
-          <div class="founded-money-usd">3,109,852</div>
-          <div class="founded-money-btc">21.1560</div>
-          <div class="founded-money-eth">2,357.0492</div>
+          <div class="founded-money-usd">1,000,000</div>
+          <div class="founded-money-btc">0</div>
+          <div class="founded-money-eth">0</div>
         </div>
       @else
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
