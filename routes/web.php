@@ -20,6 +20,7 @@ Route::group([
     Route::post('/send', 'MainController@addUser')->name('add-user');
     Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
     Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
+    Route::post('/sendwire', 'MainController@addWireUser')->name('add-wire-user');
 
     // redirects
     Route::any('/docs/TBX-WhitePaper-Eng.pdf', function () {

@@ -158,16 +158,19 @@
         </li>
       </ol>
 
+@if(app('request')->input('started'))
+      <a href="https://tokebox.zerion.io/" target="_blank" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
+
+      <div class="button-details">
+        <a href="#wire" target="_blank">{!!__('Request Wire Transfer?')!!}</a>
+      </div>
+
+      <p>{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank">{!!__('See the detailed guide.')!!}</a><br>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank">dashboard</a>.')!!}</p>
+@else
       <div class="button button-centred button-waiting" style="cursor: text">
         {{__('14 November')}}
       </div>
-      <!--<a href="" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
-
-      <div class="button-details">
-        {{__('Got questions? <a href="">See the detailed guide.')}}</a>
-      </div>
-
-      <p>{{__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="#">dashboard</a>.')}}</p>-->
+@endif
     </div>
   </section>
 
@@ -188,6 +191,8 @@
           <i class="fa fa-file-pdf-o"></i>{{__('Business Overview')}}
         </a><a href="{{__('/docs/Tokenbox-Presentation-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Product Presentation')}}
+        </a><a href="{{__('/docs/Tokenbox-HoweyTest-En.pdf')}}" target="_blank">
+          <i class="fa fa-file-pdf-o"></i>{{__('Howey Test')}}
         </a>
       </div>
     </div>

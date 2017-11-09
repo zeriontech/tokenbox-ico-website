@@ -7,12 +7,12 @@
 
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/tge">{{__('TGE')}}</a></li>
+        <li><a href="/tge">{!!__('TGE (ICO)')!!}</a></li>
         <li><a href="#traders-and-funds">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
-        <li><a href="#tech">{{__('Technology')}}</a></li>
         <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
+        <li><a href="#partners">{{__('Partners')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
@@ -26,12 +26,12 @@
       @endslot
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
-        <li><a href="/tge">{!!__('TGE')!!}</a></li>
+        <li><a href="/tge">{!!__('TGE (ICO)')!!}</a></li>
         <li><a href="#traders-and-funds">{!!__('Features')!!}</a></li>
         <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
-        <li><a href="#tech">{!!__('Technology')!!}</a></li>
         <li><a href="#team">{!!__('Team')!!}</a></li>
         <li><a href="#faq">{!!__('FAQ')!!}</a></li>
+        <li><a href="#partners">{!!__('Partners')!!}</a></li>
       </nav>
 
       <ul class="nav header_right">

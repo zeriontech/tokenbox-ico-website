@@ -27,6 +27,10 @@ class MainController extends Controller
         $this->seo()
             ->setTitle($title)
             ->setDescription($desctiption);
+        $this->seo()
+            ->openGraph()
+            ->setTitle(config('seo-helper.open-graph.title'))
+            ->setDescription(config('seo-helper.open-graph.description'));
 
         return view('welcome');
     }
@@ -172,6 +176,28 @@ class MainController extends Controller
                 'phone'  => $phone,
                 'amount' => $amount,
                 'tag'    => 'Private Pre-Sale Queue',//1294270
+            ]);
+
+            return $this->respondWithSuccess($user, 'Email added successfull');
+
+        } catch (\Exception $exception) {
+            return $this->respondWithError($exception->getMessage());
+        }
+    }
+
+    public function addWireUser(NotifyQueueFormRequest $request, IntercomService $intercomService)
+    {
+        try {
+            $email  = $request->input('EMAIL');
+            $name   = $request->input('NAME');
+            $phone  = $request->input('PHONE');
+            $amount = $request->input('AMOUNT');
+
+            $user = $intercomService->leadCreate($email, [
+                'name'   => $name,
+                'phone'  => $phone,
+                'amount' => $amount,
+                'tag'    => 'Wire',//1294270
             ]);
 
             return $this->respondWithSuccess($user, 'Email added successfull');
