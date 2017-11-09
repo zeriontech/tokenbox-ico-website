@@ -23,13 +23,13 @@
             <div class="six columns">
               <input required data-number-mask type="number" min="0" value="" name="AMOUNT" id="mce-AMOUNT" step="50000" placeholder="{{__('You wish to invest')}}">
 
-              <p style="margin: 0;">{{__('Minimum')}} $50,000 ({{__('Base price of 1 TBX is USD')}})</p>
+              <p style="margin: 0;">{{__('Minimum')}} $10,000 ({{__('Base price of 1 TBX is USD')}})</p>
             </div>
           </div>
 
           <button type="submit" value="Subscribe" name="subscribe" class="button">{{__('Join the Queue')}}</button>
           <div class="button-details">
-            {{__('We will proceed your request and send you an invoice for payment via email as soon as possible. Bonuses are calculated at the time of the request.')}}
+            {{__('We will handle your request and send the invoice for payment via email as soon as possible. The value of the bonus is set at the time of the request.')}}
           </div>
         </form>
       </div>
