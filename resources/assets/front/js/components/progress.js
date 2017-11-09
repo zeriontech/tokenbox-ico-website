@@ -8,7 +8,8 @@ $('.progress').each(function() {
   }).then(function(data) {
     console.log(data);
     $('.js-progress-current').text(data.total_funds_raised.toLocaleString());
-    $('.progress-target').text()
+    $('.progress-target').text();
+    $('.progress-bar-current').animate({ width: data.total_funds_raised/2e6 + 1 + '%'});
     $('.founded-money-usd').text();
     
     var btc = (data.total_invested_bitcoin/10e8).toLocaleString();

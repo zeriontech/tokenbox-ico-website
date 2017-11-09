@@ -14,17 +14,16 @@
   height: 20px;
   border-radius: 30px;
   background: #3434bb;
+}
 
-  &:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    border-radius: 30px;
-    background-image: linear-gradient(to left, #11d1aa 0%, #3aa5df 50%, #8069f8 100%);
-    content: '';
-  }
+.progress-bar-current {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 30px;
+  background-image: linear-gradient(to left, #11d1aa 0%, #3aa5df 50%, #8069f8 100%);
+  content: '';
 }
 
 .progress-current {

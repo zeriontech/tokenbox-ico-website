@@ -51,7 +51,9 @@
             <span class="js-progress-current">0</span> USD
           </div>
 
-          <div class="progress-bar"></div>
+          <div class="progress-bar">
+            <div class="progress-bar-current"></div>
+          </div>
 
           <div class="progress-target">
             20,000,000 USD
