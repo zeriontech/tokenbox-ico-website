@@ -6,10 +6,10 @@
             <a href="https://finance.yahoo.com/news/token-fund-founders-set-october-151900653.html" target="_blank" class="img yahoo"></a>
             <a href="http://www.marketwatch.com/story/the-token-fund-welcomes-chris-skinner-on-board-2017-09-13" target="_blank" class="img marketwatch"></a>
             <a href="https://cointelegraph.com/press-releases/new-cryptocurrency-asset-trading-platform-announced-by-founders-of-the-token-fund" target="_blank" class="img cointelegraph"></a>
-            <a href="https://www.cryptocoinsnews.com/ethereum-used-ctfs-coin-traded-funds-benefits/" target="_blank" class="img cryptocoinsnews"></a>
-            <a href="https://thenextweb.com/contributors/2017/11/09/rise-crypto-funds/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/eureporter.png); background-size: 132px auto"></a>
+            <a href="https://thenextweb.com/contributors/2017/11/09/rise-crypto-funds/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/tnw.svg); background-size: 132px auto"></a>
             <a href="https://www.investing.com/analysis/coin-traded-funds-new-kind-of-investment-funds-specializing-in-cryptocu-200204770" target="_blank" class="img investingcom"></a>
             <a href="https://themerkle.com/now-there-is-an-all-purpose-solution-for-fund-managers-and-investors-meet-tokenbox/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/themerkle.png); background-size: 88px auto"></a>
+            <a href="https://www.cryptocoinsnews.com/ethereum-used-ctfs-coin-traded-funds-benefits/" target="_blank" class="img cryptocoinsnews"></a>
             <a href="http://bitcoinist.com/interview-with-token-fund-the-etf-alternative-for-cryptocurrency-investing/" target="_blank" class="img bitcoinist"></a>
             <a href="https://www.coinspeaker.com/2017/09/28/the-token-fund-founders-set-october-launch-for-tokenbox-platform-for-crypto-assets-fund-creation/" target="_blank" class="img coinspeaker"></a>
             <a href="https://actualidad.rt.com/programas/zoom/253094-criptodivisas-manzana-discordia-bancos-usuarios-gobiernos" target="_blank" class="img" style="background-image: url(/assets/front/img/media/rt.svg); background-size: 76px auto"></a>
@@ -33,17 +33,16 @@
                 </div>
                 <div>
                     <a href="https://cointelegraph.com/press-releases/new-cryptocurrency-asset-trading-platform-announced-by-founders-of-the-token-fund" target="_blank" class="img cointelegraph"></a>
+                    <a href="https://thenextweb.com/contributors/2017/11/09/rise-crypto-funds/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/tnw.svg); background-size: 132px auto"></a>
                     <a href="https://www.investing.com/analysis/coin-traded-funds-new-kind-of-investment-funds-specializing-in-cryptocu-200204770" target="_blank" class="img investingcom"></a>
-                    <a href="https://www.cryptocoinsnews.com/ethereum-used-ctfs-coin-traded-funds-benefits/" target="_blank" class="img cryptocoinsnews"></a>
                 </div>
                 <div>
+                    <a href="https://themerkle.com/now-there-is-an-all-purpose-solution-for-fund-managers-and-investors-meet-tokenbox/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/themerkle.png); background-size: 88px auto"></a>
                     <a href="http://bitcoinist.com/interview-with-token-fund-the-etf-alternative-for-cryptocurrency-investing/" class="img bitcoinist"></a>
                     <a href="https://www.coinspeaker.com/2017/09/28/the-token-fund-founders-set-october-launch-for-tokenbox-platform-for-crypto-assets-fund-creation/" target="_blank" class="img coinspeaker"></a>
-                    <a href="https://www.investing.com/analysis/coin-traded-funds-new-kind-of-investment-funds-specializing-in-cryptocu-200204770" target="_blank" class="img investingcom"></a>
                 </div>
                 <div>
                     <a href="https://actualidad.rt.com/programas/zoom/253094-criptodivisas-manzana-discordia-bancos-usuarios-gobiernos" target="_blank" class="img" style="background-image: url(/assets/front/img/media/rt.svg); background-size: 76px auto"></a>
-                    <a href="https://themerkle.com/now-there-is-an-all-purpose-solution-for-fund-managers-and-investors-meet-tokenbox/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/themerkle.png); background-size: 88px auto"></a>
                     <a href="http://www.newsbtc.com/2017/11/01/tokenbox-sets-mission-build-legal-secure-competitive-fund-management-community-shield-investors-shady-operators/" target="_blank" class="img" style="background-image: url(/assets/front/img/media/newsbtc.png); background-size: 128px auto"></a>
                 </div>
                 <div>
