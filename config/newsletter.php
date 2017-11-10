@@ -14,6 +14,9 @@ return [
         'partnership'  => [
             'id' => env('MAILCHIMP_PARTNERSHIP_LIST_ID'),
         ],
+        'wire'  => [
+            'id' => env('MAILCHIMP_WIRE_LIST_ID'),
+        ],
     ],
     'ssl'             => true,
 ];
