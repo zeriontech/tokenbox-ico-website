@@ -47,7 +47,7 @@ class MainController extends Controller
                 'title' => '10/10 Crypto Spaceman',
                 'image' => '10'
             ],
-            
+
             'crypto-rockstar' => [
                 'title' => '9/10 Crypto Rockstar',
                 'image' => '9'
@@ -67,7 +67,7 @@ class MainController extends Controller
                 'title' => '6/10 Crypto Geek',
                 'image' => '6'
             ],
-            
+
             'halfway-crypto-champion' => [
                 'title' => '5/10 Halfway Crypto Champion',
                 'image' => '5'
@@ -100,18 +100,18 @@ class MainController extends Controller
         ];
 
         $title = $results[$level]['title'];
-        $desc = 'What kind of crypto trader are you? Test yourself!';
+        $desc  = 'What kind of crypto trader are you? Test yourself!';
         $image = 'https://tokenbox.io/assets/front/img/hamsters/' . $results[$level]['image'] . '.png';
 
         $this->seo()
             ->setTitle($title)
             ->setDescription($desc);
-        
+
         $this->seo()->openGraph()
             ->setTitle($title)
             ->setDescription($desc)
             ->setImage($image);
-            
+
         return view('quizResult');
     }
 
@@ -191,13 +191,13 @@ class MainController extends Controller
             $email  = $request->input('EMAIL');
             $name   = $request->input('NAME');
             $phone  = $request->input('PHONE');
-            $amount = $request->input('AMOUNT');
+            $amount = $request->input('AMOUNTW');
 
             $user = $intercomService->leadCreate($email, [
-                'name'   => $name,
-                'phone'  => $phone,
-                'amount' => $amount,
-                'tag'    => 'Wire',//1294270
+                'name'        => $name,
+                'phone'       => $phone,
+                'amount_wire' => $amount,
+                'tag'         => 'Wire',//1294270
             ]);
 
             return $this->respondWithSuccess($user, 'Email added successfull');

@@ -16,7 +16,7 @@ class IntercomService
         $this->client = new IntercomClient(
             config('intercom.access_token'),
             null
-            );
+        );
     }
 
     /**
@@ -50,6 +50,7 @@ class IntercomService
         $customAttributes = [
             'company'      => array_get($parameters, 'company'),
             'amount'       => array_get($parameters, 'amount'),
+            'amount_wire'  => array_get($parameters, 'amount_wire'),
             'tags'         => array_get($parameters, 'tag'),
             'country_code' => array_get($parameters, 'country_code'),
             'timezone'     => array_get($parameters, 'timezone'),
@@ -68,6 +69,7 @@ class IntercomService
         $leads = $this->client->leads->getLeads([
             'email' => $email,
         ]);
+
         return array_get($leads->contacts, '0');
     }
 
@@ -78,11 +80,12 @@ class IntercomService
                 'contact' => [
                     'id' => $lead->id
                 ],
-                'user' => [
+                'user'    => [
                     'user_id' => $lead->user_id
                 ]
             ]);
         }
+
         return null;
     }
 }

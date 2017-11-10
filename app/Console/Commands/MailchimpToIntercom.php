@@ -75,6 +75,7 @@ class MailchimpToIntercom extends Command
                         'phone'        => array_get($member, 'merge_fields.PHONE'),
                         'company'      => array_get($member, 'merge_fields.COMPANY'),
                         'amount'       => array_get($member, 'merge_fields.AMOUNT'),
+                        'amount_wire'  => array_get($member, 'merge_fields.AMOUNTW'),
                         'status'       => array_get($member, 'status'),
                         'country_code' => array_get($member, 'location.country_code'),
                         'timezone'     => array_get($member, 'location.timezone')
@@ -100,6 +101,7 @@ class MailchimpToIntercom extends Command
                             'phone'        => array_get($member, 'phone'),
                             'company'      => array_get($member, 'company'),
                             'amount'       => array_get($member, 'amount'),
+                            'amount_wire'  => array_get($member, 'amount_wire'),
                             'tag'          => $listName,
                             'country_code' => array_get($member, 'country_code'),
                             'timezone'     => array_get($member, 'timezone')
