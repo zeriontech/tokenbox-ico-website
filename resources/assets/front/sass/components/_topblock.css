@@ -83,8 +83,7 @@
 
 .topblock-ico {
   padding-bottom: 150px;
-  background: #1f1f64;
-  background: linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
+  background: #1f1f64 linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
 
   .topblock_bg:after {
     opacity: 0.05;

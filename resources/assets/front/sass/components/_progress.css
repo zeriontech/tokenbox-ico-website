@@ -16,14 +16,18 @@
   background: #3434bb;
 }
 
+.js-progress-bar {
+  overflow: hidden;
+  height: 100%;
+  transition: .8s width;
+  width: 1%;
+}
+
 .progress-bar-current {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 30px;
-  background-image: linear-gradient(to left, #11d1aa 0%, #3aa5df 50%, #8069f8 100%);
-  content: '';
+  background-image: linear-gradient(to right, #11d1aa 0%, #7570ff 50%, #ed3c48 100%);
 }
 
 .progress-current {

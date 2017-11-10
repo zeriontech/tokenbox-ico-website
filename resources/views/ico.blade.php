@@ -47,12 +47,23 @@
         </p>
 
         <div class="progress">
+          <script>
+            var icoProgress = {
+              total: 0,
+              usd: 1000000,
+              eth: 0,
+              btc: 0
+            };
+          </script>
+
           <div class="progress-current">
             <span class="js-progress-current">0</span> USD
           </div>
 
           <div class="progress-bar">
-            <div class="progress-bar-current"></div>
+            <div class="js-progress-bar">
+              <div class="progress-bar-current"></div>
+            </div>
           </div>
 
           <div class="progress-target">
@@ -62,7 +73,7 @@
 
         <div class="founded-money u-cf">
           <div class="founded-money-participants">2563 {{__('participants')}}</div>
-          <div class="founded-money-usd">1,000,000</div>
+          <div class="founded-money-usd">0</div>
           <div class="founded-money-btc">0</div>
           <div class="founded-money-eth">0</div>
         </div>
