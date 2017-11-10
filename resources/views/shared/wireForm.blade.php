@@ -21,7 +21,7 @@
               <p style="margin: 0;">{{__('Example: +1 123 4567890')}}</p>
             </div>
             <div class="six columns">
-              <input required data-number-mask type="number" min="0" value="" name="AMOUNTW" id="mce-AMOUNTW" step="10000" placeholder="{{__('You wish to invest')}}">
+              <input required data-number-mask type="number" min="0" value="" name="AMOUNTW" id="mce-AMOUNT" step="10000" placeholder="{{__('You wish to invest')}}">
 
               <p style="margin: 0;">{{__('Minimum')}} $10,000 ({{__('Base price of 1 TBX is USD')}})</p>
             </div>
