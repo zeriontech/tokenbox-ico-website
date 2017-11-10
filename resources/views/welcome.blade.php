@@ -179,11 +179,7 @@
     </div>
   </section>
 
-  @if(app('request')->input('video'))
-    @include('shared/videoSlider')
-  @else
-  @include('shared/video')
-  @endif
+  @include('shared/videoSlider')
   
   <section class="get-notified get-notified-top">
     <div class="wrapper">
