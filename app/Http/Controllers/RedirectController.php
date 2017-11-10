@@ -6,13 +6,13 @@ class RedirectController extends Controller
 {
     protected $filenamesMap = [
         'TBX-WhitePaper-Eng.pdf'            => 'Tokenbox-WhitePaper-En.pdf',
-        'TBX-WhitePaper-Rus.pdf'            => 'Tokenbox-WhitePaper-Ru',
-        'Tokenbox-BusinessOverview-Eng.pdf' => 'Tokenbox-BusinessOverview-En',
-        'Tokenbox-BusinessOverview-Rus.pdf' => 'Tokenbox-BusinessOverview-Ru',
-        'Tokenbox-Overview-Eng.pdf'         => 'Tokenbox-Overview-En',
-        'Tokenbox-Overview-Rus.pdf'         => 'Tokenbox-Overview-Ru',
-        'Tokenbox-Onepager-Eng.pdf'         => 'Tokenbox-Onepager-En',
-        'Tokenbox-OnepagerPS-Eng.pdf'       => 'Tokenbox-OnepagerPS-En',
+        'TBX-WhitePaper-Rus.pdf'            => 'Tokenbox-WhitePaper-Ru.pdf',
+        'Tokenbox-BusinessOverview-Eng.pdf' => 'Tokenbox-BusinessOverview-En.pdf',
+        'Tokenbox-BusinessOverview-Rus.pdf' => 'Tokenbox-BusinessOverview-Ru.pdf',
+        'Tokenbox-Overview-Eng.pdf'         => 'Tokenbox-Overview-En.pdf',
+        'Tokenbox-Overview-Rus.pdf'         => 'Tokenbox-Overview-Ru.pdf',
+        'Tokenbox-Onepager-Eng.pdf'         => 'Tokenbox-Onepager-En.pdf',
+        'Tokenbox-OnepagerPS-Eng.pdf'       => 'Tokenbox-OnepagerPS-En.pdf',
     ];
 
     public function go($filename)
