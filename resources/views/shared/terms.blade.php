@@ -41,6 +41,10 @@
       <p>
         (c) Release of Tokens. The Company will release the quantity of Tokens you purchase  within 10 days after the Crowdsale End Date (provided, however, that the Company reserves the right to extend the Token delivery deadline for up to two (2) additional weeks if necessary to address any unanticipated technical difficulties). For the avoidance of doubt, any such extension shall not affect the obligation of the Company to release and you to take delivery, respectively, of Tokens purchased.
       </p>
+      
+      <p>
+      (d) We reserve the right to conduct the KYC procedure following the Crowdsale (Token Sale). Following the Crowdsale (Token Sale), we can request your documents for identification and confirmation of identity. In the event that you do not provide such documents, we reserve the right not to issue tokens to you.
+      </p>
       <p>
         4. Purpose and Use of Tokens on the Platform.
       </p>
