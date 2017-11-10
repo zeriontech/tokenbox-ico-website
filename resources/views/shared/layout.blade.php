@@ -11,25 +11,6 @@
 
   <link rel="stylesheet" href="/assets/front/css/app.css?v=19">
 
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script type="text/javascript">
-    window.sr = ScrollReveal({
-      opacity: 0,
-      easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-      distance: 0,
-      viewFactor: 0.4,
-      scale: 1,
-      duration: 1200,
-      mobile: false,
-      rotate: { x: 0, y: 0, z: 0 }
-    });
-
-    if (!sr.tools.isMobile()) {
-      document.documentElement.classList.add('sr-enabled')
-    }
-  </script>
-
   <style>
     .sr-enabled .topblock .fade-in-item {
       visibility: hidden;
@@ -70,7 +51,9 @@
   @include('shared/privateSaleForm')
   @include('shared/wireForm')
   
+  <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=0"></script>
   <script type="text/javascript" src="/assets/front/js/app.min.js?v=15"></script>
+  
   <!-- Facebook Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)

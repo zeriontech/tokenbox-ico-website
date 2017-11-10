@@ -44,16 +44,19 @@ elixir((mix) => {
 
     mix.scripts([
         paths.node + 'jquery/dist/jquery.min.js',
+        paths.node + 'scrollreveal/dist/scrollreveal.min.js',
         paths.node + 'slick-carousel/slick/slick.js',
         paths.node + 'waypoints/lib/jquery.waypoints.min.js',
         paths.node + 'waypoints/src/shortcuts/inview.js',
         paths.node + 'intl-tel-input/build/js/intlTelInput.min.js',
-        'vendors/*.js',
+        'vendors/*.js'
+    ],  paths.destFront  + 'js/vendors.min.js', paths.srcFront + 'js');
+
+    mix.scripts([
         'components/*.js',
         'app.js',
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');
-    // <END> Frontend Compilation
-
+    
     mix.browserSync({
         proxy: 'tokenbox.tokenbox',
         port: 8000,
