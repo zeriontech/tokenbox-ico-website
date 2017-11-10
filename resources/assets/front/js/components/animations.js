@@ -56,4 +56,5 @@ if (!sr.tools.isMobile()) {
     distance: '50px',
     origin: 'right'
   });
+  sr.reveal('.accordion-item', 50);
 }

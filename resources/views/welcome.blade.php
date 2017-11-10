@@ -59,18 +59,18 @@
     <div class="wrapper">
       <div class="topblock_tabs js-scroll-nav">
         <div class="topblock_tabs_list">
-          <a href="#traders-and-funds">
+          <a href="#traders-and-funds" class="fade-in-item">
             {!!__('<span>Create</span> and manage crypto funds. Legally and securely.')!!}
-          </a><a href="#for-investors">
+          </a><a href="#for-investors" class="fade-in-item">
             {!!__('<span>Invest</span> in crypto funds and assets. In one place.')!!}
           </a>
         </div>
-        <div class="topblock_tabs_info">
+        <div class="topblock_tabs_info fade-in-item">
           {!!__('Created by the team behind <a href="https://thetoken.io" target="_blank">The Token Fund</a> — one of the first successful crypto funds in the world')!!}
         </div>
       </div>
 
-      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
+      <div class="countdown fade-in-item" style="margin-top:70px; margin-bottom:70px;">
         @if(app('request')->input('tgestart')) 
           <h1>
             Tokenbox TGE crowdsale now live! 
@@ -130,14 +130,14 @@
 
       <div class="buttons">
         @if(app('request')->input('tgestart')) 
-          <a href="/tge" class="button js-modal-link">
+          <a href="/tge" class="button js-modal-link fade-in-item">
             {{__('Join Crowdsale!')}}
           </a>   
         @else
-          <a href="#join-queue" class="button js-modal-link">
+          <a href="#join-queue" class="button js-modal-link fade-in-item">
             {{__('Join Private Sale')}}
           </a>
-        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info fade-in-item">
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
         </a><!--
@@ -156,7 +156,7 @@
         <strong class="fade-in-item"><a href="#traders-and-funds">{{__('traders and funds')}}.</a></strong>
       </h1>-->
 
-      <div class="row" style="margin-top:100px">
+      <div class="row fade-in-item" style="margin-top:100px">
         <div class="columns offset-by-two eight features">
           <i class="background-icon features-icon-l"></i>
           <i class="background-icon features-icon-r"></i>
@@ -200,11 +200,11 @@
 
   <section class="section section-benefits">
     <div class="wrapper">
-      <h1>Tokenbox Benefits</h1>
+      <h1 class="from-bottom">Tokenbox Benefits</h1>
       <img src="/assets/front/img/benefits/{{__('solution-en-mob.svg')}}" class="mobile-only">
       <div class="row no-mobile">
         <div class="offset-by-one ten columns">
-          <img src="/assets/front/img/benefits/{{__('solution-en.svg')}}">
+          <img class="from-bottom" src="/assets/front/img/benefits/{{__('solution-en.svg')}}">
         </div>
       </div>
     </div>
