@@ -110,16 +110,7 @@
                     <div class="info">{{__('Advisor (Fintech)')}},
                         <br />{{__('Innovate Finance, Moven and Meniga')}}</div>
                 </div>
-<!-- 			<div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/yin.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/caoyin" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Cao Yin')}}</div>
-                    <div class="info">{{__('Advisor (Blockchain technologies)')}},
-                        <br />{{__('Energy Blockchain Labs')}}</div>
-                </div> -->
+
  				<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/kaal.jpg')">
                         <div class="overlay">
@@ -161,26 +152,7 @@
                     <div class="info">{{__('Advisor (Finance)')}},
                         <br />{{__('The Eastmore Group, Bancor')}}</div>
                 </div>
-                <div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/ilyasachkov" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Ilya Sachkov')}}</div>
-                    <div class="info">{{__('Advisor (Cybersecurity)')}},
-                        <br />{{__('Group-IB')}}</div>
-                </div>
-<!-- 			<div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/prabhu.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Peter Prabhu')}}</div>
-                    <div class="info">{{__('Advisor (Business Development)')}},
-                        <br />{{__('Interstice Consulting LLP')}}</div>
-                </div> -->
+
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')">
                         <div class="overlay">
