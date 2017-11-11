@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\NotifyFormRequest;
 use App\Http\Requests\NotifyFullFormRequest;
 use App\Http\Requests\NotifyQueueFormRequest;
+use App\Http\Requests\NotifyWireFormRequest;
 use App\Library\JsonResponseTrait;
 use App\Services\IntercomService;
 use Carbon\Carbon;
@@ -185,7 +186,7 @@ class MainController extends Controller
         }
     }
 
-    public function addWireUser(NotifyQueueFormRequest $request, IntercomService $intercomService)
+    public function addWireUser(NotifyWireFormRequest $request, IntercomService $intercomService)
     {
         try {
             $email  = $request->input('EMAIL');
