@@ -1,4 +1,4 @@
-<section class="section section-video fade-in-right">
+<section class="section section-video from-bottom">
   <div class="wrapper">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
