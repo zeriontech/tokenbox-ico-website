@@ -161,7 +161,6 @@
                     <div class="info">{{__('Advisor (Finance)')}},
                         <br />{{__('The Eastmore Group, Bancor')}}</div>
                 </div>
-<!-- 
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
                         <div class="overlay">
@@ -172,8 +171,7 @@
                     <div class="info">{{__('Advisor (Cybersecurity)')}},
                         <br />{{__('Group-IB')}}</div>
                 </div>
- -->
-<!--            <div class="member">
+<!-- 			<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/prabhu.jpg')">
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/lspprabhu" target="_blank" class="fa fa-linkedin-square"></a>
