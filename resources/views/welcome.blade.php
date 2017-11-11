@@ -59,18 +59,18 @@
     <div class="wrapper">
       <div class="topblock_tabs js-scroll-nav">
         <div class="topblock_tabs_list">
-          <a href="#traders-and-funds" class="fade-in-item">
+          <a href="#traders-and-funds">
             {!!__('<span>Create</span> and manage crypto funds. Legally and securely.')!!}
-          </a><a href="#for-investors" class="fade-in-item">
+          </a><a href="#for-investors">
             {!!__('<span>Invest</span> in crypto funds and assets. In one place.')!!}
           </a>
         </div>
-        <div class="topblock_tabs_info fade-in-item">
+        <div class="topblock_tabs_info">
           {!!__('Created by the team behind <a href="https://thetoken.io" target="_blank">The Token Fund</a> — one of the first successful crypto funds in the world')!!}
         </div>
       </div>
 
-      <div class="countdown fade-in-item" style="margin-top:70px; margin-bottom:70px;">
+      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
         @if(app('request')->input('tgestart')) 
           <h1>
             Tokenbox TGE crowdsale now live! 
@@ -130,14 +130,14 @@
 
       <div class="buttons">
         @if(app('request')->input('tgestart')) 
-          <a href="/tge" class="button js-modal-link fade-in-item">
+          <a href="/tge" class="button js-modal-link">
             {{__('Join Crowdsale!')}}
           </a>   
         @else
-          <a href="#join-queue" class="button js-modal-link fade-in-item">
+          <a href="#join-queue" class="button js-modal-link">
             {{__('Join Private Sale')}}
           </a>
-        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info fade-in-item">
+        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
         </a><!--
