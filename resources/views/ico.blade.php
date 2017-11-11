@@ -52,7 +52,8 @@
               total: 0,
               usd: 1000000,
               eth: 0,
-              btc: 0
+              btc: 0,
+              participants: 0
             };
           </script>
 
@@ -72,7 +73,9 @@
         </div>
 
         <div class="founded-money u-cf">
-          <div class="founded-money-participants">2563 {{__('participants')}}</div>
+          <div class="founded-money-participants">
+            <span class="js-progress-participants"></span> {{__('participants')}}
+          </div>
           <div class="founded-money-usd">0</div>
           <div class="founded-money-btc">0</div>
           <div class="founded-money-eth">0</div>

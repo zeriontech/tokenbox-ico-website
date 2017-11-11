@@ -65,11 +65,13 @@
         margin: 70px 10px auto;
         color: white;
         text-decoration: none;
+        
         &:hover {
           opacity: .5;
         }
       }
-      &:hover {
+
+      &.active {
         opacity: 1;
       }
     }
@@ -92,9 +94,11 @@
   .members-list {
     overflow: auto;
     white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
   }
 
   .member {
+    white-space: normal;
     margin: 0;
     
     .img {

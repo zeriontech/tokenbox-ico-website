@@ -11,9 +11,10 @@ $('.progress').each(function() {
     var total = data.total_funds_raised + window.icoProgress.total;
 
     $('.js-progress-current').text(total.toLocaleString());
-    
     $('.js-progress-bar').animate({ width: total/2e6 + 1 + '%'});
-    
+
+    $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
+
     $('.founded-money-usd').text(window.icoProgress.usd);
     
     var btc = (data.total_invested_bitcoin/10e8).toLocaleString();
