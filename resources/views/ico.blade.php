@@ -49,7 +49,7 @@
         <div class="progress">
           <script>
             var icoProgress = {
-              total: 6000000,
+              total: 20000000,
               usd: 1000000,
               eth: 0,
               btc: 0,
