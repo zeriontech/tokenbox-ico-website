@@ -57,6 +57,7 @@ class IntercomService
         ];
 
         return array_filter([
+            'id'                => array_get($parameters, 'id'),
             'email'             => $email,
             'name'              => array_get($parameters, 'name'),
             'phone'             => array_get($parameters, 'phone'),
