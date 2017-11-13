@@ -119,6 +119,9 @@
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
+        <p style="opacity: 0;" class="topblock_subtitle">
+          -
+        </p>
       </div>
       @else
       <div class="buttons">
@@ -127,9 +130,6 @@
           {{__('White Paper')}}
         </a>
       </div>
-        <p style="opacity: 0;" class="topblock_subtitle">
-          -
-        </p>
       @endif
     </div>
   </section>
