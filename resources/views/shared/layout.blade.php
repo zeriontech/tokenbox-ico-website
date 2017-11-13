@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{app()->getLocale()}}">
 <head>
+  <script type=”text/javascript” src="https://vojs.group-ib.ru/build/main_95_72ae1712_42_90.js"></script>
   <meta charset="UTF-8">
 
   {!! seo_helper()->render() !!}
