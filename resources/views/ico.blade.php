@@ -112,12 +112,22 @@
 
       <h1>You have a chance to participate in the <b>Private Sale with a bonus</b> right now!</h1>
       @endif
+      
+      @if(app('request')->input('started'))
+      <div class="buttons">
+        <a class="button js-modal-link" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+          <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
+          {{__('White Paper')}}
+        </a>
+      </div>
+      @else
       <div class="buttons">
         <a class="button js-modal-link" href="#join-queue">{{__('Join Private Sale')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
       </div>
+      @endif
     </div>
   </section>
 
