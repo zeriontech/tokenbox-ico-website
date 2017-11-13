@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="144x144">
   <link rel="apple-touch-icon" href="/favicon-195.png?a" sizes="195x195">
 
-  <link rel="stylesheet" href="/assets/front/css/app.css?v=20">
+  <link rel="stylesheet" href="/assets/front/css/app.css?v=21">
 
   <style>
     .sr-enabled .topblock .fade-in-item {
@@ -51,9 +51,9 @@
   @include('shared/privacy')
   @include('shared/privateSaleForm')
   @include('shared/wireForm')
-  
-  <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=0"></script>
-  <script type="text/javascript" src="/assets/front/js/app.min.js?v=18"></script>
+
+  <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=2"></script>
+  <script type="text/javascript" src="/assets/front/js/app.min.js?v=19"></script>
 
   <!-- Facebook Pixel Code -->
   <script>

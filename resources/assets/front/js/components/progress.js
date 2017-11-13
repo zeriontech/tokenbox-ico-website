@@ -10,7 +10,7 @@ $('.progress').each(function() {
   }).then(function(data) {
     var total = +data.total_funds_raised + window.icoProgress.total;
 
-    $('.js-progress-current').text(total.toLocaleString());
+    $('.js-progress-current').text(total.toLocaleString('en'));
 
     var progressBar = total > 1 ? total * 100/20e6 : 1;
     $('.js-progress-bar').animate({ width: progressBar + '%' });
@@ -19,10 +19,10 @@ $('.progress').each(function() {
 
     $('.founded-money-usd').text(window.icoProgress.usd);
 
-    var btc = (data.total_invested_bitcoin/10e8 + window.icoProgress.btc).toLocaleString();
+    var btc = (data.total_invested_bitcoin/10e8 + window.icoProgress.btc).toLocaleString('en');
     $('.founded-money-btc').text(btc);
 
-    var eth = (data.total_invested_ethereum/10e18 + window.icoProgress.eth).toLocaleString();
+    var eth = (data.total_invested_ethereum/10e18 + window.icoProgress.eth).toLocaleString('en');
     $('.founded-money-eth').text(eth);
   })
 })
