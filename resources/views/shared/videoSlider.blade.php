@@ -1,6 +1,6 @@
 <section class="section section-video from-bottom">
   <div class="wrapper">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/js/swiper.min.js"></script>
 
@@ -28,7 +28,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="swiper-slide">
               <p class="video-title">{{__('Watch how Tokenbox simplifies investments process in the crypto field')}}.</p>
 
@@ -51,6 +51,7 @@
     var mySwiper = new Swiper ('.swiper-container', {
       centeredSlides: true,
       spaceBetween: 100,
+      slideToClickedSlide: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true
