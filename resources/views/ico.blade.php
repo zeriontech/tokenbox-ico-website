@@ -127,6 +127,9 @@
           {{__('White Paper')}}
         </a>
       </div>
+        <p style="opacity: 0;" class="topblock_subtitle">
+          -
+        </p>
       @endif
     </div>
   </section>
