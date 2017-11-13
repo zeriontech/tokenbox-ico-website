@@ -115,7 +115,7 @@
       
       @if(app('request')->input('started'))
       <div class="buttons">
-        <a class="button js-modal-link" href="#join-crowdsale">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
