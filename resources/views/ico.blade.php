@@ -129,7 +129,7 @@
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
-        <p class="topblock_subtitle">
+        <p>
           Escrow provided by: The Token Fund and Zerion
         </p>
       </div>
