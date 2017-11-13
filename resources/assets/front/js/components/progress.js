@@ -8,20 +8,22 @@ $('.progress').each(function() {
       xhr.setRequestHeader('zerion-project-id', 500);
     }
   }).then(function(data) {
-    var total = data.total_funds_raised + window.icoProgress.total;
+    var total = +data.total_funds_raised + window.icoProgress.total;
 
     $('.js-progress-current').text(total.toLocaleString());
-    $('.js-progress-bar').animate({ width: total/2e6 + 1 + '%'});
+
+    var progressBar = total > 1 ? total * 100/20e6 : 1;
+    $('.js-progress-bar').animate({ width: progressBar + '%' });
 
     $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
 
     $('.founded-money-usd').text(window.icoProgress.usd);
-    
-    var btc = (data.total_invested_bitcoin/10e8).toLocaleString();
-    $('.founded-money-btc').text(btc + window.icoProgress.btc);
 
-    var eth = (parseInt(data.total_invested_ethereum)/10e18).toLocaleString();
-    $('.founded-money-eth').text(eth + window.icoProgress.eth);
+    var btc = (data.total_invested_bitcoin/10e8 + window.icoProgress.btc).toLocaleString();
+    $('.founded-money-btc').text(btc);
+
+    var eth = (data.total_invested_ethereum/10e18 + window.icoProgress.eth).toLocaleString();
+    $('.founded-money-eth').text(eth);
   })
 })
 
