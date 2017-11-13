@@ -202,7 +202,7 @@
 
   <section class="section section-benefits">
     <div class="wrapper">
-      <h1 class="from-bottom">Tokenbox Benefits</h1>
+      <h1 class="from-bottom">{{__('Tokenbox Benefits')}}</h1>
       <img src="/assets/front/img/benefits/{{__('solution-en-mob.svg')}}" class="mobile-only">
       <div class="row no-mobile">
         <div class="offset-by-one ten columns">

@@ -110,7 +110,7 @@
         @include('shared/countdownBlock')
       </div>
 
-      <h1>You have a chance to participate in the <b>Private Sale with a bonus</b> right now!</h1>
+      <h1>{{__('You have a chance to participate in the <b>Private Sale with a bonus</b> right now!')}}</h1>
       @endif
       
       @if(app('request')->input('started'))
