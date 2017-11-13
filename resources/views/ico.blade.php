@@ -2,7 +2,9 @@
 
 @section('content')
   <section class="topblock topblock-ico">
-    <div class="topblock_bg"></div>
+    <div class="topblock_bg">
+      <div class="topblock_bg_inner"></div>
+    </div>
 
     @component('shared/header')
       @slot('mobile')
@@ -103,7 +105,7 @@
 		  </p>
 
 		</div>
-      
+
       <div class="countdown-mini">
         @include('shared/countdownBlock')
       </div>

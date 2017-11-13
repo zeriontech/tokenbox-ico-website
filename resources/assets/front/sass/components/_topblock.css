@@ -38,16 +38,15 @@
   overflow: hidden;
 }
 
-.topblock_bg:after {
+.topblock_bg_inner {
   position: absolute;
   display: block;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("../img/grid-blue.svg?v=3") top center no-repeat;
+  background: $blue url("../img/grid-blue.svg?v=3") top center no-repeat;
   background-size: cover;
-  content: '';
 }
 
 @keyframes rotate {
@@ -85,7 +84,7 @@
   padding-bottom: 150px;
   background: #1f1f64 linear-gradient(to bottom, rgb(28,28,77) 0%, rgb(37,37,142) 100%);
 
-  .topblock_bg:after {
+  .topblock_bg_inner {
     opacity: 0.05;
     background: url("../img/grid-white.svg?v=2") top center no-repeat;
   }
@@ -131,7 +130,7 @@
   font-size: 14px;
   padding: 0 10px 3px;
   background: linear-gradient(to right, #7570ff, #bd5191, #7570ff);
-  
+
   a {
     font-weight: 700;
     color: #fff;
@@ -168,7 +167,7 @@
     }
   }
 
-  .topblock_bg:after {
+  .topblock_bg_inner {
     top: -500px;
     right: -500px;
     bottom: -500px;

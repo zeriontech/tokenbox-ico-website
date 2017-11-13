@@ -3,7 +3,9 @@
 @section('content')
 
   <section class="topblock topblock-home">
-    <div class="topblock_bg"></div>
+    <div class="topblock_bg">
+      <div class="topblock_bg_inner"></div>
+    </div>
 
     @component('shared/header')
       @slot('mobile')
@@ -71,9 +73,9 @@
       </div>
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
-        @if(app('request')->input('tgestart')) 
+        @if(app('request')->input('tgestart'))
           <h1>
-            Tokenbox TGE crowdsale now live! 
+            Tokenbox TGE crowdsale now live!
           </h1>
 
           <p class="topblock_subtitle">
@@ -101,7 +103,7 @@
               </sup>
               {{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
             </div>
-            
+
             <p>
               <i class="fa fa-calendar-check-o"></i>
               <a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
@@ -109,7 +111,7 @@
             </p>
         @endif
       </div>
-      
+
       <!--<div class="countdown-mini">
         <div class="countdown-mini_title">
           TGE
@@ -129,10 +131,10 @@
       </div>-->
 
       <div class="buttons">
-        @if(app('request')->input('tgestart')) 
+        @if(app('request')->input('tgestart'))
           <a href="/tge" class="button js-modal-link">
             {{__('Join Crowdsale!')}}
-          </a>   
+          </a>
         @else
           <a href="#join-queue" class="button js-modal-link">
             {{__('Join Private Sale')}}
@@ -180,7 +182,7 @@
   </section>
 
   @include('shared/videoSlider')
-  
+
   <section class="get-notified get-notified-top">
     <div class="wrapper">
       <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=22cb9e6caf&c=?" class="js-ajax-form" data-extra-action="/send" method="post" id="mc-embedded-subscribe-form-1">
