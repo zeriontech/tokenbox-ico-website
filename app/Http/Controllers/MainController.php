@@ -32,6 +32,10 @@ class MainController extends Controller
             ->openGraph()
             ->setTitle(config('seo-helper.open-graph.title'))
             ->setDescription(config('seo-helper.open-graph.description'));
+        $this->seo()
+            ->twitter()
+            ->setTitle(config('seo-helper.twitter.title'))
+            ->addImage(config('seo-helper.twitter.image'));
 
         return view('welcome');
     }

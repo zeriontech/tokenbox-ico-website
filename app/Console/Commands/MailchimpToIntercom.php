@@ -107,6 +107,12 @@ class MailchimpToIntercom extends Command
                             'timezone'     => array_get($member, 'timezone')
                         ]);
                     } else {
+                        $updatedLeadResult = $this->intercomService->leadCreate($email, [
+                            'id'           => $contact->id,
+                            'country_code' => array_get($member, 'country_code'),
+                            'timezone'     => array_get($member, 'timezone')
+                        ]);
+                        
                         $result = $this->intercomService->convertLead($contact);
                     }
 
