@@ -14,8 +14,8 @@ Route::group([
     'prefix'     => LaravelLocalization::setLocale(),
     'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
 ], function () {
-    Route::get('/', 'MainController@icoPage')->name('ico');
-    Route::get('/home', 'MainController@mainPage')->name('main');
+    Route::get('/', 'MainController@icoPage')->name('main');
+//     Route::get('/home', 'MainController@mainPage')->name('main');
     Route::get('/tge', 'MainController@icoPage')->name('ico');
     Route::get('/TGE', 'MainController@icoPage')->name('ico');
     Route::get('/apps/what-kind-of-crypto-trader-are-you/{level}', 'MainController@quizResult')->name('quizResult');
