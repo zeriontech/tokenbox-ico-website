@@ -1,9 +1,13 @@
 $('.member .overlay').hover(function() {
   $(this).addClass('active');
 }, function() {
-  $(this).removeClass('active')
+  $(this).removeClass('active');
 });
 
 $('.member .overlay').on('tap', function() {
+  $(this).addClass('active');
+});
+
+$('.member .img').on('tap', function() {
   $(this).addClass('active');
 });

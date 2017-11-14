@@ -40,11 +40,12 @@
     background-repeat:no-repeat;
     filter: grayscale(100%);
     transition: filter .2s ease;
-    
-    &:hover {
+
+    &:hover,
+    &.active {
       filter: grayscale(0%);
     }
-    
+
     .overlay {
       position: absolute;
       width: 100%;
@@ -65,7 +66,7 @@
         margin: 70px 10px auto;
         color: white;
         text-decoration: none;
-        
+
         &:hover {
           opacity: .5;
         }
@@ -100,7 +101,7 @@
   .member {
     white-space: normal;
     margin: 0;
-    
+
     .img {
       width: 80%;
       height: 0;

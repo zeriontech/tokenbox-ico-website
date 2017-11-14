@@ -23,7 +23,6 @@ body {
     margin: 0 0 32px;
     min-height: 60px;
     display: flex;
-    align-items: center;
     list-style: none;
     counter-increment: join-counter;
 
