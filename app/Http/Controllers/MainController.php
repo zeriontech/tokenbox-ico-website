@@ -43,6 +43,15 @@ class MainController extends Controller
 
     public function icoPage()
     {
+        $this->seo()
+            ->openGraph()
+            ->setTitle(config('seo-helper.open-graph.title'))
+            ->setDescription(config('seo-helper.open-graph.description'))
+            ->setImage(config('seo-helper.open-graph.image'));
+        $this->seo()
+            ->twitter()
+            ->setTitle(config('seo-helper.twitter.title'))
+            ->addImage(config('seo-helper.twitter.image'));
         return view('ico');
     }
 
