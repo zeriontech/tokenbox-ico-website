@@ -5,7 +5,7 @@ $('.progress').each(function() {
     method: 'GET',
     url: 'https://apis.zerion.io/v1/project/',
     beforeSend: function(xhr) {
-      xhr.setRequestHeader('zerion-project-id', 500);
+      xhr.setRequestHeader('zerion-project-id', 42001);
     }
   }).then(function(data) {
     var total = +data.total_funds_raised + window.icoProgress.total;

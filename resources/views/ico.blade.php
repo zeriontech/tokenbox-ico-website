@@ -54,7 +54,7 @@
             usd: 1085124.86,
             eth: 0,
             btc: 0,
-            participants: 0
+            participants: 20
           };
         </script>
 
