@@ -1,29 +1,33 @@
-$('.progress').each(function() {
-  $('.progress-bar-current').css('width', $(this).width() + 'px');
+updateProgress();
+setInterval(updateProgress, 30000);
 
-  $.ajax({
-    method: 'GET',
-    url: 'https://apis.zerion.io/v1/project/',
-    beforeSend: function(xhr) {
-      xhr.setRequestHeader('zerion-project-id', 42001);
-    }
-  }).then(function(data) {
-    var total = +data.total_funds_raised + window.icoProgress.total;
+function updateProgress() {
+  $('.progress').each(function() {
+    $('.progress-bar-current').css('width', $(this).width() + 'px');
 
-    $('.js-progress-current').text(total.toLocaleString('en'));
+    $.ajax({
+      method: 'GET',
+      url: 'https://apis.zerion.io/v1/project/',
+      beforeSend: function(xhr) {
+        xhr.setRequestHeader('zerion-project-id', 42001);
+      }
+    }).then(function(data) {
+      var total = +data.total_funds_raised + window.icoProgress.total;
 
-    var progressBar = total > 1 ? total * 100/20e6 : 1;
-    $('.js-progress-bar').animate({ width: progressBar + '%' });
+      $('.js-progress-current').text(total.toLocaleString('en'));
 
-    $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
+      var progressBar = total > 1 ? total * 100/20e6 : 1;
+      $('.js-progress-bar').animate({ width: progressBar + '%' });
 
-    $('.founded-money-usd').text(window.icoProgress.usd.toLocaleString('en'));
+      $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
 
-    var btc = (data.total_invested_bitcoin/10e7 + window.icoProgress.btc).toLocaleString('en');
-    $('.founded-money-btc').text(btc);
+      $('.founded-money-usd').text(window.icoProgress.usd.toLocaleString('en'));
 
-    var eth = (data.total_invested_ethereum/10e17 + window.icoProgress.eth).toLocaleString('en');
-    $('.founded-money-eth').text(eth);
+      var btc = (data.total_invested_bitcoin/10e7 + window.icoProgress.btc).toLocaleString('en');
+      $('.founded-money-btc').text(btc);
+
+      var eth = (data.total_invested_ethereum/10e17 + window.icoProgress.eth).toLocaleString('en');
+      $('.founded-money-eth').text(eth);
+    })
   })
-})
-
+}

@@ -56,9 +56,9 @@ elixir((mix) => {
         'components/*.js',
         'app.js',
     ],  paths.destFront  + 'js/app.min.js', paths.srcFront + 'js');
-    
+
     mix.browserSync({
-        proxy: 'tokenbox.tokenbox',
+        proxy: 'tokenbox.dev',
         port: 8000,
         files: ['public/**/*.css', 'public/**/*.js']
     });
