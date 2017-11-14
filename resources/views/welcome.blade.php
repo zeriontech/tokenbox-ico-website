@@ -74,7 +74,7 @@
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
         <h1>
-          Tokenbox TGE crowdsale now live!
+          {{__('TGE is on:')}}<span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}
         </h1>
 
         <p class="topblock_subtitle">
