@@ -19,10 +19,10 @@ $('.progress').each(function() {
 
     $('.founded-money-usd').text(window.icoProgress.usd.toLocaleString('en'));
 
-    var btc = (data.total_invested_bitcoin/10e8 + window.icoProgress.btc).toLocaleString('en');
+    var btc = (data.total_invested_bitcoin/10e7 + window.icoProgress.btc).toLocaleString('en');
     $('.founded-money-btc').text(btc);
 
-    var eth = (data.total_invested_ethereum/10e18 + window.icoProgress.eth).toLocaleString('en');
+    var eth = (data.total_invested_ethereum/10e17 + window.icoProgress.eth).toLocaleString('en');
     $('.founded-money-eth').text(eth);
   })
 })
