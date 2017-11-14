@@ -148,8 +148,8 @@
           <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link">{{__('Terms & Conditions')}}</a>.</span>
         </li><li>
           <span>
-            <b>{{__('Create')}}</b>
-            {{__('a Zerion account (opens on 14 Nov 2017 12:00 UTC)')}}.
+            <a href="https://tokenbox.zerion.io/" target="_blank"><b>{{__('Create')}}</b>
+            {{__('a Zerion account')}}</a>.
           </span>
         </li><li>
           <span><b>{{__('Choose currency')}}</b> {{__('and the amount of Tokens you want to purchase')}}.</span>
