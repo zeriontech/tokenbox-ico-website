@@ -200,7 +200,7 @@
   @include('shared/faq')
   @include('shared/powered')
   
-  <section class="get-notified get-notified-top">
+  <section style="margin: 150px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a href="/tge" class="button">
@@ -214,7 +214,7 @@
   @include('shared/team')
   @include('shared/media')
 
-  <section class="get-notified get-notified-top">
+  <section style="margin: 150px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a href="/tge" class="button">
