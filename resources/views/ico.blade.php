@@ -201,6 +201,7 @@
   @include('shared/powered')
   @include('shared/roadmap')
   @include('shared/team')
+  @include('shared/media')
 
 @endsection
 
