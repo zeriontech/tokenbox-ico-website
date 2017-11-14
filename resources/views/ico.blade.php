@@ -97,10 +97,10 @@
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
-        <p style="color:#abb4bb;">
-          {{__('Important: By clicking on the red button you will be forwarded to Zerion website')}}.
+        <p style="color:#abb4bb; margin-top: 30px;">
+          <b>{{__('Important:')}}</b> {{__('By clicking on the red button you will be forwarded to Zerion website')}}.
           <br>
-          {{__('Escrow provided by: The Token Fund and Zerion')}}.
+          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}.
         </p>
       </div>
 
