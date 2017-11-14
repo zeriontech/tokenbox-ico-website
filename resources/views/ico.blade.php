@@ -125,7 +125,7 @@
       </div>
       @else
       <div class="buttons">
-        <a class="button js-modal-link" href="#join-queue">{{__('Join Private Sale')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button" href="#join-crowdsale">{{__('How to Join')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
