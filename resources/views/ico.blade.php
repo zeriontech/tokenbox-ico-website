@@ -160,7 +160,7 @@
         </li>
       </ol>
 
-      <a href="https://tokebox.zerion.io/" target="_blank" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
+      <a href="https://tokenbox.zerion.io/" target="_blank" class="button button-centred">{{__('Participate!')}}</a>
 
       <div class="button-details">
         <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
