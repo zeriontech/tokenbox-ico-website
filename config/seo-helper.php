@@ -5,7 +5,7 @@ return [
      |  Title
      | -----------------------------------------------------------------
      */
-    'title' => [
+    'title'       => [
         'default'   => 'Tokenbox — Uniting Crypto',
         'site-name' => '',
         'separator' => '—',
@@ -18,16 +18,16 @@ return [
      | -----------------------------------------------------------------
      */
     'description' => [
-        'default'   => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE starts on 14 November 2017!',
-        'max'       => 155,
+        'default' => 'ᐅᐅᐅ TGE (ICO) started! ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE (ICO) ends on November 28!',
+        'max'     => 155,
     ],
 
     /* -----------------------------------------------------------------
      |  Keywords
      | -----------------------------------------------------------------
      */
-    'keywords'  => [
-        'default'   => [
+    'keywords'    => [
+        'default' => [
             //
         ],
     ],
@@ -36,7 +36,7 @@ return [
      |  Miscellaneous
      | -----------------------------------------------------------------
      */
-    'misc'      => [
+    'misc'        => [
         'canonical' => true,
         'robots'    => config('app.env') !== 'production', // Tell robots not to index the content if it's not on production
         'default'   => [
@@ -50,7 +50,7 @@ return [
      |  Webmaster Tools
      | -----------------------------------------------------------------
      */
-    'webmasters' => [
+    'webmasters'  => [
         'google'    => '',
         'bing'      => '',
         'alexa'     => '',
@@ -62,12 +62,13 @@ return [
      |  Open Graph
      | -----------------------------------------------------------------
      */
-    'open-graph' => [
+    'open-graph'  => [
         'enabled'     => true,
         'prefix'      => 'og:',
         'type'        => 'website',
-        'title'       => 'Tokenbox - TGE starts on 14 November 2017',
-        'description' => 'ᐅᐅᐅ A №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ',
+        'title'       => 'Tokenbox - Uniting Crypto',
+        'description' => 'ᐅᐅᐅ TGE (ICO) started! ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE (ICO) ends on November 28!',
+        'image'       => 'https://tokenbox.io/tokenbox-ograph.png',
         'site-name'   => '',
         'properties'  => [
             //
@@ -79,13 +80,13 @@ return [
      | -----------------------------------------------------------------
      |  Supported card types : 'app', 'gallery', 'photo', 'player', 'product', 'summary', 'summary_large_image'.
      */
-    'twitter' => [
+    'twitter'     => [
         'enabled' => true,
         'prefix'  => 'twitter:',
         'card'    => 'summary',
         'site'    => 'tokenbox',
         'title'   => 'Tokenbox - Uniting Crypto',
-        'image'    => 'https://tokenbox.io/favicon-228.png',
+        'image'   => 'https://tokenbox.io/favicon-228.png',
         'metas'   => [
             //
         ],
@@ -95,7 +96,7 @@ return [
      |  Analytics
      | -----------------------------------------------------------------
      */
-    'analytics' => [
+    'analytics'   => [
         'google' => '', // UA-XXXXXXXX-X
     ],
 ];
