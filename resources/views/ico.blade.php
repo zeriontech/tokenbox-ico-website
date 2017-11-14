@@ -204,10 +204,9 @@
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
-      <div class="button-details">
-        <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
-      </div>
-        <p>{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        <div class="button-details">
+          <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+        </div>
       </div>
     </div>
   </section>
@@ -220,10 +219,9 @@
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
-      <div class="button-details">
-        <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
-      </div>
-        <p>{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        <div class="button-details">
+          <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+        </div>
       </div>
     </div>
   </section>
