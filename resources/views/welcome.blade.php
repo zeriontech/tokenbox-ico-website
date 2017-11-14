@@ -136,8 +136,8 @@
             {{__('Join Crowdsale!')}}
           </a>
         @else
-          <a href="#join-queue" class="button js-modal-link">
-            {{__('Join Private Sale')}}
+          <a href="/tge" class="button js-modal-link">
+            {{__('Join Crowdsale!')}}
           </a>
         @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
           <i class="fa fa-telegram"></i>
