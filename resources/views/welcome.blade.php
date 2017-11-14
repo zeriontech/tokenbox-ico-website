@@ -73,22 +73,22 @@
       </div>
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
-        @if(app('request')->input('tgestart'))
-          <h1>
-            Tokenbox TGE crowdsale now live!
-          </h1>
+        <h1>
+          Tokenbox TGE crowdsale now live!
+        </h1>
 
-          <p class="topblock_subtitle">
-            Time left:
+        <p class="topblock_subtitle">
+          Time left:
 
-            <span class="inline-countdown">
-              <span data-key="days"></span>{{__('d')}}
-              <span data-key="hours"></span>{{__('h')}}
-              <span data-key="minutes"></span>{{__('m')}}
-              <span data-key="seconds"></span>{{__('s')}}
-            </span>
-          </p>
-        @else
+          <span class="inline-countdown">
+            <span data-key="days"></span>{{__('d')}}
+            <span data-key="hours"></span>{{__('h')}}
+            <span data-key="minutes"></span>{{__('m')}}
+            <span data-key="seconds"></span>{{__('s')}}
+          </span>
+        </p>
+
+        <!--
           <div class="countdown-mini_title">
               {{__('Tokenbox TGE')}}
 
@@ -109,7 +109,7 @@
               <a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
               {{__('and get notified')}}
             </p>
-        @endif
+        -->
       </div>
 
       <!--<div class="countdown-mini">
@@ -131,22 +131,21 @@
       </div>-->
 
       <div class="buttons">
-        @if(app('request')->input('tgestart'))
-          <a href="/" class="button js-modal-link">
-            {{__('Join Crowdsale!')}}
-          </a>
-        @else
-          <a href="/" class="button js-modal-link">
-            {{__('Join Crowdsale!')}}
-          </a>
-        @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
+        <a href="/" class="button js-modal-link">
+          {{__('Join Crowdsale!')}}
+        </a>
+        <a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
-        </a><!--
-        <a href="/" class="button button-info">
-          {{__('Learn about TGE')}}
-          <i class="fa fa-long-arrow-right"></i>
         </a>
+        <!--
+          <a href="/" class="button js-modal-link">
+            {{__('Join Crowdsale!')}}
+          </a>
+          <a href="/" class="button button-info">
+            {{__('Learn about TGE')}}
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
         -->
       </div>
 

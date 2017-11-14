@@ -36,84 +36,54 @@
     @endcomponent
 
     <div class="wrapper">
-      @if(app('request')->input('started'))
-        <h1>{{__('Tokenbox TGE crowdsale now live!')}}</h1>
-        <p style="opacity: 0;" class="topblock_subtitle">
-          {{__('Time left')}}:
-          <span class="inline-countdown">
-            <span data-key="days"></span>{{__('d')}}
-            <span data-key="hours"></span>{{__('h')}}
-            <span data-key="minutes"></span>{{__('m')}}
-            <span data-key="seconds"></span>{{__('s')}}
-          </span>
-        </p>
+      <h1>{{__('Tokenbox TGE crowdsale now live!')}}</h1>
+      <p style="opacity: 0;" class="topblock_subtitle">
+        {{__('Time left')}}:
+        <span class="inline-countdown">
+          <span data-key="days"></span>{{__('d')}}
+          <span data-key="hours"></span>{{__('h')}}
+          <span data-key="minutes"></span>{{__('m')}}
+          <span data-key="seconds"></span>{{__('s')}}
+        </span>
+      </p>
 
-        <div class="progress">
-          <script>
-            var icoProgress = {
-              total: 1085124.86,
-              usd: 1085124.86,
-              eth: 0,
-              btc: 0,
-              participants: 0
-            };
-          </script>
+      <div class="progress">
+        <script>
+          var icoProgress = {
+            total: 1085124.86,
+            usd: 1085124.86,
+            eth: 0,
+            btc: 0,
+            participants: 0
+          };
+        </script>
 
-          <div class="progress-current">
-            <span class="js-progress-current">0</span> USD
-          </div>
+        <div class="progress-current">
+          <span class="js-progress-current">0</span> USD
+        </div>
 
-          <div class="progress-bar">
-            <div class="js-progress-bar">
-              <div class="progress-bar-current"></div>
-            </div>
-          </div>
-
-          <div class="progress-target">
-            20,000,000 USD
+        <div class="progress-bar">
+          <div class="js-progress-bar">
+            <div class="progress-bar-current"></div>
           </div>
         </div>
 
-        <div class="founded-money u-cf">
-          <div class="founded-money-participants">
-            <span class="js-progress-participants"></span> {{__('participants')}}
-          </div>
-          <div class="founded-money-usd">0</div>
-          <div class="founded-money-btc">0</div>
-          <div class="founded-money-eth">0</div>
+        <div class="progress-target">
+          20,000,000 USD
         </div>
-      @else
-      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
-			<div class="countdown-mini_title">
-				{{__('Tokenbox TGE')}}
-
-				<sup data-tooltip>
-				  <i class="fa fa-question-circle"></i>
-
-				  <div class="tooltip">
-					<b>{{__('TGE - Token Generation Event.')}}</b>
-					<br>
-					{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
-				  </div>
-				</sup>
-				{{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
-	        </div>
-		  <p>
-			<i class="fa fa-calendar-check-o"></i>
-			<a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
-			{{__('and get notified')}}
-		  </p>
-
-		</div>
-
-      <div class="countdown-mini">
-        @include('shared/countdownBlock')
       </div>
-      @endif
 
-      @if(app('request')->input('started'))
+      <div class="founded-money u-cf">
+        <div class="founded-money-participants">
+          <span class="js-progress-participants"></span> {{__('participants')}}
+        </div>
+        <div class="founded-money-usd">0</div>
+        <div class="founded-money-btc">0</div>
+        <div class="founded-money-eth">0</div>
+      </div>
+
       <div class="buttons">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Participate!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
@@ -121,8 +91,8 @@
           Escrow provided by: The Token Fund and Zerion
         </p>
       </div>
-      @else
-      <div class="buttons">
+
+      <!--<div class="buttons">
         <a class="button" href="#join-crowdsale">{{__('How to Join')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
@@ -130,16 +100,16 @@
         <p style="color:#abb4bb;">
           Escrow provided by: The Token Fund and Zerion
         </p>
-      </div>
-      @endif
+      </div> -->
+
     </div>
   </section>
 
 
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
-      <h1>{{__('Token Distribution')}}</h1>
-      <p>{{__('No more than 31,000,000 TBX will be released')}}</p>
+      <h1 class="from-bottom">{{__('Token Distribution')}}</h1>
+      <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}</p>
 
       <div class="distribution">
         <div class="distribution-item distribution-item-token">
@@ -168,8 +138,8 @@
 
   <section class="section section-join-crowdsale" id="join-crowdsale">
     <div class="wrapper">
-      <h1>{{__('How to Join the Crowdsale')}}</h1>
-      <p>{{__('The process is simple and only takes ~5 minutes')}}</p>
+      <h1 class="from-bottom">{{__('How to Join the Crowdsale')}}</h1>
+      <p class="from-bottom">{{__('The process is simple and only takes ~5 minutes')}}</p>
 
       <h2>{{__('4 easy steps')}}</h2>
 
@@ -190,8 +160,6 @@
         </li>
       </ol>
 
-@if(app('request')->input('started'))
-
       <a href="https://tokebox.zerion.io/" target="_blank" class="button button-centred">{{__('Join the Crowdsale!')}}</a>
 
       <div class="button-details">
@@ -200,20 +168,18 @@
 
       <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p>
 
-@else
-      <div class="button button-centred button-waiting" style="cursor: text">
+      <!--<div class="button button-centred button-waiting" style="cursor: text">
         {{__('14 November')}} 12:00 UTC
       </div>
 
-      <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+      <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>-->
 
-@endif
     </div>
   </section>
 
   <section>
     <div class="documentation" id="documentation">
-      <h1>{{__('Documentation')}}</h1>
+      <h1 class="from-bottom">{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
         <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
