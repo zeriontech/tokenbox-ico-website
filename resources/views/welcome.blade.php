@@ -131,7 +131,7 @@
       </div>-->
 
       <div class="buttons">
-        <a href="/" class="button js-modal-link">
+        <a href="/tge" class="button js-modal-link">
           {{__('Join Crowdsale!')}}
         </a>
         <a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
