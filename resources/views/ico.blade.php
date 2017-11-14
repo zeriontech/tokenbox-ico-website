@@ -36,7 +36,7 @@
     @endcomponent
 
     <div class="wrapper">
-      <h1>{{__('TGE is on:')}}<span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}</h1>
+      <h1>{{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}</h1>
       <p style="opacity: 0;" class="topblock_subtitle">
         {{__('Time left')}}:
         <span class="inline-countdown">
