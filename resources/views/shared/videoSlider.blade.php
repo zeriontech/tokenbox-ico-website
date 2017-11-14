@@ -38,6 +38,16 @@
                 </div>
               </div>
             </div>
+            
+            <div class="swiper-slide">
+              <p class="video-title">{{__('How blockchain technology works for investors & traders on Tokenbox platform')}}.</p>
+
+              <div class="video" data-url="https://www.youtube.com/watch?v=nHYWTwCGV10">
+                <div class="video_preview" style="background-image: url(/assets/front/img/video4-thumb.jpg?v=2)">
+                  <div class="video_play"></div>
+                </div>
+              </div>
+            </div>
         </div>
 
         <div class="swiper-pagination"></div>

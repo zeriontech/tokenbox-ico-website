@@ -25,6 +25,10 @@
       <a href="https://www.wings.ai" target="_blank">
         <img src="/assets/front/img/ico/logo-wings.svg" alt="Wings" title="Technological Partner" width="146">
       </a>
+
+      <a href="https://www.bancor.network" target="_blank">
+        <img src="/assets/front/img/ico/logo-bancor.svg" alt="Bancor" width="164">
+      </a>
       
       <a href="http://tradingview.com" target="_blank">
         <img src="/assets/front/img/ico/logo-tradingview.svg" alt="TradingView" width="188">
@@ -73,7 +77,9 @@
       
       <div>
         <div class="powered-by-logos">
-
+          <a href="https://www.bancor.network" target="_blank">
+            <img src="/assets/front/img/ico/logo-bancor.svg" alt="Bancor" width="164">
+          </a>
           <a href="https://www.sumsub.com" target="_blank">
             <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
           </a> 
