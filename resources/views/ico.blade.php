@@ -207,7 +207,7 @@
         <div class="button-details">
           <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
-          Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
         </div>
       </div>
     </div>
@@ -224,7 +224,7 @@
         <div class="button-details">
           <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
-          Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
         </div>
       </div>
     </div>
