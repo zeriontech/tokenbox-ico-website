@@ -56,5 +56,9 @@ if (!sr.tools.isMobile()) {
     distance: '50px',
     origin: 'right'
   });
-  sr.reveal('.accordion-item', 50);
+  sr.reveal('.accordion-item', 100);
+  sr.reveal('.powered-by-logos a', 100);
+  sr.reveal('.distribution > *', 100);
+  sr.reveal('.documentation_list a', 100);
+  sr.reveal('.step-list li', 100);
 }
