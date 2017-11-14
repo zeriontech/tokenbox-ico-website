@@ -199,9 +199,30 @@
 
   @include('shared/faq')
   @include('shared/powered')
+  
+  <section class="get-notified get-notified-top">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a href="/tge" class="button">
+          {{__('Join Crowdsale!')}}
+        </a>
+      </div>
+    </div>
+  </section>
+  
   @include('shared/roadmap')
   @include('shared/team')
   @include('shared/media')
+
+  <section class="get-notified get-notified-top">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a href="/tge" class="button">
+          {{__('Join Crowdsale!')}}
+        </a>
+      </div>
+    </div>
+  </section>
 
 @endsection
 
