@@ -36,6 +36,14 @@
     @endcomponent
 
     <div class="wrapper">
+	  <sup data-tooltip>
+		<i class="fa fa-question-circle"></i>
+		<div class="tooltip">
+		<b>{{__('TGE - Token Generation Event.')}}</b>
+		<br>
+		{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
+		</div>
+	  </sup>
       <h1>{{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}</h1>
       <p style="opacity: 0;" class="topblock_subtitle">
         {{__('Time left')}}:
@@ -88,19 +96,11 @@
           {{__('White Paper')}}
         </a>
         <p style="color:#abb4bb;">
-          Escrow provided by: The Token Fund and Zerion
+          {{__('Important: By clicking on the red button you will be forwarded to Zerion website')}}.
+          <br>
+          {{__('Escrow provided by: The Token Fund and Zerion')}}.
         </p>
       </div>
-
-      <!--<div class="buttons">
-        <a class="button" href="#join-crowdsale">{{__('How to Join')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
-          <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
-          {{__('White Paper')}}
-        </a>
-        <p style="color:#abb4bb;">
-          Escrow provided by: The Token Fund and Zerion
-        </p>
-      </div> -->
 
     </div>
   </section>
@@ -167,12 +167,6 @@
       </div>
 
       <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokenbox.zerion.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p>
-
-      <!--<div class="button button-centred button-waiting" style="cursor: text">
-        {{__('14 November')}} 12:00 UTC
-      </div>
-
-      <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>-->
 
     </div>
   </section>

@@ -74,6 +74,14 @@
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
         <h1>
+		  <sup data-tooltip>
+			<i class="fa fa-question-circle"></i>
+			<div class="tooltip">
+			<b>{{__('TGE - Token Generation Event.')}}</b>
+			<br>
+			{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
+			</div>
+		  </sup>
           {{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}
         </h1>
 
@@ -88,47 +96,7 @@
           </span>
         </p>
 
-        <!--
-          <div class="countdown-mini_title">
-              {{__('Tokenbox TGE')}}
-
-              <sup data-tooltip>
-                <i class="fa fa-question-circle"></i>
-
-                <div class="tooltip">
-                <b>{{__('TGE - Token Generation Event.')}}</b>
-                <br>
-                {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
-                </div>
-              </sup>
-              {{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
-            </div>
-
-            <p>
-              <i class="fa fa-calendar-check-o"></i>
-              <a href="/docs/Tokenbox-TGE-Start.ics">{{__('Add event to calendar')}}</a>
-              {{__('and get notified')}}
-            </p>
-        -->
       </div>
-
-      <!--<div class="countdown-mini">
-        <div class="countdown-mini_title">
-          TGE
-          <sup data-tooltip>
-            <i class="fa fa-question-circle"></i>
-
-            <div class="tooltip">
-              <b>{{__('TGE - Token Generation Event.')}}</b>
-              <br>
-              {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
-            </div>
-          </sup>
-
-          starts in
-        </div>
-        @include('shared/countdownBlock')
-      </div>-->
 
       <div class="buttons">
         <a href="/tge" class="button js-modal-link">
@@ -138,24 +106,8 @@
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
         </a>
-        <!--
-          <a href="/" class="button js-modal-link">
-            {{__('Join Crowdsale!')}}
-          </a>
-          <a href="/" class="button button-info">
-            {{__('Learn about TGE')}}
-            <i class="fa fa-long-arrow-right"></i>
-          </a>
-        -->
-      </div>
 
-      <!-- <h1 class="main-title">
-        <span class="fade-in-item">{{__('Tokenbox')}}</span>
-        <span class="fade-in-item">{{__('is an ecosystem')}}</span><br />
-        <strong class="fade-in-item">{{__('for crypto')}}-</strong>
-        <strong class="fade-in-item"><a href="#for-investors">{{__('investors')}},</a></strong>
-        <strong class="fade-in-item"><a href="#traders-and-funds">{{__('traders and funds')}}.</a></strong>
-      </h1>-->
+      </div>
 
       <div class="row fade-in-item" style="margin-top:100px">
         <div class="columns offset-by-two eight features">
