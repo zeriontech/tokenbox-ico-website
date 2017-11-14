@@ -96,7 +96,7 @@ body {
 
   .step-list:after {
     position: absolute;
-    content: "4 easy steps";
+    content: attr(data-title);
     top: 174px;
     right: 0;
     left: 0;

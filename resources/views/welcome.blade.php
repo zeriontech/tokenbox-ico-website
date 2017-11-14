@@ -9,7 +9,7 @@
 
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/tge">{!!__('TGE (ICO)')!!}</a></li>
+        <li><a href="/">{!!__('TGE (ICO)')!!}</a></li>
         <li><a href="#traders-and-funds">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#team">{{__('Team')}}</a></li>
@@ -28,7 +28,7 @@
       @endslot
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
-        <li><a href="/tge">{!!__('TGE (ICO)')!!}</a></li>
+        <li><a href="/">{!!__('TGE (ICO)')!!}</a></li>
         <li><a href="#traders-and-funds">{!!__('Features')!!}</a></li>
         <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
         <li><a href="#team">{!!__('Team')!!}</a></li>
@@ -98,7 +98,7 @@
                 <div class="tooltip">
                 <b>{{__('TGE - Token Generation Event.')}}</b>
                 <br>
-                {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
+                {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
                 </div>
               </sup>
               {{__('will start on')}} <span style="font-weight:bold; color:#ee3d49">{{__('14 November')}}</span> {{__('2017, 12:00 UTC')}}
@@ -121,7 +121,7 @@
             <div class="tooltip">
               <b>{{__('TGE - Token Generation Event.')}}</b>
               <br>
-              {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
+              {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/">{{__('Learn more')}} &rarr;</a>
             </div>
           </sup>
 
@@ -132,18 +132,18 @@
 
       <div class="buttons">
         @if(app('request')->input('tgestart'))
-          <a href="/tge" class="button js-modal-link">
+          <a href="/" class="button js-modal-link">
             {{__('Join Crowdsale!')}}
           </a>
         @else
-          <a href="/tge" class="button js-modal-link">
+          <a href="/" class="button js-modal-link">
             {{__('Join Crowdsale!')}}
           </a>
         @endif<a href="https://t.me/Tokenbox" target="_blank" class="button button-info">
           <i class="fa fa-telegram"></i>
           {{__('Join Community')}}
         </a><!--
-        <a href="/tge" class="button button-info">
+        <a href="/" class="button button-info">
           {{__('Learn about TGE')}}
           <i class="fa fa-long-arrow-right"></i>
         </a>

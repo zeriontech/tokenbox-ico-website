@@ -8,7 +8,7 @@
 
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/">{{__('Product')}}</a></li>
+        <li><a href="/home">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
@@ -16,7 +16,7 @@
       @endslot
 
       <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/">{{__('Product')}}</a></li>
+        <li><a href="/home">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
@@ -112,7 +112,7 @@
 
       <h1>{!!__('You have a chance to participate in the <b>Private Sale with a bonus</b> right now!')!!}</h1>
       @endif
-      
+
       @if(app('request')->input('started'))
       <div class="buttons">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Join Crowdsale!')}}</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
@@ -175,7 +175,7 @@
 
       <h2>{{__('4 easy steps')}}</h2>
 
-      <ol class="step-list">
+      <ol class="step-list" data-title="{{__('4 easy steps')}}">
         <li>
           <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link">{{__('Terms & Conditions')}}</a>.</span>
         </li><li>
@@ -201,14 +201,14 @@
       </div>
 
       <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokebox.zerion.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p>
-      
+
 @else
       <div class="button button-centred button-waiting" style="cursor: text">
         {{__('14 November')}} 12:00 UTC
       </div>
-      
+
       <p style="font-size:2.6em;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
-    
+
 @endif
     </div>
   </section>
