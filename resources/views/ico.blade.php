@@ -89,7 +89,7 @@
           {{__('White Paper')}}
         </a>
         <p style="color:#abb4bb; margin-top: 22px;">
-          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}.
+          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}
         </p>
       </div>
 
