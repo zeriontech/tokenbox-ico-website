@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Console\Commands\MailchimpToIntercom;
+use App\Console\Commands\SendLog;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -15,6 +16,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         MailchimpToIntercom::class,
+        SendLog::class,
     ];
 
     /**
@@ -26,6 +28,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
          $schedule->command(MailchimpToIntercom::class)->everyTenMinutes();
+         $schedule->command(SendLog::class)->hourly();
     }
 
     /**
