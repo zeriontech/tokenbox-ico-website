@@ -54,7 +54,7 @@
 
   .progress-target {
     position: absolute;
-    top: 11px;
+    top: 0;
     right: 0;
   }
 }
@@ -74,7 +74,6 @@
     width: 33.33333333%;
     border-right: 1px solid #353687;
     font-size: 16px;
-    line-height: 82px;
     background: #212176;
   }
 
@@ -83,14 +82,71 @@
   }
 }
 
+.topblock-ratings {
+  max-width: 640px;
+  margin: 88px auto 0;
+  border-radius: 4px;
+  border: 1px solid #353687;
+  font-size: 24px;
+
+  a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 17px 0;
+    color: #fff;
+    transition: .2s background;
+  }
+
+  a:first-child {
+    border-bottom: 1px solid #353687;
+  }
+
+  a:hover {
+    text-decoration: none;
+    background: #212176;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  strong {
+    color: #00cc99;
+  }
+
+  @mixin bp tablet {
+    display: flex;
+    line-height: 33px;
+
+    a {
+      width: 50%;
+      border-bottom: none;
+    }
+
+    a {
+      border-right: 1px solid #353687;
+    }
+
+    a:last-child {
+      border-right: none;
+    }
+  }
+}
+
 .founded-money-usd,
 .founded-money-btc,
 .founded-money-eth {
+  padding-bottom: 8px;
+
   &:before {
     position: relative;
-    display: inline-block;
+    display: block;
     top: 13px;
-    margin-right: 10px;
+    margin: 0 auto 20px;
     background-repeat: no-repeat;
     content: '';
   }
@@ -141,9 +197,12 @@
   .founded-money-usd,
   .founded-money-btc,
   .founded-money-eth {
+    padding-bottom: 0;
+
     &:before {
+      display: inline-block;
       top: 6px;
-      margin-right: 20px;
+      margin: 0 20px 0 0;
     }
   }
 

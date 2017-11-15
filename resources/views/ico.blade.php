@@ -37,15 +37,15 @@
 
     <div class="wrapper">
       <h1>
-		  <sup data-tooltip>
-			<i class="fa fa-question-circle"></i>
-			<div class="tooltip">
-			<b>{{__('TGE - Token Generation Event.')}}</b>
-			<br>
-			{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
-			</div>
-		  </sup>
-		  {{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}
+      <sup data-tooltip>
+      <i class="fa fa-question-circle"></i>
+      <div class="tooltip">
+      <b>{{__('TGE - Token Generation Event.')}}</b>
+      <br>
+      {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
+      </div>
+      </sup>
+      {{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 3 {{__('days left!')}}
       </h1>
       <p style="opacity: 0;" class="topblock_subtitle">
         {{__('Time left')}}:
@@ -97,13 +97,22 @@
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
-        <p style="color:#abb4bb; margin-top: 30px;">
+        <p style="color:#abb4bb; margin-top: 22px;">
           <b>{{__('Important:')}}</b> {{__('By clicking on the red button you will be forwarded to Zerion website')}}.
           <br>
           <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}.
         </p>
       </div>
 
+      <div class="topblock-ratings">
+        <a href="http://icorating.com/project/581/Tokenbox" target="_blank" class="img img-rating">
+            <span>ICO Rating: <strong>Stable+</strong></span>
+            <span>Hype Score: <strong>Very High</strong></span>
+        </a>
+        <a href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="img img-rating">
+            <span>ICO Bench: <strong>4.4</strong></span>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -133,7 +142,7 @@
       </div>
 
       <div class="distibution-desc">
-        <a href="#faq">{{__('See detailed information')}}</a> {{__('in our FAQ section')}}.
+        <a href="#faq" class="inner-link">{{__('See detailed information')}}</a> {{__('in our FAQ section')}}.
       </div>
     </div>
   </section>
@@ -147,7 +156,7 @@
 
       <ol class="step-list" data-title="{{__('4 easy steps')}}">
         <li>
-          <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link">{{__('Terms & Conditions')}}</a>.</span>
+          <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link inner-link">{{__('Terms & Conditions')}}</a>.</span>
         </li><li>
           <span>
             <a href="https://tokenbox.zerion.io/" target="_blank"><b>{{__('Create')}}</b>
@@ -165,7 +174,7 @@
       <a href="https://tokenbox.zerion.io/" target="_blank" class="button button-centred">{{__('Buy TBX Tokens')}}!</a>
 
       <div class="button-details">
-        <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+        <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
       </div>
 
       <p style="font-size:3.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><!-- <p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokenbox.zerion.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p> -->
@@ -199,7 +208,7 @@
 
   @include('shared/faq')
   @include('shared/powered')
-  
+
   <section style="margin: 125px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
@@ -212,7 +221,7 @@
       </div>
     </div>
   </section>
-  
+
   @include('shared/roadmap')
   @include('shared/team')
   @include('shared/media')

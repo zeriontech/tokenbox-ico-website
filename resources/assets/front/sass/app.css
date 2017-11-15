@@ -52,6 +52,14 @@
 @import "components/video";
 @import "components/documentation";
 
+.inner-link {
+  border-bottom: 1px dotted;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .pay-with {
   margin-top: 110px;
 

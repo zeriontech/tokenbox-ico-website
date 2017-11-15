@@ -164,7 +164,7 @@ a.button {
     font-weight: 700;
     color: #3434bb;
 
-    &:hover {
+    &:not([href=^"#"]):hover {
       text-decoration: underline;
     }
   }

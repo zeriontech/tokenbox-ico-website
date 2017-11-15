@@ -18,6 +18,10 @@ body {
   color: #464f56;
   line-height: 26px;
 
+  a:visited {
+    color: rgb(0, 0, 238);
+  }
+
   li {
     position: relative;
     margin: 0 0 32px;
