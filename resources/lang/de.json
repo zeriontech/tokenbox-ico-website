@@ -221,7 +221,7 @@
   "The platform is based upon a set of microservices written in Python/Java. Separate interfaces to allow interaction between each group of Users and partners of the system are utilised": "Die Plattform des Vorhabens stellt eine Sammlung der Mikroservices in der Sprache Python/Java dar. Für die Arbeit mit jeder Benutzergruppe des Systems und mit den Partnern sind abgesonderte Austauschschnittstellen vorgesehen.",
   "The process is simple and only takes ~5 minutes": "Der Vorgang ist sehr einfach und nimmt5 Minuten in Anspruch!",
   "The services of experienced traders when and wherever you need them": "Dienstleistungen der erfolgreichen Trader, wann und wo es für Sie bequem ist",
-  "Time left": "Verbleibende Zeit:",
+  "Time left": "Verbleibende Zeit",
   "Token Distribution": "Verteilung der Tokens",
   "Token Generation Event": "Token Generation Event",
   "Tokenbox": "Tokenbox",

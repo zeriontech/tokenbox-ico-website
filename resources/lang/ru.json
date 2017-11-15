@@ -225,7 +225,7 @@
   "The platform is based upon a set of microservices written in Python/Java. Separate interfaces to allow interaction between each group of Users and partners of the system are utilised": "Платформа разработки представляет из себя набор микросервисов, написанных на языке Python/Java. Для работы с каждой группой пользователей системы и партнерами предусмотрены отдельные интерфейсы взаимодействия",
   "The process is simple and only takes ~5 minutes": "Процесс очень простой и занимает ～5 минут",
   "The services of experienced traders when and wherever you need them": "Услуги успешных трейдеров, когда и где вам удобно",
-  "Time left": "Осталось времени",
+  "Time left": "Осталось",
   "Token Distribution": "Распределение",
   "Token Generation Event": "Token Generation Event",
   "Tokenbox": "Tokenbox",
