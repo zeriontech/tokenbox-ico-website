@@ -83,7 +83,17 @@
         </div>
       </div>
 
-      <div class="founded-money u-cf">
+      <div class="buttons">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+          <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
+          {{__('White Paper')}}
+        </a>
+        <p style="color:#abb4bb; margin-top: 22px;">
+          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}.
+        </p>
+      </div>
+
+      <div class="founded-money u-cf" style="margin-bottom:0;">
         <div class="founded-money-participants">
           <span class="js-progress-participants"></span> {{__('participants')}}
         </div>
@@ -92,25 +102,13 @@
         <div class="founded-money-eth">0</div>
       </div>
 
-      <div class="buttons">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
-          <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
-          {{__('White Paper')}}
-        </a>
-        <p style="color:#abb4bb; margin-top: 22px;">
-          <b>{{__('Important:')}}</b> {{__('By clicking on the red button you will be forwarded to Zerion website')}}.
-          <br>
-          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}.
-        </p>
-      </div>
-
-      <div class="topblock-ratings">
+      <div class="topblock-ratings" style="margin-top:0;">
         <div href="http://icorating.com/project/581/Tokenbox" target="_blank" class="topblock-ratings_item">
             <span>ICO Rating: <strong>Stable+</strong></span>
             <span>Hype Score: <strong>Very High</strong></span>
         </div>
         <div href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="topblock-ratings_item">
-            <span>ICO Bench: <strong>4.4</strong></span>
+            <span>TGE powered by <strong>Zerion</strong></span>
         </div>
       </div>
     </div>
