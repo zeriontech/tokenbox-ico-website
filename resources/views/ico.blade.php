@@ -145,7 +145,7 @@
     </div>
   </section>
 
-  <section class="section section-join-crowdsale" id="join-crowdsale">
+  <section class="section section-join-crowdsale" id="join-crowdsale" style="margin-bottom:0;">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('How to Join the Crowdsale')}}</h1>
       <p class="from-bottom">{{__('The process is simple and only takes ~5 minutes')}}</p>
@@ -181,8 +181,9 @@
   </section>
 
   @include('shared/team')
-  @include('shared/powered')
-  
+  @include('shared/powered')  
+  @include('shared/media')
+
   <section style="margin: 125px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
@@ -195,8 +196,6 @@
       </div>
     </div>
   </section>
-  
-  @include('shared/media')
 
   <section>
     <div class="documentation" id="documentation">
