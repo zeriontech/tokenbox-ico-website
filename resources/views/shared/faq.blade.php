@@ -1,4 +1,4 @@
-<section class="section section-faq js-tabs" id="faq">
+<section class="section section-faq js-tabs" id="faq" style="border-bottom: 1px solid #f6f6f8;">
     <h1>{{__('FAQ')}}</h1>
 
     <div class="tabs">
