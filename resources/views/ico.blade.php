@@ -198,7 +198,7 @@
   </section>
 
   <section>
-    <div class="documentation" id="documentation">
+    <div class="documentation" id="documentation" style="margin-bottom:150px;">
       <h1 class="from-bottom">{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
@@ -224,7 +224,7 @@
   @include('shared/roadmap')
   @include('shared/faq')
 
-  <section style="margin: 125px 0;">
+  <section style="margin: 125px 0; border-top: 1px solid #f6f6f8;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
