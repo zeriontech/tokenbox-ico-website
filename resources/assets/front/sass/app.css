@@ -220,7 +220,7 @@ section h1 {
 .tooltip {
   position: absolute;
   top: -8px;
-  right: -15px;
+  left: -15px;
   width: 200px;
   z-index: 1;
   display: none;
