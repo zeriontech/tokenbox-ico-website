@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" href="/favicon-144.png" sizes="144x144">
   <link rel="apple-touch-icon" href="/favicon-195.png?a" sizes="195x195">
 
-  <link rel="stylesheet" href="/assets/front/css/app.css?v=24">
+  <link rel="stylesheet" href="/assets/front/css/app.css?v=25">
 
   <style>
     .sr-enabled .topblock .fade-in-item {
