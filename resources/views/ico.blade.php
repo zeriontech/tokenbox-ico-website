@@ -180,6 +180,24 @@
     </div>
   </section>
 
+  @include('shared/team')
+  @include('shared/powered')
+  
+  <section style="margin: 125px 0;">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <div class="button-details">
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <p style="font-size:2.6rem;">
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  @include('shared/media')
+
   <section>
     <div class="documentation" id="documentation">
       <h1 class="from-bottom">{{__('Documentation')}}</h1>
@@ -204,25 +222,8 @@
     </div>
   </section>
 
-  @include('shared/faq')
-  @include('shared/powered')
-
-  <section style="margin: 125px 0;">
-    <div class="wrapper">
-      <div class="buttons" style="margin-top:0;">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
-        <div class="button-details">
-          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
-          <p style="font-size:2.6rem;">
-          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   @include('shared/roadmap')
-  @include('shared/team')
-  @include('shared/media')
+  @include('shared/faq')
 
   <section style="margin: 125px 0;">
     <div class="wrapper">
