@@ -170,14 +170,6 @@ a.button {
   }
 }
 
-@mixin lp mobile {
-  .button-details {
-    a {
-      display: block;
-    }
-  }
-}
-
 .buttons {
   margin: 65px 0 0;
   text-align: center;
