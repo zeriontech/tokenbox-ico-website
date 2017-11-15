@@ -145,7 +145,7 @@
     </div>
   </section>
 
-  <section class="section section-join-crowdsale" id="join-crowdsale" style="margin-bottom:0;">
+  <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 1px solid #f6f6f8;">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('How to Join the Crowdsale')}}</h1>
       <p class="from-bottom">{{__('The process is simple and only takes ~5 minutes')}}</p>
@@ -184,21 +184,8 @@
   @include('shared/powered')  
   @include('shared/media')
 
-  <section style="margin: 125px 0;">
-    <div class="wrapper">
-      <div class="buttons" style="margin-top:0;">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
-        <div class="button-details">
-          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
-          <p style="font-size:2.6rem;">
-          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section>
-    <div class="documentation" id="documentation" style="margin-bottom:150px;">
+    <div class="documentation" id="documentation" style="margin: 150px 0;">
       <h1 class="from-bottom">{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
@@ -217,6 +204,19 @@
         </a><a href="{{__('/docs/Tokenbox-HoweyTest-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Howey Test')}}
         </a>
+      </div>
+    </div>
+  </section>
+  
+    <section style="margin: 125px 0;">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <div class="button-details">
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <p style="font-size:2.6rem;">
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        </div>
       </div>
     </div>
   </section>
