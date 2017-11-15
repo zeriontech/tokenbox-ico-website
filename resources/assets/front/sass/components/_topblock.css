@@ -216,3 +216,61 @@
 .topblock_subtitle {
   font-size: 24px;
 }
+
+.topblock-ratings {
+  max-width: 640px;
+  margin: 88px auto 0;
+  border-radius: 4px;
+  border: 1px solid #353687;
+  font-size: 24px;
+}
+
+.topblock-ratings_item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 17px 0;
+  color: #fff;
+  transition: .2s background;
+
+  &:first-child {
+    border-bottom: 1px solid #353687;
+  }
+
+  /*
+  &:hover {
+    text-decoration: none;
+    background: #212176;
+  }*/
+
+  span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  strong {
+    color: #00cc99;
+  }
+}
+
+@mixin bp tablet {
+  .topblock-ratings {
+    display: flex;
+    line-height: 33px;
+  }
+
+  .topblock-ratings_item {
+    width: 50%;
+    border-bottom: none;
+  }
+
+  .topblock-ratings_item {
+    border-right: 1px solid #353687;
+  }
+
+  .topblock-ratings_item:last-child {
+    border-right: none;
+  }
+}

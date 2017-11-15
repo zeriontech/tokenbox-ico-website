@@ -105,13 +105,13 @@
       </div>
 
       <div class="topblock-ratings">
-        <a href="http://icorating.com/project/581/Tokenbox" target="_blank" class="img img-rating">
+        <div href="http://icorating.com/project/581/Tokenbox" target="_blank" class="topblock-ratings_item">
             <span>ICO Rating: <strong>Stable+</strong></span>
             <span>Hype Score: <strong>Very High</strong></span>
-        </a>
-        <a href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="img img-rating">
+        </div>
+        <div href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="topblock-ratings_item">
             <span>ICO Bench: <strong>4.4</strong></span>
-        </a>
+        </div>
       </div>
     </div>
   </section>
@@ -214,7 +214,7 @@
       <div class="buttons" style="margin-top:0;">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
         <div class="button-details">
-          <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
           {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
         </div>
@@ -231,7 +231,7 @@
       <div class="buttons" style="margin-top:0;">
         <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
         <div class="button-details">
-          <a href="#wire" class="js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
           {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
         </div>
