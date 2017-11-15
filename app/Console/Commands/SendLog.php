@@ -39,7 +39,7 @@ class SendLog extends Command
     public function handle()
     {
         Mail::send('emails.log', [], function ($message) {
-            $message->from('info@mail.thetoken.io', 'TokenBox Logger');
+            $message->from('info@mail.thetoken.io', 'Tokenbox Logger');
 
             $message->to(config('log.to_mail'));
             $message->subject('Access Log');
