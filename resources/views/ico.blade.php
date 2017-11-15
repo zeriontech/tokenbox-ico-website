@@ -181,11 +181,25 @@
   </section>
 
   @include('shared/team')
-  @include('shared/powered')  
+  @include('shared/powered')
+  
+    <section style="margin: 125px 0;">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <div class="button-details">
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <p style="font-size:2.6rem;">
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   @include('shared/media')
 
   <section>
-    <div class="documentation" id="documentation" style="margin: 150px 0;">
+    <div class="documentation" id="documentation" style="margin-top:150px; margin-bottom:150px;">
       <h1 class="from-bottom">{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
@@ -204,19 +218,6 @@
         </a><a href="{{__('/docs/Tokenbox-HoweyTest-En.pdf')}}" target="_blank">
           <i class="fa fa-file-pdf-o"></i>{{__('Howey Test')}}
         </a>
-      </div>
-    </div>
-  </section>
-  
-    <section style="margin: 125px 0;">
-    <div class="wrapper">
-      <div class="buttons" style="margin-top:0;">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
-        <div class="button-details">
-          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
-          <p style="font-size:2.6rem;">
-          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
-        </div>
       </div>
     </div>
   </section>
