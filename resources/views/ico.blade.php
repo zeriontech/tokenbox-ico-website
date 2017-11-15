@@ -45,7 +45,7 @@
       {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
       </div>
       </sup>
-      {{__('TGE is on:')}} <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> — 2 {{__('days left!')}}
+      {{__('TGE/ICO is on')}}. <span style="color:#ee3d49; font-weight: bold;">{!!__('15% bonus')!!}</span> {{__('ends in')}} 2 {{__('days!')}}
       </h1>
       <p style="opacity: 0;" class="topblock_subtitle">
         {{__('Time left')}}:
