@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /docs
 Disallow: /.pdf$
-Disallow: /ru
+Sitemap: https://tokenbox.io/sitemap.xml
