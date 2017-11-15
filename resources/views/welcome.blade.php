@@ -100,7 +100,7 @@
 
       <div class="buttons">
         <a href="/tge" class="button">
-          {{__('Participate in TGE (ICO)!')}}
+          {{__('Participate in TGE (ICO)')}}
         </a>
       </div>
 
@@ -133,7 +133,7 @@
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a href="/tge" class="button">
-          {{__('Join Crowdsale!')}}
+          {{__('Participate in TGE (ICO)')}}
         </a>
       </div>
     </div>
