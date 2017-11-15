@@ -325,10 +325,10 @@
 
   @include('shared/devices')
   @include('shared/roadmap')
-  @include('shared/tech')
   @include('shared/team')
-  @include('shared/faq')
+  @include('shared/powered')
   @include('shared/media')
+  @include('shared/faq')
 
   <section class="get-notified get-notified-bottom">
     <div class="wrapper">
@@ -339,6 +339,5 @@
       </form>
     </div>
   </section>
-
-  @include('shared/powered')
+  @include('shared/tech')
 @endsection
