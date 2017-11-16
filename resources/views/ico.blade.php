@@ -84,7 +84,7 @@
       </div>
 
       <div class="buttons">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
@@ -157,7 +157,7 @@
           <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link inner-link">{{__('Terms & Conditions')}}</a>.</span>
         </li><li>
           <span>
-            <a href="https://tokenbox.zerion.io/" target="_blank"><b>{{__('Create')}}</b>
+            <a href="https://wallet.tokenbox.io/" target="_blank"><b>{{__('Create')}}</b>
             {{__('a Zerion account')}}</a>.
           </span>
         </li><li>
@@ -169,13 +169,13 @@
         </li>
       </ol>
 
-      <a href="https://tokenbox.zerion.io/" target="_blank" class="button button-centred">{{__('Buy TBX Tokens')}}!</a>
+      <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('Buy TBX Tokens')}}!</a>
 
       <div class="button-details">
         <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
       </div>
 
-      <p style="font-size:3.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><!-- <p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://tokenbox.zerion.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p> -->
+      <p style="font-size:3.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><!-- <p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://wallet.tokenbox.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p> -->
 
     </div>
   </section>
@@ -186,7 +186,7 @@
     <section style="margin: 125px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
         <div class="button-details">
           <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
@@ -228,7 +228,7 @@
   <section style="margin: 125px 0;">
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
-        <a class="button" href="https://tokenbox.zerion.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
         <div class="button-details">
           <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
           <p style="font-size:2.6rem;">
