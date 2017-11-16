@@ -38,16 +38,6 @@
     <div class="wrapper">
       @include('shared/tgeTitle')
 
-      <p style="opacity: 0;" class="topblock_subtitle">
-        {{__('Time left')}}:
-        <span class="inline-countdown">
-          <span data-key="days"></span>{{__('d')}}
-          <span data-key="hours"></span>{{__('h')}}
-          <span data-key="minutes"></span>{{__('m')}}
-          <span data-key="seconds"></span>{{__('s')}}
-        </span>
-      </p>
-
       <div class="progress">
         <script>
           var icoProgress = {
@@ -98,7 +88,7 @@
         <div href="http://icorating.com/project/581/Tokenbox" target="_blank" class="topblock-ratings_item">
             <span>ICO Rating: <strong>Stable+</strong></span>
             <span>Hype Score: <strong>Very High</strong></span>
-            <a href="https://drive.google.com/open?id=0B8xj2ie0HTQrSFRRTGlGaUpDRUE"><i class="fa fa-file-pdf-o" target="_blank"></i>  View rating review</a>
+            <a href="https://drive.google.com/open?id=0B8xj2ie0HTQrSFRRTGlGaUpDRUE" target="_blank"><i class="fa fa-file-pdf-o"></i>  View rating review</a>
         </div>
         <div href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="topblock-ratings_item">
             <span>TGE/ICO powered by</span>

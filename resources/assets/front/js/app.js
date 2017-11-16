@@ -1,5 +1,25 @@
 // global utils
 
+$.fn.inlineCountdown = function(options) {
+  this.each(function() {
+    var $el = $(this);
+    var deadline = options.date;
+
+    update();
+    $el.animate({ opacity: 1 }, 1000);
+
+    setInterval(update, 1000);
+
+    function update() {
+      var frame = getTimeRemaining(deadline);
+
+      ['days', 'hours', 'seconds', 'minutes'].forEach(function(key) {
+        $el.find('[data-key="' + key + '"]').text(frame[key]);
+      })
+    }
+  })
+}
+
 function iOS() {
   var iDevices = [
     'iPad Simulator',

@@ -74,18 +74,6 @@
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
         @include('shared/tgeTitle')
-
-        <p class="topblock_subtitle">
-          Time left:
-
-          <span class="inline-countdown">
-            <span data-key="days"></span>{{__('d')}}
-            <span data-key="hours"></span>{{__('h')}}
-            <span data-key="minutes"></span>{{__('m')}}
-            <span data-key="seconds"></span>{{__('s')}}
-          </span>
-        </p>
-
       </div>
 
       <div class="buttons">
