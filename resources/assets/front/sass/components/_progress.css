@@ -7,10 +7,14 @@
   margin: auto;
 }
 
+.progress + .buttons {
+  margin-top: 28px;
+}
+
 .progress-bar {
   position: relative;
   overflow: hidden;
-  margin: 13px auto 20px;
+  margin: 15px auto 29px;
   height: 20px;
   border-radius: 30px;
   background: #3434bb;
@@ -61,31 +65,28 @@
 
 .founded-money {
   position: relative;
-  margin: 41px auto 0;
+  margin: 73px auto 0;
   border-radius: 4px;
   border: 1px solid #353687;
   color: #fff;
   text-align: center;
   max-width: 836px;
   white-space: nowrap;
-
-  div:not(:first-child) {
-    float: left;
-    width: 33.33333333%;
-    border-right: 1px solid #353687;
-    font-size: 16px;
-    background: #212176;
-  }
-
-  div:last-child {
-    border-right: none;
-  }
 }
 
 .founded-money-usd,
 .founded-money-btc,
 .founded-money-eth {
+  float: left;
+  width: 33.33333333%;
+  border-right: 1px solid #353687;
+  font-size: 16px;
+  background: #212176;
   padding-bottom: 8px;
+
+  &:last-child {
+    border-right: none;
+  }
 
   &:before {
     position: relative;
@@ -115,33 +116,18 @@
   background-image: url('../img/ico/sign-eth.svg');
 }
 
-.founded-money-participants {
+.progress-participants {
+  text-align: center;
   color: #abb4bb;
   font-size: 26px;
 }
 
-@mixin lp tablet {
-  .founded-money-participants {
-    border-bottom: 1px solid #353687;
-    line-height: 70px;
-    background: #212176;
-  }
-}
-
 @mixin bp tablet {
-  .founded-money {
-    margin-top: 122px;
-    margin-bottom: 100px;
-
-    div:not(:first-child) {
-      font-size: 36px;
-      line-height: 100px;
-    }
-  }
-
   .founded-money-usd,
   .founded-money-btc,
   .founded-money-eth {
+    font-size: 36px;
+    line-height: 100px;
     padding-bottom: 0;
 
     &:before {
@@ -149,13 +135,6 @@
       top: 6px;
       margin: 0 20px 0 0;
     }
-  }
-
-  .founded-money-participants {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: -82px;
   }
 }
 

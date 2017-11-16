@@ -1,0 +1,50 @@
+.section-powered-by {
+  background: #f6f6f8;
+
+  h1, p {
+    color: #abb4bb;
+  }
+}
+
+.powered-by-logos {
+  @mixin lp tablet {
+    > * {
+      display: block;
+    }
+
+    > *:not(:first-child) {
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  @mixin bp tablet {
+    margin: -30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 940px;
+
+    > * {
+      margin: 30px 40px;
+    }
+  }
+}
+
+@mixin bp desktop {
+  .powered-by-logos {
+    img {
+      opacity: 1;
+      transition: .4s opacity;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

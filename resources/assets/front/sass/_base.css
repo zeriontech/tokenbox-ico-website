@@ -96,6 +96,7 @@ img {
 }
 
 a {
+  color: #3434bb;
   text-decoration: none;
 
   &:hover {

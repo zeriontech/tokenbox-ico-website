@@ -15,11 +15,8 @@ $line-height: 1.4;
 
 @font-face {
   font-family:'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot');
-  src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
-       url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
-       url('../fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+  src: url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
