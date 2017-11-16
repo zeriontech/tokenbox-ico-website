@@ -91,7 +91,7 @@
             <div class="feature-img feature-img-funds">
               <img width="784" srcset="/assets/front/img/slider/slide-1.png?v2 1x, /assets/front/img/slider/slide-1.png?v2" src="/assets/front/img/slider/slide-1@2x.png?v2" alt="">
             </div>
-            <div class="caption">{{__('Choose crypto funds for your investments')}}.</div>
+            {{--<div class="caption">{{__('Choose crypto funds for your investments')}}.</div>--}}
           </div>
 
           {{--<div class="slider fade-in-item">
