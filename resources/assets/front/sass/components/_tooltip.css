@@ -1,100 +1,28 @@
+[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
 
-div[data-tooltip]::before,
-div[data-tooltip]::after {
+.tooltip {
   position: absolute;
-  display: none;
-  opacity: 0.85;
+  top: -8px;
+  left: -15px;
+  width: 200px;
   z-index: 1;
-}
-div[data-tooltip]::before {
-  /*
-   * using data-tooltip instead of title so we
-   * don't have the real tooltip overlapping
-   */
-  content: attr(data-tooltip);
-  background: $aqua;
-  color: #fff;
-  font-size: 13px;
-  padding: 5px;
-  border-radius: 5px;
-  /* we don't want the text to wrap */
-  white-space: nowrap;
-  text-decoration: none;
-}
-div[data-tooltip]::after {
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  content: '';
+  display: none;
+  padding: 13px 22px;
+  background: rgba(255,255,255,.97);
+  border-radius: 4px;
+  color: #474c53;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+  cursor: auto;
 }
 
-div[data-tooltip]:hover::before,
-div[data-tooltip]:hover::after {
-  display: block;
-}
-
-/** positioning **/
-
-/* left tooltip */
-div[data-tooltip][data-placement="left"]::before {
-  top: 50%;
-  right: 100%;
-  margin-right: 9px;
-  margin-top: -14px;
-}
-div[data-tooltip][data-placement="left"]::after {
-  border-left-color: $aqua;;
-  border-right: none;
-  top: 50%;
-  right: 100%;
-  margin-top: -6px;
-  margin-right: 4px;
-}
-
-/* right tooltip */
-div[data-tooltip][data-placement="right"]::before {
-  top: 50%;
-  left: 100%;
-  margin-top:-14px;
-  margin-left: 9px;
-}
-div[data-tooltip][data-placement="right"]::after {
-  border-right-color: $aqua;;
-  border-left: none;
-  top: 50%;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: 4px;
-}
-
-/* top tooltip */
-div[data-tooltip][data-placement="top"]::before {
-  bottom: 100%;
-  /*left: 0;*/
-  left: 20%;
-  margin-bottom: 9px;
-}
-div[data-tooltip][data-placement="top"]::after {
-  border-top-color: $aqua;;
-  border-bottom: none;
-  bottom: 100%;
-  /*left: 10px;*/
-  left: 25%;
-  margin-bottom: 4px;
-}
-
-/* bottom tooltip */
-div[data-tooltip][data-placement="bottom"]::before {
-  top: 100%;
-  /*left: 0;*/
-  left: 20%;
-  margin-top: 9px;
-}
-div[data-tooltip][data-placement="bottom"]::after {
-  border-bottom-color: $aqua;;
-  border-top: none;
-  top: 100%;
-  /*left: 10px;*/
-  left: 25%;
-  margin-top: 4px;
+@mixin bp tablet {
+  .tooltip {
+    width: 300px;
+  }
 }

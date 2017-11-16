@@ -22,8 +22,6 @@ function iOS() {
 }
 
 function getTimeRemaining(endtime) {
-  console.log(endtime);
-
   var t = endtime - new Date().getTime();
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);

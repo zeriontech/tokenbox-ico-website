@@ -1,0 +1,9 @@
+.inner-link {
+  border-bottom: 1px dotted;
+  transition: .2s opacity;
+
+  &:hover {
+    text-decoration: none;
+    opacity: .7;
+  }
+}

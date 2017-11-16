@@ -1,9 +1,7 @@
 <section class="section section-powered-by" id="partners">
   <div class="wrapper">
-    <div class="section-powered-by_head">
-      <h1>{{__('Partners')}}</h1>
-      <p>{{__('Tokenbox is powered by these awesome companies')}}</p>
-    </div>
+    <h1>{{__('Partners')}}</h1>
+    <p>{{__('Tokenbox is powered by these awesome companies')}}</p>
 
     <div class="powered-by-logos no-mobile" style="flex-wrap: wrap">
       <a href="https://thetoken.io" target="_blank">
@@ -29,11 +27,11 @@
       <a href="https://www.bancor.network" target="_blank">
         <img src="/assets/front/img/ico/logo-bancor.svg" alt="Bancor" width="164">
       </a>
-      
+
       <a href="http://tradingview.com" target="_blank">
         <img src="/assets/front/img/ico/logo-tradingview.svg" alt="TradingView" width="188">
       </a>
-      
+
       <a href="https://www.sumsub.com" target="_blank">
         <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
       </a>
@@ -51,7 +49,7 @@
           </a>
         </div>
       </div>
-      
+
       <div>
         <div class="powered-by-logos">
           <a href="https://cindicator.com" target="_blank">
@@ -63,7 +61,7 @@
           </a>
         </div>
       </div>
-      
+
       <div>
         <div class="powered-by-logos">
           <a href="https://www.wings.ai" target="_blank">
@@ -74,7 +72,7 @@
           </a>
         </div>
       </div>
-      
+
       <div>
         <div class="powered-by-logos">
           <a href="https://www.bancor.network" target="_blank">
@@ -82,10 +80,10 @@
           </a>
           <a href="https://www.sumsub.com" target="_blank">
             <img src="/assets/front/img/ico/logo-sumsub.svg" alt="Sum & Substance" width="114">
-          </a> 
+          </a>
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>

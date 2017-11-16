@@ -73,17 +73,7 @@
       </div>
 
       <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
-        <h1>
-		  <sup data-tooltip>
-			<i class="fa fa-question-circle"></i>
-			<div class="tooltip">
-			<b>{{__('TGE - Token Generation Event.')}}</b>
-			<br>
-			{{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="/tge">{{__('Learn more')}} &rarr;</a>
-			</div>
-		  </sup>
-          {{__('TGE is on')}}! <span style="color:#ee3d49; font-weight: bold;">15% {!!__('bonus')!!}</span> {{__('ends in 2 days!')}}
-        </h1>
+        @include('shared/tgeTitle')
 
         <p class="topblock_subtitle">
           Time left:
@@ -104,24 +94,32 @@
         </a>
       </div>
 
-      <div class="row fade-in-item" style="margin-top:100px">
-        <div class="columns offset-by-two eight features">
+      <div class="flex-center">
+        <div class="features fade-in-item" style="margin-top:100px">
           <i class="background-icon features-icon-l"></i>
           <i class="background-icon features-icon-r"></i>
-          <div class="slider fade-in-item">
+
+          <div class="feature">
+            <div class="feature-img feature-img-funds">
+              <img width="784" srcset="/assets/front/img/slider/slide-1.png?v2 1x, /assets/front/img/slider/slide-1.png?v2" src="/assets/front/img/slider/slide-1@2x.png?v2" alt="">
+            </div>
+            <div class="caption">{{__('Choose crypto funds for your investments')}}.</div>
+          </div>
+
+          {{--<div class="slider fade-in-item">
             <div class="slide">
               <div class="features-img features-img-funds"></div>
               <div class="caption">{{__('Choose crypto funds for your investments')}}.</div>
             </div>
             <div class="slide">
-              <div class="features-img features-img-invest"></div>
+              <div class="feature-img features-img-invest"></div>
               <div class="caption">{{__('Invest with any currency and store tokens in a handy and secure multi-currency wallet')}}.</div>
             </div>
             <div class="slide">
-              <div class="features-img features-img-traders"></div>
+              <div class="feature-img features-img-traders"></div>
               <div class="caption">{{__('The services of experienced traders when and wherever you need them')}}.</div>
             </div>
-          </div>
+          </div>--}}
         </div>
       </div>
     </div>
@@ -340,5 +338,5 @@
       </form>
     </div>
   </section>
-    
+
 @endsection
