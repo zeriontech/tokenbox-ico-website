@@ -128,7 +128,7 @@
     </div>
   </section>
 
-  <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 1px solid #f6f6f8;">
+  <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 2px solid #f6f6f8;">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('How to Join the Crowdsale')}}</h1>
       <p class="from-bottom">{{__('The process is simple and only takes ~5 minutes')}}</p>
