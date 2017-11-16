@@ -1,4 +1,5 @@
 $('.dropdown .title').click(function () {
+  console.log('1')
   $(this).closest('.dropdown').toggleClass('opened');
 });
 

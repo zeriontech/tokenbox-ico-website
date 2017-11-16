@@ -17,8 +17,7 @@
   }
 
   .features {
-    display: inline-flex;
-    margin-bottom: -44%;
+    margin-bottom: -320px;
   }
 
   h1,
@@ -61,7 +60,7 @@
 }
 
 .topblock-home {
-  margin-bottom: 30%;
+  margin-bottom: 150px;
   padding-bottom: 0;
 
   .countdown {
@@ -75,6 +74,10 @@
   @mixin bp tablet {
     margin-top: 400px;
   }
+}
+
+.topblock-home + .section-video {
+  margin-top: 280px;
 }
 
 .topblock-ico {
@@ -141,7 +144,7 @@
 
 @mixin breakpoint tablet {
   .topblock-home {
-    margin-bottom: 220px;
+    margin-bottom: 220px
   }
 
   .topblock-home .features {
@@ -159,14 +162,8 @@
 
 @mixin bp tablet {
   .topblock-home  {
-    margin-bottom: 240px;
-
     .header {
       margin-bottom: 26px;
-    }
-
-    .features {
-      margin-bottom: -320px;
     }
   }
 
@@ -222,10 +219,10 @@
 
 .topblock-ratings {
   max-width: 640px;
-  margin: -1px auto 0;
-  border-radius: 0 0 4px 4px;
+  margin: 88px auto 0;
+  border-radius: 4px;
   border: 1px solid #353687;
-  font-size: 21px;
+  font-size: 24px;
 }
 
 .topblock-ratings_item {
@@ -239,17 +236,13 @@
 
   &:first-child {
     border-bottom: 1px solid #353687;
-
-    a {
-      font-size: 16px;
-      color: #abb4bb;
-    }
   }
 
-  &:first-child + * {
-    color: #abb4bb;
-    font-size: 16px;
-  }
+  /*
+  &:hover {
+    text-decoration: none;
+    background: #212176;
+  }*/
 
   span {
     display: block;
@@ -265,7 +258,7 @@
 @mixin bp tablet {
   .topblock-ratings {
     display: flex;
-    line-height: 30px;
+    line-height: 33px;
   }
 
   .topblock-ratings_item {

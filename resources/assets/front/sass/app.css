@@ -5,13 +5,11 @@
 @import "base";
 @import "grid";
 @import "fonts";
-
 @import "background-icon";
 
 @import "vendors/slick";
 @import "vendors/intl-tel-input";
 
-@import "components/icons";
 @import "components/dropdown";
 @import "components/tooltip";
 @import "components/hamburger";
@@ -53,9 +51,14 @@
 @import "components/notification";
 @import "components/video";
 @import "components/documentation";
-@import "components/powered-by-logos";
-@import "components/inner-link";
-@import 'components/section-benefits';
+
+.inner-link {
+  border-bottom: 1px dotted;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 .pay-with {
   margin-top: 110px;
@@ -129,4 +132,111 @@ section h1 {
 
 .section-faq {
   border-top: 1px solid #f6f6f8;
+}
+
+.section-powered-by {
+  background: #f6f6f8;
+}
+
+.section-powered-by_head {
+  h1, p {
+    color: #abb4bb;
+  }
+}
+
+.section-benefits {
+  margin-top: 120px;
+  padding: 120px 0 0;
+  background-image: linear-gradient(to bottom, #fcfcfe, #fff);
+
+  h1 {
+    margin-top: -10px;
+  }
+
+  @mixin bp desktop {
+    h1 {
+      margin-bottom: 40px;
+      font-size: 54px;
+    }
+  }
+}
+
+.powered-by-logos {
+  @mixin lp tablet {
+    > * {
+      display: block;
+    }
+
+    > *:not(:first-child) {
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+    }
+  }
+
+  @mixin bp tablet {
+    margin: -30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 940px;
+
+    > * {
+      margin: 30px 40px;
+    }
+  }
+}
+
+@mixin bp desktop {
+  .powered-by-logos {
+    img {
+      opacity: 1;
+      transition: .4s opacity;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.icon-bitcointalk {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/ico/btalk.svg);
+  width: 26px;
+  height: 26px;
+}
+
+[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: -8px;
+  left: -15px;
+  width: 200px;
+  z-index: 1;
+  display: none;
+  padding: 13px 22px;
+  background: rgba(255,255,255,.97);
+  border-radius: 4px;
+  color: #474c53;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+  cursor: auto;
+}
+
+@mixin bp tablet {
+  .tooltip {
+    width: 300px;
+  }
 }

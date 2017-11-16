@@ -36,8 +36,17 @@
     @endcomponent
 
     <div class="wrapper">
-      @include('shared/tgeTitle')
-
+      <h1>
+      <sup data-tooltip>
+      <i class="fa fa-question-circle"></i>
+      <div class="tooltip">
+      <b>{{__('TGE - Token Generation Event.')}}</b>
+      <br>
+      {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
+      </div>
+      </sup>
+      {{__('TGE is on')}}! <span style="color:#ee3d49; font-weight: bold;">15% {!!__('bonus')!!}</span> {{__('ends in 2 days!')}}
+      </h1>
       <p style="opacity: 0;" class="topblock_subtitle">
         {{__('Time left')}}:
         <span class="inline-countdown">
@@ -72,10 +81,6 @@
         <div class="progress-target">
           20,000,000 USD
         </div>
-
-        <div class="progress-participants">
-          <span class="js-progress-participants"></span> {{__('participants')}}
-        </div>
       </div>
 
       <div class="buttons">
@@ -88,25 +93,27 @@
         </p>
       </div>
 
-      <div class="founded-money u-cf">
+      <div class="founded-money u-cf" style="margin-bottom:0;">
+        <div class="founded-money-participants">
+          <span class="js-progress-participants"></span> {{__('participants')}}
+        </div>
         <div class="founded-money-usd">0</div>
         <div class="founded-money-btc">0</div>
         <div class="founded-money-eth">0</div>
       </div>
 
-      <div class="topblock-ratings">
+      <div class="topblock-ratings" style="margin-top:0;">
         <div href="http://icorating.com/project/581/Tokenbox" target="_blank" class="topblock-ratings_item">
             <span>ICO Rating: <strong>Stable+</strong></span>
             <span>Hype Score: <strong>Very High</strong></span>
-            <a href="https://drive.google.com/open?id=0B8xj2ie0HTQrSFRRTGlGaUpDRUE"><i class="fa fa-file-pdf-o" target="_blank"></i>  View rating review</a>
         </div>
         <div href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="topblock-ratings_item">
-            <span>TGE/ICO powered by</span>
-            <img src="/assets/front/img/zerion-white.png" alt="">
+            <span>TGE powered by <strong>Zerion</strong></span>
         </div>
       </div>
     </div>
   </section>
+
 
   <section class="section section-distribution" id="token-distribution">
     <div class="wrapper">
@@ -175,7 +182,20 @@
 
   @include('shared/team')
   @include('shared/powered')
-  @include('shared/offer')
+  
+    <section style="margin: 125px 0;">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <div class="button-details">
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <p style="font-size:2.6rem;">
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   @include('shared/media')
 
   <section>
@@ -204,6 +224,19 @@
 
   @include('shared/roadmap')
   @include('shared/faq')
-  @include('shared/offer')
+
+  <section style="margin: 125px 0;">
+    <div class="wrapper">
+      <div class="buttons" style="margin-top:0;">
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a>
+        <div class="button-details">
+          <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+          <p style="font-size:2.6rem;">
+          {!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 @endsection
 
