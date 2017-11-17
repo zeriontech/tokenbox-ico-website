@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <h1>Ratings</h1>
+        <h1 class="from-bottom">Ratings</h1>
 
         <div class="media-rating">
             <a href="http://icorating.com/project/581/Tokenbox" target="_blank" class="img img-rating">
@@ -81,7 +81,7 @@
             </a>
         </div>
 
-<!-- 
+<!--
         <section class="medium" style="display: none;">
             <div class="medium-icon"></div>
             <h1 class="from-bottom">{{__('We are on Medium')}}</h1>

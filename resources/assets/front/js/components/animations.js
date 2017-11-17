@@ -40,7 +40,8 @@ if (!sr.tools.isMobile()) {
     distance: '50px'
   }, 150)
   sr.reveal('.multi-crypto');
-  sr.reveal('.media');
+  sr.reveal('.media-blocks .no-mobile a', 50);
+  sr.reveal('.media-rating a', 50);
   sr.reveal('.footer');
   // sr.reveal('.milestone');
   sr.reveal('.footer-social .link', 50)
