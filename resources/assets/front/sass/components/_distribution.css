@@ -1,9 +1,66 @@
 .distribution {
   position: relative;
   margin: auto;
-  max-width: 880px;
+  max-width: 420px;
 }
 
+.distibution-desc {
+  margin: 80px 0 0;
+  color: #464f56;
+  text-align: center;
+
+  a {
+    font-weight: 700;
+    color: #3434bb;
+  }
+}
+
+.distribution-pie {
+  margin: 0 0 50px;
+}
+
+.distribution-token-title {
+  font-weight: 700;
+  margin: 0 0 14px 61%;
+}
+
+.distribution-token-desc {
+  margin: -40% 0 0 61.5%;
+  font-size: 14px;
+
+  div {
+    margin-bottom: 23px;
+  }
+
+  div:last-child {
+    white-space: nowrap;
+  }
+}
+
+@mixin bp desktop {
+  .distribution {
+    display: flex;
+    justify-content: space-between;
+    max-width: 970px;
+    margin: 104px auto 0;
+  }
+
+  .distribution-pie {
+    margin: 0;
+    padding: 30px 0;
+    width: 436px;
+  }
+
+  .distribution-token {
+    width: 420px;
+  }
+
+  .distribution-token-desc {
+    font-size: 16px;
+  }
+}
+
+/*
 .distribution-pie {
   position: relative;
   z-index: 1;
@@ -108,17 +165,6 @@
     background-image: url(../img/ico/line004.svg);
     width: 212px;
     height: 157px;
-  }
-}
-
-.distibution-desc {
-  margin: 60px 0 0;
-  color: #464f56;
-  text-align: center;
-
-  a {
-    font-weight: 700;
-    color: #3434bb;
   }
 }
 
@@ -245,3 +291,5 @@
     }
   }
 }
+
+*/

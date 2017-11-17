@@ -98,35 +98,7 @@
     </div>
   </section>
 
-  <section class="section section-distribution" id="token-distribution">
-    <div class="wrapper">
-      <h1 class="from-bottom">{{__('Token Distribution')}}</h1>
-      <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}</p>
-
-      <div class="distribution">
-        <div class="distribution-item distribution-item-token">
-          <span>75%</span>
-          {{__('Token Generation Event')}}
-        </div>
-        <div class="distribution-pie">
-          <div class="distribution-pie-icon">
-          </div>
-        </div>
-        <div class="distribution-item distribution-item-bounty">
-          <span>5%</span>
-          {{__('Bounty')}}
-        </div>
-        <div class="distribution-item distribution-item-team">
-          <span>20%</span>
-          {{__('Team')}}
-        </div>
-      </div>
-
-      <div class="distibution-desc">
-        <a href="#faq" class="inner-link">{{__('See detailed information')}}</a> {{__('in our FAQ section')}}.
-      </div>
-    </div>
-  </section>
+  @include('shared/distribution')
 
   <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 1px solid #f6f6f8;">
     <div class="wrapper">

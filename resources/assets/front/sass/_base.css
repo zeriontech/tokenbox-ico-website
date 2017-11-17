@@ -102,4 +102,8 @@ a {
   &:hover {
     text-decoration: underline;
   }
+
+  &:visited {
+    color: #3434bb;
+  }
 }
