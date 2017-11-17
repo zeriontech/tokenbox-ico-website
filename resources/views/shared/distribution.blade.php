@@ -1,7 +1,7 @@
 <section class="section section-distribution" id="token-distribution">
   <div class="wrapper">
     <h1 class="from-bottom">{{__('Token Distribution & Properties')}}</h1>
-    <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}.</p>
+    <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}</p>
 
     <div class="distribution">
       <div class="distribution-pie">
