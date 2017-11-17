@@ -50,7 +50,6 @@
   @include('shared/footer')
   @include('shared/terms')
   @include('shared/privacy')
-  @include('shared/privateSaleForm')
   @include('shared/wireForm')
 
   <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=3"></script>
