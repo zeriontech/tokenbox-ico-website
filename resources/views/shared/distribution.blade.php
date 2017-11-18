@@ -1,18 +1,18 @@
 <section class="section section-distribution" id="token-distribution">
   <div class="wrapper">
     <h1 class="from-bottom">{{__('Token Distribution & Properties')}}</h1>
-    <p class="from-bottom">{{__('Pay only for what you use. No setup fees, no minimum usage.')}}</p>
+    <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}</p>
 
     <div class="distribution">
       <div class="distribution-pie">
         <img src="/assets/front/img/token-distribution/distribution-pie.svg">
       </div>
       <div class="distribution-token">
-        <div class="distribution-token-title">Utility Token</div>
+        <div class="distribution-token-title">{!!__('Utility Token')!!}</div>
         <img src="/assets/front/img/token-distribution/token-pie.svg">
         <div class="distribution-token-desc">
-          <div>At least 5% must be in portfolio</div>
-          <div>Access to Operational <br>Functions</div>
+          <div>{!!__('At least 5% must be in portfolio')!!}</div>
+          <div>{!!__('Access to Operational <br>Functions')!!}</div>
         </div>
       </div>
     </div>

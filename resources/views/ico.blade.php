@@ -137,8 +137,8 @@
 
   @include('shared/team')
   @include('shared/powered')
-  @include('shared/offer')
   @include('shared/media')
+  @include('shared/offer')
 
   <section>
     <div class="documentation" id="documentation" style="margin-top:150px; margin-bottom:150px;">

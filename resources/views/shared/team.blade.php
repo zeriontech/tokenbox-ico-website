@@ -14,6 +14,7 @@
                     <div class="info">{{__('Managing Partner')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/smerkis.jpg')">
                         <div class="overlay">
@@ -24,6 +25,7 @@
                     <div class="info">{{__('Managing Partner')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')">
                         <div class="overlay">
@@ -34,6 +36,7 @@
                     <div class="info">{{__('Technical Project Manager')}},
                         <br />Zerion</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/doganov.jpg')">
                         <div class="overlay">
@@ -44,6 +47,7 @@
                     <div class="info">{{__('Chief Analytics Officer')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')">
                         <div class="overlay">
@@ -54,6 +58,7 @@
                     <div class="info">{{__('Marketing Director')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')">
                         <div class="overlay">
@@ -64,6 +69,7 @@
                     <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/rastorguev.jpg')">
                         <div class="overlay">
@@ -74,6 +80,7 @@
                     <div class="info">{{__('Front-End Engineer')}},
                         <br />The Token Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')">
                         <div class="overlay">
@@ -100,6 +107,7 @@
                     <div class="info">{{__('Head of Supervisory Board')}},
                         <br />Resultat Ltd., Varuna-Partners</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/skinner.jpg')">
                         <div class="overlay">
@@ -121,6 +129,7 @@
                     <div class="info">{{__('Advisor (Blockchain Tech)')}},
                         <br />{{__('HighTechBlock')}}</div>
                 </div>
+                
  				<div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')">
                         <div class="overlay">
@@ -132,6 +141,7 @@
                     <div class="info">{{__('Advisor (Fintech)')}},
                         <br />{{__('Blockchain Consult, eToro')}}</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/sachkov.jpg')">
                         <div class="overlay">
@@ -142,6 +152,7 @@
                     <div class="info">{{__('Advisor (Cybersecurity)')}},
                         <br />{{__('Group-IB')}}</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')">
                         <div class="overlay">
@@ -151,16 +162,6 @@
                     <div class="name">{{__('Julian L. Zegelman')}}</div>
                     <div class="info">{{__('Advisor (Legal)')}},
                         <br />{{__('Velton Zegelman PC')}}</div>
-                </div>
- 				<div class="member">
-                    <div class="img" style="background-image: url('/assets/front/img/team/galam.jpg')">
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/elie-galam-85414b3" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Elie Galam')}}</div>
-                    <div class="info">{{__('Advisor (Finance)')}},
-                        <br />{{__('The Eastmore Group, Bancor')}}</div>
                 </div>
 
                 <div class="member">
@@ -172,6 +173,7 @@
                     <div class="name">{{__('Elena Masolova')}}</div>
                     <div class="info">{{__('Advisor, Groupon Russia')}}, AddVenture Fund</div>
                 </div>
+                
                 <div class="member">
                     <div class="img" style="background-image: url('/assets/front/img/team/koleoshkin.jpg')">
                         <div class="overlay">

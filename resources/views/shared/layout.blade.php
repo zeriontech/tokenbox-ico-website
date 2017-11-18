@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{app()->getLocale()}}">
 <head>
+  <script src="https://cdn.optimizely.com/js/9423791489.js"></script>
   <script type="text/javascript" async src="https://vojs.group-ib.ru/build/main_95_72ae1413_42_91.js"></script>
   <meta charset="UTF-8">
 
@@ -49,7 +50,6 @@
   @include('shared/footer')
   @include('shared/terms')
   @include('shared/privacy')
-  @include('shared/privateSaleForm')
   @include('shared/wireForm')
 
   <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=3"></script>

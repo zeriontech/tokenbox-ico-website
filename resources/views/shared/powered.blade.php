@@ -1,4 +1,4 @@
-<section class="section section-powered-by" id="partners">
+<section class="section section-powered-by" id="partners" style="background-color:#fff; border-top: 2px solid #f6f6f8; border-bottom: 2px solid #f6f6f8;">
   <div class="wrapper">
     <h1>{{__('Partners')}}</h1>
     <p>{{__('Tokenbox is powered by these awesome companies')}}</p>
