@@ -38,7 +38,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="swiper-slide">
               <p class="video-title">{{__('How blockchain technology works for investors & traders on Tokenbox platform')}}.</p>
 
@@ -81,7 +81,7 @@
     .swiper-button-prev,
     .swiper-button-next {
       display: none;
-      margin-top: 24px;
+      margin-top: 18px;
       top: 50%;
       background-image: none;
       width: 30px;
