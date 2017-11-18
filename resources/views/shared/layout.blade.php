@@ -52,7 +52,7 @@
   @include('shared/privacy')
   @include('shared/wireForm')
 
-  <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=3"></script>
+  <script type="text/javascript" src="/assets/front/js/vendors.min.js?v=4"></script>
   <script type="text/javascript" src="/assets/front/js/app.min.js?v=24"></script>
 
   <!-- Facebook Pixel Code -->
