@@ -46,7 +46,7 @@
             eth: 0,
             btc: 0,
             participants: 20,
-            target: 3000000
+            target: 20000000
           };
         </script>
 
