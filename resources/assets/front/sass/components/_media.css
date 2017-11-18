@@ -112,6 +112,11 @@
     }
   }
 
+
+  .img[style*="visible"] {
+    transition: .2s opacity !important;
+  }
+
   .img-rating {
     display: flex;
     flex-direction: column;
