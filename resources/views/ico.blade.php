@@ -1,7 +1,7 @@
 @extends('shared/layout')
 
 @section('content')
-  <section class="topblock topblock-ico">
+  <div class="topblock topblock-ico">
     <div class="topblock_bg">
       <div class="topblock_bg_inner"></div>
     </div>
@@ -45,7 +45,8 @@
             usd: 1085124.86,
             eth: 0,
             btc: 0,
-            participants: 20
+            participants: 20,
+            target: 3000000
           };
         </script>
 
@@ -60,7 +61,8 @@
         </div>
 
         <div class="progress-target">
-          20,000,000 USD
+          <span class="js-progress-target"></span>
+          USD
         </div>
 
         <div class="progress-participants">
@@ -96,7 +98,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   @include('shared/distribution')
 

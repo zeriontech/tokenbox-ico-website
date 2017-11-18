@@ -76,7 +76,7 @@
   background: #25258e;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 1139px) {
   .header .nav,
   .header_social,
   .header .lang {
@@ -84,7 +84,7 @@
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1140px) {
   .hamburger-icon {
     display: none;
   }

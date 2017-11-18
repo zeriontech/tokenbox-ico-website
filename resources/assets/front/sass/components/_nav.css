@@ -16,7 +16,7 @@
       cursor: pointer;
       color: white;
       font-weight: 400;
-      padding: 5px 10px;
+      padding: 5px 8px;
       text-decoration: none;
 
       &:hover {
@@ -28,8 +28,15 @@
 
 @media (min-width: 1260px) {
   .nav > li > a {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .nav > li > a {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 

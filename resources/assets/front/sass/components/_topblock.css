@@ -4,8 +4,16 @@
   color: white;
 
   h1 {
+    margin: 0 0 8px;
     text-align: center;
     color: white;
+
+    sup {
+      position: relative;
+      top: -6px;
+      left: -1px;
+      font-size: 19px;
+    }
   }
 
   @mixin breakpoint tablet {
@@ -217,7 +225,10 @@
 }
 
 .topblock_subtitle {
-  font-size: 24px;
+  margin: 0 0 63px;
+  font-size: 26px;
+  color: #abb4bb;
+  text-align: center;
 }
 
 .topblock-ratings {

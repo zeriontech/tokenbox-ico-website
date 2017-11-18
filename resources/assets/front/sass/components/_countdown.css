@@ -8,13 +8,6 @@
 
 .countdown h1 {
   margin: 0 0 8px;
-
-  sup {
-    position: relative;
-    top: -6px;
-    left: -1px;
-    font-size: 19px;
-  }
 }
 
 .countdown p {

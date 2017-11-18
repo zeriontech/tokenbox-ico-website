@@ -2,6 +2,8 @@ updateProgress();
 setInterval(updateProgress, 30000);
 
 function updateProgress() {
+  $('.js-progress-target').text(window.icoProgress.target.toLocaleString('en'));
+
   $('.progress').each(function() {
     $('.progress-bar-current').css('width', $(this).width() + 'px');
 
@@ -17,7 +19,7 @@ function updateProgress() {
       $('.js-progress-current').text(total.toLocaleString('en'));
 
       var progressBar = total > 1 ? total * 100/20e6 : 1;
-      $('.js-progress-bar').animate({ width: progressBar + '%' });
+      $('.js-progress-bar').css({ width: progressBar + '%' });
 
       $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
 

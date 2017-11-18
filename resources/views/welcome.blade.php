@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <section class="topblock topblock-home">
+  <div class="topblock topblock-home">
     <div class="topblock_bg">
       <div class="topblock_bg_inner"></div>
     </div>
@@ -72,7 +72,7 @@
         </div>
       </div>
 
-      <div class="countdown" style="margin-top:70px; margin-bottom:70px;">
+      <div style="margin-top:70px; margin-bottom:70px;">
         @include('shared/tgeTitle')
       </div>
 
@@ -89,7 +89,7 @@
 
           <div class="feature" style="margin-bottom:50px:">
             <div class="feature-img feature-img-funds">
-              <img width="784" srcset="/assets/front/img/slider/slide-1.png?v2 1x, /assets/front/img/slider/slide-1@2x.png?v2" src="/assets/front/img/slider/slide-1.png?v2" alt="">
+              <img width="784" srcset="/assets/front/img/slider/slide-1.png?v2 1x, /assets/front/img/slider/slide-1@2x.png?v2 1.5x" src="/assets/front/img/slider/slide-1.png?v2" alt="">
             </div>
             <div class="caption">&nbsp;{{-- {{__('Choose crypto funds for your investments')}}. --}}</div>
           </div>
@@ -111,7 +111,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   @include('shared/videoSlider')
 

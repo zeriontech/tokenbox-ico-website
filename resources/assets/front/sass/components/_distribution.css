@@ -19,6 +19,10 @@
   margin: 0 0 50px;
 }
 
+.distribution-token {
+  color: #464f56;
+}
+
 .distribution-token-title {
   font-weight: 700;
   margin: 0 0 14px 61%;
