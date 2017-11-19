@@ -1,4 +1,5 @@
 .topblock {
+  position: relative;
   z-index: 10;
   background: $blue;
   color: white;
