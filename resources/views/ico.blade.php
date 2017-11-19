@@ -38,7 +38,7 @@
     <div class="wrapper">
       @include('shared/tgeTitle')
 
-      <div class="progress">
+      <div class="progress" style="margin-top:53px;">
         <script>
           var icoProgress = {
             total: 1085124.86,
