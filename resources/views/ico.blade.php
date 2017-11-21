@@ -67,9 +67,9 @@
           <span class="js-progress-target-label" data-second-title="{{__('Second tier')}}" data-third-title="{{__('Third tier')}}"></span>
         </div>
 
-        <div class="progress-participants">
+        <!--<div class="progress-participants">
           20,000,000 USD {{__('Hard cap')}}
-        </div>
+        </div>-->
 
         <div class="progress-participants">
           <span class="js-progress-participants"></span> {{__('participants')}}
