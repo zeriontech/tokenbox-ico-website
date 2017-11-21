@@ -41,8 +41,8 @@
       <div class="progress" style="margin-top:53px;">
         <script>
           var icoProgress = {
-            total: 1085124,
-            usd: 1085124.86,
+            total: 1113848,
+            usd: 1113848,
             eth: 0,
             btc: 0,
             participants: 20,
