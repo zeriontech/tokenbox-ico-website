@@ -4,7 +4,7 @@ window.sr = ScrollReveal({
   distance: 0,
   viewFactor: 0.4,
   scale: 1,
-  duration: 800,
+  duration: 600,
   mobile: false,
   rotate: { x: 0, y: 0, z: 0 }
 });

@@ -41,8 +41,8 @@
       <div class="progress" style="margin-top:53px;">
         <script>
           var icoProgress = {
-            total: 1113848,
-            usd: 1113848,
+            total: 1085124,
+            usd: 1085124.86,
             eth: 0,
             btc: 0,
             participants: 20,
@@ -51,8 +51,7 @@
         </script>
 
         <div class="progress-current">
-          <span class="js-progress-current">0</span>
-          USD
+          <span class="js-progress-current">0</span> USD
         </div>
 
         <div class="progress-bar">
@@ -65,12 +64,6 @@
           <span class="js-progress-target"></span>
           USD
         </div>
-
-        <div class="progress-participants js-progress-target-label" data-second-title="{{__('Second tier')}}" data-third-title="{{__('Third tier')}}"></div>
-
-        <!--<div class="progress-participants">
-          20,000,000 USD {{__('Hard cap')}}
-        </div>-->
 
         <div class="progress-participants">
           <span class="js-progress-participants"></span> {{__('participants')}}
