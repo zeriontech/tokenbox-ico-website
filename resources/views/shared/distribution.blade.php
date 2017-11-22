@@ -1,4 +1,4 @@
-<section class="section section-distribution" id="token-distribution">
+<section class="section section-distribution" id="token-distribution" style="background:#fff;">
   <div class="wrapper">
     <h1 class="from-bottom">{{__('Token Distribution & Properties')}}</h1>
     <p class="from-bottom">{{__('No more than 31,000,000 TBX will be released')}}</p>
