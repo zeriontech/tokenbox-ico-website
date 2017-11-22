@@ -23,7 +23,7 @@ function updateProgress() {
 
     $('.js-progress-current').text(total.toLocaleString('en'));
 
-    var progressBar = total > 1 ? total * 100/window.icoProgress.target : 1;
+    var progressBar = total > 1 ? total * 100/target : 1;
     $('.js-progress-bar').css({ width: progressBar + '%' });
 
     $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
