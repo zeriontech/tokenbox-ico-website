@@ -13,14 +13,6 @@
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
-      @endslot
-
-      <nav class="nav js-scroll-nav" role="navigation">
-        <li><a href="/home">{{__('Product')}}</a></li>
-        <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
-        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
-        <li><a href="#documentation">{{__('Docs')}}</a></li>
-        <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
@@ -31,6 +23,14 @@
             {{__('Light Paper')}}
           </a>
         </li>
+      @endslot
+
+      <nav class="nav js-scroll-nav" role="navigation">
+        <li><a href="/home">{{__('Product')}}</a></li>
+        <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
+        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
+        <li><a href="#documentation">{{__('Docs')}}</a></li>
+        <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
       <ul class="nav header_right">
