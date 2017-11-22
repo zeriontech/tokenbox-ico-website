@@ -113,7 +113,7 @@
   }
 
 
-  .img[style*="visible"] {
+  .img:hover[style*="opacity: 1"] {
     transition: .2s opacity !important;
   }
 
