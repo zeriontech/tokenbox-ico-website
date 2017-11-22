@@ -51,7 +51,8 @@
         </script>
 
         <div class="progress-current">
-          <span class="js-progress-current">0</span> USD
+          <span class="js-progress-current">0</span>
+          USD
         </div>
 
         <div class="progress-bar">
@@ -64,6 +65,12 @@
           <span class="js-progress-target"></span>
           USD
         </div>
+
+        <div class="progress-participants js-progress-target-label" data-second-title="{{__('Second tier')}}" data-third-title="{{__('Third tier')}}"></div>
+
+        <!--<div class="progress-participants">
+          20,000,000 USD {{__('Hard cap')}}
+        </div>-->
 
         <div class="progress-participants">
           <span class="js-progress-participants"></span> {{__('participants')}}
