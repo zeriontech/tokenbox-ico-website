@@ -15,7 +15,7 @@ function updateProgress() {
     }
   }).then(function(data) {
     var total = +data.total_funds_raised + window.icoProgress.total;
-    var target = total > 3e6 ? 3e6 : 10e6;
+    var target = total < 3e6 ? 3e6 : 10e6;
     var $label = $('.js-progress-target-label');
     $label.text($label.data(total < 3e6 ? 'third-title' : 'second-title'));
 
