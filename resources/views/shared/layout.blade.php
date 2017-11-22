@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="{{app()->getLocale()}}">
 <head>
-  <script src="https://cdn.optimizely.com/js/9423791489.js"></script>
   <script type="text/javascript" async src="https://vojs.group-ib.ru/build/main_95_72ae1413_42_91.js"></script>
   <meta charset="UTF-8">
 
