@@ -1,4 +1,4 @@
-<section style="margin: 125px 0; border-top: 2px solid #f6f6f8;">
+<section style="margin: 125px 0;">
   <div class="wrapper">
     <div class="buttons" style="margin-top:0;">
       <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!
