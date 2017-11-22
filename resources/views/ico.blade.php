@@ -12,6 +12,7 @@
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
+        <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
@@ -30,6 +31,7 @@
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
+        <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
