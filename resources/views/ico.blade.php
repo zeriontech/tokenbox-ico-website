@@ -23,15 +23,25 @@
         <li><a href="#faq">{{__('FAQ')}}</a></li>
       </nav>
 
-      <div class="header_social">
-        <a href="https://bitcointalk.org/index.php?topic=2243307.0" class="icon-bitcointalk" target="_blank"></a>
-        <a href="https://www.facebook.com/Tokenbox/" title="Facebook" class="link facebook" target="_blank"><i class="fa fa-facebook-square"></i></a>
-        <a href="https://twitter.com/tokenbox" class="link twitter" title="Twitter" target="_blank"><i class="fa fa-twitter-square"></i></a>
-        <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
-      </div>
-
-      <ul class="nav">
-        <li>@include('shared/langSwitcher')</li>
+      <ul class="nav header_right">
+        <li>
+          <div class="header_social">
+            <a href="https://t.me/Tokenbox" class="link telegram" title="Telegram" target="_blank"> <i class="fa fa-telegram"></i>
+            </a>
+          </div>
+        </li>
+        <li class="active nav-pill">
+          <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
+            {{__('White Paper')}}
+          </a>
+        </li><li class="active nav-pill">
+          <a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
+            {{__('Light Paper')}}
+          </a>
+        </li>
+        <li>
+          @include('shared/langSwitcher')
+        </li>
       </ul>
     @endcomponent
 
