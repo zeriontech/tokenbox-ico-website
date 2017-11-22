@@ -151,7 +151,7 @@
   @include('shared/team')
 
   <section>
-    <div class="documentation" id="documentation" style="margin-top:150px; margin-bottom:150px;">
+    <div class="documentation" id="documentation" style="margin-bottom:150px;">
       <h1 class="from-bottom">{{__('Documentation')}}</h1>
 
       <div class="documentation_list">
