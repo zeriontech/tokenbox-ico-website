@@ -21,6 +21,16 @@
         <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
+        <li class="active">
+          <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
+            {{__('White Paper')}}
+          </a>
+        </li>
+        <li class="active">
+          <a href="{{__('/docs/Tokenbox-LightPaper-En.pdf')}}" target="_blank">
+            {{__('Light Paper')}}
+          </a>
+        </li>
       </nav>
 
       <ul class="nav header_right">
