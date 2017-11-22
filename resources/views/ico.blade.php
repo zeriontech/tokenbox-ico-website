@@ -78,10 +78,12 @@
       </div>
 
       <div class="buttons">
-        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><!-- 
+<a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
         </a>
+ -->
         <p style="color:#abb4bb; margin-top: 22px;">
           <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}
         </p>
@@ -107,6 +109,8 @@
     </div>
   </div>
 
+  @include('shared/powered')
+  @include('shared/media')
   @include('shared/distribution')
 
   <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 2px solid #f6f6f8;">
@@ -145,8 +149,6 @@
   </section>
 
   @include('shared/team')
-  @include('shared/powered')
-  @include('shared/media')
   @include('shared/offer')
 
   <section>
