@@ -8,10 +8,16 @@
     </div>
   </sup>
   {{__('Token Generation Event')}} <span style="color:#ee3d49">{{__('is live')}}!</span>
-  <!--<span style="color:#ee3d49; font-weight: bold;">
-    <span class="js-value"></span>% {!!__('bonus')!!}
-  </span>-->
 </h1>
+
+<p class="topblock_subtitle inline-countdown" style="opacity: 0;">
+  {{__('Time Left')}}:
+
+  <span data-key="days"></span>{{__('d')}}
+  <span data-key="hours"></span>{{__('h')}}
+  <span data-key="minutes"></span>{{__('m')}}
+  <span data-key="seconds"></span>{{__('s')}}
+</p>
 
 <!-- Black Friday -->
 <!-- 
@@ -26,13 +32,14 @@
   </sup>
   {{__('TGE is live')}}! <span style="font-weight:bold; text-transform:uppercase;">{{__('Black Friday')}} &mdash; <span style="color:#ee3d49;">5% {{__('off')}}!</span></span>
 </h1>
- -->
 
 <p class="topblock_subtitle inline-countdown" style="opacity: 0;">
-  {{__('Time Left')}}:
+  TGE {{__('ends in')}}:
 
   <span data-key="days"></span>{{__('d')}}
   <span data-key="hours"></span>{{__('h')}}
   <span data-key="minutes"></span>{{__('m')}}
   <span data-key="seconds"></span>{{__('s')}}
 </p>
+
+ -->
