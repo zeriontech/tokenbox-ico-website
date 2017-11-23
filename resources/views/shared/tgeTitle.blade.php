@@ -1,3 +1,4 @@
+<!-- 
 <h1 style="font-weight:bold;">
   <sup data-tooltip>
     <i class="fa fa-question-circle"></i>
@@ -18,9 +19,9 @@
   <span data-key="minutes"></span>{{__('m')}}
   <span data-key="seconds"></span>{{__('s')}}
 </p>
+ -->
 
 <!-- Black Friday -->
-<!-- 
 <h1>
   <sup data-tooltip>
     <i class="fa fa-question-circle"></i>
@@ -42,4 +43,4 @@
   <span data-key="seconds"></span>{{__('s')}}
 </p>
 
- -->
+
