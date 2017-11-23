@@ -1,4 +1,4 @@
-<h1 class="js-bonus">
+<h1>
   <sup data-tooltip>
     <i class="fa fa-question-circle"></i>
     <div class="tooltip">
@@ -8,13 +8,14 @@
     </div>
   </sup>
   {{__('TGE is live')}}!
-  <span style="color:#ee3d49; font-weight: bold;">
+  <!--<span style="color:#ee3d49; font-weight: bold;">
     <span class="js-value"></span>% {!!__('bonus')!!}
-  </span>
+  </span>-->
   {{__('ends in')}}
 </h1>
 
-<p class="topblock_subtitle" style="opacity: 0;">
+<p class="topblock_subtitle inline-countdown" style="opacity: 0;">
+  Time Left:
   <span data-key="days"></span>{{__('d')}}
   <span data-key="hours"></span>{{__('h')}}
   <span data-key="minutes"></span>{{__('m')}}
