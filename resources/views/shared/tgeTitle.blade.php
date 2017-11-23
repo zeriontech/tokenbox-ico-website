@@ -14,7 +14,8 @@
 </h1>
 
 <p class="topblock_subtitle inline-countdown" style="opacity: 0;">
-  Time Left:
+  {{__('Time Left')}}:
+
   <span data-key="days"></span>{{__('d')}}
   <span data-key="hours"></span>{{__('h')}}
   <span data-key="minutes"></span>{{__('m')}}

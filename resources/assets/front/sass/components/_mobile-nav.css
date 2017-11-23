@@ -37,6 +37,7 @@
       .title {
         padding: 0 25px 0 0;
         margin: 17px -22px 12px 0;
+        white-space: nowrap; /* safari fix */
       }
 
       &.active {
