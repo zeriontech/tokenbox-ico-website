@@ -11,7 +11,6 @@
   <!--<span style="color:#ee3d49; font-weight: bold;">
     <span class="js-value"></span>% {!!__('bonus')!!}
   </span>-->
-  {{__('ends in')}}
 </h1>
 
 <p class="topblock_subtitle inline-countdown" style="opacity: 0;">
