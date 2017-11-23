@@ -33,6 +33,10 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto 15px;
+
+    &.active .overlay {
+      opacity: 1;
+    }
   }
 
   .img {
@@ -45,7 +49,6 @@
     background-repeat: no-repeat;
     filter: grayscale(100%);
   }
-
 
   .overlay {
     position: absolute;
@@ -72,10 +75,6 @@
         opacity: .5;
       }
     }
-
-    &.active {
-      opacity: 1;
-    }
   }
 
   .name {
@@ -101,16 +100,6 @@
   .member {
     white-space: normal;
     margin: 0;
-
-    .img {
-      width: 80%;
-      height: 0;
-      padding-bottom: 80%;
-
-      .overlay a {
-        margin-top: 45%;
-      }
-    }
   }
 }
 
