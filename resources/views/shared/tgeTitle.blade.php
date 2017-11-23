@@ -7,7 +7,7 @@
     {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
     </div>
   </sup>
-  {{__('Token Generation Event')}} <span style="color:#ee3d49">{{__('is live')}}</span>!
+  {{__('Token Generation Event')}} <span style="color:#ee3d49">{{__('is live')}}!</span>
   <!--<span style="color:#ee3d49; font-weight: bold;">
     <span class="js-value"></span>% {!!__('bonus')!!}
   </span>-->
