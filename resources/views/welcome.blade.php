@@ -78,7 +78,7 @@
 
       <div class="buttons">
         <a href="/tge" class="button">
-          {{__('Participate in TGE/ICO')}}&nbsp;&nbsp;&rarr;
+          {{__('Participate in TGE')}}&nbsp;&nbsp;&rarr;
         </a>
       </div>
 
@@ -119,7 +119,7 @@
     <div class="wrapper">
       <div class="buttons" style="margin-top:0;">
         <a href="/tge" class="button">
-          {{__('Participate in TGE/ICO')}}&nbsp;&nbsp;&rarr;
+          {{__('Participate in TGE')}}&nbsp;&nbsp;&rarr;
         </a>
       </div>
     </div>
