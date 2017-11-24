@@ -92,7 +92,7 @@
 
   .topblock_bg_inner {
     opacity: 0.05;
-    background: url("../img/grid-white.svg?v=2") top center no-repeat;
+    background-image: url("../img/grid-white.svg?v=2");
   }
 }
 
