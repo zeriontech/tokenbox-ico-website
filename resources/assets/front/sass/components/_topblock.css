@@ -180,11 +180,12 @@
   }
 
   .topblock_bg_inner {
+    /*
     top: -500px;
     right: -500px;
     bottom: -500px;
     left: -500px;
-    animation: 400s linear rotate infinite alternate;
+    animation: 400s linear rotate infinite alternate; */
     transform-origin: center;
   }
 
