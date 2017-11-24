@@ -5,7 +5,7 @@
     <div class="tooltip">
     <b>{{__('TGE - Token Generation Event.')}}</b>
     <br>
-    {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
+    {{__('It is a synonym for ICO. The term TGE is used because we issue tokens — not coins.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
     </div>
   </sup>
   {{__('Token Generation Event')}} <span style="color:#ee3d49">{{__('is live')}}!</span>
@@ -28,7 +28,7 @@
     <div class="tooltip">
     <b>{{__('TGE - Token Generation Event.')}}</b>
     <br>
-    {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
+    {{__('It is a synonym for ICO. The term TGE is used because we issue tokens — not coins.')}}<br><a href="#faq">{{__('Learn more')}} &rarr;</a>
     </div>
   </sup>
   {{__('TGE is live')}}! <span style="font-weight:bold; text-transform:uppercase;">{{__('Black Friday')}} &mdash; <span style="color:#ee3d49;">5% {{__('off')}}!</span></span>

@@ -8,7 +8,7 @@
       <div class="tooltip">
         <b>{{__('TGE - Token Generation Event.')}}</b>
         <br>
-        {{__('It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}<br><a href="#faq">{{__('Learn more')}} &darr;</a>
+        {{__('It is a synonym for ICO. The term TGE is used because we issue tokens — not coins.')}}<br><a href="#faq">{{__('Learn more')}} &darr;</a>
       </div>
     </sup>
   </h1>

@@ -189,7 +189,7 @@
                 </label>
 
                 <div class="accordion-item-content">
-                    {{__('TGE - Token Generation Event. It is a synonym of the ICO. We use the TGE term because TBX tokens but not coins will be issued.')}}
+                    {{__('TGE - Token Generation Event. It is a synonym for ICO. The term TGE is used because we issue tokens — not coins.')}}
                 </div>
             </div>
 
