@@ -88,7 +88,7 @@
           USD
         </div>
 
-        <div class="progress-participants js-progress-target-label" data-second-title="{{__('Second tier')}}" data-third-title="{{__('Third tier')}}"></div>
+        <div class="progress-participants js-progress-target-label" data-final-title="{{__('Final tier')}}" data-third-title="{{__('Third tier')}}"></div>
 
         <!--<div class="progress-participants">
           20,000,000 USD {{__('Hard cap')}}
@@ -100,7 +100,7 @@
       </div>
 
       <div class="buttons">
-        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><!-- 
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><!--
 <a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
           <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
           {{__('White Paper')}}
