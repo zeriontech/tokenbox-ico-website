@@ -117,7 +117,7 @@
     </div>
   </section>
 
-  <div class="big-title from-bottom" id="traders-and-funds"><h1>{{__('For Traders and Funds')}}</h1></div>
+  <div class="big-title from-bottom" id="traders-and-funds" style=" margin-top: 40px"><h1>{{__('For Traders and Funds')}}</h1></div>
 
   <section class="become-legal">
     <div class="wrapper">
