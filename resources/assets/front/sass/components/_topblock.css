@@ -168,14 +168,20 @@
 
 @mixin bp tablet {
   .topblock-home  {
-    margin-bottom: 240px;
+    margin-bottom: 120px;
 
     .header {
       margin-bottom: 26px;
     }
 
     .features {
-      margin-bottom: -320px;
+      margin-bottom: -185px;
+    }
+
+    .header + .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - 122px);
     }
   }
 

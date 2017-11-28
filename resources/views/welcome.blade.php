@@ -77,7 +77,7 @@
           <i class="background-icon features-icon-l"></i>
           <i class="background-icon features-icon-r"></i>
 
-          <div class="feature" style="margin-bottom:50px:">
+          <div class="feature">
             <div class="feature-img feature-img-funds">
               <img width="784" srcset="/assets/front/img/slider/slide-1.png?v2 1x, /assets/front/img/slider/slide-1@2x.png?v2 1.5x" src="/assets/front/img/slider/slide-1.png?v2" alt="">
             </div>
