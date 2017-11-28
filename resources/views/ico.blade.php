@@ -115,19 +115,11 @@
 		<br />
 		<b>Method 2</b>
 		<br />
-		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.
-<<<<<<< HEAD
-		<br>
+		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.<br>
 		<br>
 		<b>Method 3</b>
 		Login to your dashboard by clicking this button.
-=======
 		<br />
-		<br />
-		<b>Method 3</b>
-		<br />
-		Login to your dashboard by clicking this button.
->>>>>>> 91640871b1fef322bf04305396ee91aec0bdfcee
       </p>
 
       <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('View my TBX balance')}}</a>
