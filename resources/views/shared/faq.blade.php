@@ -241,17 +241,6 @@
                 </div>
             </div>
 
-            <div class="accordion-item">
-                <input type="checkbox" id="item-3-7">
-
-                <label class="heading-2" for="item-3-7">
-                    {{__('Are there any special conditions, bonuses? Will there be a pre-sale?')}}
-                </label>
-
-                <div class="accordion-item-content">
-                    {!!__('Currently, there is still an opportunity to participate in a private sale. If you are a fund or a major investor, you can&nbsp;<a href="mailto:hello@tokenbox.io">contact us</a>&nbsp;for a special offer. During the TGE crowdsale period bonuses are not provided.') !!}
-                </div>
-            </div>
         </div>
     </div>
 </section>
