@@ -16,14 +16,14 @@ class MainController extends Controller
 
     public function mainPage()
     {
-        $icoDate = Carbon::createFromDate('2017', 11, 28);
-        $days    = $icoDate->diffInDays(Carbon::now());
+//         $icoDate = Carbon::createFromDate('2017', 11, 28);
+//         $days    = $icoDate->diffInDays(Carbon::now());
 
         $title = __('Tokenbox — Uniting Crypto');
 
-        $desctiption = __('ᐅᐅᐅ TGE (ICO) started! ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE (ICO) ends in ');
-        $desctiption .= $days > 0 ? $days : '';
-        $desctiption .= ($days == 1) ? __(' day!') : __(' days!');
+        $desctiption = __('ᐅᐅᐅ №1 ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE has ended.');
+//         $desctiption .= $days > 0 ? $days : '';
+//         $desctiption .= ($days == 1) ? __(' day!') : __(' days!');
 
         $this->seo()
             ->setTitle($title)
