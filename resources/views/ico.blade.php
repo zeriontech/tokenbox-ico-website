@@ -83,19 +83,13 @@
           </div>
         </div>
 
-        <div class="progress-target">
+        <div class="progress-target" style="text-transform:uppercase;">
           {{__('Collected')}}
         </div>
 
         <div class="progress-participants">
           <span class="js-progress-participants"></span> {{__('participants')}}. {{__('Thank you!')}}
         </div>
-      </div>
-
-      <div class="founded-money u-cf">
-        <div class="founded-money-usd">0</div>
-        <div class="founded-money-btc">0</div>
-        <div class="founded-money-eth">0</div>
       </div>
 
     </div>
@@ -111,22 +105,29 @@
       <p class="from-bottom">{{__('The process is simple and only takes ~2 minutes')}}</p>
 
       <p style="margin-bottom:30px;">
-		<b>Method 1</b><br>
-		1. Login to <a href="https://www.myetherwallet.com" target="_blank">MyEtherWallet</a> with ETH address on which TBX tokens are stored.<br>
-		2. Click "Add Custom Token"<br>
+		<b>Method 1</b><br />
+		1. Login to <a href="https://www.myetherwallet.com" target="_blank">MyEtherWallet</a> with ETH address on which TBX tokens are stored.<br />
+		2. Click "Add Custom Token"<br />
 		3. Enter Token Contract Address: 0x69cd4e1e2e1cec76eb7f3b1acdddaddcc6d60fc1<br>
-		4. Enter Token Symbol: TBX<br>
-		5. Enter Decimals: 18<br>
-		6. Click "Save"<br>
-		<br>
-		<br>
+		4. Enter Token Symbol: TBX<br />
+		5. Enter Decimals: 18<br />
+		6. Click "Save"<br />
+		<br />
 		<b>Method 2</b>
-		<br>
+		<br />
 		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.
+<<<<<<< HEAD
 		<br>
 		<br>
 		<b>Method 3</b>
 		Login to your dashboard by clicking this button.
+=======
+		<br />
+		<br />
+		<b>Method 3</b>
+		<br />
+		Login to your dashboard by clicking this button.
+>>>>>>> 91640871b1fef322bf04305396ee91aec0bdfcee
       </p>
 
       <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('View my TBX balance')}}</a>
