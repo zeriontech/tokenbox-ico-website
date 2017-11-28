@@ -68,7 +68,7 @@
             eth: 0,
             btc: 0,
             participants: 20,
-            target: window.icoProgressTarget || 7000000
+            target: window.icoProgressTarget || 20000000
           };
         </script>
 
@@ -88,9 +88,27 @@
           USD
         </div>
 
+        <div class="progress-participants js-progress-target-label" data-final-title="{{__('Final tier')}}" data-third-title="{{__('Third tier')}}"></div>
+
+        <!--<div class="progress-participants">
+          20,000,000 USD {{__('Hard cap')}}
+        </div>-->
+
         <div class="progress-participants">
-          <span class="js-progress-participants"></span> {{__('participants')}}. {{__('Thank you!')}}
+          <span class="js-progress-participants"></span> {{__('participants')}}
         </div>
+      </div>
+
+      <div class="buttons">
+        <a class="button" href="https://wallet.tokenbox.io/" target="_blank">{{__('Buy TBX Tokens')}}!</a><!--
+<a class="button button-info" href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}">
+          <i class="fa fa-file-pdf-o" style="margin-right: 6px;"></i>
+          {{__('White Paper')}}
+        </a>
+ -->
+        <p style="color:#abb4bb; margin-top: 22px;">
+          <b>{{__('Escrow provided by:')}}</b> {{__('The Token Fund and Zerion')}}
+        </p>
       </div>
 
       <div class="founded-money u-cf">
@@ -99,6 +117,17 @@
         <div class="founded-money-eth">0</div>
       </div>
 
+      <div class="topblock-ratings">
+        <div href="http://icorating.com/project/581/Tokenbox" target="_blank" class="topblock-ratings_item">
+            <span>ICO Rating: <strong>Stable+</strong></span>
+            <span>Hype Score: <strong>Very High</strong></span>
+            <a href="https://drive.google.com/open?id=0B8xj2ie0HTQrSFRRTGlGaUpDRUE" target="_blank"><i class="fa fa-file-pdf-o"></i>  View rating review</a>
+        </div>
+        <div href="https://icobench.com/ico/tokenbox/ratings#ratings" target="_blank" class="topblock-ratings_item">
+            <span>TGE/ICO powered by</span>
+            <img src="/assets/front/img/zerion-white.png" alt="">
+        </div>
+      </div>
     </div>
   </div>
 
@@ -108,31 +137,35 @@
 
   <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 2px solid #f6f6f8; border-top: 2px solid #f6f6f8;">
     <div class="wrapper">
-      <h1 class="from-bottom">{{__('How to View My TBX Balance')}}</h1>
-      <p class="from-bottom">{{__('The process is simple and only takes ~2 minutes')}}</p>
+      <h1 class="from-bottom">{{__('How to Join the Crowdsale')}}</h1>
+      <p class="from-bottom">{{__('The process is simple and only takes ~5 minutes')}}</p>
 
-      <p style="margin-bottom:30px;">
-		<b>Method 1</b><br>
-		1. Login to <a href="https://www.myetherwallet.com" target="_blank">MyEtherWallet</a> with ETH address on which TBX tokens are stored.<br>
-		2. Click "Add Custom Token"<br>
-		3. Enter Token Contract Address: 0x69cd4e1e2e1cec76eb7f3b1acdddaddcc6d60fc1<br>
-		4. Enter Token Symbol: TBX<br>
-		5. Enter Decimals: 18<br>
-		6. Click "Save"<br>
-		<br>
-		<br>
-		<b>Method 2</b>
-		<br>
-		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.
-		<br>
-		<br>
-		<b>Method 3</b> 
-		Login to your dashboard by clicking this button.    
-      </p>
+      <h2>{{__('4 easy steps')}}</h2>
 
-      <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('View my TBX balance')}}</a>
+      <ol class="step-list" data-title="{{__('4 easy steps')}}">
+        <li>
+          <span><b>{{__('Make sure')}}</b> {{__('you comply with our')}} <a href="#terms" class="js-modal-link inner-link">{{__('Terms & Conditions')}}</a>.</span>
+        </li><li>
+          <span>
+            <a href="https://wallet.tokenbox.io/" target="_blank"><b>{{__('Create')}}</b>
+            {{__('a Zerion account')}}</a>.
+          </span>
+        </li><li>
+          <span><b>{{__('Choose currency')}}</b> {{__('and the amount of Tokens you want to purchase')}}.</span>
+        </li><li>
+          <span><b>{{__('Send')}}</b> {{__('the required amount to the specified wallet address and wait for 6 confirmations')}}.</span>
+        </li><li>
+          <span><b>{{__('Congratulations!')}}</b><br>{{__("You've just purchased TBX Tokens.")}}</span>
+        </li>
+      </ol>
 
-      <p style="font-size:2.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+      <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('Buy TBX Tokens')}}!</a>
+
+      <div class="button-details">
+        <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+      </div>
+
+      <p style="font-size:3.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p><!-- <p>{!!__('If you decide to purchase more tokens, repeat steps 3-4 by signing-in to your <a href="https://wallet.tokenbox.io/" target="_blank" style="color:#3434bb;">dashboard</a>.')!!}</p> -->
 
     </div>
   </section>
@@ -163,7 +196,10 @@
     </div>
   </section>
 
+  @include('shared/offer')
+
   @include('shared/roadmap')
   @include('shared/faq')
-  @endsection
+  @include('shared/offer')
+@endsection
 

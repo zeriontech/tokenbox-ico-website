@@ -9,7 +9,7 @@
 
     @component('shared/header')
       @slot('mobile')
-        <li><a href="/tge">{!!__('TGE/ICO')!!}</a></li>
+        <li><a href="/tge">{!!__('TGE')!!}</a></li>
         <li><a href="#traders-and-funds">{{__('Features')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#team">{{__('Team')}}</a></li>
@@ -28,7 +28,7 @@
       @endslot
 
       <nav class="nav header_main-nav js-scroll-nav" role="navigation">
-        <li><a href="/tge">{!!__('TGE/ICO')!!}</a></li>
+        <li><a href="/tge">{!!__('TGE')!!}</a></li>
         <li><a href="#traders-and-funds">{!!__('Features')!!}</a></li>
         <li><a href="#roadmap">{!!__('Roadmap')!!}</a></li>
         <li><a href="#team">{!!__('Team')!!}</a></li>
@@ -72,16 +72,6 @@
         </div>
       </div>
 
-      <div style="margin-top:70px; margin-bottom:70px;">
-        @include('shared/tgeTitle')
-      </div>
-
-      <div class="buttons">
-        <a href="/tge" class="button">
-          {{__('Participate in TGE')}}&nbsp;&nbsp;&rarr;
-        </a>
-      </div>
-
       <div class="flex-center">
         <div class="features fade-in-item" style="margin-top:100px">
           <i class="background-icon features-icon-l"></i>
@@ -114,16 +104,6 @@
   </div>
 
   @include('shared/videoSlider')
-
-  <section class="get-notified get-notified-top">
-    <div class="wrapper">
-      <div class="buttons" style="margin-top:0;">
-        <a href="/tge" class="button">
-          {{__('Participate in TGE')}}&nbsp;&nbsp;&rarr;
-        </a>
-      </div>
-    </div>
-  </section>
 
   <section class="section section-benefits">
     <div class="wrapper">

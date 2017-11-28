@@ -18,7 +18,7 @@ return [
      | -----------------------------------------------------------------
      */
     'description' => [
-        'default' => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE/ICO has ended.',
+        'default' => 'ᐅᐅᐅ TGE (ICO) started! ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE (ICO) ends on November 28!',
         'max'     => 155,
     ],
 
@@ -67,7 +67,7 @@ return [
         'prefix'      => 'og:',
         'type'        => 'website',
         'title'       => 'Tokenbox - Uniting Crypto',
-        'description' => 'ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE/ICO has ended.',
+        'description' => 'ᐅᐅᐅ TGE (ICO) started! ᐅᐅᐅ Tokenbox is a №❶ ecosystem for crypto-investors, traders and funds. ᐅᐅᐅ TGE (ICO) ends on November 28!',
         'image'       => 'https://tokenbox.io/tokenbox-ograph.png',
         'site-name'   => '',
         'properties'  => [
