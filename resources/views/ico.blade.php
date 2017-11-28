@@ -84,8 +84,7 @@
         </div>
 
         <div class="progress-target">
-          <span class="js-progress-target"></span>
-          USD
+          {{__('Collected')}}
         </div>
 
         <div class="progress-participants">
@@ -126,8 +125,8 @@
 		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.
 		<br>
 		<br>
-		<b>Method 3</b> 
-		Login to your dashboard by clicking this button.    
+		<b>Method 3</b>
+		Login to your dashboard by clicking this button.
       </p>
 
       <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('View my TBX balance')}}</a>

@@ -4,7 +4,6 @@ $('.progress').each(function() {
 })
 
 function updateProgress() {
-
   $('.progress-bar-current').css('width', $(this).width() + 'px');
 
   $.ajax({
@@ -19,12 +18,12 @@ function updateProgress() {
     var $label = $('.js-progress-target-label');
     $label.text($label.data(total > 10e6 ? 'final-title' : 'third-title'));
 
-    $('.js-progress-target').text(target.toLocaleString('en'));
+    // $('.js-progress-target').text(target.toLocaleString('en'));
 
     $('.js-progress-current').text(total.toLocaleString('en'));
 
-    var progressBar = total > 1 ? total * 100/target : 1;
-    $('.js-progress-bar').css({ width: progressBar + '%' });
+    // var progressBar = total > 1 ? total * 100/target : 1;
+    // $('.js-progress-bar').css({ width: progressBar + '%' });
 
     $('.js-progress-participants').text(data.total_number_of_participants + window.icoProgress.participants);
 
