@@ -63,8 +63,8 @@
       <div class="progress" style="margin-top:53px;">
         <script>
           var icoProgress = {
-            total: 3993555,
-            usd: 3993555,
+            total: 4048522,
+            usd: 4048522,
             eth: 0,
             btc: 0,
             participants: 20,
@@ -115,24 +115,16 @@
 		<br />
 		<b>Method 2</b>
 		<br />
-		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.
-<<<<<<< HEAD
+		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.<br>
 		<br>
-		<br>
-		<b>Method 3</b>
+		<b>Method 3</b><br />
 		Login to your dashboard by clicking this button.
-=======
 		<br />
-		<br />
-		<b>Method 3</b>
-		<br />
-		Login to your dashboard by clicking this button.
->>>>>>> 91640871b1fef322bf04305396ee91aec0bdfcee
       </p>
 
       <a href="https://wallet.tokenbox.io/" target="_blank" class="button button-centred">{{__('View my TBX balance')}}</a>
 
-      <p style="font-size:2.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p>
+<!--       <p style="font-size:2.6rem;">{!!__('Got questions?')!!} <a href="{!!__('/docs/Tokenbox-TGE-Guide-En.pdf')!!}" target="_blank" style="font-weight:bold; color:#3434bb;">{!!__('See the detailed guide.')!!}</a></p> -->
 
     </div>
   </section>
