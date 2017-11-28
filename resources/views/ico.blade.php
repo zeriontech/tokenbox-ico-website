@@ -117,7 +117,7 @@
 		<br />
 		Just use <a href="http://etherscan.io" target="_blank">etherscan.io</a> or <a href="http://ethplorer.io" target="_blank">ethplorer.io</a> and check your ETH address with TBX tokens there.<br>
 		<br>
-		<b>Method 3</b>
+		<b>Method 3</b><br />
 		Login to your dashboard by clicking this button.
 		<br />
       </p>
