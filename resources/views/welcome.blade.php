@@ -105,7 +105,7 @@
 
   @include('shared/videoSlider')
 
-  <section class="section section-benefits">
+  <section class="section section-benefits" style="margin-top:0;">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('Tokenbox Benefits')}}</h1>
       <img src="/assets/front/img/benefits/{{__('solution-en-mob.svg')}}" class="mobile-only">
