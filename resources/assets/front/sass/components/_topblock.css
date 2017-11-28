@@ -181,7 +181,7 @@
     .header + .wrapper {
       display: flex;
       flex-direction: column;
-      min-height: calc(100vh - 122px);
+      min-height: calc(100vh - 148px);
     }
   }
 
