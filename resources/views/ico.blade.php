@@ -78,7 +78,7 @@
         </div>
 
         <div class="progress-bar">
-          <div class="js-progress-bar">
+          <div class="js-progress-bar" style="100%">
             <div class="progress-bar-current"></div>
           </div>
         </div>
