@@ -83,9 +83,8 @@
           </div>
         </div>
 
-        <div class="progress-target">
-          <span class="js-progress-target"></span>
-          USD
+        <div class="progress-target" style="text-transform:uppercase;">
+          Collected
         </div>
 
         <div class="progress-participants">
