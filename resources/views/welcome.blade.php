@@ -72,6 +72,8 @@
         </div>
       </div>
 
+      <a href="#partnership" target="_blank" class="button button-centred" style="margin-top:100px;">{{__('Become a Fund or Trader')}}</a>
+
       <div class="flex-center">
         <div class="features fade-in-item" style="margin-top:100px">
           <i class="background-icon features-icon-l"></i>
