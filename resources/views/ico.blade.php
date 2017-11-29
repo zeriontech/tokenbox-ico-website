@@ -10,7 +10,7 @@
       @slot('mobile')
         <li><a href="/home">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
-        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
+        <li><a href="#mybalance">{{__('My Balance')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
@@ -29,7 +29,7 @@
       <nav class="nav js-scroll-nav" role="navigation">
         <li><a href="/home">{{__('Product')}}</a></li>
         <li><a href="#token-distribution">{{__('Token Distribution')}}</a></li>
-        <li><a href="#join-crowdsale">{{__('How to Join')}}</a></li>
+        <li><a href="#mybalance">{{__('My Balance')}}</a></li>
         <li><a href="#documentation">{{__('Docs')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
@@ -99,7 +99,7 @@
   @include('shared/media')
   @include('shared/distribution')
 
-  <section class="section section-join-crowdsale" id="join-crowdsale" style="border-bottom: 2px solid #f6f6f8; border-top: 2px solid #f6f6f8;">
+  <section class="section section-join-crowdsale" id="mybalance" style="border-bottom: 2px solid #f6f6f8; border-top: 2px solid #f6f6f8;">
     <div class="wrapper">
       <h1 class="from-bottom">{{__('How to View My TBX Balance')}}</h1>
       <p class="from-bottom">{{__('The process is simple and only takes ~2 minutes')}}</p>
