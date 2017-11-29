@@ -73,7 +73,7 @@
       </div>
       
       <h1 style="font-size:1.6rem; font-weight:bold; margin-top:50px;">{{__('Are you a fund or trader, or want to become one?')}}</h1>
-      <a href="#partnership" target="_blank" class="button button-centred" style="margin-top:50px; max-width:260px;">{{__('Apply here')}}</a>
+      <a href="#partnership" target="_blank" class="button button-centred" style="max-width:260px;">{{__('Apply here')}}</a>
 
       <div class="flex-center">
         <div class="features fade-in-item" style="margin-top:100px">
