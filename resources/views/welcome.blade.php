@@ -191,7 +191,7 @@
 
   <section class="send-request send-request-body section" id="partnership">
     <div class="wrapper">
-      <h1 class="from-bottom">{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
+      <h1>{{__('Want to become one of the first funds and traders using our ecosystem?')}}</h1>
 
       <form action="//tokenbox.us16.list-manage.com/subscribe/post-json?u=10249fa68b5f02a162df5af34&id=6317d830cb&c=?" data-extra-action="/sendfull" class="js-ajax-form" method="post" id="mc-embedded-subscribe-form-2">
         <div class="row">
