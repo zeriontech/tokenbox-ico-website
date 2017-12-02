@@ -61,8 +61,7 @@ a.button {
 
 .button-centred {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto auto;
   max-width: 360px;
 }
 
