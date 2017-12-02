@@ -4,7 +4,7 @@ $('.progress').each(function() {
 })
 
 function updateProgress() {
-  $('.progress-bar-current').css('width', $(this).width() + 'px');
+  // $('.progress-bar-current').css('width', $(this).width() + 'px');
 
   $.ajax({
     method: 'GET',

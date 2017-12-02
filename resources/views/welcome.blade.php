@@ -71,7 +71,7 @@
           {!!__('Created by the team behind <a href="https://thetoken.io" target="_blank">The Token Fund</a> — one of the first successful crypto funds in the world')!!}
         </div>
       </div>
-      
+
       <h1 style="font-size:2.1rem; margin-top:50px;">{{__('Are you a fund, or a trader, or want to become one?')}}</h1>
       <a href="#partnership" class="button button-centred" style="text-transform:uppercase;">{{__('Apply here!')}}</a>
 
@@ -120,7 +120,7 @@
     </div>
   </section>
 
-  <div class="big-title from-bottom" id="traders-and-funds" style=" margin-top: 40px"><h1>{{__('For Traders and Funds')}}</h1></div>
+  <div class="big-title" id="traders-and-funds" style=" margin-top: 40px"><h1>{{__('For Traders and Funds')}}</h1></div>
 
   <section class="become-legal">
     <div class="wrapper">
@@ -210,7 +210,7 @@
     </div>
   </section>
 
-  <div class="big-title from-bottom" id="for-investors"><h1>{{__('For investors')}}</h1></div>
+  <div class="big-title" id="for-investors"><h1>{{__('For investors')}}</h1></div>
 
   <section class="multi-crypto">
     <i class="background-icon multi-crypto-icon offset-by-one"></i>
