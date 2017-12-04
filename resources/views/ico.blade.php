@@ -108,7 +108,7 @@
 		<b>Method 1</b><br />
 		1. Login to <a href="https://www.myetherwallet.com" target="_blank">MyEtherWallet</a> with ETH address on which TBX tokens are stored.<br />
 		2. Click "Add Custom Token"<br />
-		3. Enter Token Contract Address: 0x69cd4e1e2e1cec76eb7f3b1acdddaddcc6d60fc1<br>
+		3. Enter Token Contract Address: 0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b<br>
 		4. Enter Token Symbol: TBX<br />
 		5. Enter Decimals: 18<br />
 		6. Click "Save"<br />
