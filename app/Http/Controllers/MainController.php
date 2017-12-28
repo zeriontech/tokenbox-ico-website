@@ -130,6 +130,11 @@ class MainController extends Controller
         return view('quizResult');
     }
 
+    public function vacancies()
+    {
+        return view('vacancies');
+    }
+    
     /**
      * @param NotifyFormRequest $request
      * @param IntercomService   $intercomService

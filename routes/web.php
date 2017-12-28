@@ -24,7 +24,7 @@ Route::group([
     Route::post('/sendfull', 'MainController@addFullUser')->name('add-full-user');
     Route::post('/sendqueue', 'MainController@addQueueUser')->name('add-queue-user');
     Route::post('/sendwire', 'MainController@addWireUser')->name('add-wire-user');
-
+    Route::get('/vacancies', 'MainController@vacancies')->name('vacancies');
     // redirects
     Route::get('/docs/{filename}', 'RedirectController@go');
 });

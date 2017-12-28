@@ -5,6 +5,7 @@
     padding-right: 20px;
     cursor: pointer;
     position: relative;
+    color: #fff;
 
     &:after {
       display: block;

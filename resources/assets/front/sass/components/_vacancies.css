@@ -1,0 +1,27 @@
+.vacancies {
+  margin: 0 0 120px;
+}
+
+.vacancies h1 {
+  margin: 0 0 55px;
+  text-align: center;
+}
+
+.small-info-button {
+  display: inline-block;
+  background: #25258e;
+  vertical-align: middle;
+  padding: 13px 27px 11px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.small-info-button,
+.small-info-button:visited {
+  color: #fff;
+}
+
+.small-info-button:hover {
+  text-decoration: none;
+}
