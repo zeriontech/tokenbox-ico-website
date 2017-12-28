@@ -3,47 +3,268 @@
     <h1>{{__('Vacancies')}}</h1>
 
     <div class="accordion">
+      <!-- Vacancy Start -->
       <div class="accordion-item">
         <input type="checkbox" id="item-1">
-
         <label class="heading-2" for="item-1">
-           Продуктманагер
+           Директор по маркетингу
         </label>
-
         <div class="accordion-item-content">
-          <p><b>What you'll be doing</b></p>
-          <p>
-            {{__("Webflow has huge ambitions to fundamentally change the way websites and web applications are designed and built. We believe that web development should be accessible to anyone who loves to create, not just those who can understand the complexities of code. We're looking for someone who shares this vision for the future and who is enthusiastic about building creative tools for designers, entrepreneurs, marketers, and other non-technical professionals.")}}
-          </p>
-          <p>{{__("Webflow is looking for an experienced Product Design Manager to lead a team of designers. You'll help the team to translate powerful code-based paradigms into intuitive visual tooling. Candidates must have strong mentoring, communication skills. The role combines growing and managing a team with some design contribution. Candidates must have strong visual and interaction skills and the ability to help shape product strategy. You'll guide the team through some of the most critical parts of the product process: understanding user needs through research, creating interactive prototypes, user testing, designing high-fidelity interfaces, defining components with the engineering team, and extensively testing your product to make sure it meets all project goals.")}}</p>
-          
+          <p><b>Обязанности:</b></p>
           <ul>
-            <li>One point</li>
-            <li>Two point</li>
+	          <li>Формирование и реализация подробной мультиканальной маркетинговой стратегии для компании (digital, PR, контент, мероприятия)</li>
+	          <li>Эффективное планирование и анализ бюджета</li>
+	          <li>Реализация стратегии по выходу платформы на новые рынки</li>
+	          <li>Увеличение сообщества, взаимодействие с сообществом на всех инфоканалах</li>
           </ul>
-
-          <a href="" class="small-info-button">{{__('Respond to vacacancy')}}</a>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>Уровень английского языка не ниже advanced</li>
+              <li>Понимание основных принципов блокчейна, умение отличить токены от коинов и криптоактив от смарт-контракта</li>
+              <li>Опыт работы директором по маркетингу в digital подразделениях банков или других финансовых организаций</li>
+              <li>Опыт работы в Fin Tech приветствуется</li>
+              <li>Опыт в планировании и организаций мероприятий, в том числе - международных</li>
+              <li>Опыт в планировании бюджета</li>
+              <li>Знание специфики финансового и криптовалютного рынка США и Азии</li>
+              <li>Коммуникативность, грамотный русский язык и письменная речь</li>
+              <li>Умение выступать перед аудиторией</li>
+              <li>Оперативность, умение быстро принимать эффективные решения</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю)</li>
+              <li>Работа в новом удобном офисе в центре Москвы</li>
+              <li>Работа с командой профессионалов</li>
+              <li>Программа дополнительных бонусов</li>
+              <li>Возможность быстрого роста внутри компании</li>
+              <li>Команда в 15+ человек</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
         </div>
       </div>
-
+      <!-- Vacancy End -->
+      <!-- Vacancy Start -->
       <div class="accordion-item">
-          <input type="checkbox" id="item-2">
-
-          <label class="heading-2" for="item-2">
-            {{__('Integration Engineer')}}
-          </label>
-
-          <div class="accordion-item-content">
-              <p>
-                {{__("We are looking for ETL specialists interested in early stage opportunities building customer integrations for our telecom data platform and machine learning applications.")}}
-
-              </p>
-              
-              <p>
-                As part of our small team, you will be responsible for creating the connections between customers' data systems and Adazza’s data platform. You will work with customers to understand the format and semantics of their data, build feeds to ingest this data into our platform, and create the transformations needed to enable our machine learning applications. You will collaborate with our development team to improve tooling and make customer integrations faster, easier, and more reliable.
-              </p>
-          </div>
+        <input type="checkbox" id="item-2">
+        <label class="heading-2" for="item-2">
+           Директор по направлению New Business
+        </label>
+        <div class="accordion-item-content">
+          <p><b>Обязанности:</b></p>
+          <ul>
+	          <li>Активная коммуникация с текущими инвесторами</li>
+	          <li>Развитие отношений с традиционными фондами, high net worth individuals</li>
+	          <li>Корреляция с маркетинговой стратегией</li>
+          </ul>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>Опыт работы в отделе продаж финансовых организаций, опыт продажи финансовых инструментов, в том числе на международном уровне</li> 
+              <li>Желательно - наличие рекомендаций и закрытых сделок</li>
+              <li>Уровень английского языка не ниже advanced</li>
+              <li>Понимание основных принципов блокчейна, умение отличить токены от коинов и криптоактив от смарт-контракта</li>
+              <li>Уверенность в блокчейне, в перспективе технологии</li>
+              <li>Возможность ездить в командировки и посещать конференции</li>
+              <li>Коммуникативность, грамотный русский язык и письменная речь</li>
+              <li>Умение выступать перед аудиторией</li>
+              <li>Оперативность, умение быстро принимать эффективные решения</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю)</li>
+              <li>Работа в новом удобном офисе в центре Москвы</li>
+              <li>Работа с командой профессионалов</li>
+              <li>Программа дополнительных бонусов</li>
+              <li>Возможность быстрого роста внутри компании</li>
+              <li>Команда в 15+ человек</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
+        </div>
       </div>
+      <!-- Vacancy End -->
+      <!-- Vacancy Start -->
+      <div class="accordion-item">
+        <input type="checkbox" id="item-3">
+        <label class="heading-2" for="item-3">
+           Аккаунт менеджер криптофондов
+        </label>
+        <div class="accordion-item-content">
+          <p><b>Обязанности:</b></p>
+          <ul>
+              <li>Разработка сервисных пакетов для криптофондов</li>
+              <li>Взаимодействие с фондами, с платформой, с отделом маркетинга Tokenbox для внедрения стратегии в работу фондов</li>
+              <li>Контроль и поддержка деятельности криптофондов на основе платформы Tokenbox</li>
+              <li>Привлечение новых фондов для работы в системе Tokenbox</li>
+          </ul>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>Английский язык уровня advanced</li>
+              <li>Способность грамотно рассказать о продукте, выступить с небольшой речью перед аудиторией</li>
+              <li>Опыт ведения проектов и их внедрения на международном уровне, ведения партнерских программ для финансовых площадок</li>
+              <li>Желательно - опыт работы в Fin Tech</li>
+              <li>Понимание блокчейн технологии и уверенность в ее будущем</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю)</li>
+              <li>Работа в новом удобном офисе в центре Москвы</li>
+              <li>Работа с командой профессионалов</li>
+              <li>Программа дополнительных бонусов</li>
+              <li>Возможность быстрого роста внутри компании</li>
+              <li>Команда в 15+ человек</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
+        </div>
+      </div>
+      <!-- Vacancy End -->
+      <!-- Vacancy Start -->
+      <div class="accordion-item">
+        <input type="checkbox" id="item-4">
+        <label class="heading-2" for="item-4">
+           Директор по персоналу
+        </label>
+        <div class="accordion-item-content">
+          <p><b>Обязанности:</b></p>
+          <ul>
+              <li>Поиск и подбор персонала</li>
+              <li>Организационное планирование</li>
+              <li>Адаптация и развитие нового персонала</li>
+              <li>Разработка систем мотивации</li>
+              <li>Проведение корпоративных мероприятий, тренингов, ориентационных мероприятий</li> 
+              <li>Подбор персонала с помощью кадровых агентств</li>
+              <li>Сбор и анализ фидбека по персоналу</li>
+              <li>Планирование годового HR бюджета</li>
+          </ul>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>Опыт работы на аналогичной позиции - от 3 лет</li>
+              <li>Опыт работы в инфраструктурных финансовых компаниях</li>
+              <li>Английский язык на уровне advanced</li>
+              <li>Понимание основных принципов блокчейна, умение отличить токены от коинов и криптоактив от смарт-контракта</li>
+              <li>Уверенность в блокчейне, в перспективе технологии</li>
+              <li>Коммуникативные, лидерские, организационные навыки</li>
+              <li>Отличное знание трудового законодательства</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю)</li>
+              <li>Работа в новом удобном офисе в центре Москвы</li>
+              <li>Работа с командой профессионалов</li>
+              <li>Программа дополнительных бонусов</li>
+              <li>Возможность быстрого роста внутри компании</li>
+              <li>Команда в 15+ человек</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
+        </div>
+      </div>
+      <!-- Vacancy End -->
+      <!-- Vacancy Start -->
+      <div class="accordion-item">
+        <input type="checkbox" id="item-5">
+        <label class="heading-2" for="item-5">
+           UI/UX дизайнер
+        </label>
+        <div class="accordion-item-content">
+          <p><b>Обязанности:</b></p>
+          <ul>
+              <li>Дизайн пользовательских интерфейсов (Web, Desktop, iOS, Android);</li>
+              <li>Проработка и анализ сценариев использования;</li>
+              <li>Отрисовка макетов и графических элементов интерфейса;</li>
+              <li>Работа в тесной связке с разработчиками;</li>
+              <li>Контроль качества реализации интерфейсов разработчиками.</li>
+          </ul>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>У вас есть портфолио (резюме без портфолио не рассматриваются);</li>
+              <li>Имеете опыт работы в соответствующей области 5+ лет;</li>
+              <li>Понимаете принципы разработки пользовательских интерфейсов;</li>
+              <li>Знаете и чувствуете композицию, типографику, uxdesign;</li>
+              <li>Умеете создавать дизайны, скетчи, интерфейсы и доводить их до совершенства;</li>
+              <li>Чувствуете стиль, понимаете и владеете современными трендами в web и графическом дизайне;</li>
+              <li>Умеете работать в команде;</li>
+              <li>Готовы к выполнению тестового задания.</li>
+          </ul>
+          <p><b>Плюсом будет:</b></p>
+          <ul>
+              <li>Опыт создания анимации интерфейсов;</li>
+              <li>Навык создания векторных иллюстраций и иконок;</li>
+              <li>Опыт в дизайне сложных сайтов;</li>
+              <li>Понимание принципов верстки HTML/CSS;</li>
+              <li>Понимание blockchain и криптовалют;</li>
+              <li>Опыт проектов в сфере финтех;</li>
+              <li>Неплохое владение английским.</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю);</li>
+              <li>Работа в новом удобном офисе в центре Москвы;</li>
+              <li>Работа с командой профессионалов;</li>
+              <li>iMac или Macbook Pro;</li>
+              <li>Программа дополнительных бонусов;</li>
+              <li>Возможность быстрого роста внутри компании;</li>
+              <li>Команда в 15+ человек;</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США;</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
+        </div>
+      </div>
+      <!-- Vacancy End -->
+      <!-- Vacancy Start -->
+      <div class="accordion-item">
+        <input type="checkbox" id="item-6">
+        <label class="heading-2" for="item-6">
+           Графический дизайнер
+        </label>
+        <div class="accordion-item-content">
+          <p><b>Обязанности:</b></p>
+          <ul>
+              <li>Изображения для медийки (SMM, баннеры);</li>
+              <li>Key visuals;</li>
+              <li>Инфографики;</li>
+              <li>Иногда макеты для печатной продукции.</li>
+          </ul>
+          <p><b>Требования к кандидату:</b></p>
+          <ul>
+              <li>У вас есть портфолио (резюме без портфолио не рассматриваются);</li>
+              <li>Имеете опыт работы в соответствующей области 5+ лет;</li>
+              <li>Знаете и чувствуете композицию, типографику;</li>
+              <li>Умеете создавать дизайны, скетчи, и доводить их до совершенства;</li>
+              <li>Можете создавать простую, но эффектную анимацию;</li>
+              <li>Чувствуете стиль, понимаете и владеете современными трендами в web и графическом дизайне;</li>
+              <li>Умеете работать в команде;</li>
+              <li>Готовы к выполнению тестового задания.</li>
+          </ul>
+          <p><b>Плюсом будет:</b></p>
+          <ul>
+              <li>Навык создания векторных иллюстраций и иконок;</li>
+              <li>Понимание blockchain и криптовалют;</li>
+              <li>Опыт проектов в сфере финтех;</li>
+              <li>Неплохое владение английским.</li>
+          </ul>
+          <p><b>Условия:</b></p>
+          <ul>
+              <li>Полный рабочий день (5 дней в неделю);</li>
+              <li>Работа в новом удобном офисе в центре Москвы;</li>
+              <li>Работа с командой профессионалов;</li>
+              <li>iMac или Macbook Pro;</li>
+              <li>Программа дополнительных бонусов;</li>
+              <li>Возможность быстрого роста внутри компании;</li>
+              <li>Команда в 15+ человек;</li>
+              <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
+              <li>Возможность посещать мероприятия, связанные с блокчейном - в Москве, Европе, Азии, США;</li>
+          </ul>
+          <a href="mailto:hr@tokenbox.io" class="small-info-button">{{__('Откликнуться на вакансию')}}</a>
+        </div>
+      </div>
+      <!-- Vacancy End -->
     </div>
   </div>
 </div>

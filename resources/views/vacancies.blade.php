@@ -1,7 +1,7 @@
 @extends('shared/layout')
 
 @section('content')
-  <div class="header-wrapper">
+  <div class="header-wrapper" style="background: #25258e;">
     @component('shared/header')
       @slot('mobile')
         <li><a href="/tge">{!!__('TGE')!!}</a></li>
