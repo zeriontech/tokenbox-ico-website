@@ -42,7 +42,7 @@
               <li>Working for a cryptocompany that is very well known, one of the first ones in Russia;</li>
               <li>Attendance of crypto events in Moscow/Europe/Asia/USA.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Chief Marketing Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -84,7 +84,7 @@
               <li>A crypto company that is very well known, one of the first ones in Russia;</li>
               <li>Possibility to attend crypto-events in Moscow/Europe/Asia/USA.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Investment Relations Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -122,7 +122,7 @@
               <li>A crypto company that is very well known, one of the first ones in Russia;</li>
               <li>Possibility to attend crypto-events in Moscow/Europe/Asia/USA.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Partnership Account Manager" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -167,7 +167,7 @@
               <li>A crypto company that is very well known, one of the first ones in Russia;</li>
               <li>Possibility to attend crypto-events in Moscow/Europe/Asia/US.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: HR Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -218,7 +218,7 @@
               <li>A crypto company that is very well known, one of the first ones in Russia;</li>
               <li>Possibility to attend crypto-events in Moscow/Europe/Asia/US.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:design@tokenbox.io?subject=Vacancy: UI/UX Designer" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -265,7 +265,7 @@
               <li>A crypto company that is very well known, one of the first ones in Russia;</li>
               <li>Possibility to attend crypto-events in Moscow/Europe/Asia/US.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:design@tokenbox.io?subject=Vacancy: Graphic Designer" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
