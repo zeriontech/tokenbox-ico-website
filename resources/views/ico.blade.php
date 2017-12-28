@@ -14,6 +14,7 @@
         <li><a href="#documentation">{{__('Docs')}}</a></li>
         <li><a href="#roadmap">{{__('Roadmap')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
+        <li><a href="#faq">{{__('Vacancies')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
