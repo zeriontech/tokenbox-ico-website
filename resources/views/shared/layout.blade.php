@@ -44,6 +44,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <div class="notification error" style="display: none;"></div>
+  @include('shared/alert')
   @yield('content')
 
   @include('shared/footer')
