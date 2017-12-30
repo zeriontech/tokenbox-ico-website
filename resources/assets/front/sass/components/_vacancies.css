@@ -24,4 +24,5 @@
 
 .small-info-button:hover {
   text-decoration: none;
+  opacity: .8;
 }
