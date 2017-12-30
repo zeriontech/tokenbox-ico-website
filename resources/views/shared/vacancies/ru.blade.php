@@ -41,7 +41,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Директор по маркетингу" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Chief Marketing Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -81,7 +81,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: New Business директор" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Investment Relations Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -118,7 +118,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Аккаунт менеджер криптофондов" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Partnership Account Manager" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -161,7 +161,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Директор по персоналу" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:hr@tokenbox.io?subject=Vacancy: HR Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -213,7 +213,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:design@tokenbox.io?subject=Вакансия: UI/UX дизайнер" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:design@tokenbox.io?subject=Vacancy: UI/UX Designer" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -261,7 +261,7 @@
               <li>Работа на известную в России криптовалютную компанию, одну из первых в стране;</li>
               <li>Возможность посещать мероприятия, связанные с блокчейном — в Москве, Европе, Азии, США.</li>
           </ul>
-          <a href="mailto:design@tokenbox.io?subject=Вакансия: Графический дизайнер" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:design@tokenbox.io?subject=Vacancy: Graphic Designer" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
