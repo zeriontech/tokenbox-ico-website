@@ -190,12 +190,12 @@
           <ul>
               <li>You have a strong portfolio (resumes without portfolio will not be viewed);</li>
               <li>5+ years of experience in the relevant field;</li>
-              <li>Understanding the principles of US development;</li>
+              <li>Understanding the principles of UI development;</li>
               <li>You have a knowledge and feel of composition, typography, uxdesign;</li>
               <li>Able to create designs, sketches, interfaces, and bring them to perfection;</li>
               <li>Have a feel of style, knowledge and understanding of the modern trends in web and graphic design;</li>
               <li>Able to work in a team;</li>
-              <li>Ready to perform a couple of test tasks..</li>
+              <li>Ready to perform a couple of test tasks.</li>
           </ul>
           <p><b>Nice additions:</b></p>
           <ul>
