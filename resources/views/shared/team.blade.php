@@ -89,8 +89,8 @@
                 </div>
                 
                 <div class="member">
-                    <a href="/vacancies"><div class="avatar" style="filter: none;">
-                        <div class="img" style="background-image: url('/assets/front/img/team/vacancy.svg')"></div>
+                    <a href="/vacancies"><div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/vacancy.svg'); filter: none;"></div>
                     </div></a>
                     <div class="info">{{__('Want to join the team?')}}
                     <br /><a href="/vacancies">{{__('See open positions')}}</a></div>
