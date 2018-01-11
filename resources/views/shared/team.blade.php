@@ -54,18 +54,6 @@
 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/shmakov.jpg')"></div>
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/dshmakov" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Dmitry Shmakov')}}</div>
-                    <div class="info">{{__('Marketing Director')}},
-                        <br />The Token Fund</div>
-                </div>
-
-                <div class="member">
-                    <div class="avatar">
                         <div class="img" style="background-image: url('/assets/front/img/team/yuryev.jpg')"></div>
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/deusdictum" target="_blank" class="fa fa-linkedin-square"></a>
