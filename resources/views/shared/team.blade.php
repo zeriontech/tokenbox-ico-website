@@ -93,7 +93,7 @@
                         <div class="img" style="background-image: url('/assets/front/img/team/vacancy.svg'); filter: none;"></div>
                     </div></a>
                     <div class="info">{{__('Want to join the team?')}}
-                    <br /><a href="/vacancies">{{__('See open positions')}}</a></div>
+                    <br /><a href="/vacancies">{{__('See job openings')}}</a></div>
                 </div>
                 
             </div>
