@@ -15,7 +15,7 @@
         <li><a href="#team">{{__('Team')}}</a></li>
         <li><a href="#partners">{{__('Partners')}}</a></li>
         <li><a href="#faq">{{__('FAQ')}}</a></li>
-        <li><a href="#faq">{{__('Vacancies')}}</a></li>
+        <li><a href="/vacancies">{{__('Vacancies')}}</a></li>
         <li class="active">
           <a href="{{__('/docs/Tokenbox-WhitePaper-En.pdf')}}" target="_blank">
             {{__('White Paper')}}
