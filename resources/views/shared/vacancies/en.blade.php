@@ -119,8 +119,8 @@
       <!-- Vacancy End -->
       <!-- Vacancy Start -->
       <div class="accordion-item">
-        <input type="checkbox" id="item-5">
-        <label class="heading-2" for="item-5">
+        <input type="checkbox" id="item-4">
+        <label class="heading-2" for="item-4">
            UI/UX Designer
         </label>
         <div class="accordion-item-content">
@@ -169,8 +169,8 @@
       <!-- Vacancy End -->
       <!-- Vacancy Start -->
       <div class="accordion-item">
-        <input type="checkbox" id="item-6">
-        <label class="heading-2" for="item-6">
+        <input type="checkbox" id="item-5">
+        <label class="heading-2" for="item-5">
            Graphic Designer
         </label>
         <div class="accordion-item-content">
