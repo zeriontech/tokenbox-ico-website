@@ -1,3 +1,3 @@
 <div class="w3-container" style="background: linear-gradient(90deg, #a4afbf, #818a97, #a4afbf);">
-	<div style="padding: 13px 20px; text-align: center;">We are happy to announce that the TBX tokens are now listed on <a href="https://www.bancor.network/discover" target="_blank" style="color: white; font-weight: bold;">Bancor.network</a> and <a href="https://yobit.net/en/trade/TBX/USD" target="_blank" style="color: white; font-weight: bold;">YObit.net</a>!</div>
+	<div style="color: white; padding: 13px 20px; text-align: center;">We are happy to announce that the TBX tokens are now listed on <a href="https://www.bancor.network/discover" target="_blank" style="color: white; font-weight: bold;">Bancor.network</a> and <a href="https://yobit.net/en/trade/TBX/USD" target="_blank" style="color: white; font-weight: bold;">YObit.net</a>!</div>
 </div>
