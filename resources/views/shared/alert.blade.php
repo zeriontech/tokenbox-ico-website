@@ -8,7 +8,7 @@
 		font-family: Gilroy;
 		font-size: 15px;
 		display: block;
-		padding: 20px 15px;
+		padding: 10px 15px;
 		text-align: center;
 		background: rgba(233, 236, 237, .9);
 	}
@@ -17,7 +17,7 @@
 		display: inline-block;
 		border-radius: 3px;
 		border: solid 3px #3434bb;
-		margin: 10px 10px 0px 10px;
+		margin: 10px 10px 10px 10px;
 		font-weight: 800;
 		text-align: center;
 		color: #3434bb;
@@ -25,5 +25,5 @@
 	}
 	.alert-btn:hover { background: #3434bb; color: #ffffff;	 }
 </style>
-<div class="alert-bar">TBX tokens are listed on <b>YObit</b> and <b>Bancor</b> <a href="#"><div class="alert-btn">Buy on YObit</div></a><a href="#"><div class="alert-btn">Buy on Bancor</div></a>
+<div class="alert-bar">TBX tokens are listed on <b>YObit</b> and <b>Bancor</b> <a href="https://yobit.net/en/trade/TBX/USD"><div class="alert-btn">Buy on YObit</div></a><a href="https://www.bancor.network/communities/5a2ff27c4f1311000100b9e8/currency"><div class="alert-btn">Buy on Bancor</div></a>
 </div>
