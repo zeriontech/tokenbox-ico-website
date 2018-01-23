@@ -44,44 +44,6 @@
       <!-- Vacancy End -->
       <!-- Vacancy Start -->
       <div class="accordion-item">
-        <input type="checkbox" id="item-2">
-        <label class="heading-2" for="item-2">
-           Investment Relations Director
-        </label>
-        <div class="accordion-item-content">
-          <p><b>What you`ll be doing:</b></p>
-          <ul>
-              <li>Active interaction with current investors and business partners;</li>
-              <li>Developing relations with traditional funds and high net worth individuals;</li>
-              <li>Correlation with the main marketing strategy.</li>
-          </ul>
-          <p><b>What we expect from you:</b></p>
-          <ul>
-              <li>English level - advanced;</li>
-              <li>Essential working experience in sales department in financial organizations;</li>
-              <li>Experience in selling financial tools on international level;</li>
-              <li>Recommendations and references are desirable, as well as closed deals;</li>
-              <li>Knowledge and understanding of basic blockchain principles;</li>
-              <li>Confidence in blockchain technology and its future;</li>
-              <li>Public speaking experience and oratory skills;</li>
-              <li>Ability to travel and attend various events.</li>
-          </ul>
-          <p><b>What we offer:</b></p>
-          <ul>
-              <li>Full time (5 days a week);</li>
-              <li>Additional bonus programme;</li>
-              <li>Ability to grow within the company;</li>
-              <li>Team of 15+ members (and still growing);</li>
-              <li>A crypto company that is very well known, one of the first ones in Russia;</li>
-              <li>Possibility to attend crypto-events in Moscow/Europe/Asia/USA;</li>
-              <li>Comfortable open-space office in Moscow centre.</li>
-          </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Vacancy: Investment Relations Director" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
-        </div>
-      </div>
-      <!-- Vacancy End -->
-      <!-- Vacancy Start -->
-      <div class="accordion-item">
         <input type="checkbox" id="item-3">
         <label class="heading-2" for="item-3">
            Partnership Account Manager
