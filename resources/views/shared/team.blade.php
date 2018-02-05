@@ -27,7 +27,20 @@
                     <div class="info">{{__('Managing Partner')}},
                         <br />The Token Fund</div>
                 </div>
-
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/pavel.salas.33" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://www.linkedin.com/in/pavel-salas-14423512" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Pavel Salas')}}</div>
+                    <div class="info">{{__('CEO')}},
+                        <br />{{__('Blockchain Consult, eToro')}}</div>
+                </div>
+                
                 <div class="member">
                     <div class="avatar">
                         <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')"></div>
@@ -63,6 +76,18 @@
                     <div class="info">{{__('Head of Product Design')}},
                         <br />The Token Fund</div>
                 </div>
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/panas.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/alexpanasucla/" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Alex Panas')}}</div>
+                    <div class="info">{{__('Head of Business Development')}},
+                        <br />The Token Fund</div>
+                </div>
 
                 <div class="member">
                     <div class="avatar">
@@ -86,6 +111,42 @@
                     <div class="name">{{__('Aleksandr Volkov')}}</div>
                     <div class="info">{{__('Lead Backend Developer')}},
                         <br />The Token Fund</div>
+                </div>
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/yaroshevsky.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/ola.gaiduchshteinyaroshevsky" target="_blank" class="fa fa-facebook-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Olga Yaroshevsky')}}</div>
+                    <div class="info">{{__('Senior Media &amp; Content Manager')}},
+                        <br />Tokenbox, The Token Fund</div>
+                </div>
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/petrova.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.linkedin.com/in/alexandra-petrova-7a3a6676/" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Aleksandra Petrova')}}</div>
+                    <div class="info">{{__('Media &amp; Content Manager')}},
+                        <br />Tokenbox, The Token Fund</div>
+                </div>
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/vladimirov.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/profile.php?id=100008693410179" target="_blank" class="fa fa-facebook-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Kirill Vladimirov')}}</div>
+                    <div class="info">{{__('People Operations Manager')}},
+                        <br />Tokenbox, The Token Fund</div>
                 </div>
                 
                 <div class="member">
@@ -136,19 +197,6 @@
                     <div class="name">{{__('Wulf Kaal')}}</div>
                     <div class="info">{{__('Advisor (Blockchain Tech)')}},
                         <br />{{__('HighTechBlock')}}</div>
-                </div>
-
- 				<div class="member">
-                    <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')"></div>
-                        <div class="overlay">
-                            <a href="https://www.facebook.com/pavel.salas.33" target="_blank" class="fa fa-facebook-square"></a>
-                            <a href="https://www.linkedin.com/in/pavel-salas-14423512" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Pavel Salas')}}</div>
-                    <div class="info">{{__('Advisor (Fintech)')}},
-                        <br />{{__('Blockchain Consult, eToro')}}</div>
                 </div>
 
                 <div class="member">
