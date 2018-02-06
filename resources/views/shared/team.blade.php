@@ -132,7 +132,7 @@
                             <a href="https://www.linkedin.com/in/alexandra-petrova-7a3a6676/" target="_blank" class="fa fa-linkedin-square"></a>
                         </div>
                     </div>
-                    <div class="name">{{__('Aleksandra Petrova')}}</div>
+                    <div class="name">{{__('Alexandra Petrova')}}</div>
                     <div class="info">{{__('Media &amp; Content Manager')}},
                         <br />Tokenbox, The Token Fund</div>
                 </div>
