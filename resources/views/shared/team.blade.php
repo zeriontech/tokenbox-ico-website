@@ -213,18 +213,6 @@
 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/zegelman.jpg')"></div>
-                        <div class="overlay">
-                            <a href="https://www.linkedin.com/in/jzegelman" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Julian L. Zegelman')}}</div>
-                    <div class="info">{{__('Advisor (Legal)')}},
-                        <br />{{__('Velton Zegelman PC')}}</div>
-                </div>
-
-                <div class="member">
-                    <div class="avatar">
                         <div class="img" style="background-image: url('/assets/front/img/team/masolova.jpg')"></div>
                         <div class="overlay">
                             <a href="https://www.linkedin.com/in/masolova/" target="_blank" class="fa fa-linkedin-square"></a>
