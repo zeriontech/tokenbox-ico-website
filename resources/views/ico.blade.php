@@ -74,7 +74,7 @@
         </script>
 
         <div class="progress-current">
-          <span class="js-progress-current">0</span>
+          <span class="js-progress-current">8322147</span>
           USD
         </div>
 
@@ -89,7 +89,7 @@
         </div>
 
         <div class="progress-participants">
-          <span class="js-progress-participants"></span> {{__('participants')}}. {{__('Thank you!')}}
+          <span class="js-progress-participants"></span>2572 {{__('participants')}}. {{__('Thank you!')}}
         </div>
       </div>
 
