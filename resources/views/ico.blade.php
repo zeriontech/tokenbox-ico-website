@@ -62,7 +62,7 @@
       @include('shared/tgeTitle')
 
       <div class="progress" style="margin-top:53px;">
-        <script>
+<!--        <script>
           var icoProgress = {
             total: 5036401,
             usd: 5036401,
@@ -71,10 +71,15 @@
             participants: 20,
             target: window.icoProgressTarget || 7000000
           };
+        </script>-->
+        <script>
+          var icoProgress = {
+            target: window.icoProgressTarget || 7000000
+          };
         </script>
 
         <div class="progress-current">
-          <span class="js-progress-current">8322147</span>
+          <span class="js-progress-current">8,322,147</span>
           USD
         </div>
 
