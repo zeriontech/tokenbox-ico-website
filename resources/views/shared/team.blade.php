@@ -30,19 +30,6 @@
                 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')"></div>
-                        <div class="overlay">
-                            <a href="https://www.facebook.com/pavel.salas.33" target="_blank" class="fa fa-facebook-square"></a>
-                            <a href="https://www.linkedin.com/in/pavel-salas-14423512" target="_blank" class="fa fa-linkedin-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Pavel Salas')}}</div>
-                    <div class="info">{{__('CEO')}},
-                        <br />{{__('Blockchain Consult, eToro')}}</div>
-                </div>
-                
-                <div class="member">
-                    <div class="avatar">
                         <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')"></div>
                         <div class="overlay">
                             <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
@@ -198,6 +185,19 @@
                     <div class="info">{{__('Advisor (Blockchain Tech)')}},
                         <br />{{__('HighTechBlock')}}</div>
                 </div>
+
+				<div class="member">
+				    <div class="avatar">
+				        <div class="img" style="background-image: url('/assets/front/img/team/salas.jpg')"></div>
+				        <div class="overlay">
+				            <a href="https://www.facebook.com/pavel.salas.33" target="_blank" class="fa fa-facebook-square"></a>
+				            <a href="https://www.linkedin.com/in/pavel-salas-14423512" target="_blank" class="fa fa-linkedin-square"></a>
+				        </div>
+				    </div>
+				    <div class="name">{{__('Pavel Salas')}}</div>
+				    <div class="info">{{__('Advisor (Fintech)')}},
+				        <br />{{__('Blockchain Consult, eToro')}}</div>
+				</div>
 
                 <div class="member">
                     <div class="avatar">
