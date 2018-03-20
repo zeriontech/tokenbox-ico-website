@@ -161,8 +161,8 @@
       </div>
     </div>
   </section>
-<div class="button-details">
-  <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+<div class="button-details" style="display: none;">
+  <a href="#wire" class="inner-link js-modal-link"></a>
 </div>
   @include('shared/roadmap')
   @include('shared/faq')
