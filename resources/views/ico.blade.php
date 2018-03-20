@@ -104,6 +104,7 @@
   @include('shared/powered')
   @include('shared/media')
   @include('shared/distribution')
+  @include('shared/wireForm')
 
   <section class="section section-join-crowdsale" id="mybalance" style="border-bottom: 2px solid #f6f6f8; border-top: 2px solid #f6f6f8;">
     <div class="wrapper">
@@ -160,7 +161,9 @@
       </div>
     </div>
   </section>
-
+<div class="button-details">
+  <a href="#wire" class="inner-link js-modal-link">{!!__('Request Wire Transfer?')!!}</a>
+</div>
   @include('shared/roadmap')
   @include('shared/faq')
   @endsection
