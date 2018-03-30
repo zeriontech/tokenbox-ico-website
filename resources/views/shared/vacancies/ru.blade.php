@@ -53,7 +53,7 @@
               <li>Интервью с командой</li>
               <li>Предложение о работе</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Back-end разработчик" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:job@tokenbox.io?subject=Вакансия: Back-end разработчик" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -101,7 +101,7 @@
               <li>Интервью с командой</li>
               <li>Предложение о работе</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Front-end разработчик" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:job@tokenbox.io?subject=Вакансия: Front-end разработчик" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -151,7 +151,7 @@
               <li>Интервью с командой</li>
               <li>Предложение о работе</li>
           </ul>
-          <a href="mailto:hr@tokenbox.io?subject=Вакансия: Product Owner / Product Manager" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:job@tokenbox.io?subject=Вакансия: Product Owner / Product Manager" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
@@ -198,7 +198,7 @@
               <li>Интервью с командой</li>
               <li>Предложение о работе</li>
           </ul>
-          <a href="mailto:design@tokenbox.io?subject=Вакансия: Системный аналитик (FinTech/blockchain)" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
+          <a href="mailto:job@tokenbox.io?subject=Вакансия: Системный аналитик (FinTech/blockchain)" class="small-info-button" style="margin-top: 10px; margin-bottom: 10px;">{{__('Respond to vacancy')}}</a>
         </div>
       </div>
       <!-- Vacancy End -->
