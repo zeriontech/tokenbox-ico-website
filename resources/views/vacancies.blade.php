@@ -55,9 +55,9 @@
   </div>
 
   @if (LaravelLocalization::getCurrentLocale() == 'ru')
-    @include('shared/vacancies/en')
+    @include('shared/vacancies/ru')
   @else
-    @include('shared/vacancies/en')
+    @include('shared/vacancies/ru')
   @endif
 @endsection
 
