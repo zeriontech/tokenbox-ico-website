@@ -48,8 +48,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Maxim Lukutin')}}</div>
-                    <div class="info">{{__('Chief Technical Officer')}},
-                        <br />Zerion</div>
+                    <div class="info">{{__('Chief Technical Officer')}}</div>
                 </div>
 
                 <div class="member">
