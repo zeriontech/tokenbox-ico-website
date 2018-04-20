@@ -37,19 +37,18 @@
                         </div>
                     </div>
                     <div class="name">{{__('Pavel Salas')}}</div>
-                    <div class="info">{{__('CEO')}},
-                        <br />{{__('Blockchain Consult, eToro')}}</div>
+                    <div class="info">{{__('CEO')}}</div>
                 </div>
                 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')"></div>
+                        <div class="img" style="background-image: url('/assets/front/img/team/lukutin-m.jpg')"></div>
                         <div class="overlay">
-                            <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://www.linkedin.com/in/maxim-lukutin-0b581929/" target="_blank" class="fa fa-facebook-square"></a>
                         </div>
                     </div>
-                    <div class="name">{{__('Alexey Bashlykov')}}</div>
-                    <div class="info">{{__('Technical Project Manager')}},
+                    <div class="name">{{__('Maxim Lukutin')}}</div>
+                    <div class="info">{{__('Chief Technical Officer')}},
                         <br />Zerion</div>
                 </div>
 
@@ -91,26 +90,13 @@
 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/rastorguev.jpg')"></div>
+                        <div class="img" style="background-image: url('/assets/front/img/team/kovtunov.jpg')"></div>
                         <div class="overlay">
-                            <a href="https://www.linkedin.com/in/sergey-rastorguev" target="_blank" class="fa fa-linkedin-square"></a>
+                            <a href="https://www.facebook.com/100001419982737" target="_blank" class="fa fa-linkedin-square"></a>
                         </div>
                     </div>
-                    <div class="name">{{__('Sergey Rastorguev')}}</div>
-                    <div class="info">{{__('Front-End Engineer')}},
-                        <br />The Token Fund</div>
-                </div>
-
-                <div class="member">
-                    <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/volkov.jpg')"></div>
-                        <div class="overlay">
-                            <a href="https://www.facebook.com/avolkov85" target="_blank" class="fa fa-facebook-square"></a>
-                        </div>
-                    </div>
-                    <div class="name">{{__('Aleksandr Volkov')}}</div>
-                    <div class="info">{{__('Lead Backend Developer')}},
-                        <br />The Token Fund</div>
+                    <div class="name">{{__('Dmitry Kovtunov')}}</div>
+                    <div class="info">{{__('Front-End Developer')}}</div>
                 </div>
                 
                 <div class="member">
@@ -121,8 +107,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Olga Yaroshevsky')}}</div>
-                    <div class="info">{{__('Senior Media &amp; Content Manager')}},
-                        <br />Tokenbox, The Token Fund</div>
+                    <div class="info">{{__('Senior Media &amp; Content Manager')}}</div>
                 </div>
                 
                 <div class="member">
@@ -133,8 +118,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Alexandra Petrova')}}</div>
-                    <div class="info">{{__('Media &amp; Content Manager')}},
-                        <br />Tokenbox, The Token Fund</div>
+                    <div class="info">{{__('Media &amp; Content Manager')}}</div>
                 </div>
                 
                 <div class="member">
@@ -145,8 +129,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Kirill Vladimirov')}}</div>
-                    <div class="info">{{__('People Operations Manager')}},
-                        <br />Tokenbox, The Token Fund</div>
+                    <div class="info">{{__('People Operations Manager')}}</div>
                 </div>
                 
                 <div class="member">
@@ -232,6 +215,19 @@
                     <div class="name">{{__('Vadim Koleoshkin')}}</div>
                     <div class="info">{{__('Advisor (Product Development)')}}, Zerion</div>
                 </div>
+                
+                <div class="member">
+                    <div class="avatar">
+                        <div class="img" style="background-image: url('/assets/front/img/team/bashlykov.jpg')"></div>
+                        <div class="overlay">
+                            <a href="https://www.facebook.com/abashlykov" target="_blank" class="fa fa-facebook-square"></a>
+                        </div>
+                    </div>
+                    <div class="name">{{__('Alexey Bashlykov')}}</div>
+                    <div class="info">{{__('Advisor (Technical)')}},
+                        <br />Zerion</div>
+                </div>
+                
             </div>
         </article>
 
