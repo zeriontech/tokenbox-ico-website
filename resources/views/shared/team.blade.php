@@ -42,9 +42,9 @@
                 
                 <div class="member">
                     <div class="avatar">
-                        <div class="img" style="background-image: url('/assets/front/img/team/lukutin-m.jpg')"></div>
+                        <div class="img" style="background-image: url('/assets/front/img/team/lukutin-m.jpg?v2')"></div>
                         <div class="overlay">
-                            <a href="https://www.linkedin.com/in/maxim-lukutin-0b581929/" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://www.linkedin.com/in/maxim-lukutin-0b581929/" target="_blank" class="fa fa-linkedin-square"></a>
                         </div>
                     </div>
                     <div class="name">{{__('Maxim Lukutin')}}</div>
@@ -91,7 +91,7 @@
                     <div class="avatar">
                         <div class="img" style="background-image: url('/assets/front/img/team/kovtunov.jpg')"></div>
                         <div class="overlay">
-                            <a href="https://www.facebook.com/100001419982737" target="_blank" class="fa fa-linkedin-square"></a>
+                            <a href="https://www.facebook.com/100001419982737" target="_blank" class="fa fa-facebook-square"></a>
                         </div>
                     </div>
                     <div class="name">{{__('Dmitry Kovtunov')}}</div>
