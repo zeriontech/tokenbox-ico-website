@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="name">{{__('Pavel Salas')}}</div>
-                    <div class="info">{{__('CEO')}}</div>
+                    <div class="info">{{__('Chief Executive Officer')}}</div>
                 </div>
                 
                 <div class="member">
