@@ -48,34 +48,33 @@
         </div>
         <div class="fade-in-left milestone">
           <div class="title">
-              {{__('Listing on exchanges')}}
+              {{__('Listing on YoBit Exchange')}}
               <div class="time">{{__('December 2017')}}</div>
             </div>
         </div>
         <div class="fade-in-right milestone">
           <div class="title">
               <ul>
-                <li>{{__('Registration and licensing')}}</li>
-                <li>{{__('Multi-currency wallet')}}</li>
-                <li>{{__('Trading terminal for fund managers')}}</li>
-                <li>{{__('KYC module')}}</li>
-                <li>{{__('Payment processing for fiat currencies')}}</li>
+                <li>{{__('Team empowerment')}}</li>
+                <li>{{__('Servers and infrastructure')}}</li>
+                <li>{{__('License of Gibraltar')}}</li>
+                <li>{{__('Listing on Bancor')}}</li>
               </ul>
               <div class="time">{{__('Q1 2018')}}</div>
             </div>
         </div>
         <div class="fade-in-left milestone">
           <div class="title">
-              {{__('Alpha- & Beta- versions of Tokenbox platform')}}:
+              {{__('Alpha version of Tokenbox platform')}}:
               <ul>
-                <li>{{__('Tokenbox platform web-interface')}}</li>
-                <li>{{__('Tokenization for funds')}}</li>
-                <li>{{__('Parsing system and back-end')}}</li>
-                <li>{{__('Built-in analytics tools')}}</li>
-                <li>{{__('Rating System')}}</li>
-                <li>{{__('ICO marketplace')}}</li>
-                <li>{{__('Own licensed capability for funds and traders on the platform within the "umbrella fund" (sublicense)')}}</li>
-                <li>{{__('Investments for selected partners (funds & traders)')}}</li>
+                <li>Registration and authorization of users</li>
+                <li>Multi-currency wallet</li>
+                <li>KYC module</li>
+                <li>Payment processing</li>
+                <li>Bonus program</li>
+                <li>Refer a friend</li>
+                <li>Built-in analytics tools</li>
+                <li>Back end development</li>
               </ul>
               <div class="time">{{__('Q2 2018')}}</div>
             </div>
@@ -83,9 +82,14 @@
 
         <div class="fade-in-right milestone">
           <div class="title">
+              {{__('Beta version of Tokenbox platform')}}:
               <ul>
-                <li>{{__('Tokenbox platform launch')}}</li>
-                <li>{{__('New partners and investors on the platform')}}</li>
+                <li>Customer analytics module</li>
+                <li>Rating System</li>
+                <li>Internal risk management system</li>
+                <li>Integration with trading terminals</li>
+                <li>Demo accounts</li>
+                <li>Trading on the real accounts</li>
               </ul>
               <div class="time">{{__('Q3 2018')}}</div>
             </div>
@@ -94,9 +98,10 @@
         <div class="fade-in-left milestone">
           <div class="title">
               <ul>
-                <li>{{__('Internal risk management system')}}</li>
-                <li>{{__('Mobile and desktop applications')}}</li>
-                <li>{{__('Customer analytics module')}}</li>
+                <li>Tokenbox platform launch</li>
+                <li>Investment account</li>
+                <li>Tokenization for funds</li>
+                <li>License of Gibraltar</li>
               </ul>
               <div class="time">{{__('Q4 2018')}}</div>
             </div>
