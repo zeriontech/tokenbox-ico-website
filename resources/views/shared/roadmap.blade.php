@@ -3,7 +3,7 @@
     <h1 class="from-bottom">{{__('Our roadmap')}}</h1>
     <div class="timeline-wrap">
       <div class="timeline-bar">
-        <div class="current" style="height: 42%"></div>
+        <div class="current" style="height: 55%"></div>
       </div>
 
       <div class="desc">
@@ -46,13 +46,13 @@
               <div class="time">{{__('November 2017')}}</div>
             </div>
         </div>
-        <div class="fade-in-left milestone">
+        <div class="fade-in-left milestone active">
           <div class="title">
               {{__('Listing on YoBit Exchange')}}
               <div class="time">{{__('December 2017')}}</div>
             </div>
         </div>
-        <div class="fade-in-right milestone">
+        <div class="fade-in-right milestone active">
           <div class="title">
               <ul>
                 <li>{{__('Team empowerment')}}</li>
