@@ -55,10 +55,10 @@
         <div class="fade-in-right milestone active">
           <div class="title">
               <ul>
+                <li>{{__('Listing on Bancor')}}</li>
                 <li>{{__('Team empowerment')}}</li>
                 <li>{{__('Servers and infrastructure')}}</li>
                 <li>{{__('License of Gibraltar')}}</li>
-                <li>{{__('Listing on Bancor')}}</li>
               </ul>
               <div class="time">{{__('Q1 2018')}}</div>
             </div>
