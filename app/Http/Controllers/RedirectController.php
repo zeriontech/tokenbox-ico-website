@@ -6,6 +6,7 @@ class RedirectController extends Controller
 {
     protected $filenamesMap = [
         'TBX-WhitePaper-Eng.pdf'            => 'Tokenbox-WhitePaper-En.pdf',
+        'TBX-WhitePaper-En.pdf'            => 'Tokenbox-WhitePaper-En.pdf',
         'TBX-WhitePaper-Rus.pdf'            => 'Tokenbox-WhitePaper-Ru.pdf',
         'Tokenbox-BusinessOverview-Eng.pdf' => 'Tokenbox-BusinessOverview-En.pdf',
         'Tokenbox-BusinessOverview-Rus.pdf' => 'Tokenbox-BusinessOverview-Ru.pdf',
