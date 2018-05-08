@@ -13,6 +13,7 @@ class RedirectController extends Controller
         'Tokenbox-Overview-Rus.pdf'         => 'Tokenbox-Overview-Ru.pdf',
         'Tokenbox-Onepager-Eng.pdf'         => 'Tokenbox-Onepager-En.pdf',
         'Tokenbox-OnepagerPS-Eng.pdf'       => 'Tokenbox-OnepagerPS-En.pdf',
+        'Tokenbox-Presentation-Eng.pdf'       => 'Tokenbox-Presentation-En.pdf',
     ];
 
     public function go($filename)
