@@ -25,5 +25,5 @@
 	}
 	.alert-btn:hover { background: #3434bb; color: #ffffff;	 }
 </style>
-<div class="alert-bar">TBX tokens: <a href="https://yobit.net/en/trade/TBX/USD" target="_blank"><div class="alert-btn">Buy on YObit</div></a><a href="https://www.bancor.network/communities/5a2ff27c4f1311000100b9e8/currency" target="_blank"><div class="alert-btn">Buy on Bancor</div></a><a href="https://idex.market/eth/tbx" target="_blank"><div class="alert-btn">Buy on Idex</div></a>
+<div class="alert-bar">TBX tokens are listed on: <a href="https://yobit.net/en/trade/TBX/USD" target="_blank"><div class="alert-btn">Yobit</div></a><a href="https://www.bancor.network/communities/5a2ff27c4f1311000100b9e8/currency" target="_blank"><div class="alert-btn">Bancor</div></a><a href="https://idex.market/eth/tbx" target="_blank"><div class="alert-btn">Idex</div></a>
 </div>
